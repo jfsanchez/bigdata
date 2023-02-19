@@ -48,6 +48,7 @@ Sólo hay que clonar el repositorio, situarse en este directorio y hacer vagrant
 
 ## Import de la base de datos
  `gunzip /vagrant/dpc-covid19-ita-province.json.gz`
+
  `mongoimport --db covid --collection coviditalia --file /vagrant/dpc-covid19-ita-province.json --jsonArray`
 
 ## Volcado/Dump de la base de datos
@@ -60,20 +61,27 @@ Sólo hay que clonar el repositorio, situarse en este directorio y hacer vagrant
 
 ### Desde consola
 Con mongosh (con mongo es el mismo ejemplo):
+
  `mongosh covid --eval "db.coviditalia.find().pretty()`
+
  `mongosh covid --eval "db.coviditalia.find({"codice_provincia" : 979}).pretty()"`
 
 ### Desde mongo
 1) Entrar en mongo: mongosh (o mongo en versiones anteriores)
+
 `use covid;`
+
 `db.coviditalia.find({"codice_provincia" : 979})`
 
 2) Para salir:
+
 Desde mongosh: `quit`
+
 Desde mongo: `quit();`
 
 ## Borrar/Drop la base de datos (desde mongosh)
 `use covid;`
+
 `db.dropDatabase()`
 
 ## Resto de comandos CRUD
@@ -91,7 +99,9 @@ Se dan como ejemplo de sintaxis, pueden no funcionar según los datos presentes.
 `mongosh covid --eval "db.coviditalia.find({ 'totale_casi': 999999999}).pretty()"`
 
 **Desde mongosh**
+
 `db.coviditalia.find({'codice_provincia': 110, 'data': '2020-04-03T17:00:00'}).pretty()`
+
 `db.coviditalia.find({ 'totale_casi': 999999999}).pretty()`
 
 ### Actualización/Update
