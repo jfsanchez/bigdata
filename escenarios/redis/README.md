@@ -10,10 +10,14 @@ Permite varios tipos de datos: <https://redis.io/docs/data-types/>
 
 ## Exemplos de uso
 
-Comprobar o funcionamento\
+Configurar o contrasinal:\
+    `config set requirepass 123quetal123`\
+    `AUTH 123quetal123`
+
+Comprobar o funcionamento:\
     `redis-cli PING`
 
-Almacenar unha variable\
+Almacenar unha variable:\
     `redis-cli`\
     `set variable valor`\
     `get variable`

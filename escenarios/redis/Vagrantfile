@@ -22,8 +22,12 @@ Vagrant.configure("2") do |config|
     apt-get update
     apt-get install -y lsb-release
     apt-get install -y redis
+#    sudo sed -i "s/protected mode yes/protected mode no/" /etc/redis/redis.conf
+    sed -i "s/# requirepass foobared/requirepass 123quetal123/" /etc/redis/redis.conf
+    sed -i "s/protected-mode yes/protected-mode no/" /etc/redis/redis.conf
+    sed -i "s/bind 127.0.0.1 -::1/bind * -::*/" /etc/redis/redis.conf
     systemctl enable redis-server.service
     service redis-server restart
-    redis-cli PING
+    echo -e "config set requirepass 123quetal123\nAUTH 123quetal123\nPING" | redis-cli
   SHELL
 end
