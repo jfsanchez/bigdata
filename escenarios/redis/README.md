@@ -20,11 +20,17 @@ Almacenar unha variable\
 
 Redis soporta JSON: <https://redis.io/docs/stack/json/>
 
-Exemplo con Python
+## Exemplo con Python
 
 Este exemplo foi obtido da páxina de redis anteriormente citada.
 
-Emprega a libraría: `redis-py` <https://github.com/redis/redis-py>:
+Emprega a libraría: `redis-py` <https://github.com/redis/redis-py>:\
+
+**Instalación da libraría:**
+
+     conda install -c conda-forge redis-py
+
+*Código*
 
     import redis
     
