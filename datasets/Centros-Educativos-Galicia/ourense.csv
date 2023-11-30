@@ -1,0 +1,196 @@
+Código,Nome,Enderezo,Concello,Provincia,Cód. postal,Teléfono,Tipo de centro,COORDENADA_X,COORDENADA_Y,TITULARIDADE,ENSINO_CONCERTADO,DEPENDENTE
+32000058,CEIP Padre Feijoo,Estrada de Xunqueira s/n,Allariz,Ourense,32660,988440825,CEIP,42.1903228759766,-7.79439067840576,Pública,Non,Si
+32000101,ESMU Municipal de Allariz,Praza Maior 1,Allariz,Ourense,32660,988440859,ESMU,42.1899719238281,-7.80199098587036,Pública,Non,Non
+32000113,ESMU Municipal de Ribadavia,Rúa Redondela s/n,Ribadavia,Ourense,32400,988471900,ESMU,42.2855491638184,-8.1453971862793,Pública,Non,Non
+32000356,CEIP Plurilingüe Ramón Otero Pedrayo,Rúa Souto S/N,Amoeiro,Ourense,32170,988788990,CEIP,42.4152107238769,-7.94676303863525,Pública,Non,Si
+32000708,CEIP Virxe de Guadalupe,"Rúa Cendones, 15 (San Xusto)",Avión,Ourense,32520,988486178,CEIP,42.3748970031738,-8.24669933319092,Pública,Non,Si
+32001002,CEIP Xoaquín Lourenzo Xocas,Rúa Outeiro s/n,Bande,Ourense,32840,988788025,CEIP,42.0332221984863,-7.97187376022339,Pública,Non,Si
+32001312,CEIP de Baños de Molgas,Estrada de Salgueiros s/n,Baños de Molgas,Ourense,32701,988430268,CEIP,42.2459182739258,-7.6721076965332,Pública,Non,Si
+32001658,CEIP Plurilingüe Julio Gurriarán Canalejas,Rúa Lugo 2,O Barco de Valdeorras,Ourense,32300,988320880,CEIP,42.4165725708008,-6.99294805526733,Pública,Non,Si
+32001661,CPR Plurilingüe Divina Pastora,Rúa Ramon del Valle Inclan 2,O Barco de Valdeorras,Ourense,32300,988347058,CPR,42.4194183349609,-6.98121070861816,Privada,Si,Non
+32001671,CEIP Ramón Otero Pedrayo,Rúa Elena Quiroga 7,O Barco de Valdeorras,Ourense,32300,988320163,CEIP,42.4116554260254,-6.97821760177612,Pública,Non,Si
+32001683,IES Martaguisela,Rúa A Coruña 22,O Barco de Valdeorras,Ourense,32300,988320931,IES,42.4156150817871,-6.9933876991272,Pública,Non,Si
+32001725,IES Lauro Olmo,Rúa Calabagueiros s/n,O Barco de Valdeorras,Ourense,32300,988320175,IES,42.416187286377,-6.99511528015137,Pública,Non,Si
+32001920,CEIP de Beariz,Avenida Daniel Vázquez Gulías s/n,Beariz,Ourense,32520,988284223,CEIP,42.4716033935547,-8.27821350097656,Pública,Non,Si
+32002043,CEIP Plurilingüe dos Blancos,Os Blancos,Os Blancos,Ourense,32634,988467523,CEIP,41.9961242675781,-7.75383520126343,Pública,Non,Si
+32002122,CEIP Nosa Señora de Xuvencos,Rúa Evaristo Riande s/n,Boborás,Ourense,32514,988402022,CEIP,42.4345779418945,-8.14213752746582,Pública,Non,Si
+32002781,CPI Tomás Terrón Mendaña,Sobradelo,Carballeda de Valdeorras,Ourense,32330,988335065,CPI,42.4167785644531,-6.9248628616333,Pública,Non,Si
+32002951,CEIP Plurilingüe Calvo Sotelo,"Avenida de Compostela, s/n (Uceira)",O Carballiño,Ourense,32500,988271419,CEIP,42.4389877319336,-8.06108951568604,Pública,Non,Si
+32002973,CPR Plurilingüe Sagrado Corazón,Praza Irmans Prieto 7,O Carballiño,Ourense,32500,988270194,CPR,42.4302978515625,-8.07863616943359,Privada,Si,Non
+32003001,IES Nº 1,Rúa Alberto Vilanova s/n,O Carballiño,Ourense,32500,988788985,IES,42.4252319335938,-8.06990909576416,Pública,Non,Si
+32003059,CEIP San Marcos,Rúa Bandeira 1,Cartelle,Ourense,32820,988783640,CEIP,42.2515068054199,-8.0668888092041,Pública,Non,Si
+32003503,CEIP de Castrelo de Miño,Astariz (Santa María),Castrelo de Miño,Ourense,32230,988489090,CEIP,42.3221626281738,-8.04367160797119,Pública,Non,Si
+32003643,CPI Virxe dos Remedios,O Toural,Castro Caldelas,Ourense,32760,988687830,CPI,-7.41466093000003,42.371234894,Pública,Non,Si
+32003771,CEIP Plurilingüe Curros Enríquez,Avenida Miguel Ángel Blanco s/n,Celanova,Ourense,32800,988788068,CEIP,42.1596870422363,-7.95757246017456,Pública,Non,Si
+32003783,CPR Plurilingüe Sagrado Corazón,Rúa Areal 13,Celanova,Ourense,32800,988431516,CPR,42.1500434875488,-7.9596700668335,Privada,Si,Non
+32004118,CPI Plurilingüe Antonio Faílde,Entrada Nacional 525,Coles,Ourense,32100,988202017,CPI,42.4103698730469,-7.86555624008179,Pública,Non,Si
+32004398,CEIP Vicente Risco,Estrada de Xinzo,Cualedro,Ourense,32689,988424005,CEIP,41.9883766174316,-7.59509325027466,Pública,Non,Si
+32004829,CEIP Rosalía de Castro,Rúa Rosalia de Castro,Xinzo de Limia,Ourense,32630,988460480,CEIP,42.0597114562988,-7.7210283279419,Pública,Non,Si
+32004830,CEIP Carlos Casares,Rúa Marcelo Macias 59,Xinzo de Limia,Ourense,32630,988788456,CEIP,42.0662002563476,-7.72092628479004,Pública,Non,Si
+32005305,CPI Plurilingüe Laureano Prieto,Rúa Toural,A Gudiña,Ourense,32540,988421140,CPI,42.0620765686035,-7.13604927062988,Pública,Non,Si
+32005408,CEIP Virxe da Pena da Sela,Campo (Santa María),O Irixo,Ourense,32530,988287411,CEIP,42.5156059265137,-8.12145233154297,Pública,Non,Si
+32005691,CEIP Padre Crespo,Xunqueira De Ambía (Santa María A Real),Xunqueira de Ambía,Ourense,32670,988436063,CEIP,42.2028923034668,-7.73155307769775,Pública,Non,Si
+32006000,CEIP Emilia Pardo Bazán,Leiro (San Pedro),Leiro,Ourense,32420,988488178,CEIP,42.3685302734375,-8.12808990478516,Pública,Non,Si
+32006358,CEIP Plurilingüe do Xurés,Rúa Paraño 31,Lobios,Ourense,32870,988448007,CEIP,41.9014930725098,-8.08076095581055,Pública,Non,Si
+32006553,CEIP Plurilingüe de Maceda,Rúa  do Castelo 2,Maceda,Ourense,32700,988788890,CEIP,42.2704925537109,-7.65454721450806,Pública,Non,Si
+32006747,CEIP de Manzaneda,Rúa Do Pendon s/n,Manzaneda,Ourense,32781,988333050,CEIP,42.3088150024414,-7.23228693008423,Pública,Non,Si
+32006929,CPI Terras de Maside,Rúa OUTEIRO GRANDE,Maside,Ourense,32570,988685001,CPI,42.4170112609863,-8.03458595275879,Pública,Non,Si
+32007272,CEIP Augusto Assía,A Mezquita,A Mezquita,Ourense,32549,988425526,CEIP,42.0152587890625,-7.04890966415405,Pública,Non,Si
+32007739,CEIP Valle-Inclán,"Rúa Otero Pedrayo, s/n (Mugueimes)",Muíños,Ourense,32880,988456423,CEIP,41.9571990966797,-7.97714710235596,Pública,Non,Si
+32008033,CEIP Plurilingüe de Luíntra,Carretera de San Estevo,Nogueira de Ramuín,Ourense,32160,988201047,CEIP,42.4102592468262,-7.72351741790772,Pública,Non,Si
+32008173,CEIP de Oímbra,Rúa GRUPO ESCOLAR 16,Oímbra,Ourense,32613,988426201,CEIP,41.8868522644043,-7.46427011489868,Pública,Non,Si
+32008392,CEIP Plurilingüe Inmaculada,Rúa Inmaculada 22,Ourense,Ourense,32005,988224586,CEIP,42.3315467834473,-7.85645055770874,Pública,Non,Si
+32008410,CPR Plurilingüe Santo Ángel,Vila Real 6,Ourense,Ourense,32002,988220487,CPR,42.3393211364746,-7.87172269821167,Privada,Si,Non
+32008446,CPR Plurilingüe Concepción Arenal,Rúa BEDOYA 22,Ourense,Ourense,32004,988220200,CPR,42.3391418457031,-7.86070728302002,Privada,Si,Non
+32008458,CPR Plurilingüe María Auxiliadora,Praza DE DON BOSCO 1,Ourense,Ourense,32003,988370537,CPR,42.3440704345703,-7.86773443222046,Privada,Si,Non
+32008513,CPR Plurilingüe Santa Teresa de Jesús,Peña Trevinca 2,Ourense,Ourense,32005,988221536,CPR,42.3362045288086,-7.86114692687988,Privada,Si,Non
+32008525,CPR Plurilingüe Divina Pastora,Rúa CARDENAL QUEVEDO 27,Ourense,Ourense,32004,988232232,CPR,42.3428268432617,-7.861168384552,Privada,Si,Non
+32008550,CPR Plurilingüe San José,Rúa do Progreso 24,Ourense,Ourense,32005,988220990,CPR,42.3339157104492,-7.86562633514404,Privada,Si,Non
+32008604,CPR Plurilingüe Santa María,Rúa BEDOYA 9,Ourense,Ourense,32004,988228152,CPR,42.3404579162598,-7.86215019226074,Privada,Si,Non
+32008616,CPR Plurilingüe Padre Feijoo Zorelle,Doutor Fleming 21,Ourense,Ourense,32003,988230401,CPR,42.3375740051269,-7.86744499206543,Privada,Si,Non
+32008665,CPR Plurilingüe Divino Maestro,Rúa Madre Soledad 1,Ourense,Ourense,32001,988217800,CPR,42.3553733825684,-7.86459112167358,Privada,Si,Non
+32008707,CPR Plurilingüe La Purísima,Rúa Santo Domingo 32,Ourense,Ourense,32003,988221541,CPR,42.3386116027832,-7.86315584182739,Privada,Si,Non
+32008768,CEIP O Couto,Rampa de Sas,Ourense,Ourense,32002,988783060,CEIP,42.3366851806641,-7.87435150146484,Pública,Non,Si
+32008771,CEIP de Práct. da E.U. Form. Profes. EXB,Rúa VICENTE RISCO 9,Ourense,Ourense,32001,988218441,CEIP,42.3483009338379,-7.8673586845398,Pública,Non,Si
+32008793,CEIP Manuel Luís Acuña,Rúa do Hórreo 11,Ourense,Ourense,32002,988243751,CEIP,42.3330192565918,-7.87517738342285,Pública,Non,Si
+32008801,CEIP Plurilingüe Irmáns Villar,Rúa R/ PEÑA TREVINCA 41,Ourense,Ourense,32005,988788585,CEIP,42.3311996459961,-7.8616189956665,Pública,Non,Si
+32008811,CEIP Virxe de Covadonga,Rúa Cibeles 1,Ourense,Ourense,32001,988783080,CEIP,42.3574142456055,-7.87238788604736,Pública,Non,Si
+32008835,CEIP Plurilingüe Curros Enríquez,Avenida SAENZ DIEZ 52,Ourense,Ourense,32003,988783610,CEIP,42.3443908691406,-7.86308336257935,Pública,Non,Si
+32008847,CEIP Plurilingüe Amadeo Rodríguez Barroso,Rúa Serra de San Mamede 8,Ourense,Ourense,32005,988783044,CEIP,42.3276596069336,-7.85676956176758,Pública,Non,Si
+32008902,CIFP A Carballeira-Marcos Valcárcel,Praza da Lexión s/n,Ourense,Ourense,32002,988788470,CIFP,42.3314018249512,-7.87464904785156,Pública,Non,Si
+32008914,CPR Santo Cristo,Rúa San Pedro 2,Ourense,Ourense,32005,988220588,CPR,42.3363914489746,-7.86196517944336,Privada,Si,Non
+32008941,IES Eduardo Blanco Amor,Rúa Vicente Risco 13,Ourense,Ourense,32001,988219843,IES,42.3488807678223,-7.86538457870483,Pública,Non,Si
+32008951,IES Ramón Otero Pedrayo,Rúa Padre Feixoo 19,Ourense,Ourense,32005,988220247,IES,42.3321762084961,-7.86401128768921,Pública,Non,Si
+32009050,CPR Plurilingüe San Pío X,Avenida de Zamora 98,Ourense,Ourense,32005,988221127,CPR,42.3239059448242,-7.86342144012451,Privada,Si,Non
+32009062,CPR Plurilingüe Cardenal Cisneros,Emilia Pardo Bazan 21,Ourense,Ourense,32004,988225495,CPR,42.3391418457031,-7.85922622680664,Privada,Si,Non
+32009074,CPR Seminario Menor Diocesano A Inmaculada,Estrada do Seminario 18,Ourense,Ourense,32002,988391104,CPR,42.3423690795898,-7.88174629211426,Privada,Non,Non
+32009116,IES 12 de Outubro,Avenida Santiago 2,Ourense,Ourense,32001,988788211,IES,42.3487358093262,-7.86815023422241,Pública,Non,Si
+32009131,IES Universidade Laboral,Rúa Universidade 18,Ourense,Ourense,32005,988788486,IES,42.3199958801269,-7.85763311386108,Pública,Non,Si
+32009153,CEIP Mariñamansa,Rúa Leiras Pulpeiro s/n,Ourense,Ourense,32005,988254203,CEIP,42.3227119445801,-7.86768388748169,Pública,Non,Si
+32009165,CEIP Plurilingüe As Mercedes,Praza das Mercedes,Ourense,Ourense,32005,988685030,CEIP,42.3378562927246,-7.86239147186279,Pública,Non,Si
+32009189,CPR Ramón María del Valle- Inclán,Enseñanza 20,Ourense,Ourense,32002,988366214,CPR,42.3407440185547,-7.86997938156128,Privada,Si,Non
+32009190,IES As Lagoas,Rúa Eduardo Blanco Amor 2,Ourense,Ourense,32004,988685020,IES,42.3447570800781,-7.85815095901489,Pública,Non,Si
+32009301,CEIP Plurilingüe de Seixalbo,Rúa Seixalbo,Ourense,Ourense,32970,988237000,CEIP,42.2990493774414,-7.86351251602173,Pública,Non,Si
+32009360,CPI Plurilingüe José García García,Mende 1,Ourense,Ourense,32004,988232529,CPI,42.3472061157226,-7.8393030166626,Pública,Non,Si
+32010121,CEIP Roberto Blanco Torres,Graíces (San Vicente),A Peroxa,Ourense,32150,988206600,CEIP,42.4444885253906,-7.79355239868164,Pública,Non,Si
+32010601,CEIP Plurilingüe Manuel Bermúdez Couso,Avenida do Castelo s/n,A Pobra de Trives,Ourense,32780,988330029,CEIP,42.3379974365234,-7.25435638427734,Pública,Non,Si
+32010775,CEIP de Punxín,Rúa Condes de Arriba 9,Punxín,Ourense,32456,600005017,CEIP,42.3729133605957,-7.99939966201782,Pública,Non,Si
+32011032,CEIP Plurilingüe Carlos Cid Arregui,Rairiz De Veiga (San Xoán),Rairiz de Veiga,Ourense,32652,988465553,CEIP,42.0812225341797,-7.83046770095825,Pública,Non,Si
+32011135,CEIP Rogelio Garcia Yáñez,Lugar O Picouto s/n,Ramirás,Ourense,32810,988685090,CEIP,42.189453125,-8.02736854553223,Pública,Non,Si
+32011305,CEIP Plurilingüe Ribadavia,Rúa do Ribeiro s/n,Ribadavia,Ourense,32400,988470239,CEIP,42.2963485717773,-8.14113712310791,Pública,Non,Si
+32011755,CEIP Manuel Respino,Avenida de  Vilela 34,A Rúa,Ourense,32350,988310631,CEIP,42.3982887268066,-7.1037769317627,Pública,Non,Si
+32011901,CEIP Plurilingüe Virxe do Camiño,Rúa Terra de Souto s/n,Rubiá,Ourense,32310,988324205,CEIP,42.4529113769531,-6.94988775253296,Pública,Non,Si
+32012103,CPI Virxe da Saleta,A Costa,San Cristovo de Cea,Ourense,32130,988783030,CPI,42.4706268310547,-7.98417806625366,Pública,Non,Si
+32012425,CEIP de Sarreaus,Sarreaus (San Salvador),Sarreaus,Ourense,32631,988788291,CEIP,42.0875663757324,-7.60378360748291,Pública,Non,Si
+32012711,CEIP Saco e Arce,Toén (Santa María),Toén,Ourense,32930,988685096,CEIP,42.3025741577148,-7.94786262512207,Pública,Non,Si
+32013168,CEIP Eduardo Ávila Bustillo,Rúa Entrecaldeiras,A Veiga,Ourense,32360,988350077,CEIP,42.2467994689941,-7.01959323883057,Pública,Non,Si
+32013521,CEIP Princesa de España,Rúa Antonio Fernandez Perez s/n,Verín,Ourense,32600,988410128,CEIP,41.9335174560547,-7.44124984741211,Pública,Non,Si
+32013545,CPR Seminario Apóstolico Mercedario,Praza da Mercé 13-14,Verín,Ourense,32600,988410103,CPR,41.9409713745117,-7.43656396865845,Privada,Non,Non
+32013557,CPR Plurilingüe María Inmaculada,Avenida de Portugal 59,Verín,Ourense,32600,988410756,CPR,-7.43812656400002,41.935523987,Privada,Si,Non
+32013582,IES García-Barbón,Rúa Antonio Fernández Pérez s/n,Verín,Ourense,32600,988685085,IES,41.933235168457,-7.44152879714966,Pública,Non,Si
+32013612,IES Xesús Taboada Chivite,Avenida de Portugal 116,Verín,Ourense,32600,988685070,IES,41.933479309082,-7.439377784729,Pública,Non,Si
+32013661,CEIP Bibei,Rúa Nicolas Tenorio 39,Viana do Bolo,Ourense,32550,988340023,CEIP,42.1778182983398,-7.11153411865234,Pública,Non,Si
+32013958,CEIP Xosé Manuel Folla Respino,Rúa Valdegodos s/n,Vilamartín de Valdeorras,Ourense,32340,988300090,CEIP,42.4108657836914,-7.05052995681763,Pública,Non,Si
+32014151,CEIP Plurilingüe de Vilar de Barrio,Vilar de barrio (San PedrO Fiz),Vilar de Barrio,Ourense,32702,988449043,CEIP,42.1607780456543,-7.60823059082031,Pública,Non,Si
+32014331,ESMU Municipal de Barbadás,Rúa da Presa s/n,Barbadás,Ourense,32002,988246620,ESMU,42.3177375793457,-7.88416814804077,Pública,Non,Non
+32014501,CEIP Plurilingüe Rodolfo Núñez Rodríguez,Rúa O Toural s/n,Vilardevós,Ourense,32616,988788530,CEIP,41.9093322753906,-7.31126022338867,Pública,Non,Si
+32014801,IES Cidade de Antioquía,Avenida de Ourense 186,Xinzo de Limia,Ourense,32630,988788534,IES,42.0767250061035,-7.73360252380371,Pública,Non,Si
+32014902,CEIP Santa María A Real,Entrimo (Santa María A Real),Entrimo,Ourense,32860,988434605,CEIP,41.9339027404785,-8.12086486816406,Pública,Non,Si
+32015025,CEIP de Casaio,"Rúa Devesa, s/n (Casaio)",Carballeda de Valdeorras,Ourense,32337,988324686,CEIP,42.3417358398438,-6.80389499664307,Pública,Non,Si
+32015037,IES Manuel Chamoso Lamas,Ant.Estrada Pontevedra - Mesego,O Carballiño,Ourense,32516,988788380,IES,42.4209899902344,-8.09221363067627,Pública,Non,Si
+32015050,CIFP A Farixa,"Rúa Finca Farixa, s/n (Mariñamansa)",Ourense,Ourense,32005,988783012,CIFP,-7.86831378900001,42.323287964,Pública,Non,Si
+32015098,CEIP do Bolo,Rúa Cesar Conti s/n,O Bolo,Ourense,32373,988685010,CEIP,42.3063163757324,-7.10082387924194,Pública,Non,Si
+32015116,CEIP Plurilingüe Condesa de Fenosa,Rúa A Coruña 24,O Barco de Valdeorras,Ourense,32300,988783646,CEIP,42.4156227111816,-6.99414968490601,Pública,Non,Si
+32015141,CEIP de Vilariño de Conso,Estrada Raigada s/n,Vilariño de Conso,Ourense,32557,988788544,CEIP,42.1623191833496,-7.18067073822022,Pública,Non,Si
+32015165,CEIP O Castiñeiro,Rúa Castiñeiro 1,Laza,Ourense,32620,988422014,CEIP,42.0615577697754,-7.45986700057983,Pública,Non,Si
+32015177,CPI de Padrenda-Crespos,Rúa San Roque de Crespos 29,Padrenda,Ourense,32226,988685040,CPI,42.1403198242188,-8.15836429595947,Pública,Non,Si
+32015189,CEIP Joaquina Gallego Jorreto,Estrada DE CELANOVA 1,A Merca,Ourense,32830,988260052,CEIP,42.2187919616699,-7.90845012664795,Pública,Non,Si
+32015190,CEIP Plurilingüe Albino Núñez,Rúa Casardomato - O Pino 1,Ourense,Ourense,32001,988788896,CEIP,42.3571815490723,-7.89130020141602,Pública,Non,Si
+32015207,IES O Couto,Rúa Rampa de Sas s/n,Ourense,Ourense,32002,988391249,IES,42.3360176086426,-7.87349557876587,Pública,Non,Si
+32015219,CEIP Plurilingüe Manuel Sueiro,Rúa Antonio Failde Gago 21,Ourense,Ourense,32004,988231026,CEIP,42.3474273681641,-7.85737752914429,Pública,Non,Si
+32015220,CEIP Vistahermosa,Rúa VISTA FERMOSA 10,Ourense,Ourense,32002,988231410,CEIP,42.3444938659668,-7.88308715820313,Pública,Non,Si
+32015232,IES Lagoa de Antela,Avenida de Ourense 184,Xinzo de Limia,Ourense,32630,988788548,IES,42.0759811401367,-7.73306083679199,Pública,Non,Si
+32015256,CEIP Plurilingüe das Vendas da Barreira,As Vendas da Barreira,Riós,Ourense,32610,988425038,CEIP,41.9863471984863,-7.2850193977356,Pública,Non,Si
+32015268,CEIP Plurilingüe Otero Novas,Baixada o Balneario s/n,Cortegada,Ourense,32200,988483117,CEIP,42.2061386108398,-8.17238521575928,Pública,Non,Si
+32015396,EEI de Noalla,Rúa Telleiro 13,San Cibrao das Viñas,Ourense,32915,988249320,EEI,42.2873802185059,-7.83691310882568,Pública,Non,Si
+32015402,EEI de Santa Cruz,Santa Cruz da rabeda (Santa Cruz),San Cibrao das Viñas,Ourense,32911,639179024,EEI,42.2885894775391,-7.79784297943115,Pública,Non,Si
+32015426,EEI de Taboadela,Taboadela (San Miguel),Taboadela,Ourense,32690,988436785,EEI,42.2421760559082,-7.82593488693237,Pública,Non,Si
+32015463,CEE Miño,Rúa Juan Fernández de Gres 13,Ourense,Ourense,32960,988238550,CEE,42.3645782470703,-7.84602689743042,Pública,Non,Si
+32015475,IES O Ribeiro,Rúa Hermanos Álvarez Araujo 5,Ribadavia,Ourense,32400,988788460,IES,42.2992973327637,-8.1283540725708,Pública,Non,Si
+32015529,CEE O Pino,"Estrada de Vigo, 121 (Casar do Mato)",Ourense,Ourense,32001,988783040,CEE,42.3553504943848,-7.89129495620728,Pública,Non,Si
+32015530,CPR San Martín,Avenida de Marín 23-25,Ourense,Ourense,32001,988221990,CPR,42.3197135925293,-7.8621072769165,Privada,Si,Non
+32015581,EPAPU de Ourense,Rúa Alvarez de Sotomayor 4,Ourense,Ourense,32002,988243834,EPAPU,42.3384628295898,-7.8731632232666,Pública,Non,Si
+32015657,CEIP de Medeiros,Estrada San Cristovo s/n,Monterrei,Ourense,32618,988421604,CEIP,41.9030456542969,-7.54678916931152,Pública,Non,Si
+32015669,CEIP Mestre Vide,Paseo Maestro Vide 4,Ourense,Ourense,32004,988238551,CEIP,42.3439445495606,-7.86076354980469,Pública,Non,Si
+32015682,CEIP Plurilingüe Raúl Fernández,Rúa Toural 5,Castrelo do Val,Ourense,32625,988419008,CEIP,41.9881744384766,-7.42159748077393,Pública,Non,Si
+32015797,CEIP Plurilingüe Amaro Refojo,Avenida Hermanos Fernandez Alvarez 1,Verín,Ourense,32600,988411425,CEIP,41.9412956237793,-7.43502998352051,Pública,Non,Si
+32015876,IES Xermán Ancochea Quevedo,Avenida XERMAN ANCOCHEA s/n,A Pobra de Trives,Ourense,32780,988330302,IES,42.3356208801269,-7.25599765777588,Pública,Non,Si
+32015891,CEIP San Salvador,A Ponte,A Arnoia,Ourense,32233,674982098,CEIP,-8.138235092,42.25019455,Pública,Non,Si
+32015906,CEIP Pena Corneira,Rúa CALELLA DO QUINTO,Carballeda de Avia,Ourense,32413,988487030,CEIP,42.3176078796387,-8.1646089553833,Pública,Non,Si
+32015918,CEIP Carmen García Carrasco,Cenlle (Santa María),Cenlle,Ourense,32454,988404056,CEIP,42.3461685180664,-8.08695602416992,Pública,Non,Si
+32015921,CEIP Plurilingüe Eulogio Gómez Franqueira,"O Piñeiral, s/n (San Amaro)",San Amaro,Ourense,32455,988788288,CEIP,42.379207611084,-8.07137489318848,Pública,Non,Si
+32016029,CEIP Plurilingüe Ben-Cho-Shey,Lugar A Chaira s/n,O Pereiro de Aguiar,Ourense,32710,988259454,CEIP,42.3389663696289,-7.78650617599487,Pública,Non,Si
+32016030,EASD Antonio Failde,Avenida da Universidade 18,Ourense,Ourense,32005,988238365,EASD,-7.855259418,42.316982269,Pública,Non,Si
+32016042,CEIP de Sandiás,Campo de San Nicolas,Sandiás,Ourense,32692,988465205,CEIP,42.1094741821289,-7.75874423980713,Pública,Non,Si
+32016066,CPR Plurilingüe Vila do Arenteiro,Os Corzos s/n,O Carballiño,Ourense,32500,988271400,CPR,42.4326515197754,-8.05777740478516,Privada,Si,Non
+32016081,EOI de Ourense,Paseo Mestre Vide s/n,Ourense,Ourense,32004,988366073,EOI,42.3458099365234,-7.85830402374268,Pública,Non,Si
+32016194,CPR Plurilingüe Guillelme Brown,A MERTEIRA,O Pereiro de Aguiar,Ourense,32710,988259589,CPR,42.3449897766113,-7.80964183807373,Privada,Si,Non
+32016224,CPR San Marcos,Avenida de Buenos Aires 61,Ourense,Ourense,32004,988248794,CPR,42.3415832519531,-7.85784530639648,Privada,Non,Non
+32016236,CEIP de Baltar,Rúa Sarxento Seoane s/n,Baltar,Ourense,32632,988294174,CEIP,41.9536628723145,-7.71361207962036,Pública,Non,Si
+32016261,CEIP de Quins,Lugar Quins,Melón,Ourense,32411,988481090,CEIP,42.2840995788574,-8.19334888458252,Pública,Non,Si
+32016273,IES Xesús Ferro Couselo,Ponte Sevilla 43,Ourense,Ourense,32005,988252000,IES,42.3156394958496,-7.8638186454773,Pública,Non,Si
+32016285,CIFP de Vilamarín,Lugar O Palacio 2,Vilamarín,Ourense,32101,988685050,CIFP,-7.90514802899997,42.452358246,Pública,Non,Si
+32016327,CEIP A Ponte,Avenida Xesus Pousa 14,Ourense,Ourense,32001,988783090,CEIP,42.3482360839844,-7.87381744384766,Pública,Non,Si
+32016339,IES de Allariz,Rúa Emilia Pardo Bazan s/n,Allariz,Ourense,32660,988788001,IES,42.1879730224609,-7.80188894271851,Pública,Non,Si
+32016340,IES Aquis Querquernis,Rúa Outeiro s/n,Bande,Ourense,32840,988788028,IES,42.032772064209,-7.97282457351685,Pública,Non,Si
+32016406,CPR Radio ECCA,Rúa do Ensino 24,Ourense,Ourense,32002,988253876,CPR,42.3370628356934,-7.87163972854614,Privada,Non,Non
+32016431,IES San Mamede,Rúa  do Castelo 3,Maceda,Ourense,32700,988788561,IES,42.2706031799316,-7.65535163879395,Pública,Non,Si
+32016443,CMUS Profesional de Ourense,Rúa Pablo Iglesias s/n - Lagunas,Ourense,Ourense,32004,988391047,CMUS,42.3484001159668,-7.85760116577148,Pública,Non,Si
+32016455,IES Julio Prieto Nespereira,Rúa do Instituto 1,Ourense,Ourense,32001,988218570,IES,42.3563995361328,-7.86205101013184,Pública,Non,Si
+32016467,IES Sección de Sobradelo-Carballeda,"Rúa Candis, s/n (Sobradelo)",Carballeda de Valdeorras,Ourense,32330,988788574,IES,42.4173202514648,-6.92569971084595,Pública,Non,Si
+32016510,CMUS Profesional do Barco de Valdeorras,Avenida Estación 2,O Barco de Valdeorras,Ourense,32300,988320533,CMUS,42.4155235290527,-6.98566341400147,Pública,Non,Non
+32016522,CMUS Profesional do Carballiño,Praza Maior 1,O Carballiño,Ourense,32500,988530007,CMUS,42.4301071166992,-8.07796955108643,Pública,Non,Non
+32016534,CMUS Profesional de Xinzo de Limia,Rúa Curros Enriquez 15,Xinzo de Limia,Ourense,32630,988550111,CMUS,42.0638313293457,-7.72477293014526,Pública,Non,Non
+32016546,CMUS Profesional de Ribadavia,Rúa Redondela s/n,Ribadavia,Ourense,32400,988471900,CMUS,42.2855720520019,-8.1453971862793,Pública,Non,Non
+32016558,CMUS Profesional de Verín,"Rúa Irmáns Sulleiro, s/n",Verín,Ourense,32600,988410000,CMUS,41.9367980957031,-7.42746591567993,Pública,Non,Non
+32016561,CMUS Elemental de Celanova,Praza Maior 1,Celanova,Ourense,32800,988431481,CMUS,42.1519813537598,-7.95795869827271,Pública,Non,Non
+32016625,IES Celanova Celso Emilio Ferreiro,Rúa Fernandez Losada s/n,Celanova,Ourense,32800,988431565,IES,42.1517639160156,-7.95777082443237,Pública,Non,Si
+32016637,IES Cosme López Rodríguez,Rúa Vicente Risco s/n,A Rúa,Ourense,32350,988310833,IES,42.3921089172363,-7.12813138961792,Pública,Non,Si
+32016649,EDANPR Nati Fleta,"Rúa Curros Enriquez, 17 - 1º",Ourense,Ourense,32003,988372644,EDANPR,42.3432006835937,-7.86309957504273,Privada,Non,Non
+32016650,CEMU Profesional Karl Nielsen,"Rúa do Progreso, 139 - baixo",Ourense,Ourense,32003,988216484,CEMU,42.3422050476074,-7.86800527572632,Privada,Non,Non
+32016662,ESMU Municipal da Pobra de Trives,Rúa Castelao s/n,A Pobra de Trives,Ourense,32780,988330000,ESMU,42.3409843444824,-7.25058364868164,Pública,Non,Non
+32016698,ESMU Municipal de Maceda,Rúa do Castelo 2,Maceda,Ourense,32700,988463001,ESMU,42.2704811096191,-7.65452575683594,Pública,Non,Non
+32016704,ESMU Municipal de Ourense,Avenida Saenz Diez 68,Ourense,Ourense,32003,988255729,ESMU,42.3374671936035,-7.86131858825684,Pública,Non,Non
+32016716,ESMU Municipal do Carballiño,Praza Maior 1,O Carballiño,Ourense,32500,988530007,ESMU,42.4300956726074,-8.07796669006348,Pública,Non,Non
+32016728,CPR Plurilingüe Luís Vives,Rúa AIRA DE FONSILLÓN 4,Ourense,Ourense,32005,988242000,CPR,42.3230438232422,-7.87623167037964,Privada,Si,Non
+32016731,CPR Malvedo,O Malvedo,Coles,Ourense,32950,988204070,CPR,42.3824043273926,-7.84814786911011,Privada,Si,Non
+32016753,EMUSPR Bieito Blanco,Rúa Fonte do Bispo s/n,Ourense,Ourense,32002,988246799,EMUSPR,42.3374862670898,-7.87081384658814,Privada,Non,Non
+32016765,CIFP Portovello,Rúa Luís Trabazos (As Lagoas) 1,Ourense,Ourense,32004,988788901,CIFP,42.3462448120117,-7.85822582244873,Pública,Non,Si
+32016777,IES Carlos Casares,Estrada da Rúa 104,Viana do Bolo,Ourense,32550,988788594,IES,42.1881790161133,-7.10334777832031,Pública,Non,Si
+32016789,CEIP Filomena Dato,Rúa do Ensino 4,Barbadás,Ourense,32890,988244869,CEIP,42.3181457519531,-7.8802695274353,Pública,Non,Si
+32016790,IES Castro de Baronceli,Rúa CAMIÑO TUELAS 9,Verín,Ourense,32600,988788339,IES,41.9261054992676,-7.44047451019287,Pública,Non,Si
+32020604,CPR Los Tilos,Rúa Alfredo Brañas 62,Ourense,Ourense,32001,988210168,CPR,42.3537445068359,-7.85614204406738,Privada,Non,Non
+32020628,CRA Amencer,Ventosela,Ribadavia,Ourense,32415,988472089,CRA,42.3028945922851,-8.12339210510254,Pública,Non,Si
+32020631,CPR Pablo VI Fátima,Rúa Pablo VI 6,A Rúa,Ourense,32350,988310050,CPR,42.3900718688965,-7.12652969360352,Privada,Si,Non
+32020653,CEMU Profesional Acordes,"Praza  Don Bosco, 1 00",Ourense,Ourense,32001,,CEMU,42.3431053161621,-7.86843156814575,Privada,Non,Non
+32020665,CPR GAP,"REZA, 3",Ourense,Ourense,32003,988366063,CPR,42.3376502990723,-7.86640405654907,Privada,Non,Non
+32020720,CPR Plurilingüe Miraflores,Urbanización MONTE ALEGRE,O Pereiro de Aguiar,Ourense,32710,988256018,CPR,42.331615447998,-7.81470060348511,Privada,Si,Non
+32020732,ESMU Municipal de san Cibrao das Viñas,Praza DA CONSTITUCIÓN 2,San Cibrao das Viñas,Ourense,32911,,ESMU,42.2983512878418,-7.87395715713501,Pública,Non,Non
+32020744,CIFP Santa María de Europa,Praza da Lexión 16,Ourense,Ourense,32002,988788630,CIFP,42.3311309814453,-7.8735818862915,Pública,Non,Non
+32020768,ESMU Municipal do Barco de Valdeorras,Rúa Estación 2,O Barco de Valdeorras,Ourense,32300,-,ESMU,42.4155082702637,-6.98562049865723,Pública,Non,Non
+32020771,EPAPU de Pereiro de Aguiar,Lugar CARTERÍA DA DERRASA s/n,O Pereiro de Aguiar,Ourense,32710,988405590,EPAPU,42.3008918762207,-7.75385189056397,Pública,Non,Si
+32020781,CEIP Plurilingüe O Ruxidoiro,Lugar Lamas-O Ruxidoiro,Barbadás,Ourense,32920,988392838,CEIP,42.3112525939941,-7.88625240325928,Pública,Non,Si
+32020793,CPR ART Ourense,Rúa Progreso 34,Ourense,Ourense,32005,988240352,CPR,42.3306045532226,-7.86247205734253,Privada,Non,Non
+32020801,CRA de Monterrei,Rúa Progreso 112 baixo,Monterrei,Ourense,32618,988788106,CRA,41.9511642456055,-7.49668836593628,Pública,Non,Si
+32020823,CEEPR Ilustre Mestre,Rúa PUGA s/n,Ourense,Ourense,32005,988219389,CEEPR,42.3269691467285,-7.85833597183228,Privada,Si,Non
+32020835,CAD Safe Formación,Avenida de Buenos Aires 40 baixo,Ourense,Ourense,32004,,CAD,42.3414192199707,-7.86078023910523,Privada,Non,Non
+32020847,EMUSPR Mestre Veneroni,Rúa Redondela (Casa da Cultura) s/n,Ribadavia,Ourense,32800,,EMUSPR,42.2856178283691,-8.14540767669678,Privada,Non,Non
+32020859,EMUSPR EMBC,Auditorio Municipal Ilduara Celanova. R/ Cercado  -2,Celanova,Ourense,32800,630821662,EMUSPR,42.1521475496605,-7.95447808504105,Privada,Non,Non
+32020860,CPR Litocentro,Avenida Habana 27 Baixo,Ourense,Ourense,32003,988370085,CPR,42.3430442810059,-7.86508178710938,Privada,Non,Non
+32020872,CAD Escune,Praza Don Bosco 1,Ourense,Ourense,32003,,CAD,42.3441276550293,-7.86685276031494,Privada,Non,Non
+32020884,CEMU Profesional Cantiga,Rúa Bedoya 9,Ourense,Ourense,32004,630773232,CEMU,42.3402900695801,-7.86163949966431,Privada,Non,Non
+32020896,CAD Cented,Estrada do Seminario 18,Ourense,Ourense,32002,,CAD,42.3329391479492,-7.81540250778198,Privada,Non,Non
+32020902,EMUSPR da Limia,Rúa Ladeira 8,Xinzo de Limia,Ourense,32630,,EMUSPR,42.0606269836426,-7.72422361373901,Privada,Non,Non
+32020914,CPR Big Formación,"Parque Tecnolóxico de Galicia, Edificio CEI  3º",San Cibrao das Viñas,Ourense,32911,654825395,CPR,42.2955703735351,-7.8004035949707,Privada,Non,Non
+32020926,ESMU do Concello de Coles,Lugar de Vilarchao s/n,Coles,Ourense,32152,,ESMU,42.4116325378418,-7.84021472930908,Pública,Non,Non
+32020938,CPR Fundación Laboral de la Construcción,"Parque Empresarial de Vilamarín, Vial 4, Parcela A",Vilamarín,Ourense,32101,988364536,CPR,-7.88541752399999,42.426790038,Privada,Non,Non

@@ -1,0 +1,606 @@
+Código,Nome,Enderezo,Concello,Provincia,Cód. postal,Teléfono,Tipo de centro,COORDENADA_X,COORDENADA_Y,TITULARIDADE,ENSINO_CONCERTADO,DEPENDENTE
+15000016,CEIP Plurilingüe San Marcos,Campo da Feira s/n,Abegondo,A Coruña,15318,881880201,CEIP,43.2291831970215,-8.2865800857544,Pública,Non,Si
+15000107,CEIP A Maía,"Rúa Peregrina, s/n (Bertamiráns)",Ames,A Coruña,15220,881866002,CEIP,42.8674850463867,-8.65734195709229,Pública,Non,Si
+15000132,CPR Plurilingüe Alca,Lugar Biduído de Arriba 36,Ames,A Coruña,15895,981531103,CPR,42.8463249206543,-8.60072898864746,Privada,Si,Non
+15000338,CPI As Mirandas,Avenida Celso Emilio Ferreiro 4,Ares,A Coruña,15624,881930020,CPI,43.4293632507324,-8.24617290496826,Pública,Non,Si
+15000363,CEIP Ponte dos Brozos,"Avenida Arsenio Iglesias, 34 (Sabon)",Arteixo,A Coruña,15142,881960506,CEIP,43.3069381713867,-8.51033306121826,Pública,Non,Si
+15000545,EMUSPR Presto Vivace,"Rúa Posse, 37, 1º",A Coruña,A Coruña,15009,981131545,EMUSPR,43.354419708252,-8.40063953399658,Privada,Non,Non
+15000569,CEIP San Xosé Obreiro,"Travesa de Meiras, s/n (Meicende)",Arteixo,A Coruña,15140,881880214,CEIP,43.3453559875488,-8.44711875915527,Pública,Non,Si
+15000600,CPR Plurilingüe Ntra. Sra. del Rosario,Rúa Carmen 22,Arzúa,A Coruña,15810,981501393,CPR,42.926342010498,-8.16463375091553,Privada,Si,Non
+15000612,CEIP de Arzúa,Rúa Baltasar Pardal s/n,Arzúa,A Coruña,15810,981500291,CEIP,42.9297142028809,-8.15723037719727,Pública,Non,Si
+15001033,CFEA de Guísamo,Lugar de Bos 14,Bergondo,A Coruña,15640,881881055,CFEA,43.3093795776367,-8.27841281890869,Pública,Non,Non
+15001070,CPI de Cruz do Sar,Rúa A Senra 33,Bergondo,A Coruña,15165,881960215,CPI,43.3197364807129,-8.22661972045898,Pública,Non,Si
+15001112,CPR Plurilingüe Nuestra Señora del Carmen,Avenida de Castela 146,Betanzos,A Coruña,15300,981770452,CPR,43.2708854675293,-8.20485591888428,Privada,Si,Non
+15001124,CEIP Francisco Vales Villamarín,Rúa Carregal 4,Betanzos,A Coruña,15300,881880237,CEIP,43.2815322875976,-8.218994140625,Pública,Non,Si
+15001136,IES Francisco Aguiar,Avenida Da Coruña 15,Betanzos,A Coruña,15300,881960165,IES,43.2824897766113,-8.21709442138672,Pública,Non,Si
+15001148,IES As Mariñas,Avenida da Coruña s/n,Betanzos,A Coruña,15300,881880254,IES,43.2834777832031,-8.21562480926514,Pública,Non,Si
+15001151,EMUSPR de Vedra,Santa Cruz de Ribadulla,Vedra,A Coruña,15880,981512291,EMUSPR,42.7795524597168,-8.42663192749023,Privada,Non,Non
+15001239,CPI Armando Cotarelo Valledor,"Campo do Rosario, s/n (Gandara)",Boimorto,A Coruña,15818,981516245,CPI,43.0031852722168,-8.13134765625,Pública,Non,Si
+15001367,CEIP Plurilingüe de Abanqueiro,Rúa Exipto 108,Boiro,A Coruña,15938,881866535,CEIP,42.6383171081543,-8.85952091217041,Pública,Non,Si
+15001471,CEIP Plurilingüe Praia Xardín,Rúa Praia Xardin s/n,Boiro,A Coruña,15930,881866545,CEIP,42.6426734924316,-8.89167308807373,Pública,Non,Si
+15001616,CEIP de Escarabote,Lampón (Santiago),Boiro,A Coruña,15992,881866553,CEIP,42.6381187438965,-8.90697288513184,Pública,Non,Si
+15001665,CPI Plurilingüe Antonio Orza Couto,O Forte,Boqueixón,A Coruña,15881,881866783,CPI,42.8253746032715,-8.41660213470459,Pública,Non,Si
+15001744,EEI dos Ánxeles,Rúa da Fonte 1,Brión,A Coruña,15280,981509977,EEI,42.8500366210937,-8.67573356628418,Pública,Non,Si
+15001811,EEI de Sabaxáns,Bastavales (San Xulián),Brión,A Coruña,15280,699367595,EEI,42.8266639709473,-8.65910243988037,Pública,Non,Si
+15001847,CEIP Plurilingüe de Pedrouzos,Paseo Pedrouzos s/n,Brión,A Coruña,15865,881866078,CEIP,42.8619995117188,-8.67707443237305,Pública,Non,Si
+15001926,CPI As Revoltas,Lugar A Carballa 17,Cabana de Bergantiños,A Coruña,15115,881880283,CPI,43.2193870544434,-8.93081760406494,Pública,Non,Si
+15002025,CEIP Plurilingüe Eladia Mariño,Rúa Barreiro 14,Cabanas,A Coruña,15622,981431848,CEIP,43.4258270263672,-8.17235279083252,Pública,Non,Si
+15002050,CEIP O Areal,Rúa Eugenio Lopez s/n,Camariñas,A Coruña,15123,881880305,CEIP,43.1339263916016,-9.1828031539917,Pública,Non,Si
+15002062,CEIP de Camelle,"O Areal, 13  (Camelle)",Camariñas,A Coruña,15121,981710520,CEIP,43.1791076660156,-9.09025573730469,Pública,Non,Si
+15002086,CEIP Plurilingüe de Ponte do Porto,Rúa O Allo s/n,Camariñas,A Coruña,15121,881880316,CEIP,43.1380996704101,-9.12295436859131,Pública,Non,Si
+15002165,CEIP Plurilingüe Wenceslao Fernández Flórez,Rúa Wenceslao Fernández Flórez 16,Cambre,A Coruña,15660,881880320,CEIP,43.2917137145996,-8.34597778320313,Pública,Non,Si
+15002566,CPR Plurilingüe Artai,"Estrada RAZO Km 1,2",Carballo,A Coruña,15100,981703260,CPR,43.2251358032226,-8.69448280334473,Privada,Si,Non
+15002578,CEIP Fogar,Rúa Vila de Ordes s/n,Carballo,A Coruña,15100,981700294,CEIP,43.2191009521484,-8.68417167663574,Pública,Non,Si
+15002581,IES Alfredo Brañas,Rúa Vila de Corcubión s/n,Carballo,A Coruña,15100,981700911,IES,43.217155456543,-8.6851110458374,Pública,Non,Si
+15002591,IES Monte Neme,Rúa Nacente 29,Carballo,A Coruña,15106,881960050,IES,43.2122917175293,-8.70439052581787,Pública,Non,Si
+15002670,CEIP Canosa-Rus,Braña s/n,Coristanco,A Coruña,15147,881880382,CEIP,43.1621932983398,-8.69147109985352,Pública,Non,Si
+15002761,CEIP Plurilingüe de Carnota,Praza de San Gregorio 20,Carnota,A Coruña,15293,881866796,CEIP,42.8205871582031,-9.0872106552124,Pública,Non,Si
+15002852,CEIP do Pindo,Estrada de Muros-O Pindo,Carnota,A Coruña,15296,881866087,CEIP,42.8941230773926,-9.13516330718994,Pública,Non,Si
+15003017,CEIP de Tabeaio,Lugar Esperón s/n,Carral,A Coruña,15182,981670396,CEIP,43.2496871948242,-8.35778522491455,Pública,Non,Si
+15003054,CEIP Nicolás del Río,Rúa Lopez Corton s/n,Cedeira,A Coruña,15350,881930091,CEIP,43.6593818664551,-8.05452346801758,Pública,Non,Si
+15003200,CPR Plurilingüe Manuela Rial Mouzo,Rúa da Mariña 7,Cee,A Coruña,15270,981745078,CPR,42.9515495300293,-9.18637847900391,Privada,Si,Non
+15003212,IES Agra de Raíces,Rúa Buenaventura Castro Rial,Cee,A Coruña,15270,881880486,IES,42.9579925537109,-9.18631935119629,Pública,Non,Si
+15003224,IES Fernando Blanco,Avenida Fernando Blanco 99,Cee,A Coruña,15270,881880465,IES,42.9550247192383,-9.18651580810547,Pública,Non,Si
+15003248,CEIP Plurilingüe Vila de Cee,Rúa DA ESCOLA (ESCABANAS) 9,Cee,A Coruña,15270,881880455,CEIP,42.9585266113281,-9.19199466705322,Pública,Non,Si
+15003376,CPI Plurilingüe O Cruce,Campo da Feira,Cerceda,A Coruña,15185,881880500,CPI,43.1887283325195,-8.47775459289551,Pública,Non,Si
+15003534,CEIP da Barqueira,Barqueira Vella,Cerdido,A Coruña,15569,881930105,CEIP,43.6066932678223,-7.95009994506836,Pública,Non,Si
+15003789,CEIP Praia de Quenxe,Rúa Maruja Mallo 18,Corcubión,A Coruña,15130,881880532,CEIP,42.9361801147461,-9.19109439849854,Pública,Non,Si
+15003807,CEIP de Bormoio-Agualada,Campo da feira s/n,Coristanco,A Coruña,15148,881880546,CEIP,43.157657623291,-8.80380439758301,Pública,Non,Si
+15003881,CPI Alcalde Xosé Pichel,"Rúa Traba, 88 (San Roque)",Coristanco,A Coruña,15147,881880536,CPI,43.1904182434082,-8.73583698272705,Pública,Non,Si
+15004009,CPR Plurilingüe Calasancias,Estrada dos Fortes 11,A Coruña,A Coruña,15011,981256429,CPR,43.3716239929199,-8.42946910858154,Privada,Si,Non
+15004010,CPR Calasanz - PP Escolapios,Estrada dos Fortes 10,A Coruña,A Coruña,15011,981253684,CPR,43.3727722167969,-8.42938899993897,Privada,Si,Non
+15004046,CPR Cid,Ronda de Nelle 143,A Coruña,A Coruña,15010,981255244,CPR,43.3645553588867,-8.4185209274292,Privada,Si,Non
+15004061,CPR Cervantes,Rúa Ramon do Cueto 23,A Coruña,A Coruña,15002,981204648,CPR,43.376220703125,-8.40015888214111,Privada,Si,Non
+15004083,CPR Plurilingüe Compañía de María,Rúa Calvo Sotelo 2,A Coruña,A Coruña,15011,981250350,CPR,43.3668785095215,-8.41395568847656,Privada,Si,Non
+15004101,CPR Plurilingüe Cristo Rey,Lugar Elviña 149,A Coruña,A Coruña,15009,981287530,CPR,43.3363037109375,-8.40043640136719,Privada,Si,Non
+15004125,CPR Eiris,Rúa Castaño de Eirís 1,A Coruña,A Coruña,15009,981284400,CPR,43.3406791687012,-8.39512634277344,Privada,Non,Non
+15004198,CPR Plurilingüe Hijas de Jesús,Avenida NUEVA YORK 5,A Coruña,A Coruña,15008,981285877,CPR,43.3303642272949,-8.4041748046875,Privada,Si,Non
+15004204,IES Rosalía Mera,Rúa Archer M. Huntington 24,A Coruña,A Coruña,15011,981252600,IES,-8.42169666299998,43.372447968,Pública,Non,Non
+15004231,CPR Plurilingüe Karbo,"Rúa Ramon Cabanillas, 2 - 1º",A Coruña,A Coruña,15007,981236179,CPR,43.3521385192871,-8.41322708129883,Privada,Si,Non
+15004265,CPR Plurilingüe Liceo La Paz,Avenida Sebastián Matínez Risco 12,A Coruña,A Coruña,15009,981286122,CPR,-8.40229797400002,43.341567993,Privada,Si,Non
+15004356,CPR Nebrija Torre de Hércules,Praza Ángel Ron Fraga (Médico) 9,A Coruña,A Coruña,15004,981259006,CPR,43.3647613525391,-8.41379833221436,Privada,Si,Non
+15004435,CPR Plurilingüe Padres Franciscanos,Avenida Calvo Sotelo 41,A Coruña,A Coruña,15004,981262606,CPR,-8.41378212000001,43.363910675,Privada,Si,Non
+15004460,CPR Plurilingüe Peñarredonda,Rúa Ginebra 3,A Coruña,A Coruña,15009,981286533,CPR,43.3315620422363,-8.40087413787842,Privada,Si,Non
+15004526,CPR Plurilingüe Sagrado Corazón,Rúa Mª Ana Mogas Fontcuberta 9,A Coruña,A Coruña,15008,981293250,CPR,43.3286476135254,-8.40499496459961,Privada,Si,Non
+15004538,CPR Plurilingüe Salesiano San Juan Bosco,Rúa Hospital 14,A Coruña,A Coruña,15002,981203550,CPR,43.3734817504883,-8.40260696411133,Privada,Si,Non
+15004642,CPR Plurilingüe Santa María del Mar,Avenida do Pasaxe 69,A Coruña,A Coruña,15006,981283000,CPR,43.3355674743652,-8.38889312744141,Privada,Si,Non
+15004654,CPR Plurilingüe Santo Domingo,Praza de Santo Domingo 1A,A Coruña,A Coruña,15001,981205850,CPR,43.3701934814453,-8.39132881164551,Privada,Si,Non
+15004745,CEIP Plurilingüe Anxo da Garda,"Rúa Monte das Moas, 8-10",A Coruña,A Coruña,15009,881960778,CEIP,43.351505279541,-8.39166069030762,Pública,Non,Si
+15004770,CPR Plurilingüe Esclavas Sagrado Corazón de Jesús,Rúa Paseo de Ronda 57,A Coruña,A Coruña,15011,981251800,CPR,43.3699913024902,-8.41533470153809,Privada,Si,Non
+15004782,CPR Plurilingüe La Grande Obra de Atocha,Rúa BALTASAR PARDAL VIDAL 1,A Coruña,A Coruña,15001,981222542,CPR,43.3734703063965,-8.39619636535645,Privada,Si,Non
+15004794,CPR Plurilingüe Fogar de Santa Margarida,Rúa VALLE INCLAN 3,A Coruña,A Coruña,15011,981251090,CPR,43.3662185668945,-8.41393184661865,Privada,Si,Non
+15004861,CEEPR Nosa Señora De Lourdes - Aspronaga,Rúa Perez Lugin 10,A Coruña,A Coruña,15011,981251188,CEEPR,43.366153717041,-8.41636276245117,Privada,Si,Non
+15004964,CEIP Plurilingüe Concepción Arenal,Rúa Marques de Amboage 2,A Coruña,A Coruña,15006,881880064,CEIP,43.3555145263672,-8.40514183044434,Pública,Non,Si
+15004976,CEIP Curros Enríquez,Rúa Campo de Marte s/n,A Coruña,A Coruña,15002,881961090,CEIP,43.37646484375,-8.39884376525879,Pública,Non,Si
+15004988,CEIP Eusebio da Guarda,Praza de Pontevedra 21,A Coruña,A Coruña,15003,981229264,CEIP,43.3686218261719,-8.40721225738525,Pública,Non,Si
+15004991,CEIP Cidade Vella,Rúa Ferrerias 1,A Coruña,A Coruña,15001,881960701,CEIP,43.3713150024414,-8.39319515228272,Pública,Non,Si
+15005002,IES Ramón Otero Pedrayo,Avenida Monelos 10 A,A Coruña,A Coruña,15008,881960960,IES,43.3478775024414,-8.40366077423096,Pública,Non,Si
+15005014,CEIP Raquel Camacho,Rúa ANTONIO PEDREIRA RIOS 13-15,A Coruña,A Coruña,15010,981257154,CEIP,43.3633918762207,-8.42440032958984,Pública,Non,Si
+15005026,CEIP Torre de Hércules,Praza San Xose Monte Alto s/n,A Coruña,A Coruña,15002,981202120,CEIP,43.3797187805176,-8.405592918396,Pública,Non,Si
+15005038,CEIP Plurilingüe de Prácticas,Paseo de Ronda 47,A Coruña,A Coruña,15011,981255330,CEIP,43.3695411682129,-8.42121601104736,Pública,Non,Si
+15005211,IES Salvador de Madariaga,Rúa Paseo de Ronda 49,A Coruña,A Coruña,15011,881960235,IES,43.370002746582,-8.42080116271973,Pública,Non,Si
+15005221,IES Plurilingüe Eusebio da Guarda,Praza de Pontevedra 20,A Coruña,A Coruña,15003,881960060,IES,43.3683090209961,-8.40811061859131,Pública,Non,Si
+15005233,IES Agra do Orzán,Rúa Alcalde Liaño Flores s/n,A Coruña,A Coruña,15010,881880080,IES,43.3626937866211,-8.42508411407471,Pública,Non,Si
+15005245,IES Monelos,Rúa Montes 62,A Coruña,A Coruña,15009,881880041,IES,43.3494148254394,-8.40068912506104,Pública,Non,Si
+15005257,IES Ramón Menéndez Pidal,Rúa Instituto Zalaeta,A Coruña,A Coruña,15002,981203000,IES,43.3736228942871,-8.39983940124512,Pública,Non,Si
+15005269,IES Urbano Lugrís,Avenida de Arteixo,A Coruña,A Coruña,15007,881960715,IES,43.3505058288574,-8.41854190826416,Pública,Non,Si
+15005270,CPR Afundación A Coruña,Rúa Ribadavia 4,A Coruña,A Coruña,15007,881963018,CPR,43.3587341308594,-8.41127300262451,Privada,Si,Non
+15005300,IES Rafael Puga Ramón,Rúa Leopoldo Alas Clarín 4,A Coruña,A Coruña,15008,981080188,IES,43.3494873046875,-8.41105365753174,Pública,Non,Non
+15005336,CEE Nosa Señora do Rosario,Rúa Ronda Camilo Jose Cela 2,A Coruña,A Coruña,15008,881961070,CEE,43.3478736877441,-8.40360260009766,Pública,Non,Si
+15005361,CEIP Rosalía de Castro,Rúa Rio Avia s/n,A Coruña,A Coruña,15007,881960245,CEIP,43.3584594726562,-8.41318321228027,Pública,Non,Si
+15005385,CEE María Mariño,Rúa As Xubias 15,A Coruña,A Coruña,15006,881961106,CEE,43.3439292907715,-8.38408088684082,Pública,Non,Si
+15005397,IES Fernando Wirtz Suárez,Rúa Cabaleiros 1,A Coruña,A Coruña,15006,881960260,IES,0.0,0.0,Pública,Non,Si
+15005506,EASD Pablo Picasso,Os Pelamios 2,A Coruña,A Coruña,15001,981225396,EASD,43.3749542236328,-8.39421081542969,Pública,Non,Si
+15005518,CEIP María Pita,"Ronda de Camilo Jose Cela, 2  A (Elviña)",A Coruña,A Coruña,15008,981292235,CEIP,43.3472137451172,-8.4040470123291,Pública,Non,Si
+15005521,CEIP Ramón de la Sagra,Ronda de Camilo Jose Cela 4,A Coruña,A Coruña,15008,981280208,CEIP,43.3460998535156,-8.4046049118042,Pública,Non,Si
+15005579,IES Plurilingüe Elviña,Rúa San José de Calasanz 6,A Coruña,A Coruña,15008,881961061,IES,43.3451461791992,-8.41067218780518,Pública,Non,Si
+15005701,CEIP Plurilingüe San Pedro de Visma,Rúa Lagares 12,A Coruña,A Coruña,15011,881960787,CEIP,43.3660926818848,-8.42784404754639,Pública,Non,Si
+15005749,CIFP Universidade Laboral,Rúa Salvador Allende,Culleredo,A Coruña,15670,881960820,CIFP,43.3178939819336,-8.37664604187012,Pública,Non,Si
+15005828,CEIP Plurilingüe de Tarrío,"As Paxariñas, 72 (Tarrio)",Culleredo,A Coruña,15189,881880556,CEIP,43.2891120910644,-8.37693881988525,Pública,Non,Si
+15005853,CPR Plurilingüe A Ponte Pasaxe,Estrada de Fonteculler 72,Culleredo,A Coruña,15174,981661666,CPR,43.3282585144043,-8.38205146789551,Privada,Si,Non
+15005877,CEIP de Teixeiro,Rúa Crego Barbazán 18,Curtis,A Coruña,15310,881880644,CEIP,43.1403846740723,-8.0344877243042,Pública,Non,Si
+15005932,CEIP de Curtis,Rúa Alcalde Espiñeira s/n,Curtis,A Coruña,15310,881880647,CEIP,43.1222190856934,-8.14538097381592,Pública,Non,Si
+15006353,CPR Plurilingüe Jorge Juan,Avenida do Tarrio 78,Fene,A Coruña,15500,981340109,CPR,43.4711799621582,-8.16969776153565,Privada,Si,Non
+15006390,CPR Plurilingüe Jesús Maestro,Rúa EMILIO ANTON N.9,Ferrol,A Coruña,15401,981351318,CPR,43.4813194274902,-8.24140930175781,Privada,Si,Non
+15006420,CPR Plurilingüe La Salle,Rúa Pardo Bazan s/n,Ferrol,A Coruña,15406,981318111,CPR,43.4824752807617,-8.20105743408203,Privada,Si,Non
+15006432,CPR Tirso de Molina,Arce s/n,Ferrol,A Coruña,15401,981352109,CPR,43.482723236084,-8.23871612548828,Privada,Si,Non
+15006456,CPR Plurilingüe Sagrado Corazón,Estrada de Castilla 160,Ferrol,A Coruña,15404,981371691,CPR,43.4908905029297,-8.21666812896729,Privada,Si,Non
+15006481,CPR Plurilingüe Compañía de María,Rúa SAN AMARO 18,Ferrol,A Coruña,15403,981322796,CPR,-8.22914600399997,43.48449707,Privada,Si,Non
+15006501,CPR Plurilingüe Cristo Rey,"A Coruña, 35 - 37",Ferrol,A Coruña,15401,981353060,CPR,43.4844932556152,-8.23639297485352,Privada,Si,Non
+15006511,CPR Plurilingüe Santa Juana de Lestonnac,Rúa Nai Lestonnac s/n,Ferrol,A Coruña,15406,981311449,CPR,-8.20521545399998,43.485237122,Privada,Si,Non
+15006547,CPR Plurilingüe San Rosendo,Rúa Pintor Maximo Ramos 11,Ferrol,A Coruña,15401,981357562,CPR,43.4824676513672,-8.24173641204834,Privada,Si,Non
+15006596,CEEPR Nosa Señora do Chamorro,Lugar Camiño da calzada 16,Narón,A Coruña,15541,981363427,CEEPR,43.5605125427246,-8.21015548706055,Privada,Si,Non
+15006602,CPR Belén,"Praza do Tronco, 1-3",Ferrol,A Coruña,15403,981312176,CPR,43.4900207519531,-8.22613143920898,Privada,Si,Non
+15006638,CPR Ludy,Rúa Rio Lambre 6-8,Ferrol,A Coruña,15403,981311813,CPR,43.489429473877,-8.22685527801514,Privada,Si,Non
+15006663,CEIP Cruceiro de Canido,Cruceiro de Canido s/n,Ferrol,A Coruña,15401,881930313,CEIP,43.4844245910644,-8.23919868469238,Pública,Non,Si
+15006687,IES de Catabois,Estrada de Catabois s/n,Ferrol,A Coruña,15405,881930233,IES,43.5065803527832,-8.22056865692139,Pública,Non,Si
+15006699,CEIP Plurilingüe Ángela Ruiz Robles,Vivendas Protexidas s/n,Ferrol,A Coruña,15403,881930312,CEIP,43.4873313903809,-8.22519207000732,Pública,Non,Si
+15006729,CEE Terra de Ferrol,San Pedro de Leixa s/n,Ferrol,A Coruña,15405,881930187,CEE,43.5105323791504,-8.21435070037842,Pública,Non,Si
+15006730,IES Sofía Casanova,Rúa O Galego Soto s/n,Ferrol,A Coruña,15403,981311500,IES,43.485897064209,-8.22219944000244,Pública,Non,Si
+15006742,IES Concepción Arenal,Rúa Cuntis s/n,Ferrol,A Coruña,15403,881930170,IES,43.4877738952637,-8.228759765625,Pública,Non,Si
+15006754,CIFP Ferrolterra,Avenida Ramón y Cajal s/n,Ferrol,A Coruña,15403,981333107,CIFP,43.486701965332,-8.22282695770264,Pública,Non,Si
+15006778,CIFP Rodolfo Ucha Piñeiro,"Avenida Castelao, 64 (Caranza)",Ferrol,A Coruña,15406,881930145,CIFP,43.4811630249023,-8.20204544067383,Pública,Non,Si
+15006791,IES Saturnino Montojo,Avenida Mac Mahon s/n,Ferrol,A Coruña,15403,881930225,IES,43.4797134399414,-8.22501564025879,Pública,Non,Si
+15006845,CEIP Isaac Peral,Avenida Mac Mahon s/n,Ferrol,A Coruña,15403,881930210,CEIP,43.4807319641113,-8.22536373138428,Pública,Non,Si
+15006882,CPR Plurilingüe Valle Inclán I,Estrada de Xoane n.170-172,Ferrol,A Coruña,15405,981330140,CPR,43.4962310791016,-8.23598575592041,Privada,Si,Non
+15007230,CPR Ntra.Sra. del Carmen,Rúa Virxe das Areas 2,Fisterra,A Coruña,15155,981740428,CPR,42.9037742614746,-9.26222610473633,Privada,Si,Non
+15007242,CEIP Mar de Fóra,Estrada do Faro s/n,Fisterra,A Coruña,15155,881880658,CEIP,42.9064521789551,-9.26512145996094,Pública,Non,Si
+15007266,CEIP Areouta,Sardiñeiro de Abaixo,Fisterra,A Coruña,15153,881880664,CEIP,42.9439964294434,-9.23448657989502,Pública,Non,Si
+15007400,CPI de Ponte Carreira,"Rúa do ensino, s/n - Ponte Carreira",Frades,A Coruña,15686,881880671,CPI,43.0202445983887,-8.25540161132813,Pública,Non,Si
+15007621,CPI Plurilingüe Cabo da Area,Rúa Isidro Parga Pondal 45,Laxe,A Coruña,15118,881880709,CPI,43.2145195007324,-8.99325370788574,Pública,Non,Si
+15007655,CEIP de Caión,Rúa Insua s/n,A Laracha,A Coruña,15145,881880694,CEIP,43.3203659057617,-8.60603141784668,Pública,Non,Si
+15007886,CEIP Ramón Otero Pedrayo,Rúa Buenos Aires s/n,A Laracha,A Coruña,15145,881880686,CEIP,43.2467193603516,-8.59364700317383,Pública,Non,Si
+15008039,CPI Plurilingüe Cernadas de Castro,A Silva 12/14,Lousame,A Coruña,15214,881866801,CPI,42.7735633850098,-8.85692024230957,Pública,Non,Si
+15008301,IES Urbano Lugrís,Estrada Santo Hadrián s/n,Malpica de Bergantiños,A Coruña,15113,881880725,IES,43.3237266540527,-8.83340454101563,Pública,Non,Si
+15008398,CEIP Francisco López Estrada,O Porto do Barqueiro,Mañón,A Coruña,15337,981414127,CEIP,-7.70488119100003,43.741764069,Pública,Non,Si
+15008490,CEIP Víctor Sáenz,San Cosme de Antes 35,Mazaricos,A Coruña,15256,881866101,CEIP,42.9972877502441,-8.91258430480957,Pública,Non,Si
+15008714,CPI Plurilingüe da Picota,Rúa Dolores González Jurjo 14,Mazaricos,A Coruña,15256,881866091,CPI,42.9360847473145,-8.99267768859863,Pública,Non,Si
+15008805,CEIP de Melide Nº 1,Rúa E.Alvarez Carballido 2,Melide,A Coruña,15800,881866136,CEIP,42.916877746582,-8.01450443267822,Pública,Non,Si
+15008817,IES de Melide,O Marquiño,Melide,A Coruña,15800,881866109,IES,42.9177474975586,-8.01108741760254,Pública,Non,Si
+15008982,EEI de Olas,Olas (San Lourenzo),Mesía,A Coruña,15685,639527483,EEI,43.1087341308594,-8.30844974517822,Pública,Non,Si
+15009007,EEI Visantoña,A Igrexa,Mesía,A Coruña,15685,881880762,EEI,43.136474609375,-8.30395221710205,Pública,Non,Si
+15009071,CPI Castro Baxoi,Rúa Marismas s/n,Miño,A Coruña,15630,881880765,CPI,43.3517799377441,-8.20764541625977,Pública,Non,Si
+15009081,CEIP de San Ramón,"Rúa Estrada da Feira, s/n (San Ramon)",Moeche,A Coruña,15563,881930330,CEIP,43.5660972595215,-8.01636600494385,Pública,Non,Si
+15009241,CPI Plurilingüe Virxe da Cela,Lugar O Xestal S/N,Monfero,A Coruña,15619,981777606,CPI,43.3035278320312,-8.04591369628906,Pública,Non,Si
+15009391,CEIP Santiago Apóstolo,Avenida Francisco Vizoso,Mugardos,A Coruña,15626,881930336,CEIP,43.4466171264648,-8.21929740905762,Pública,Non,Si
+15009445,CEIP Plurilingüe Unión Mugardesa,Avenida Francisco Yañez Badia 1,Mugardos,A Coruña,15620,881930341,CEIP,43.4561767578125,-8.25302791595459,Pública,Non,Si
+15009470,CPR Loyola,Curros Enriquez 8,Mugardos,A Coruña,15620,981470265,CPR,43.4585876464844,-8.24974536895752,Privada,Si,Non
+15009597,CEIP de Vilarmide-Eduardo Noya,Lugar Vilarmide,Muxía,A Coruña,15124,881880798,CEIP,43.0384635925293,-9.17468929290772,Pública,Non,Si
+15009676,CEIP Virxe da Barca,Rúa Enfesto 13,Muxía,A Coruña,15124,881880794,CEIP,43.1016082763672,-9.21547508239746,Pública,Non,Si
+15009810,CEIP Plurilingüe Ricardo Tobío,Rúa Freixeiros 13,Muros,A Coruña,15240,881866814,CEIP,42.7877807617188,-8.98095893859863,Pública,Non,Si
+15009998,CEIP Plurilingüe Ramón de Artaza y Malvárez,Rúa Valdexeria s/n,Muros,A Coruña,15259,881867360,CEIP,42.789249420166,-9.0653076171875,Pública,Non,Si
+15010058,CPI do Feal,Rúa Río Seco (O Feal) s/n,Narón,A Coruña,15572,881938177,CPI,43.5258865356445,-8.18832778930664,Pública,Non,Si
+15010071,CPR Jorge Juan,Rúa Marcial Calvo 1,Narón,A Coruña,15570,981383020,CPR,43.5154342651367,-8.15786361694336,Privada,Si,Non
+15010137,CPR Ayala,Rúa Cristobal Colon 71,Narón,A Coruña,15407,981380394,CPR,43.4999237060547,-8.20545101165772,Privada,Si,Non
+15010162,CEIP Plurilingüe Ponte de Xubia,Rúa do Foro (Ponte de Xubia) 32,Narón,A Coruña,15570,881938190,CEIP,43.5156860351562,-8.15642070770264,Pública,Non,Si
+15010204,CPR Santiago Apóstol,Rúa Ferrol s/n,Narón,A Coruña,15570,981383851,CPR,43.4937438964844,-8.19963073730469,Privada,Si,Non
+15010307,CEIP San Isidro,Rúa Roseira 1,Neda,A Coruña,15510,881930404,CEIP,43.4988212585449,-8.15754127502441,Pública,Non,Si
+15010575,CEIP Plurilingüe O Coto,Rúa Rosalia Castro,Negreira,A Coruña,15830,881866821,CEIP,42.9115600585938,-8.73453807830811,Pública,Non,Si
+15010681,CEIP Plurilingüe Alexandre Rodríguez Cadarso,Lugar A BARQUIÑA,Noia,A Coruña,15210,881866828,CEIP,42.8023643493652,-8.89434051513672,Pública,Non,Si
+15010769,CPR Plurilingüe Maria Assumpta,Avenida Vizconde de San Alberto 32,Noia,A Coruña,15200,981820500,CPR,42.7762603759766,-8.89139938354492,Privada,Si,Non
+15010794,CPR Plurilingüe Jaime Balmes,Rúa DEVESA DO MARQUÉS 16,Noia,A Coruña,15210,981820214,CPR,42.7938270568848,-8.87401390075684,Privada,Si,Non
+15010812,IES Virxe do Mar,Avenida Rosalia Castro 1,Noia,A Coruña,15200,881866831,IES,42.7843055725098,-8.88857078552246,Pública,Non,Si
+15010848,CEIP Felipe de Castro,Rúa Ramón Lira Castro 32,Noia,A Coruña,15200,881866170,CEIP,42.7755508422851,-8.89404392242432,Pública,Non,Si
+15011002,CPR Plurilingüe Hijas de Cristo Rey,Avenida M. Hernandez 24,Oleiros,A Coruña,15176,981610050,CPR,43.3266983032226,-8.32703590393066,Privada,Si,Non
+15011026,CEIP Plurilingüe da Rabadeira,Rúa do Ensino 3,Oleiros,A Coruña,15173,881960270,CEIP,43.3310852050781,-8.32442378997803,Pública,Non,Si
+15011105,CEIP de Mesón do Vento,O Meson do Vento,Ordes,A Coruña,15689,881880894,CEIP,43.149658203125,-8.38070201873779,Pública,Non,Si
+15011336,CEIP Alfonso D. Rodríguez Castelao,Rúa PARAISO s/n,Ordes,A Coruña,15680,881880881,CEIP,43.0732269287109,-8.40180015563965,Pública,Non,Si
+15011567,CEIP Plurilingüe de Sigüeiro,Estrada de Grabanxa-Sigueiro,Oroso,A Coruña,15688,881866202,CEIP,42.9683418273926,-8.43840980529785,Pública,Non,Si
+15011661,CEIP Manuel Fraga Iribarne,Rúa A Area 1,Cariño,A Coruña,15365,881880434,CEIP,43.7334365844726,-7.87430572509766,Pública,Non,Si
+15011981,CEIP José María Lage,Rúa Pedro Castiñeiras s/n,Ortigueira,A Coruña,15330,881930417,CEIP,43.6869010925293,-7.85041284561157,Pública,Non,Si
+15012420,CEIP de Oza dos Ríos,Rúa Lois 35,Oza-Cesuras,A Coruña,15380,881880910,CEIP,43.2154312133789,-8.18615245819092,Pública,Non,Si
+15012626,EEI de Pontecesures,"Rúa Calzada, s/n (Pontecesures)",Padrón,A Coruña,15900,618173242,EEI,42.7277755737305,-8.65719985961914,Pública,Non,Si
+15012717,CEIP Rosalía de Castro,Rúa Santiaguiño s/n,Padrón,A Coruña,15900,881866253,CEIP,42.7428359985351,-8.66597557067871,Pública,Non,Si
+15012730,IES Camilo José Cela,Rúa Carme 43,Padrón,A Coruña,15900,881866240,IES,42.7371139526367,-8.6633996963501,Pública,Non,Si
+15012742,CEIP Flavia,Rúa Carme s/n,Padrón,A Coruña,15900,881866245,CEIP,42.7364349365234,-8.66405963897705,Pública,Non,Si
+15013059,EEI de Vilariño,Vilariño,A Pobra do Caramiñal,A Coruña,15940,636485076,EEI,42.5940208435059,-8.93374538421631,Pública,Non,Si
+15013072,EEI da Granxa,Rúa Granxa 23,A Pobra do Caramiñal,A Coruña,15948,636485073,EEI,42.6166572570801,-8.94387722015381,Pública,Non,Si
+15013163,EEI Fernández Varela,Rúa Castelao 3,A Pobra do Caramiñal,A Coruña,15940,881866295,EEI,42.6042556762695,-8.93734550476074,Pública,Non,Si
+15013199,CEP Plurilingüe Salustiano Rey Eiras,Rúa BANDASECA s/n,A Pobra do Caramiñal,A Coruña,15940,881866847,CEP,42.5977668762207,-8.94031715393066,Pública,Non,Si
+15013230,CEIP As Forcadas,Rúa As Forcadas s/n,Ponteceso,A Coruña,15114,881880930,CEIP,43.2682762145996,-8.955246925354,Pública,Non,Si
+15013254,CFEA de Sergude,Lugar de Quián,Boqueixón,A Coruña,15881,881867325,CFEA,42.8225479125976,-8.46062469482422,Pública,Non,Non
+15013291,CEIP Eduardo Pondal,Rúa A TRABE,Ponteceso,A Coruña,15110,881880934,CEIP,43.2402458190918,-8.8933629989624,Pública,Non,Si
+15013412,CEIP de Ombre,Ombre (Santa María),Pontedeume,A Coruña,15608,981430608,CEIP,43.409782409668,-8.141921043396,Pública,Non,Si
+15013461,CPR Plurilingüe San José,Avenida da Coruña 25,Pontedeume,A Coruña,15601,981430056,CPR,43.4041366577148,-8.16557788848877,Privada,Si,Non
+15013497,CPR Luís Vives,Avenida Ricardo Sanchez 51,Pontedeume,A Coruña,15600,981430719,CPR,43.4045867919922,-8.16309928894043,Privada,Si,Non
+15013503,CEIP Couceiro Freijomil,Avenida do Peirao s/n,Pontedeume,A Coruña,15600,881930480,CEIP,43.4085922241211,-8.17355442047119,Pública,Non,Si
+15013591,CEIP Plurilingüe Santa María,Praza de América s/n,As Pontes de García Rodríguez,A Coruña,15320,881930071,CEIP,43.4492073059082,-7.85305452346802,Pública,Non,Si
+15013643,CEIP Plurilingüe A Magdalena,"Rúa Monte Caxado, s/n (Campeiras)",As Pontes de García Rodríguez,A Coruña,15320,881930036,CEIP,43.4564514160156,-7.85285377502441,Pública,Non,Si
+15013761,CEIP Plurilingüe de Campanario,Rúa Campanario 13,Porto do Son,A Coruña,15979,881866297,CEIP,42.6985282897949,-9.01609039306641,Pública,Non,Si
+15013783,EEI de Caamaño,Rúa da Cruz,Porto do Son,A Coruña,15996,603470924,EEI,42.6546516418457,-9.02909851074219,Pública,Non,Si
+15013898,CEIP de Seráns,Lugar Seráns s/n,Porto do Son,A Coruña,15994,638036095,CEIP,42.6079177856445,-9.05011749267578,Pública,Non,Si
+15013928,CEIP Plurilingüe de Sobrado-Nebra,Nebra (Santa María),Porto do Son,A Coruña,15978,881866305,CEIP,42.7273750305176,-8.96711349487305,Pública,Non,Si
+15013977,CEIP Santa Irene,"Rúa Campo Santa Irene, s/n (Porto do Son)",Porto do Son,A Coruña,15970,881866854,CEIP,42.7223281860351,-9.006911277771,Pública,Non,Si
+15013989,EEI de Queiruga,Queiruga (Santo Estevo),Porto do Son,A Coruña,15998,649893325,EEI,-9.02537155200002,42.675880432,Pública,Non,Si
+15014180,CEIP Alfonso D. Rodríguez Castelao,Rúa Rosalia Castro 12,Rianxo,A Coruña,15920,881866861,CEIP,42.6527328491211,-8.81698226928711,Pública,Non,Si
+15014261,CEIP Heroínas de Sálvora,Rúa Falcoeiro 10,Ribeira,A Coruña,15965,881866345,CEIP,42.5308113098145,-9.01413440704346,Pública,Non,Si
+15014271,CEIP Plurilingüe de Artes,Artes (San Xián),Ribeira,A Coruña,15969,881866358,CEIP,42.5809669494629,-9.0102481842041,Pública,Non,Si
+15014295,EEI Capela-Carreira,Carreira (San Paio),Ribeira,A Coruña,15967,675104549,EEI,42.5404167175293,-9.01276397705078,Pública,Non,Si
+15014349,CPR Plurilingüe Sagrado Corazón de Jesús,Rúa Fonte Nova 4,Ribeira,A Coruña,15966,981840381,CPR,42.5329093933105,-8.99619293212891,Privada,Si,Non
+15014416,CPR Plurilingüe La Milagrosa - Josefa Sobrido,A Gandara 8,Ribeira,A Coruña,15993,981865577,CPR,42.6060562133789,-9.00580596923828,Privada,Si,Non
+15014465,CEIP Plurilingüe de Palmeira,Rúa Moldes 2,Ribeira,A Coruña,15959,981838281,CEIP,42.580696105957,-8.96411418914795,Pública,Non,Si
+15014520,CPR Plurilingüe Galaxia,Rúa Estatuto s/n,Ribeira,A Coruña,15960,981871242,CPR,42.5543212890625,-8.99664402008057,Privada,Si,Non
+15014532,CPR Plurilingüe Bayón,Rúa 1 Cubeliño 79,Ribeira,A Coruña,15968,981871110,CPR,42.552921295166,-9.00123596191406,Privada,Si,Non
+15014544,CEIP Plurilingüe O Grupo,Rúa Miguel Rodriguez Bautista 22,Ribeira,A Coruña,15960,881866335,CEIP,42.5566520690918,-8.99434757232666,Pública,Non,Si
+15014556,CIFP Coroso,Rúa dos Estudantes 5,Ribeira,A Coruña,15960,881866874,CIFP,42.5694160461426,-8.9818058013916,Pública,Non,Si
+15014568,IES Nº 1,Avenida da Coruña 170,Ribeira,A Coruña,15960,881866904,IES,42.5686492919922,-8.98449897766113,Pública,Non,Si
+15014571,EEI Deán Grande,Avenida da Coruña,Ribeira,A Coruña,15968,673437011,EEI,42.5669555664063,-8.98773860931397,Pública,Non,Si
+15014738,CPI Plurilingüe dos Dices,Os Dices,Rois,A Coruña,15911,881866890,CPI,42.764404296875,-8.69254589080811,Pública,Non,Si
+15014799,CEIP Plurilingüe de Pumar-Urdilde,Rúa Compostela 4,Rois,A Coruña,15281,881866365,CEIP,42.8280181884766,-8.73769283294678,Pública,Non,Si
+15014829,CEIP Pedro Barrié de la Maza,Rúa Miguel Pereiro Tacón s/n,Sada,A Coruña,15168,881960090,CEIP,43.3544235229492,-8.27650833129883,Pública,Non,Si
+15014881,CEIP Sada y sus Contornos,Avenida Sada y sus Contornos s/n,Sada,A Coruña,15160,881880022,CEIP,43.356086730957,-8.25297451019287,Pública,Non,Si
+15014957,CPI de San Sadurniño,Rúa Marques de Figueroa 19,San Sadurniño,A Coruña,15560,881930489,CPI,43.5348167419434,-8.07232761383057,Pública,Non,Si
+15015238,CEIP Plurilingüe Barrié de la Maza,Rúa Rosalia de Castro s/n,Santa Comba,A Coruña,15840,881866918,CEIP,43.0336418151855,-8.81687736511231,Pública,Non,Si
+15015241,CPR Plurilingüe Ntra. Sra. Inmaculada,Rúa Santiago 15,Santa Comba,A Coruña,15840,981880085,CPR,43.0333290100098,-8.80289745330811,Privada,Si,Non
+15015366,CPR Plurilingüe Casa do Neno,Rúa Canteira de Arriba 17,Santiago de Compostela,A Coruña,15703,981587830,CPR,42.8857460021973,-8.52012634277344,Privada,Si,Non
+15015378,CPR Plurilingüe Compañía de María,Rúa Enseñanza 3,Santiago de Compostela,A Coruña,15703,981587500,CPR,42.8786926269531,-8.54117679595947,Privada,Si,Non
+15015421,CPR Plurilingüe Juventud,Rúa Concheiros 43,Santiago de Compostela,A Coruña,15703,981587597,CPR,42.8844108581543,-8.53395462036133,Privada,Si,Non
+15015469,CPR San Jorge,Avenida Coimbra 24,Santiago de Compostela,A Coruña,15704,981581398,CPR,42.8868064880371,-8.54116153717041,Privada,Si,Non
+15015482,CPR Plurilingüe Emma,"Rúa Virxe da Cerca, 15-16 15-16-17",Santiago de Compostela,A Coruña,15703,981587112,CPR,42.880199432373,-8.54061985015869,Privada,Si,Non
+15015524,CPR Plurilingüe Vilas Alborada,Rúa Fraguas 26-28,Santiago de Compostela,A Coruña,15703,981585791,CPR,42.8804359436035,-8.53500175476074,Privada,Si,Non
+15015548,CPR Plurilingüe Divino Maestro,Rúa Dr.Blanco Najera 2,Santiago de Compostela,A Coruña,15706,981522289,CPR,42.8701820373535,-8.55756282806397,Privada,Si,Non
+15015551,CPR Plurilingüe La Inmaculada,Rúa Concepcion Arenal 11,Santiago de Compostela,A Coruña,15702,981586191,CPR,42.8763160705566,-8.54310035705566,Privada,Si,Non
+15015561,CPR Manuel Peleteiro,Monte Redondo s/n,Santiago de Compostela,A Coruña,15702,981591475,CPR,42.8518905639648,-8.53606033325195,Privada,Non,Non
+15015597,CPR Plurilingüe La Milagrosa,Avenida Barcelona 13,Santiago de Compostela,A Coruña,15706,981520791,CPR,42.8720817565918,-8.55698108673096,Privada,Si,Non
+15015603,CPR Plurilingüe La Salle,Praza SAN XOÁN BAUTISTA DE LA SALLE 1,Santiago de Compostela,A Coruña,15704,981584611,CPR,42.8837509155273,-8.54147529602051,Privada,Si,Non
+15015627,CPR Plurilingüe San José de Cluny,Rúa A Rosa 13,Santiago de Compostela,A Coruña,15701,981592540,CPR,42.8718299865723,-8.5471076965332,Privada,Si,Non
+15015652,CEIP Apóstolo Santiago,Rúa Proxecto Vagalume 2,Santiago de Compostela,A Coruña,15704,881867930,CEIP,42.8857688903809,-8.53571891784668,Pública,Non,Si
+15015676,CEIP de Prácticas López Ferreiro,Rúa Xazmíns s/n,Santiago de Compostela,A Coruña,15704,981543178,CEIP,42.8857650756836,-8.54259300231934,Pública,Non,Si
+15015688,CEIP Raíña Fabiola,Rúa Entregaleras s/n,Santiago de Compostela,A Coruña,15705,981585372,CEIP,42.8818473815918,-8.55041027069092,Pública,Non,Si
+15015743,IES Arcebispo Xelmírez I,Rúa Poza de Bar s/n,Santiago de Compostela,A Coruña,15705,881866962,IES,42.8782577514648,-8.55269145965576,Pública,Non,Si
+15015755,IES Plurilingüe Rosalía de Castro,Rúa San Clemente 3,Santiago de Compostela,A Coruña,15705,881866556,IES,-8.54671764400001,42.877574921,Pública,Non,Si
+15015767,CIFP Politécnico de Santiago,Rúa Rosalia de Castro 133,Santiago de Compostela,A Coruña,15706,881867601,CIFP,42.8709869384766,-8.55598068237305,Pública,Non,Si
+15015779,CPR Plurilingüe Ntra.Sra. de los Remedios,Rúa das Orfas 5,Santiago de Compostela,A Coruña,15703,981585850,CPR,42.8779678344726,-8.54343509674072,Privada,Si,Non
+15015780,CPR Seminario Menor Diocesano A Asunción,Avenida de Quiroga Palacios 2-A,Santiago de Compostela,A Coruña,15703,981589200,CPR,42.8767738342285,-8.53650188446045,Privada,Non,Non
+15015834,EASD Mestre Mateo,Rúa Virxe da Cerca 32,Santiago de Compostela,A Coruña,15703,981587757,EASD,42.8810729980469,-8.54034233093262,Pública,Non,Si
+15015861,IES Eduardo Pondal,Rúa Doctor Maceira 9,Santiago de Compostela,A Coruña,15706,881866367,IES,42.8710594177246,-8.55441856384277,Pública,Non,Si
+15015998,CEIP Ramón Cabanillas,Rúa JOSÉ ANTONIO SOUTO PAZ 5,Santiago de Compostela,A Coruña,15702,881867921,CEIP,42.8669548034668,-8.54118156433106,Pública,Non,Si
+15016000,CIFP Compostela,Rúa Lamas de Abade 23-25,Santiago de Compostela,A Coruña,15702,881866570,CIFP,42.8598251342773,-8.53513431549072,Pública,Non,Si
+15016012,CEIP Plurilingüe Cardeal Quiroga Palacios,"Avenida Villaldia, 33-35",Santiago de Compostela,A Coruña,15706,981543181,CEIP,42.8675765991211,-8.55653953552246,Pública,Non,Si
+15016085,CEIP Arquitecto Casas Novoa,A SIONLLA DE ABAIXO,Santiago de Compostela,A Coruña,15884,881866975,CEIP,42.9275093078613,-8.48305606842041,Pública,Non,Si
+15016221,EEI do Rial,O Rial,Santiago de Compostela,A Coruña,15896,981524165,EEI,42.8663673400879,-8.58959865570068,Pública,Non,Si
+15016267,EEI Bispo Teodomiro,Marrozos (Santa María),Santiago de Compostela,A Coruña,15700,981539897,EEI,42.8358306884766,-8.51247024536133,Pública,Non,Si
+15016292,CEIP Plurilingüe Mestre Rodríguez Xixirei,Sabugueira (San Paio),Santiago de Compostela,A Coruña,15820,881866470,CEIP,42.901725769043,-8.44066905975342,Pública,Non,Si
+15016449,CPR Juniors,Silvouta - Roxos,Santiago de Compostela,A Coruña,15896,981537306,CPR,42.8709411621094,-8.60197925567627,Privada,Non,Non
+15016450,CEIP de Arcediago,A Ponte Arcediago (San Xoán),Santiso,A Coruña,15808,881866143,CEIP,-8.03926754000003,42.845081329,Pública,Non,Si
+15016784,CEIP Plurilingüe Virxe do Portal,A Porta (San Pedro),Sobrado,A Coruña,15312,881880995,CEIP,43.0391883850098,-8.0269021987915,Pública,Non,Si
+15017041,CEIP A Igrexa-Calo,Lugar Fixó 14,Teo,A Coruña,15866,881866483,CEIP,42.8271217346191,-8.59495449066162,Pública,Non,Si
+15017107,CEIP Plurilingüe da Ramallosa,A Ramallosa,Teo,A Coruña,15883,881866491,CEIP,42.7977638244629,-8.54820156097412,Pública,Non,Si
+15017314,CEIP Plurilingüe de Toques,A Capela (Santa María),Toques,A Coruña,15806,881960400,CEIP,42.9682350158691,-7.97346305847168,Pública,Non,Si
+15017880,CPI Plurilingüe de Fonte-Díaz,Rúa Isabel II s/n,Touro,A Coruña,15822,881867840,CPI,42.8671493530273,-8.30283355712891,Pública,Non,Si
+15018148,CPI de Atios,Avenida SAN SADURNIÑO 33,Valdoviño,A Coruña,15552,881938107,CPI,43.612190246582,-8.1369743347168,Pública,Non,Si
+15018203,CPI de Bembibre,Rúa Socortes 18,Val do Dubra,A Coruña,15873,881866981,CPI,43.0250129699707,-8.66205501556397,Pública,Non,Si
+15018343,CEIP Plurilingüe Xacinto Amigo Lera,Rúa Entrepontes s/n,Val do Dubra,A Coruña,15871,881866990,CEIP,42.9621238708496,-8.6516695022583,Pública,Non,Si
+15018471,CEIP Ortigueira,Lugar Ortigueira 2,Vedra,A Coruña,15880,881866995,CEIP,42.7732353210449,-8.42555141448975,Pública,Non,Si
+15018801,CEIP de Torres,Torres (San Xorxe),Vilarmaior,A Coruña,15638,625482551,CEIP,43.3439025878906,-8.11656856536865,Pública,Non,Si
+15018938,EEI de Carantoña,Praza de Carantoña 17,Vimianzo,A Coruña,15129,,EEI,43.1376724243164,-9.09345531463623,Pública,Non,Si
+15018987,CEIP de Castromil,Salto (Santa María),Vimianzo,A Coruña,15129,681214970,CEIP,43.1372299194336,-9.00381660461426,Pública,Non,Si
+15019086,CEIP Labarta Pose,"Rúa Mestre Platas, s/n (Baio Pequeno)",Zas,A Coruña,15150,881960044,CEIP,43.1492729187012,-8.9590654373169,Pública,Non,Si
+15019281,CPI de Zas,Rúa de Galicia 49,Zas,A Coruña,15850,881960028,CPI,43.1059494018555,-8.91763782501221,Pública,Non,Si
+15019301,CPI de San Vicente,Rúa Tedelle,A Baña,A Coruña,15863,881867001,CPI,42.9602241516113,-8.76424217224121,Pública,Non,Si
+15019311,CEIP Plurilingüe María Barbeito e Cervino,Alcal.Salorio Suarez 28,A Coruña,A Coruña,15010,981262612,CEIP,43.3595657348633,-8.42520999908447,Pública,Non,Si
+15019323,CEIP Plurilingüe Alborada,Rúa San José de Calasanz 5 A,A Coruña,A Coruña,15008,881961192,CEIP,43.3447151184082,-8.41125202178955,Pública,Non,Si
+15019347,CPI Camiño de Santiago,Rúa do Concello 16,O Pino,A Coruña,15821,881867011,CPI,42.9079437255859,-8.36419296264648,Pública,Non,Si
+15019359,CEIP Plurilingüe Monte dos Postes,Rúa Fontiñas 79,Santiago de Compostela,A Coruña,15707,881867853,CEIP,42.8870124816894,-8.52710914611816,Pública,Non,Si
+15019372,CEIP Plurilingüe San Vicenzo,Rúa do Candil 19,Vimianzo,A Coruña,15129,881866532,CEIP,43.1108627319336,-9.03526592254639,Pública,Non,Si
+15019499,CEIP de Piñeiros,Estrada de Castela (Piñeiros) s/n,Narón,A Coruña,15570,881930378,CEIP,43.5123481750488,-8.1769609451294,Pública,Non,Si
+15019542,EEI da Igrexa,A Tarroeira,Ames,A Coruña,15034,981884459,EEI,42.8529586791992,-8.6384220123291,Pública,Non,Si
+15019608,EEI de San Bartolomeu,Lugar San Xoán 4,Cambre,A Coruña,15668,629587803,EEI,43.2980766296387,-8.31751346588135,Pública,Non,Si
+15020313,EFAG El Piñeiral,Santa María de Arzúa s/n,Arzúa,A Coruña,15810,981500580,EFAG,-8.16096401200002,42.937324524,Privada,Si,Non
+15020374,EEI de Extramundi de Arriba,Padrón (Santiago),Padrón,A Coruña,15910,644968647,EEI,42.7493133544922,-8.66869258880615,Pública,Non,Si
+15020431,CPR Agarimo,Rúa Padre Villa 30,Arteixo,A Coruña,15141,981600687,CPR,43.310359954834,-8.4870080947876,Privada,Si,Non
+15020489,CPR Plurilingüe Montespiño,Rúa Montespiño 10,Culleredo,A Coruña,15174,981284311,CPR,43.3170394897461,-8.4124174118042,Privada,Si,Non
+15020544,IES de Ortigueira,Rúa Constitución s/n,Ortigueira,A Coruña,15330,881930407,IES,43.6861801147461,-7.85483837127686,Pública,Non,Si
+15020556,IES Breamo,Rúa Ricardo Sanchez 5,Pontedeume,A Coruña,15600,881930435,IES,43.4060707092285,-8.16719818115234,Pública,Non,Si
+15020568,CEIP Plurilingüe Labaca,"Rúa Juan Florez, 116",A Coruña,A Coruña,15005,881960284,CEIP,43.3603935241699,-8.40669250488281,Pública,Non,Si
+15020611,EEI Gonzar,Gonzar (Santa María),O Pino,A Coruña,15821,696975078,EEI,42.9575691223144,-8.32289505004883,Pública,Non,Si
+15020659,EEI de Covas,Covas s/n,Ames,A Coruña,15864,676900568,EEI,-8.64323616000001,42.879627228,Pública,Non,Si
+15020672,EEI de Rorís,Armentón (San Pedro),Arteixo,A Coruña,15142,981640238,EEI,43.2867431640625,-8.54658317565918,Pública,Non,Si
+15020714,EEI de Larín de Arriba,Lugar Rexedoiros-Larín,Arteixo,A Coruña,15144,981606212,EEI,43.262825012207,-8.54074859619141,Pública,Non,Si
+15020775,EEI da Lagoa,Rúa A Lagoa s/m,Arteixo,A Coruña,15142,981646930,EEI,43.3035011291504,-8.57239532470703,Pública,Non,Si
+15020854,CPI de Xanceda,Lugar OS CORRILLOS,Mesía,A Coruña,15685,881880752,CPI,43.0862236022949,-8.24103927612305,Pública,Non,Si
+15020911,CPI Plurilingüe de Vedra,Avenida do Mestre Manuel Gómez,Vedra,A Coruña,15885,881867015,CPI,42.7739067077637,-8.48354339599609,Pública,Non,Si
+15020921,CEIP de Présaras,Présaras (San Pedro),Vilasantar,A Coruña,15807,981778050,CEIP,43.0515022277832,-8.10490608215332,Pública,Non,Si
+15020933,EEI de Barrionovo,Avenida de Pastoriza s/n,Arteixo,A Coruña,15142,696846412,EEI,43.3301391601562,-8.46524238586426,Pública,Non,Si
+15020969,CEIP Plurilingüe Mosteiro de Caaveiro,As Neves,A Capela,A Coruña,15613,881938153,CEIP,43.435546875,-8.06283855438232,Pública,Non,Si
+15020970,CEIP Plurilingüe Celso Emilio Ferreiro,Rodís (San Martiño),Cerceda,A Coruña,15186,881880506,CEIP,43.1552772521973,-8.56701850891113,Pública,Non,Si
+15020982,CEIP Plurilingüe O Ramo,"Rúa Pablo Ares Feal, 28 (O Ramo)",Fene,A Coruña,15528,881930137,CEIP,43.4641036987305,-8.1893424987793,Pública,Non,Si
+15020994,CPI de Viaño Pequeno,Viaño Pequeno,Trazo,A Coruña,15687,881866510,CPI,43.0250282287598,-8.51773071289063,Pública,Non,Si
+15021056,EEI de Arretén,Iria Flavia (Santa María),Padrón,A Coruña,15917,618834694,EEI,-8.64964103699998,42.742542267,Pública,Non,Si
+15021160,EEI de Traba,Campo dos Bois (Melgueiras) s/n,Laxe,A Coruña,15119,981735553,EEI,43.1784629821777,-9.03907680511475,Pública,Non,Si
+15021214,EEI de Tal de Abaixo,Tal (Santiago),Muros,A Coruña,15289,696768472,EEI,42.7868995666504,-9.00103664398193,Pública,Non,Si
+15021317,CPI Pecalama,Rúa Xesteira 22,Tordoia,A Coruña,15683,881960001,CPI,43.0881195068359,-8.55249214172363,Pública,Non,Si
+15021354,CEIP Bergantiños,Rúa Carballo Calero s/n,Carballo,A Coruña,15100,881880386,CEIP,43.2178497314453,-8.6963005065918,Pública,Non,Si
+15021469,CIFP Leixa,Rúa SAN PEDRO DE LEIXA s/n,Ferrol,A Coruña,15405,881938125,CIFP,43.5114288330078,-8.21530342102051,Pública,Non,Si
+15021470,IES Canido,Rúa Navegantes s/n,Ferrol,A Coruña,15401,881938230,IES,43.4874572753906,-8.23963832855225,Pública,Non,Si
+15021482,IES San Clemente,Rúa San Clemente s/n,Santiago de Compostela,A Coruña,15705,881867501,IES,-8.54745292699999,42.878562927,Pública,Non,Si
+15021500,CEIP Santa Baia,Avenida Compostela 48,Boiro,A Coruña,15930,881866595,CEIP,42.6435165405273,-8.89217758178711,Pública,Non,Si
+15021524,CEIP Plurilingüe A Cristina,Rúa Eduardo Blanco Amor s/n,Carballo,A Coruña,15100,881880400,CEIP,43.2092933654785,-8.69620513916016,Pública,Non,Si
+15021536,CEIP Plurilingüe Víctor López Seoane,"Vía Artabra, s/n (Monte Alto)",A Coruña,A Coruña,15002,881960653,CEIP,43.3804588317871,-8.40377902984619,Pública,Non,Si
+15021548,CEIP Sal Lence,Avenida de Oza 224,A Coruña,A Coruña,15006,881880820,CEIP,43.3514022827148,-8.38842105865479,Pública,Non,Si
+15021603,EEI de Viñas,San Pantaleon,Paderne,A Coruña,15314,981782090,EEI,43.3269577026367,-8.19444179534912,Pública,Non,Si
+15021627,CEIP Emilia Pardo Bazán,Trav. Os Rosais s/n,A Coruña,A Coruña,15011,981276781,CEIP,43.3756446838379,-8.42721080780029,Pública,Non,Si
+15021721,CEIP de Zalaeta,"Rúa Curros Enriquez, s/n (Zalaeta)",A Coruña,A Coruña,15002,981211747,CEIP,43.3750381469726,-8.40150451660156,Pública,Non,Si
+15021731,CEIP Plurilingüe de Frións,Lugar de Frións s/n,Ribeira,A Coruña,15967,881867027,CEIP,42.551513671875,-9.00387573242188,Pública,Non,Si
+15021755,IES Cabo Ortegal,Rúa POZO DE PEREIRA 22,Cariño,A Coruña,15360,881960101,IES,43.7384185791016,-7.87852239608765,Pública,Non,Si
+15021767,IES Plurilingüe Castro da Uz,Rúa José Mª Penabad López s/n,As Pontes de García Rodríguez,A Coruña,15320,881930001,IES,43.4612846374512,-7.85358572006226,Pública,Non,Si
+15021779,CEIP da Castellana,A Castellana,Aranga,A Coruña,15317,881880209,CEIP,43.1906089782715,-8.02316856384277,Pública,Non,Si
+15021780,CEIP Plurilingüe Bragade,Lugar A Casagrande 15,Oza-Cesuras,A Coruña,15391,881880509,CEIP,43.1717529296875,-8.20076084136963,Pública,Non,Si
+15021792,CEIP Plurilingüe Salgado Torres,Avenida Pablo Picasso 2,A Coruña,A Coruña,15008,881880830,CEIP,43.3474960327148,-8.4105281829834,Pública,Non,Si
+15021809,CEIP Plurilingüe Sofía Casanova,Rutis (Santa María),Culleredo,A Coruña,15174,881960290,CEIP,43.3148231506348,-8.3814172744751,Pública,Non,Si
+15021810,CEIP Plurilingüe Santa Eulalia de Dumbría,Dumbría (Santa Baia),Dumbría,A Coruña,15151,881880654,CEIP,43.008918762207,-9.11656856536865,Pública,Non,Si
+15021834,CEIP Ledicia,"Rúa Cuco Ruiz, s/n (Caranza)",Ferrol,A Coruña,15406,881938378,CEIP,-8.20665264100001,43.483322144,Pública,Non,Si
+15021846,CEIP Plurilingüe San Xoán de Filgueira,Rúa Campo de Chao s/n,Ferrol,A Coruña,15405,881938194,CEIP,43.5006942749023,-8.21609401702881,Pública,Non,Si
+15021858,CEIP Plurilingüe Almirante Juan de Lángara y Huarte,"Estrada de Catabois, 45-71",Ferrol,A Coruña,15405,981322905,CEIP,43.4899978637695,-8.23434925079346,Pública,Non,Si
+15021861,CEIP Joaquín Rodríguez Otero,"Campo de Xaviña, s/n (Buño)",Malpica de Bergantiños,A Coruña,15111,881880740,CEIP,43.2663421630859,-8.78966522216797,Pública,Non,Si
+15021883,CEIP Plurilingüe de Vite,Avenida Burgo Das Nacións s/n,Santiago de Compostela,A Coruña,15705,881867834,CEIP,-8.54292011400003,42.891017914,Pública,Non,Si
+15021925,CPR Ntra. Sra. del Monte Carmelo,Campo da Feira,A Pobra do Caramiñal,A Coruña,15940,981831304,CPR,-8.939260483,42.605014801,Privada,Si,Non
+15021950,CEEPR Aspace,Lugar CASTELIÑO 24,Sada,A Coruña,15160,981610312,CEEPR,43.3410949707031,-8.2924747467041,Privada,Si,Non
+15021974,EFAG Fonteboa,Rúa FEIRA NOVA s/n,Coristanco,A Coruña,15147,981733051,EFAG,-8.75142574400002,43.187774658,Privada,Si,Non
+15021986,CPR Cruz Roja Española,Rúa Ferrocarril s/n,A Coruña,A Coruña,15008,981169163,CPR,43.3469505310059,-8.41476917266846,Privada,Si,Non
+15022000,CPR Plurilingüe Montegrande,Avenida NUEVA YORK 178,A Coruña,A Coruña,15008,981288554,CPR,43.307201385498,-8.43063926696777,Privada,Si,Non
+15022085,CEIP de Pazos-Comoxo,Aldea Comoxo (estrada Boiro-Noia),Boiro,A Coruña,15938,658144251,CEIP,42.6788444519043,-8.88639450073242,Pública,Non,Si
+15022127,CEIP de Brens,Lugar A Grixa 5,Cee,A Coruña,15299,607612532,CEIP,-9.17391777,42.948848724,Pública,Non,Si
+15022139,EEI da Pereiriña,Bermun,Cee,A Coruña,15270,607516416,EEI,42.9959182739258,-9.19107723236084,Pública,Non,Si
+15022152,EEI de Coirós,Rúa  FIGUEIRAS 30A,Coirós,A Coruña,15316,639709895,EEI,43.240339,-8.149703,Pública,Non,Si
+15022310,CEIP A Gándara,"Rúa Colmeote, s/n (Gandara)",Narón,A Coruña,15570,881938386,CEIP,43.4933815002441,-8.19622611999512,Pública,Non,Si
+15022322,EEI da Escravitude,Cruces (Santa María),Padrón,A Coruña,15980,644470401,EEI,42.7787628173828,-8.64844417572022,Pública,Non,Si
+15022498,CPR Obradoiro,Rúa Obradoiro 49,A Coruña,A Coruña,15190,981281888,CPR,43.3189735412598,-8.42546081542969,Privada,Non,Non
+15022577,CEIP de Maciñeira,"Rúa Estrada do Roxal, 17 (Maciñeira)",Neda,A Coruña,15510,881930402,CEIP,43.5026130676269,-8.12866497039795,Pública,Non,Si
+15022589,CEIP Lamas de Abade,Lamas de Abade s/n,Santiago de Compostela,A Coruña,15702,981523313,CEIP,42.8614234924316,-8.53351783752441,Pública,Non,Si
+15022590,CEIP de Roxos,"Rúa da Barrosa, 74 - Roxos",Santiago de Compostela,A Coruña,15896,881867434,CEIP,42.8792419433594,-8.60361099243164,Pública,Non,Si
+15022607,CIFP Ánxel Casal - Monte Alto,Paseo Marítimo 47,A Coruña,A Coruña,15002,881960122,CIFP,43.3828926086426,-8.40869331359863,Pública,Non,Si
+15022620,IES de Curtis,Rúa Germán de Castro s/n,Curtis,A Coruña,15310,881880620,IES,43.1195640563965,-8.14786434173584,Pública,Non,Si
+15022826,EEI de Aro,Camiño Real 8,Negreira,A Coruña,15838,690178295,EEI,-8.77844047500002,42.916133881,Pública,Non,Si
+15022981,CEIP Plurilingüe de Centieiras,Rúa Centieiras s/n,Fene,A Coruña,15500,881930133,CEIP,43.4706649780273,-8.1707706451416,Pública,Non,Si
+15023041,CEIP de Galán,Rúa Miguel de Cervantes 21,Arteixo,A Coruña,15141,881880903,CEIP,43.3291893005371,-8.48176670074463,Pública,Non,Si
+15023053,CEIP Portofaro,"Rúa dos Templarios, (O Temple) 1",Cambre,A Coruña,15679,881880349,CEIP,43.3128318786621,-8.35681343078613,Pública,Non,Si
+15023065,CEIP Gonzalo Torrente Ballester,Rúa Souto s/n,Cambre,A Coruña,15181,881960131,CEIP,43.287181854248,-8.36221027374268,Pública,Non,Si
+15023077,CEIP Plurilingüe de Gándara-Sofán,Lugar GÁNDARA,Carballo,A Coruña,15108,881880427,CEIP,43.1932563781738,-8.62692832946777,Pública,Non,Si
+15023089,CEIP Luís Seoane,Avenida Morro de Canide 1,Oleiros,A Coruña,15177,981617130,CEIP,43.3699645996094,-8.33475494384766,Pública,Non,Si
+15023090,IES Macías o Namorado,Rúa Agro do Medio s/n,Padrón,A Coruña,15900,881866760,IES,42.735424041748,-8.66215515136719,Pública,Non,Si
+15023120,CEMU Contrapunto Histórico de Santiago,Praza Salvador Parga 4,Santiago de Compostela,A Coruña,15704,981564808,CEMU,42.8819236755371,-8.5415849685669,Privada,Non,Non
+15023132,EOI da Coruña,Rúa da Educación s/n,A Coruña,A Coruña,15011,981279100,EOI,43.3706855773926,-8.42316055297852,Pública,Non,Si
+15023223,CEIP de Bemantes,Bemantes,Miño,A Coruña,15635,981798068,CEIP,43.3398590087891,-8.17303657531738,Pública,Non,Si
+15023302,IES Manuel Murguía,Avenida Arsenio Iglesias s/n,Arteixo,A Coruña,15142,981601852,IES,43.3097343444824,-8.5095386505127,Pública,Non,Si
+15023314,IES de Sabón,Avenida Arsenio Iglesias 47,Arteixo,A Coruña,15142,881960140,IES,43.3120803833008,-8.51039695739746,Pública,Non,Si
+15023338,IES Praia Barraña,Avenida Compostela s/n,Boiro,A Coruña,15930,881866601,IES,42.6426734924316,-8.89306831359863,Pública,Non,Si
+15023341,CEIP Plurilingüe Santa María do Castro,Rúa Valiño - Cesar 55,Boiro,A Coruña,15939,881867032,CEIP,42.6197967529297,-8.87497901916504,Pública,Non,Si
+15023363,CEIP Plurilingüe Manuel Murguía,Elviña (San Vicenzo),A Coruña,A Coruña,15192,881960763,CEIP,43.3218688964844,-8.43056964874268,Pública,Non,Si
+15023375,CEIP Plurilingüe José Cornide Saavedra,Avenida da Sardiñeira 42,A Coruña,A Coruña,15008,981248796,CEIP,43.3496284484863,-8.4174976348877,Pública,Non,Si
+15023399,CPI Plurilingüe Eusebio Lorenzo Baleirón,Tarrio,Dodro,A Coruña,15981,881867041,CPI,42.7174758911133,-8.70970153808594,Pública,Non,Si
+15023405,CPI A Xunqueira,Avenida do Mar s/n,Fene,A Coruña,15500,881930110,CPI,43.4778633117676,-8.17163276672363,Pública,Non,Si
+15023417,CEP Plurilingüe Pilar Maestu Sierra,Lugar Cadreche s/n,A Pobra do Caramiñal,A Coruña,15948,881866287,CEP,42.6253967285156,-8.92624950408936,Pública,Non,Si
+15023430,CEP Xosé María Brea Segade,"Campo Maneiro, 43 E",Rianxo,A Coruña,15985,881867046,CEP,42.6824264526367,-8.82508563995361,Pública,Non,Si
+15023466,IES Lamas de Abade,Rúa Raiola 8,Santiago de Compostela,A Coruña,15702,881866611,IES,42.8547019958496,-8.52408409118652,Pública,Non,Si
+15023508,CEIP Plurilingüe Virxe do Mar,Rúa Ilas Cíes 2,Narón,A Coruña,15570,881930383,CEIP,43.4974403381348,-8.20458221435547,Pública,Non,Si
+15023727,EEI de Muros,Rúa Alameda 4,Muros,A Coruña,15250,881867049,EEI,42.7736740112305,-9.0589189529419,Pública,Non,Si
+15023740,CEIP A Solaina,Rúa CARDENAL CISNEROS s/n,Narón,A Coruña,15570,881930373,CEIP,43.5006408691406,-8.20205020904541,Pública,Non,Si
+15023910,CEIP Martagona,Rúa Martagona s/n,Melide,A Coruña,15800,881866149,CEIP,42.9167404174805,-8.00628089904785,Pública,Non,Si
+15024045,EEI de Areas,Adragonte (Santiago),Paderne,A Coruña,15314,649180677,EEI,43.2948684692383,-8.13790607452393,Pública,Non,Si
+15024112,EEI do Gaioso,O Gaioso,Santiago de Compostela,A Coruña,15896,981549575,EEI,42.8530731201172,-8.51468181610107,Pública,Non,Si
+15024227,CEIP de Pazos,Serantes (San Salvador),Ferrol,A Coruña,15405,881930322,CEIP,43.5090255737305,-8.23147392272949,Pública,Non,Si
+15024239,CEIP dos Muíños,Moraime (San Xulián),Muxía,A Coruña,15125,881880787,CEIP,43.0810890197754,-9.19058418273926,Pública,Non,Si
+15024513,CIFP Someso,Rúa Someso 6,A Coruña,A Coruña,15008,881880001,CIFP,43.3386421203613,-8.41223335266113,Pública,Non,Si
+15024756,EEI de Carballosa,San Pedro De Muro (San Pedro),Porto do Son,A Coruña,15994,600732091,EEI,42.6204109191895,-9.02788639068604,Pública,Non,Si
+15024771,CEP Plurilingüe de Carreira,Rúa Pé do Corniño s/n,Ribeira,A Coruña,15967,881866351,CEP,42.5449867248535,-9.01191997528076,Pública,Non,Si
+15024884,CPR Plurilingüe Rias Altas,Estrada da Zapateira s/n,Culleredo,A Coruña,15174,981174371,CPR,43.314769744873,-8.41077995300293,Privada,Si,Non
+15024896,CEIP Plurilingüe de Nétoma-Razo,Rúa Pacífico 20,Carballo,A Coruña,15107,881880431,CEIP,43.2848205566406,-8.71289825439453,Pública,Non,Si
+15024902,CEIP Plurilingüe Wenceslao Fernández Flórez,Avenida Ferrocarril 17-19,A Coruña,A Coruña,15007,881960300,CEIP,43.3516616821289,-8.40951347351074,Pública,Non,Si
+15024938,CEIP de Esteiro,Avenida de Vigo,Ferrol,A Coruña,15403,981352904,CEIP,43.4828262329101,-8.22112655639648,Pública,Non,Si
+15024941,CEIP Plurilingüe A Laxe,"Rúa A Torre, Valón",Ferrol,A Coruña,15593,881930326,CEIP,43.4945030212402,-8.26768398284912,Pública,Non,Si
+15024951,CEIP Plurilingüe de Louro,Rúa Agra de Filgueira s/n,Muros,A Coruña,15291,981827753,CEIP,42.7653388977051,-9.08497142791748,Pública,Non,Si
+15024963,CEIP Plurilingüe de Andrade,"Andrade, 39 A",Pontedeume,A Coruña,15614,881930471,CEIP,43.3875770568848,-8.16601181030273,Pública,Non,Si
+15024975,CEIP Pío XII,Rúa Poza de Bar s/n,Santiago de Compostela,A Coruña,15705,881866419,CEIP,42.8795776367188,-8.55185127258301,Pública,Non,Si
+15025025,CEIP San Francisco Javier,Ronda de Outeiro 72,A Coruña,A Coruña,15009,881960989,CEIP,-8.402438163,43.352050781,Pública,Non,Si
+15025037,CEIP Sagrada Familia,Ronda de Outeiro 211,A Coruña,A Coruña,15007,881960316,CEIP,43.3571929931641,-8.41848850250244,Pública,Non,Si
+15025050,CEIP Ramón María del Valle-Inclán,Avenida R.Mª Valle-Inclan,Oleiros,A Coruña,15172,881960324,CEIP,43.3354988098145,-8.36343383789063,Pública,Non,Si
+15025062,CEIP de Portosín,"Praia, s/n (Portosin)",Porto do Son,A Coruña,15999,881866313,CEIP,42.7582626342773,-8.94999599456787,Pública,Non,Si
+15025074,CEIP O Marbán,Rúa A Igrexa 45,As Somozas,A Coruña,15565,881938101,CEIP,43.5343322753906,-7.9415807723999,Pública,Non,Si
+15025116,CPR Santa Apolonia-Crea Natura,Rúa Poza Real 5,Santiago de Compostela,A Coruña,15899,981520273,CPR,42.8600692749023,-8.56725311279297,Privada,Non,Non
+15025220,CEP Plurilingüe de Ventín,Ventin,Ames,A Coruña,15895,881867490,CEP,42.8508682250976,-8.58884143829346,Pública,Non,Si
+15025256,CEIP Alfredo Brañas,Rúa Porta Santa 19,A Laracha,A Coruña,15145,881880700,CEIP,43.2502021789551,-8.55623531341553,Pública,Non,Si
+15025268,IES As Telleiras,Estrada Cedeira km.1,Narón,A Coruña,15570,881930350,IES,43.5146408081055,-8.18900966644287,Pública,Non,Si
+15025281,CEIP de Olveira,Rúa A Igrexa 75,Ribeira,A Coruña,15969,881866347,CEIP,42.5871353149414,-9.04859352111816,Pública,Non,Si
+15025301,IES Arcebispo Xelmírez II,Rúa Irmandiños 15,Santiago de Compostela,A Coruña,15704,881867055,IES,42.8928985595703,-8.53436088562012,Pública,Non,Si
+15025347,CEEPR Aspanaes-Duques de Lugo,Rúa da Raiola 6,Santiago de Compostela,A Coruña,15702,981596589,CEEPR,42.8624420166016,-8.53614330291748,Privada,Si,Non
+15025359,CEEPR Aspanaes Ricardo Touceda,San Pedro de Leixa s/n,Ferrol,A Coruña,15405,981320091,CEEPR,43.5103721618652,-8.21427536010742,Privada,Si,Non
+15025487,CEIP Campomaior,Travesa de Campomaior s/n,Ordes,A Coruña,15680,881880886,CEIP,43.0796546936035,-8.41257762908936,Pública,Non,Si
+15025530,IES da Pobra do Caramiñal,Xobre (Maño),A Pobra do Caramiñal,A Coruña,15940,881867064,IES,42.5958709716797,-8.92855834960938,Pública,Non,Si
+15025542,CEIP Plurilingüe Xuño,Xuño,Porto do Son,A Coruña,15995,881866301,CEIP,42.6384620666504,-9.03299808502197,Pública,Non,Si
+15025554,CEIP Emilio González López,"Rúa Lamelas, 21 (Lema)",Cambre,A Coruña,15659,881880363,CEIP,43.2749557495117,-8.31940269470215,Pública,Non,Si
+15025566,IES Ferrol Vello,"Rúa Alonso Lopez, s/n (Ferrol Vello)",Ferrol,A Coruña,15401,881930291,IES,43.4804878234863,-8.2446174621582,Pública,Non,Si
+15025581,CPREX Chester College Internat. School,Travesa de Montouto 2,Teo,A Coruña,15894,981819160,CPREX,42.8388137817383,-8.54436779022217,Privada,Non,Non
+15025611,IES Monte das Moas,Rúa José María Hernansaez 23,A Coruña,A Coruña,15009,981284377,IES,43.3504180908203,-8.39419841766357,Pública,Non,Si
+15025621,EPAPU Eduardo Pondal,Rúa da Educación 3 2º andar,A Coruña,A Coruña,15011,881960901,EPAPU,43.3705520629883,-8.42392253875732,Pública,Non,Si
+15025633,CEIP Plurilingüe Os Casais,Lugar da Armada,Fene,A Coruña,15520,881930124,CEIP,43.449779510498,-8.19018936157227,Pública,Non,Si
+15025645,IES Ricardo Carvalho Calero,Avenida Castelao s/n,Ferrol,A Coruña,15406,881938138,IES,43.4831085205078,-8.20494174957275,Pública,Non,Si
+15025657,IES de Mugardos,Rúa O Cristo s/n,Mugardos,A Coruña,15620,881938200,IES,43.4588928222656,-8.26135444641113,Pública,Non,Si
+15025670,CEIP Plurilingüe Isidro Parga Pondal,"Camiño do Saber, s/n (Porto de Santa Cruz)",Oleiros,A Coruña,15179,881880802,CEIP,43.3471984863281,-8.34260368347168,Pública,Non,Si
+15025682,CIFP Fraga do Eume,Rúa Ricardo Sanchez 3,Pontedeume,A Coruña,15600,881930455,CIFP,43.406436920166,-8.16810989379883,Pública,Non,Si
+15025694,IES Moncho Valcarce,Rúa Jose M. Penabad Lopez s/n,As Pontes de García Rodríguez,A Coruña,15320,881930055,IES,43.4595565795898,-7.85472822189331,Pública,Non,Si
+15025712,IES Antonio Fraguas Fraguas,Rúa Londres 10,Santiago de Compostela,A Coruña,15703,981588498,IES,42.8812446594238,-8.53013610839844,Pública,Non,Si
+15025724,CEIP Plurilingüe Os Tilos,Rúa Ameneiro 21,Teo,A Coruña,15894,881866735,CEIP,42.8431739807129,-8.53840637207031,Pública,Non,Si
+15025751,EPAPU Sta. María de Caranza,Rúa Luis de Requesens s/n,Ferrol,A Coruña,15406,881938317,EPAPU,43.4854927062988,-8.20917415618897,Pública,Non,Si
+15025827,CPR Anxela,Rúa Francisco Añon 7,A Coruña,A Coruña,15010,981253025,CPR,43.3628349304199,-8.41806697845459,Privada,Non,Non
+15026029,IES Isaac Díaz Pardo,A Laguna 19,Sada,A Coruña,15160,881880942,IES,43.3467864990234,-8.25531387329102,Pública,Non,Si
+15026030,IES Terra de Xallas,Rúa Rosalía de Castro s/n,Santa Comba,A Coruña,15840,881867080,IES,43.0350189208984,-8.81655788421631,Pública,Non,Si
+15026111,CRA de Narón,Lugar San Xiao s/n,Narón,A Coruña,15578,881930366,CRA,43.5306930541992,-8.164719581604,Pública,Non,Si
+15026121,IES Plurilingüe Xosé Neira Vilas,Rúa Xose Neira Vilas 3,Oleiros,A Coruña,15172,881880858,IES,43.3369140625,-8.37273502349854,Pública,Non,Si
+15026169,CRA de Teo,Lugar Solláns 77,Teo,A Coruña,15886,881867105,CRA,42.8255081176758,-8.57337665557861,Pública,Non,Si
+15026194,CEIP Plurilingüe A Fraga,Avenida da Habana s/n,As Pontes de García Rodríguez,A Coruña,15320,881938156,CEIP,43.450309753418,-7.84497594833374,Pública,Non,Si
+15026236,EEI da Angustia,Campo ANGUSTIA,A Pobra do Caramiñal,A Coruña,15948,636485074,EEI,42.619255065918,-8.9244499206543,Pública,Non,Si
+15026352,IES Brión,Paseo de Pedrouzos 3,Brión,A Coruña,15865,881866058,IES,42.8624458312988,-8.6776647567749,Pública,Non,Si
+15026376,IES Punta Candieira,Rúa do Ensino s/n,Cedeira,A Coruña,15350,881930076,IES,43.6574668884277,-8.04723834991455,Pública,Non,Si
+15026388,IES Plurilingüe Fontexería,Rúa Agra de Baño 21,Muros,A Coruña,15259,881867110,IES,42.7888450622559,-9.06274223327637,Pública,Non,Si
+15026391,IES Xulián Magariños,Rúa Castelao s/n,Negreira,A Coruña,15830,881867126,IES,42.9129676818848,-8.73277854919434,Pública,Non,Si
+15026406,IES Eduardo Pondal,Rúa Teresa Mosquera Manso s/n,Ponteceso,A Coruña,15110,881880924,IES,43.2401237487793,-8.89124393463135,Pública,Non,Si
+15026418,IES Terra de Soneira,Gandara 25,Vimianzo,A Coruña,15129,881866519,IES,43.1042709350586,-9.04212856292725,Pública,Non,Si
+15026421,IES Plurilingüe Rafael Dieste,Ronda de Outeiro 334,A Coruña,A Coruña,15011,881960930,IES,43.3689002990723,-8.4240779876709,Pública,Non,Si
+15026455,IES Terra de Trasancos,Camiño REAL s/n,Narón,A Coruña,15570,881938159,IES,43.5144271850586,-8.18601036071777,Pública,Non,Si
+15026492,CMUS Superior da Coruña,Rúa Manuel Murguía s/n,A Coruña,A Coruña,15011,981141295,CMUS,43.3689231872559,-8.42339134216309,Pública,Non,Si
+15026509,CRA de Valdoviño,Aldea Taraza 221 1º,Valdoviño,A Coruña,15550,623105879,CRA,43.5984077453613,-8.18491363525391,Pública,Non,Si
+15026546,EOI de Ferrol,Rúa Real 29,Ferrol,A Coruña,15402,881938400,EOI,43.4853134155273,-8.22964000701904,Pública,Non,Si
+15026637,CEIP de Barouta,Ames (San Tomé),Ames,A Coruña,15229,881867455,CEIP,42.9103088378906,-8.65473175048828,Pública,Non,Si
+15026649,CPR Divino Maestro,Lugar VIRXE DO MONTE 6,A Pobra do Caramiñal,A Coruña,15940,981830011,CPR,42.6096038818359,-8.9398136138916,Privada,Si,Non
+15026650,CMUS Elemental de Betanzos,Praza de Galicia,Betanzos,A Coruña,15300,981773696,CMUS,43.2823524475098,-8.21190071105957,Pública,Non,Non
+15026662,CMUS Profesional de Carballo,Rúa do Pan s/n,Carballo,A Coruña,15100,981704300,CMUS,43.2113838195801,-8.69572162628174,Pública,Non,Non
+15026698,IES Espiñeira,Espiñeira,Boiro,A Coruña,15930,881866630,IES,42.6567573547363,-8.88231372833252,Pública,Non,Si
+15026704,IES David Buján,Camiño dos Cacharros 1,Cambre,A Coruña,15181,881961200,IES,43.2867088317871,-8.35480499267578,Pública,Non,Si
+15026716,IES Plurilingüe Adormideras,Rúa Juan Sebastián Elcano 28,A Coruña,A Coruña,15002,881880086,IES,43.383171081543,-8.39629077911377,Pública,Non,Si
+15026728,CMUS Profesional de Culleredo,Avd.de la Coruña s/n,Culleredo,A Coruña,15670,981667798,CMUS,43.3163146972656,-8.36507034301758,Pública,Non,Non
+15026731,IES Campo de San Alberto,Rúa Egas Moniz 6,Noia,A Coruña,15200,881867135,IES,42.787223815918,-8.88771438598633,Pública,Non,Si
+15026741,CMUS Profesional das Pontes de G.Rodríg.,Avenida das Veigas s/n,As Pontes de García Rodríguez,A Coruña,15320,981440024,CMUS,43.4508094787598,-7.86278295516968,Pública,Non,Non
+15026753,IES A Pontepedriña,Rúa Amor Ruibal (A Pontepedriña),Santiago de Compostela,A Coruña,15702,881867152,IES,42.8678512573242,-8.54648590087891,Pública,Non,Si
+15026765,CEIP Milladoiro,Rúa VENTORRILLO s/n,Malpica de Bergantiños,A Coruña,15113,881880736,CEIP,43.3208618164063,-8.81751537322998,Pública,Non,Si
+15026777,CEIP Plurilingüe Pepe de Xan Baña,Traba,Santa Comba,A Coruña,15848,881866641,CEIP,43.0618171691894,-8.74726390838623,Pública,Non,Si
+15026789,CEIP Baíñas,Baíñas (Santo Antoíño),Vimianzo,A Coruña,15127,881960010,CEIP,43.0299797058105,-9.02367877960205,Pública,Non,Si
+15026807,IES Félix Muriel,Rúa MARÍA ANA MOGAS 1,Rianxo,A Coruña,15920,881866646,IES,42.6533584594726,-8.80803108215332,Pública,Non,Si
+15026947,CEMU Profesional Obradoiro,"Rúa Feans, 152 - (Apartado 1189)",A Coruña,A Coruña,15190,981281888,CEMU,43.3189468383789,-8.42546272277832,Privada,Non,Non
+15026960,CEIP Plurilingüe de Ponzos,Rúa Ponzos s/n,Ferrol,A Coruña,15404,981370480,CEIP,43.4891204833984,-8.21622848510742,Pública,Non,Si
+15027010,CDAN Profesional da Coruña,"Rúa Franxa, 14 - Pazo de Martelo",A Coruña,A Coruña,15001,981080181,CDAN,43.3709678649902,-8.39706325531006,Pública,Non,Non
+15027022,CMUS Profesional Federico Paz Carbajal,Rúa Frai Xosé Dos Santos 7,Noia,A Coruña,15200,981824885,CMUS,42.7787094116211,-8.89131355285645,Pública,Non,Non
+15027046,CPR Raiola,Rúa Raiola 2,Santiago de Compostela,A Coruña,15702,981594060,CPR,42.8619804382324,-8.53636074066162,Privada,Si,Non
+15027058,IES As Fontiñas,Rúa ESTOCOLMO 5,Santiago de Compostela,A Coruña,15707,881866661,IES,42.8861045837402,-8.52310943603516,Pública,Non,Si
+15027125,IES de Viós,Lugar A Poceira 8,Abegondo,A Coruña,15318,881960793,IES,43.2026138305664,-8.28501605987549,Pública,Non,Si
+15027149,CEIP Plurilingüe de Cespón,Cespon,Boiro,A Coruña,15991,881866691,CEIP,42.6730003356934,-8.86081695556641,Pública,Non,Si
+15027162,CMUS Profesional de Melide,Rúa Galicia s/n,Melide,A Coruña,15800,981507929,CMUS,42.9160957336426,-8.01441860198975,Pública,Non,Non
+15027216,IES Fernando Esquío,Rúa Empedron 16,Neda,A Coruña,15510,881930387,IES,43.5138854980469,-8.15099143981934,Pública,Non,Si
+15027228,IES María Casares,Avenida CHE GUEVARA 140,Oleiros,A Coruña,15179,981626344,IES,43.3399467468262,-8.35147571563721,Pública,Non,Si
+15027241,CEIP Juan Fernández Latorre,Rúa Casanova de Eiris 26,A Coruña,A Coruña,15009,981133029,CEIP,43.3488006591797,-8.39803409576416,Pública,Non,Si
+15027253,CEIP Isaac Díaz Pardo,"Avenida Ribados, s/n (Carcabelos)",Culleredo,A Coruña,15670,881880608,CEIP,43.3125762939453,-8.37192535400391,Pública,Non,Si
+15027307,IES Isidro Parga Pondal,Muiño da Pintura,Carballo,A Coruña,15100,881880371,IES,43.2219161987305,-8.69083976745606,Pública,Non,Si
+15027319,IES de Sar,Rúa BERNARDO BARREIRO DE V.V. s/n,Santiago de Compostela,A Coruña,15702,881867162,IES,42.8744697570801,-8.54016494750977,Pública,Non,Si
+15027332,CEIP das Fontiñas,Rúa de Roma 21,Santiago de Compostela,A Coruña,15707,981543175,CEIP,42.8845748901367,-8.52363777160645,Pública,Non,Si
+15027368,IES Maximino Romero de Lema,Prado da Torre s/n,Zas,A Coruña,15150,881960015,IES,43.1445388793945,-8.95662498474121,Pública,Non,Si
+15027381,ESMU Municipal de Padrón,Praza Rodriguez Cobian s/n,Padrón,A Coruña,15900,981810451,ESMU,42.7393264770508,-8.66148567199707,Pública,Non,Non
+15027393,CEIP Xesús San Luís Romero,Rúa Fotografo Xose Vidal s/n,Carballo,A Coruña,15100,881880415,CEIP,43.2055549621582,-8.68892478942871,Pública,Non,Si
+15027401,CEIP Ana María Diéguez,Atalaia s/n,Rianxo,A Coruña,15984,881867175,CEIP,-8.79367446999998,42.679122925,Pública,Non,Si
+15027411,IES de Cacheiras,Costenla 36,Teo,A Coruña,15883,881866473,IES,42.8199272155762,-8.55569934844971,Pública,Non,Si
+15027423,CPR Dolores Ramos - Manuel Peleteiro,Rúa Santiago Leon de Caracas s/n,Santiago de Compostela,A Coruña,15701,981597266,CPR,42.8712310791016,-8.54623317718506,Privada,Non,Non
+15027447,EDANPR BSdanza,"Rúa Nova de Abaixo 16, galerías",Santiago de Compostela,A Coruña,15701,676256788,EDANPR,42.8746719360351,-8.55065727233887,Privada,Non,Non
+15027484,CEMU Profesional Peleteiro,Rúa Monte Redondo,Santiago de Compostela,A Coruña,15702,981591475,CEMU,42.8514175415039,-8.53612518310547,Privada,Non,Non
+15027502,CEE Manuel López Navalón,Lugar CASAS DO REGO 20,Santiago de Compostela,A Coruña,15898,981562977,CEE,42.8848991394043,-8.55671787261963,Pública,Non,Si
+15027514,ESMU Municipal de Porto do Son,"Rúa Santo Andre, 51 (Portosin)",Porto do Son,A Coruña,15999,981867412,ESMU,42.7583808898926,-8.94808483123779,Pública,Non,Non
+15027526,CEIP Mestre Pastor Barral,Camiño Real s/n,Melide,A Coruña,15800,881866132,CEIP,42.9084777832031,-8.01784133911133,Pública,Non,Si
+15027551,CRA de Rianxo,Lugar Asados,Rianxo,A Coruña,15984,981863305,CRA,42.6775588989258,-8.79314422607422,Pública,Non,Si
+15027575,EMUSPR Estudio,Rúa Neira de Mosquera 7,Santiago de Compostela,A Coruña,15702,981561895,EMUSPR,42.8759841918945,-8.542236328125,Privada,Non,Non
+15027587,ESMU Municipal de Arzúa,Rúa Santiago 2,Arzúa,A Coruña,15810,981500934,ESMU,42.928165435791,-8.16802406311035,Pública,Non,Non
+15027605,ESMU Municipal de Carnota,San Mamede De Carnota (San Mamede),Carnota,A Coruña,15293,981857032,ESMU,42.8935089111328,-9.13588905334473,Pública,Non,Non
+15027617,CMUS Profesional Xan Viaño,Avenida DO MAR - CARANZA 2-4,Ferrol,A Coruña,15406,981333317,CMUS,43.4846496582031,-8.21067047119141,Pública,Non,Si
+15027629,EMUSPR Allegro,Centro Comerc. Os Tilos - Local 54/55,Teo,A Coruña,15886,981801684,EMUSPR,42.8448219299316,-8.54017162322998,Privada,Non,Non
+15027654,IES Agra de Leborís,Rúa Rosalia de Castro s/n,A Laracha,A Coruña,15145,881880676,IES,43.2466087341309,-8.58415222167969,Pública,Non,Si
+15027666,ESMU Municipal de Cee,"Rúa da Escola, s/n (Escabanas)",Cee,A Coruña,15270,981745100,ESMU,42.9542999267578,-9.18862533569336,Pública,Non,Non
+15027678,CEEPR ASPANAES,"Rúa Areosa, Poboado das Veigas s/n",As Pontes de García Rodríguez,A Coruña,15320,981450542,CEEPR,43.4486503601074,-7.86048173904419,Privada,Si,Non
+15027691,IES de Porto do Son,Rúa As Laxes 18,Porto do Son,A Coruña,15970,881866707,IES,42.7316665649414,-8.9909143447876,Pública,Non,Si
+15027708,CEIP Plurilingüe Ría do Burgo,Rúa MARÍA CAGIAO 8,Culleredo,A Coruña,15174,881961083,CEIP,43.3206062316894,-8.37858772277832,Pública,Non,Si
+15027711,IES Leliadoura,Frións,Ribeira,A Coruña,15967,881867186,IES,42.5538864135742,-9.00589179992676,Pública,Non,Si
+15027721,IES Plurilingüe de Ames,"Rúa Peregrina, s/n (Bertamirans)",Ames,A Coruña,15220,881866729,IES,42.8681182861328,-8.65832328796387,Pública,Non,Si
+15027733,IES de Arzúa,Rúa do Castro s/n,Arzúa,A Coruña,15810,881866047,IES,42.9298248291016,-8.15536403656006,Pública,Non,Si
+15027745,CEE A Barcia,A Barcia s/n,Santiago de Compostela,A Coruña,15896,981537401,CEE,42.87646484375,-8.58795642852783,Pública,Non,Si
+15027757,CEEPR Aspanaes,Rúa O CATECISMO 7,A Coruña,A Coruña,15008,981293552,CEEPR,43.3304672241211,-8.40659332275391,Privada,Si,Non
+15027769,EMUSPR de Calo -Teo,Rebordelo s/n,Teo,A Coruña,15895,981548379,EMUSPR,42.8253517150879,-8.59312248229981,Privada,Non,Non
+15027770,IES A Sardiñeira,Avenida da Sardiñeira 41,A Coruña,A Coruña,15008,881960150,IES,43.349910736084,-8.41621971130371,Pública,Non,Si
+15027782,IES Ordes,Rúa Mestre Nicolas del Rio s/n,Ordes,A Coruña,15680,881960334,IES,43.0740242004395,-8.40311908721924,Pública,Non,Si
+15027800,CIFP Imaxe e Son,Rúa Someso 6,A Coruña,A Coruña,15008,981173181,CIFP,43.3382377624512,-8.41385364532471,Pública,Non,Si
+15027812,ESCO Oficial Náutico-Pesqueira,Rúa dos Estudantes 7,Ribeira,A Coruña,15960,881866317,ESCO,42.569580078125,-8.98007869720459,Pública,Non,Non
+15027824,EMUSPR de Visantoña,Visantoña s/n,Santiso,A Coruña,15808,617021087,EMUSPR,42.8616752624512,-8.11649608612061,Privada,Non,Non
+15027848,CRA Nosa Señora do Faro,Rúa r/ do Concello 14,Ponteceso,A Coruña,15110,881960970,CRA,43.2436714172363,-8.90115737915039,Pública,Non,Si
+15027851,IES A Cachada,Avenida Municipalidade de Avellaneda s/n,Boiro,A Coruña,15930,881866717,IES,42.6440925598145,-8.88628673553467,Pública,Non,Si
+15027861,IES Pedra da Aguia,Rúa Curros s/n,Camariñas,A Coruña,15121,881880294,IES,43.1433792114258,-9.11017608642578,Pública,Non,Si
+15027873,IES Afonso X O Sabio,Rúa Río Sil 9,Cambre,A Coruña,15660,881880339,IES,43.3013687133789,-8.3560791015625,Pública,Non,Si
+15027885,IES Lamas de Castelo,Lugar Lamas de Castelo s/n,Carnota,A Coruña,15293,881867200,IES,42.8331260681152,-9.08370208740234,Pública,Non,Si
+15027897,CIFP Paseo das Pontes,Rúa San Pedro de Mezonzo 4,A Coruña,A Coruña,15004,881961030,CIFP,43.3626976013184,-8.41587638854981,Pública,Non,Si
+15027903,IES Eduardo Blanco Amor,Lugar CORDEDA s/n,Culleredo,A Coruña,15174,881960347,IES,43.3182945251465,-8.37944889068604,Pública,Non,Si
+15027915,IES Fin do Camiño,Rúa Voluntariado 18,Fisterra,A Coruña,15155,881960528,IES,42.9135665893555,-9.26966857910156,Pública,Non,Si
+15027927,IES Ramón Caamaño,Rúa Manuel Lastres 33,Muxía,A Coruña,15124,881880775,IES,43.1022071838379,-9.21734142303467,Pública,Non,Si
+15027939,IES Maruxa Mallo,As Casillas s/n,Ordes,A Coruña,15680,881880869,IES,43.0694961547851,-8.4135103225708,Pública,Non,Si
+15027940,IES As Insuas,Rúa Camiño Real 6,Muros,A Coruña,15259,881867208,IES,42.7906608581543,-9.06303977966309,Pública,Non,Si
+15027952,IES Miraflores,Avenida de Miguel Hernandez 4,Oleiros,A Coruña,15173,881880845,IES,43.3308143615723,-8.32009410858154,Pública,Non,Si
+15027964,IES de Oroso,Rúa da Tosca 59,Oroso,A Coruña,15888,881866187,IES,42.9699859619141,-8.43530178070068,Pública,Non,Si
+15027976,IES Poeta Añón,Rúa Poeta Añón 21,Outes,A Coruña,15230,881866221,IES,42.8433265686035,-8.9122314453125,Pública,Non,Si
+15027988,ESMU Municipal da Coruña,Rúa La Torre 67,A Coruña,A Coruña,15002,981226752,ESMU,43.3764038085937,-8.39826011657715,Pública,Non,Non
+15028038,ESCO Náutico-Pesqueira,Avenida 19 de Febrero 30-34,Ferrol,A Coruña,15405,881938212,ESCO,43.4992179870606,-8.2441987991333,Pública,Non,Non
+15032005,CPR Castelao,Rúa Sinforiano Lopez 43,A Coruña,A Coruña,15005,981243814,CPR,43.3593139648438,-8.40846347808838,Privada,Non,Non
+15032066,CPR Tesdai,"Rúa  Rosalía de Castro, 42 A 00",Santiago de Compostela,A Coruña,15706,981597387,CPR,42.8751029968262,-8.55099868774414,Privada,Non,Non
+15032078,CMUS Profesional de Arzúa,"Rúa  Santiago, 160 00",Arzúa,A Coruña,15810,981500934,CMUS,42.9281959533691,-8.16805553436279,Pública,Non,Non
+15032081,IES de Fene,"O Pazo, 13-15",Fene,A Coruña,15528,881938280,IES,43.4614677429199,-8.183762550354,Pública,Non,Si
+15032108,ESMU Municipal A Fábrica,"Rúa  do Inglés, 11 00",Oleiros,A Coruña,15172,981636598,ESMU,43.316333770752,-8.36519813537598,Pública,Non,Non
+15032111,EMUSPR Berenguela,"Praza  de Feixoo, 1 - 1º 00",Santiago de Compostela,A Coruña,15704,981573580,EMUSPR,42.8800201416016,-8.54241275787354,Privada,Non,Non
+15032133,ESMU Municipal de Ortigueira,"Rúa Rvdo. Márquez Cortiñas, s/n 00",Ortigueira,A Coruña,15330,981402432,ESMU,43.6872520446777,-7.85101890563965,Pública,Non,Non
+15032145,IES de Pastoriza,"Rúa do Lagarto, esq. Furoca s/n",Arteixo,A Coruña,15140,981647517,IES,43.3336906433105,-8.46344184875488,Pública,Non,Si
+15032157,CPR Plurilingüe Andaina,Rúa Aguaceiros 21,Culleredo,A Coruña,15174,981138880,CPR,43.3214836120606,-8.40284824371338,Privada,Si,Non
+15032169,CPR Tomás Barros,Rúa Ramón María Aller 10 B,A Coruña,A Coruña,15010,981270168,CPR,43.3628158569336,-8.418701171875,Privada,Non,Non
+15032182,ESDA Municipal A Fábrica,"Rúa  do Inglés, 11",Oleiros,A Coruña,15172,981636598,ESDA,43.3354568481445,-8.36514854431152,Pública,Non,Non
+15032194,EOI de Santiago de Compostela,Rúa Ulpiano Villanueva 1-2,Santiago de Compostela,A Coruña,15705,881867901,EOI,42.8927993774414,-8.54363632202148,Pública,Non,Si
+15032200,CMUS Profesional de Ribeira Enrique Paisal,Rúa Miguel Rodriguez Bautista 21,Ribeira,A Coruña,15960,981873204,CMUS,42.5571975708008,-8.9947452545166,Pública,Non,Non
+15032224,CEMU Elemental Alca,Lugar Biduído de Arriba 36,Ames,A Coruña,15895,981531103,CEMU,42.846435546875,-8.60052871704102,Privada,Non,Non
+15032236,CPR O Raio Verde,"Rúa ANGUSTIAS, 31 - BAIXO",Santiago de Compostela,A Coruña,15703,981577797,CPR,42.8830757141113,-8.53488063812256,Privada,Non,Non
+15032248,CPR Vagalume,"Rúa  Oseiro, 13",Arteixo,A Coruña,15142,981601351,CPR,43.3186645507813,-8.48868274688721,Privada,Non,Non
+15032251,CRA Ponte da Pedra,"Rúa Vázquez de Parga 119 bloque 2, 1ºD",Carballo,A Coruña,15100,981703403,CRA,43.2193336486816,-8.68784618377686,Pública,Non,Si
+15032261,ESMU Municipal  de Ordes,Ordes (Santa María),Ordes,A Coruña,15680,981682312,ESMU,43.0781707763672,-8.41081237792969,Pública,Non,Non
+15032273,ESMU Municipal da Baña,Rúa TADELLE 5,A Baña,A Coruña,15863,,ESMU,42.9613494873047,-8.75901603698731,Pública,Non,Non
+15032297,CEDA Liceo la Paz,Rúa Sebastián Martónez Risco 12,A Coruña,A Coruña,15009,,CEDA,43.3415069580078,-8.40204906463623,Privada,Non,Non
+15032303,CMUS Profesional da Coruña,Praza DO CONSERVATORIO s/n,A Coruña,A Coruña,15011,981276800,CMUS,43.3705940246582,-8.42200756072998,Pública,Non,Si
+15032315,ESMU Municipal de Santiago de Compostela,Rúa Proxecto Vagalume 2,Santiago de Compostela,A Coruña,15704,,ESMU,42.8853645324707,-8.53580760955811,Pública,Non,Non
+15032327,CEE O Pedroso,Rúa SAN PAIO s/n,Santiago de Compostela,A Coruña,15898,981561972,CEE,42.8846893310547,-8.55749893188477,Pública,Non,Si
+15032364,CPR Fesán,Rúa de Amio (Parque Empresarial Costa Vella) 114,Santiago de Compostela,A Coruña,15707,981522426,CPR,42.9001197814941,-8.51119136810303,Privada,Non,Non
+15032376,EEI de Vilarrodís-Oseiro,Rúa CARLOS MASIDE 16,Arteixo,A Coruña,15141,616466312,EEI,43.3162498474121,-8.47725868225098,Pública,Non,Si
+15032388,EMUSPR Banda de Noia,Campo DE NOIA,Noia,A Coruña,15200,,EMUSPR,42.7850456237793,-8.8875207901001,Privada,Non,Non
+15032391,CIFP Santiago,Estrada San Paio do Monte,Santiago de Compostela,A Coruña,15898,881867650,CIFP,42.885555267334,-8.55643939971924,Pública,Non,Non
+15032418,CMUS Profesional de Santiago,Rúa Monte dos Postes s/n,Santiago de Compostela,A Coruña,15703,981519845,CMUS,42.8866081237793,-8.53207111358643,Pública,Non,Si
+15032426,CEIP Plurilingüe Graxal,Rúa Francisco Rodríguez 6,Cambre,A Coruña,15679,881880330,CEIP,43.3197402954101,-8.35535430908203,Pública,Non,Si
+15032431,CPR Aula Nosa,MOSTEIRO DE CAAVEIRO 1 baixo,A Coruña,A Coruña,15010,981250019,CPR,-8.42554378400001,43.362258911,Privada,Si,Non
+15032479,ESMU  municipal de Cabana de Bergantiños,A CARBALLA,Cabana de Bergantiños,A Coruña,15115,,ESMU,43.2189865112305,-8.93022918701172,Pública,Non,Non
+15032480,CRA de Culleredo,Rúa Bo Home,Culleredo,A Coruña,15180,981662094,CRA,43.3083457946777,-8.36770343780518,Pública,Non,Si
+15032492,CRA de Dodro,Estrada De Imo 28,Dodro,A Coruña,15982,981802421,CRA,42.7135429382324,-8.7226505279541,Pública,Non,Si
+15032509,CRA de Oroso,Rúa Valverde,Oroso,A Coruña,15688,628071438,CRA,42.9902381896973,-8.40192699432373,Pública,Non,Si
+15032510,ESMU Municipal de Rois,OS DICES,Rois,A Coruña,15911,,ESMU,42.7636222839355,-8.69278049468994,Pública,Non,Non
+15032522,CPR Reyblanc,Rúa Angustias 2 Baixo,Santiago de Compostela,A Coruña,15703,981592241,CPR,42.8819808959961,-8.53523349761963,Privada,Non,Non
+15032534,CADF Real Club Deportivo da Coruña,Rúa AGRA DE MARCÉS s/n,Abegondo,A Coruña,15318,981647941,CADF,43.2506713867188,-8.28377532958984,Privada,Non,Non
+15032546,CAD Liceo la Paz,Rúa Sebastián Martínez Risco 12,A Coruña,A Coruña,15009,981286299,CAD,43.3417663574219,-8.40185832977295,Privada,Non,Non
+15032558,CAD Santa Apolonia de Santiago de Compostela,Rúa Poza Real 5,Santiago de Compostela,A Coruña,15899,981520273,CAD,42.8600692749023,-8.56723403930664,Privada,Non,Non
+15032561,CRA de Bergondo,Estrada A Coruña - Ferrol 12,Bergondo,A Coruña,15165,981791896,CRA,43.3199005126953,-8.23379707336426,Pública,Non,Si
+15032571,CRA de Boqueixón-Vedra Neira Vilas,"Lugar Vilar, Centro Sociocultural Camilo José Cela s/n",Boqueixón,A Coruña,15881,616440471,CRA,42.7985534667969,-8.46884346008301,Pública,Non,Si
+15032601,ESMU Municipal de Sada,Paseo Marítimo s/n,Sada,A Coruña,15160,-,ESMU,43.3555641174316,-8.25200176239014,Pública,Non,Non
+15032613,EDANPR Carmen,Rúa Santa Teresa 2-4 baixo,A Coruña,A Coruña,15002,639135530,EDANPR,43.3770408630371,-8.40627193450928,Privada,Non,Non
+15032625,CEIP Agro do Muíño,Lugar As Cortes s/n,Ames,A Coruña,15228,881866010,CEIP,42.8438606262207,-8.64222717285156,Pública,Non,Si
+15032637,ESMU Municipal de Muros,Rúa San xosé s/n,Muros,A Coruña,15250,-,ESMU,42.7737922668457,-9.05833530426025,Pública,Non,Non
+15032649,EEI do Milladoiro,Travesa do Porto (Milladoiro) s/n,Ames,A Coruña,15895,881866037,EEI,42.8467712402344,-8.57997894287109,Pública,Non,Si
+15032650,EPAPU de Teixeiro,Estrada de Paradela s/n,Curtis,A Coruña,15310,981779546,EPAPU,43.1575775146484,-7.98798322677612,Pública,Non,Si
+15032662,IES O Mosteirón,Rúa Esperela S/N,Sada,A Coruña,15168,881880949,IES,43.3496017456055,-8.29201698303223,Pública,Non,Si
+15032674,CEEPR AMICOS,Lugar A Gándara 44,Ribeira,A Coruña,15993,981865590,CEEPR,42.6083030700684,-9.00794696807861,Privada,Si,Non
+15032686,CEIP Plurilingüe O Mosteirón,Rúa Esperela s/n,Sada,A Coruña,15168,881880973,CEIP,43.3499526977539,-8.29100894927979,Pública,Non,Si
+15032698,CEMU Profesional Liceo la Paz,Avenida Sebastián Martínez Risco 12,A Coruña,A Coruña,15009,,CEMU,43.3413124084473,-8.40297985076904,Privada,Non,Non
+15032716,CEIP de Arteixo,Avenida ARSENIO IGLESIAS 33 B,Arteixo,A Coruña,15142,981641284,CEIP,43.3086929321289,-8.50856781005859,Pública,Non,Si
+15032728,CPR PREMIR,Rúa PINTOR JUAN LUIS 1 baixo,Santiago de Compostela,A Coruña,15702,981590198,CPR,42.8681983947754,-8.54780864715576,Privada,Non,Non
+15032731,CADF Real Federación Galega de Fútbol,Rúa MENÉNDEZ Y PELAYO 18 2,A Coruña,A Coruña,15005,981120619,CADF,43.3631362915039,-8.40762329101563,Privada,Non,Non
+15032741,ESMU Escola de Música Municipal de Abegondo,Rúa San Marcos s/n,Abegondo,A Coruña,15318,981647996,ESMU,43.2421035766601,-8.2774248123169,Pública,Non,Non
+15032753,ESMU Magariños,Avenida Santa Minia 70,Brión,A Coruña,15865,981509903,ESMU,42.8658561706543,-8.67825031280518,Pública,Non,Non
+15032765,ESMU Municpal de Mugardos,Avenida Galicia 45,Mugardos,A Coruña,15620,,ESMU,43.4558868408203,-8.25434112548828,Pública,Non,Non
+15032777,"Cen. Pub. Escuela de Especialidades Estación Naval A Graña, ESENGRA",Rúa Estación Naval de la Graña s/n,Ferrol,A Coruña,15490,981336093,Cen. Pub.,43.4755325317383,-8.2623405456543,Pública,Non,Non
+15032789,Cen. Pub. Escuela de Especialidades Antonio de Escaño,Rúa Tejeras s/n,Ferrol,A Coruña,15490,981399120,Cen. Pub.,43.4838485717773,-8.21472644805908,Pública,Non,Non
+15032790,CPR Estudios Superiores en Administración e Finanzas,Rúa Salvador de Madariaga 50,Oleiros,A Coruña,15179,881878634,CPR,43.3240699768066,-8.35347843170166,Privada,Non,Non
+15032807,IES do Milladoiro,Rúa Paseo da Igualdade (O Milladoiro) 5,Ames,A Coruña,15895,881867863,IES,42.8457527160644,-8.58228492736816,Pública,Non,Si
+15032820,CE.ART Liceo la Paz,Rúa Sebastian Martínez Risco 12,A Coruña,A Coruña,15009,981286299,CE.ART,43.3415679931641,-8.40228080749512,Privada,Non,Non
+15032832,CPR Niño Jesús,Lugar Guiliade 116,Betanzos,A Coruña,15319,981772586,CPR,43.258861541748,-8.24467277526856,Privada,Non,Non
+15032844,ESMU Municipal de Lousame,Lugar Portobravo 1,Lousame,A Coruña,15214,981820494,ESMU,42.7852592468262,-8.86588954925537,Pública,Non,Non
+15032856,EMUSPR Sementeira de Cambre,Rúa O Souto 8 Baixo,Cambre,A Coruña,15181,981655441,EMUSPR,-8.36375522600002,43.288108826,Privada,Non,Non
+15032868,CEIP Plurilingüe do Camiño Inglés,Avenida Álvaro Cunqueiro s/n,Oroso,A Coruña,15888,881996180,CEIP,42.9716606140137,-8.44155883789063,Pública,Non,Si
+15032893,CPR Chíos Formación,Avenida  do Exército 2,A Coruña,A Coruña,15006,881872497,CPR,43.355281829834,-8.39550304412842,Privada,Non,Non
+15032911,CEIP Juana de Vega,Rúa Concelleiro Alfredo Novoa 1,Oleiros,A Coruña,15176,881960940,CEIP,-8.33491134600001,43.312625885,Pública,Non,Si
+15032923,IES de Carral,Costa do Pincho s/n,Carral,A Coruña,15175,881960480,IES,43.1804885864258,-9.03700637817383,Pública,Non,Si
+15032935,IES Rego de Trabe,Avenida de Rutis,Culleredo,A Coruña,15174,881960801,IES,43.3128433227539,-8.376145362854,Pública,Non,Si
+15032947,EMUSPR Compañía de María,Rúa Calvo Sotelo 2,A Coruña,A Coruña,15004,981250350,EMUSPR,43.3650779724121,-8.41403484344482,Privada,Non,Non
+15032959,CEIP Plurilingüe Vicente Otero Valcárcel,Rúa Alcalde Juan Seijas s/n,Carral,A Coruña,15175,881880446,CEIP,43.2250175476074,-8.35483264923096,Pública,Non,Si
+15032960,CEMU Profesional Eirís,Rúa Castaño de Eirís 1,A Coruña,A Coruña,15009,981284400,CEMU,43.3406257629394,-8.39460563659668,Privada,Non,Non
+15032972,ESMU Municipal de Oroso José Verea Montero,Praza de Isaac Día Pardo 2,Oroso,A Coruña,15688,981690903,ESMU,42.9688529968262,-8.44178485870361,Pública,Non,Non
+15032984,CPREX Coruña British School,Rúa Roma 1,A Coruña,A Coruña,15008,,CPREX,43.3238639831543,-8.40652942657471,Privada,Non,Non
+15033009,ESDA Municipal de Ponteceso,Rúa Teresa Mosqueira Manso 2,Ponteceso,A Coruña,15110,,ESDA,43.240665435791,-8.89181232452393,Pública,Non,Non
+15033010,CAD Top Rescue,Rúa Gambrinus 151 Módulo 0 Nave 3,A Coruña,A Coruña,15008,981977120,CAD,43.352466583252,-8.4300651550293,Privada,Non,Non
+15033022,CAD Federación Galega de Judo,Rúa Sebastian Martínez Risco 12,A Coruña,A Coruña,15009,981133758,CAD,43.3414001464844,-8.40184116363525,Privada,Non,Non
+15033034,CAD Manuel Peleteiro,Vía Monte Redondo s/n,Santiago de Compostela,A Coruña,15702,981591475,CAD,42.8516235351563,-8.53565120697022,Privada,Non,Non
+15033046,CPREX Montessori Compostela,Rúa de Sar (Colexiata de Sar) 68,Santiago de Compostela,A Coruña,15702,670203778,CPREX,42.8717727661133,-8.5370454788208,Privada,Non,Non
+15033058,CPREX Trisquel Compostela International School,Lugar  Silvouta,Santiago de Compostela,A Coruña,15896,665141664,CPREX,42.8710212707519,-8.6013355255127,Privada,Non,Non
+15033083,EMUSPR de Rianxo,Praza de Castelao (Casa da Cultura) s/n,Rianxo,A Coruña,15920,,EMUSPR,42.6526489257813,-8.81838417053223,Privada,Non,Non
+15033095,CEDA Danza 10 Studio,Rúa Gambrinus 95,A Coruña,A Coruña,15008,,CEDA,43.3518486022949,-8.42066478729248,Privada,Non,Non
+15033101,CEIP Plurilingüe de Outes,Praza de Galicia s/n,Outes,A Coruña,15230,881866840,CEIP,42.8405990600586,-8.90624141693115,Pública,Non,Si
+15033113,ESMU Municipal de Ames,"Rúa Costaneira (Urbanización Aldea Nova, edificio multiusos)",Ames,A Coruña,15220,,ESMU,-8.62915134399998,42.869995117,Pública,Non,Non
+15033125,CEMU Profesional Presto Vivace,"Rúa Benito Blanco Rajoy 8 baixo, esquerda",A Coruña,A Coruña,15009,981131545,CEMU,43.3544044494629,-8.40075969696045,Privada,Non,Non
+15033137,CPREX British Royal School,Rúa de Laxe 122-124,Culleredo,A Coruña,15174,,CPREX,43.3207092285156,-8.4060583114624,Privada,Non,Non
+15033149,CEIP Plurilingüe Vila de Rutis,Avenida de Rutis s/n,Culleredo,A Coruña,15174,881960920,CEIP,43.3122825622559,-8.3762845993042,Pública,Non,Si
+15033150,CPREX Semente Compostela,Lugar das Moas de Abaixo 20,Santiago de Compostela,A Coruña,15898,881024904,CPREX,-8.57776343799998,42.875299793,Privada,Non,Non
+15033162,ESMU Municipal de Negreira,Carreira de San Mauro 11,Negreira,A Coruña,15830,,ESMU,42.9091377258301,-8.73679542541504,Pública,Non,Non
+15033174,CPREX Pangea Active School,Camiño da Colina 18,Arteixo,A Coruña,15690,,CPREX,43.3055191040039,-8.42020320892334,Privada,Non,Non
+15033186,CEMU Profesional Estudio,Rúa Neira de Mosquera 7,Santiago de Compostela,A Coruña,15702,981561895,CEMU,42.8759765625,-8.54216480255127,Privada,Non,Non
+15033198,CRA A Tarandeira,Lugar Esfarrapa 52,Coristanco,A Coruña,15147,881880552,CRA,43.1812171936035,-8.74786758422852,Pública,Non,Si
+15033204,CEDA Profesional Druida,Rúa Fernando Macías 26 Baixo,A Coruña,A Coruña,15004,616087284,CEDA,43.3664283752441,-8.41318130493164,Privada,Non,Non
+15033216,CPREX Semente Trasancos,Aldea Roxal 36,Neda,A Coruña,15510,717779077,CPREX,43.4960594177246,-8.12310600280762,Privada,Non,Non
+15033228,CEIP Plurilingüe Novo Mesoiro,Rúa Fragas do Eume s/n,A Coruña,A Coruña,15190,881961235,CEIP,43.3244705200195,-8.43991661071777,Pública,Non,Si
+15033231,EMUSPR Rockschoolcenter,Rúa Neda 2,Narón,A Coruña,15570,686376253,EMUSPR,43.4909133911133,-8.20188140869141,Privada,Non,Non
+15033241,CAD Atletismo Galego,Avenida Che Guevara 121,Oleiros,A Coruña,15179,,CAD,-8.35759451500002,43.340478865,Privada,Non,Non
+15033253,CPR Fundación Laboral de la Construcción,Rúa Pontepedriña de Arriba 13,Santiago de Compostela,A Coruña,15705,981801555,CPR,-8.54919900300001,42.900420009,Privada,Non,Non
+15033265,CPR CFP Cesuga,Rúa Obradoiro 47,A Coruña,A Coruña,15190,981137346,CPR,-8.42741938500001,43.31935308,Privada,Non,Non
+15033277,CPR EF Educación Sanitaria,Avenida Arteixo 17-19 baixo,A Coruña,A Coruña,15004,,CPR,-8.41021606100003,43.36266637,Privada,Non,Non
+15033289,EMUSPR Escola de Música de As Pontes,Rúa Monte Caxado 8,As Pontes de García Rodríguez,A Coruña,15320,,EMUSPR,0.0,0.0,Privada,Non,Non
+15033290,CPR Cesforem Formación,Avenida Monelos 45 Baixo,A Coruña,A Coruña,15009,,CPR,-8.40336661700002,43.349125064,Privada,Non,Non

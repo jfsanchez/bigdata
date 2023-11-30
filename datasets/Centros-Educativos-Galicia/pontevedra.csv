@@ -1,0 +1,617 @@
+Código,Nome,Enderezo,Concello,Provincia,Cód. postal,Teléfono,Tipo de centro,COORDENADA_X,COORDENADA_Y,TITULARIDADE,ENSINO_CONCERTADO,DEPENDENTE
+36000031,CEIP Antonio Carpintero,"Rúa Miguel Davila, s/n (Consistorio)",Arbo,Pontevedra,36430,886110092,CEIP,42.1129989624023,-8.31356048583984,Pública,Non,Si
+36000181,CEIP Amor Ruibal,Perdecanai (Santa María),Barro,Pontevedra,36194,886151996,CEIP,42.5238609313965,-8.63722801208496,Pública,Non,Si
+36000247,CPI de Cova Terreña,Dolores Agrelo s/n,Baiona,Pontevedra,36300,886120001,CPI,42.1167030334473,-8.85274887084961,Pública,Non,Si
+36000302,CEP de Sabarís,"Avenida Doutor Fariñas, 26 (Sabarís)",Baiona,Pontevedra,36393,886110143,CEP,42.1082534790039,-8.82015514373779,Pública,Non,Si
+36000326,CEIP Plurilingüe Montemogos,Rúa Montemogos s/n,Bueu,Pontevedra,36937,886151115,CEIP,42.3256759643555,-8.80828952789307,Pública,Non,Si
+36000341,CEIP Plurilingüe A Pedra,Rúa A Pedra 26,Bueu,Pontevedra,36930,886159712,CEIP,42.320629119873,-8.78635597229004,Pública,Non,Si
+36000351,CPR Plurilingüe Virgen Milagrosa,Rúa Fontenla 55,Bueu,Pontevedra,36930,986320143,CPR,42.3247680664063,-8.78723907470703,Privada,Si,Non
+36000363,ESCO DE FP MARÍTIMO PESQUEIRA,Rúa Pazos Fontenla s/n,Bueu,Pontevedra,36930,986321143,ESCO,42.326904296875,-8.78140830993652,Pública,Non,Non
+36000375,CEIP Plurilingüe da Torre-Cela,A Torre 75,Bueu,Pontevedra,36939,886151111,CEIP,42.3280754089355,-8.75938320159912,Pública,Non,Si
+36000405,CPI Plurilingüe Alfonso VII,Rúa Jose Salgado 18,Caldas de Reis,Pontevedra,36650,886159005,CPI,42.6039505004883,-8.63724899291992,Pública,Non,Si
+36000417,CPR Plurilingüe San Fermín,Rúa Fermín Mosquera 2,Caldas de Reis,Pontevedra,36650,986540075,CPR,42.6041488647461,-8.64716243743897,Privada,Si,Non
+36000429,CPR Plurilingüe La Encarnación,Avenida Dolores Mosquera 4,Caldas de Reis,Pontevedra,36650,986540052,CPR,42.6060256958008,-8.64317226409912,Privada,Si,Non
+36000478,CEP Antonio Magariños Pastoriza,Avenida Vilariño 29,Cambados,Pontevedra,36630,886151181,CEP,42.5159378051758,-8.81164741516113,Pública,Non,Si
+36000481,IES Ramón Cabanillas,Avenida Rosalía Castro s/n,Cambados,Pontevedra,36630,886151913,IES,42.5192909240723,-8.81097602844238,Pública,Non,Si
+36000508,CEIP Plurilingüe de Castrelo,Rúa A BOUZA 96,Cambados,Pontevedra,36639,886151171,CEIP,42.4804992675781,-8.80734443664551,Pública,Non,Si
+36000569,CPR Salesianos A Mercé,Serantellos 1,Cambados,Pontevedra,36639,986542750,CPR,42.4897727966309,-8.80251598358154,Privada,Si,Non
+36000648,CEIP Plurilingüe Enrique Barreiro Piñeiro,Rúa Sineiro,Cambados,Pontevedra,36633,886151188,CEIP,42.5181045532226,-8.79263496398926,Pública,Non,Si
+36000685,CEIP Plurilingüe Pedro Antonio Cerviño,A Lagoa,Campo Lameiro,Pontevedra,36110,886151205,CEIP,42.542350769043,-8.54333686828613,Pública,Non,Si
+36000831,CPR Plurilingüe Sagrada Familia,Avenida Xose Graña 44,Cangas,Pontevedra,36945,986329575,CPR,42.2810478210449,-8.81935024261475,Privada,Si,Non
+36000843,EMUSPR Agrupación Musical do Rosal,Rúa Couso s/n - Auditorio do Concello,O Rosal,Pontevedra,36770,986626130,EMUSPR,41.9351463317871,-8.83549022674561,Privada,Non,Non
+36000867,EMUSPR Atlántida,"Rúa dos Canteiros, 53 - Matama",Vigo,Pontevedra,36213,986236389,EMUSPR,42.2012214660644,-8.73391628265381,Privada,Non,Non
+36000879,CEIP Nazaret,Rúa REAL-NAZARET s/n,Cangas,Pontevedra,36940,886120344,CEIP,42.2649421691894,-8.7860918045044,Pública,Non,Si
+36000910,CPR Plurilingüe Casa de la Virgen,Rúa Rodeira 12,Cangas,Pontevedra,36940,986392313,CPR,42.2612953186035,-8.7660493850708,Privada,Si,Non
+36000922,IES María Soliño,Monte Carrasco 3,Cangas,Pontevedra,36940,886120012,IES,42.2775192260742,-8.79150199890137,Pública,Non,Si
+36000934,CEIP Plurilingüe do Castrillón-Coiro,Rúa O Castrillón s/n,Cangas,Pontevedra,36947,886110172,CEIP,42.2748069763184,-8.77177810668945,Pública,Non,Si
+36001008,CPR Plurilingüe Compañía de María,"Rúa Enseñanza, 19 - Cima de Vila",Cangas,Pontevedra,36940,986300580,CPR,42.267894744873,-8.78725528717041,Privada,Si,Non
+36001033,CEIP Plurilingüe de San Roque de Darbo,Rúa San Roque Darbo,Cangas,Pontevedra,36940,886120954,CEIP,42.2565002441406,-8.79510307312012,Pública,Non,Si
+36001057,CEIP do Hío,Rúa Antonio Graña 27,Cangas,Pontevedra,36948,886110182,CEIP,42.2666320800781,-8.8254976272583,Pública,Non,Si
+36001148,CPI da Cañiza,Acceso o Parque s/n,A Cañiza,Pontevedra,36880,886120020,CPI,42.2185020446777,-8.28129768371582,Pública,Non,Si
+36001240,EEI de Dimo,Dimo (San Pedro),Catoira,Pontevedra,36612,636456887,EEI,42.6692008972168,-8.69542121887207,Pública,Non,Si
+36001252,CPI do Progreso,"Paseo das Lombas, 2 (O Progreso)",Catoira,Pontevedra,36612,886159201,CPI,42.6706008911133,-8.72296237945557,Pública,Non,Si
+36001343,CEIP Plurilingüe San Xoán Bautista,"Rúa das Longas, 23 (Cerdedo)",Cerdedo-Cotobade,Pontevedra,36139,986753053,CEIP,42.533561706543,-8.38903713226318,Pública,Non,Si
+36001550,CEIP Plurilingüe de Carballedo,Cuqueira s/n,Cerdedo-Cotobade,Pontevedra,36856,886151213,CEIP,42.4747200012207,-8.47629642486572,Pública,Non,Si
+36001562,EMUSPR Unión de Guláns,O Casal 31,Ponteareas,Pontevedra,36861,986661197,EMUSPR,42.1543045043945,-8.53880214691162,Privada,Non,Non
+36001665,CEIP Plurilingüe de Tenorio,O Rio Tenorio,Cerdedo-Cotobade,Pontevedra,36120,886151217,CEIP,42.4626502990723,-8.5607328414917,Pública,Non,Si
+36001690,CEIP Antonio Blanco Rodríguez,Rúa Lamela 6,Covelo,Pontevedra,36872,886110389,CEIP,42.2310371398926,-8.36544418334961,Pública,Non,Si
+36001707,CEIP Plurilingüe Manuel Sieiro,Estrada GARCIA NEIRA 23,Crecente,Pontevedra,36420,886110194,CEIP,42.1474418640137,-8.22365188598633,Pública,Non,Si
+36001975,CEIP Plurilingüe Pío Cabanillas Gallas,Rúa O Castro,Dozón,Pontevedra,36518,986780472,CEIP,42.5683212280273,-8.04797077178955,Pública,Non,Si
+36002220,CEIP Cabada Vázquez,Codeseda (San Xurxo),A Estrada,Pontevedra,36684,886151042,CEIP,42.6177787780762,-8.44496059417725,Pública,Non,Si
+36002323,CPR Plurilingüe Nuestra Señora de Lourdes,Rúa do Cruceiro 32,A Estrada,Pontevedra,36680,986570874,CPR,42.6913681030273,-8.49327754974365,Privada,Si,Non
+36002335,IES Manuel García Barros,Rúa da Cultura s/n,A Estrada,Pontevedra,36681,886152100,IES,-8.50390338900002,42.692512512,Pública,Non,Si
+36002347,CEIP Pérez Viondi,Rúa PEREZ VIONDI 46,A Estrada,Pontevedra,36680,886151028,CEIP,42.6870880126953,-8.4915885925293,Pública,Non,Si
+36002359,IES Plurilingüe Antón Losada Diéguez,Rúa da Cultura s/n,A Estrada,Pontevedra,36680,886151924,IES,42.6928901672363,-8.50511169433594,Pública,Non,Si
+36002773,CEIP do Foxo,Rúa Foxo s/n,A Estrada,Pontevedra,36686,886151046,CEIP,42.7044486999512,-8.40884780883789,Pública,Non,Si
+36003111,CEIP Nosa Señora das Dores,Rúa MALEITAS s/n,Forcarei,Pontevedra,36550,886151968,CEIP,42.5850601196289,-8.35513114929199,Pública,Non,Si
+36003170,CEIP de Soutelo de Montes,Soutelo de Montes,Forcarei,Pontevedra,36560,886151237,CEIP,42.5349426269531,-8.29500389099121,Pública,Non,Si
+36003388,CEIP Doutor Suárez,Rúa das Escolas 7,Fornelos de Montes,Pontevedra,36847,886151241,CEIP,42.341194152832,-8.45259475708008,Pública,Non,Si
+36003480,CEIP Plurilingüe de Agolada,Avenida do IRYDA (Agolada) 20,Agolada,Pontevedra,36520,886151078,CEIP,42.7617645263672,-8.02247619628906,Pública,Non,Si
+36003662,CEIP Plurilingüe Chano Piñeiro,Rúa Pousa de Fontan,Gondomar,Pontevedra,36388,886110233,CEIP,42.1126289367676,-8.7686357498169,Pública,Non,Si
+36003807,CEIP Rosalía de Castro,Rúa Rosalia de Castro 22,O Grove,Pontevedra,36980,886151434,CEIP,42.4924163818359,-8.86772632598877,Pública,Non,Si
+36003820,CPR Nuestra Señora del Carmen,Rúa Luis A.Mestre 31,O Grove,Pontevedra,36980,986732933,CPR,42.492015838623,-8.86599349975586,Privada,Non,Non
+36003832,CEIP Valle-Inclán,Ardia 14,O Grove,Pontevedra,36980,986735096,CEIP,42.480801,-8.860602,Pública,Non,Si
+36003959,CEIP Manuel Rodríguez Sinde,Rúa Tui 15,A Guarda,Pontevedra,36780,886110086,CEIP,41.899284362793,-8.87114810943604,Pública,Non,Si
+36003960,CPR Plurilingüe Padres Somascos,Rúa Pacifico Rodriguez 6,A Guarda,Pontevedra,36780,986610975,CPR,41.9018592834473,-8.87158203125,Privada,Si,Non
+36003996,CPR Plurilingüe San José,Camiño de Curras 2,A Guarda,Pontevedra,36780,986611165,CPR,41.9058151245117,-8.86615371704102,Privada,Si,Non
+36004095,CEIP Manuel Rivero,Rúa MARUJA GUTIÉRREZ,Lalín,Pontevedra,36500,986783936,CEIP,42.6577606201172,-8.10785007476807,Pública,Non,Si
+36004101,CEIP Xesús Golmar,Rúa E 9,Lalín,Pontevedra,36500,886151272,CEIP,42.6635398864746,-8.10663318634033,Pública,Non,Si
+36004113,CPR Plurilingüe Sagrado Corazón,Rúa Penatoares 1,Lalín,Pontevedra,36500,886448940,CPR,42.6639137268066,-8.10854816436768,Privada,Si,Non
+36004137,IES Ramón Mª Aller Ulloa,Rúa Banda de Música de Lalín 6,Lalín,Pontevedra,36500,986780114,IES,42.6639823913574,-8.10610103607178,Pública,Non,Si
+36004149,CEIP Xoaquín Loriga,Lugar Prado s/n,Lalín,Pontevedra,36512,986794016,CEIP,42.6807289123535,-8.18011379241943,Pública,Non,Si
+36004174,CEIP Plurilingüe Vicente Arias de la Maza,Lugar Vilatuxe s/n,Lalín,Pontevedra,36519,986783094,CEIP,42.6142158508301,-8.19298362731934,Pública,Non,Si
+36004460,CEIP de Ardán,Ardán (Santa María),Marín,Pontevedra,36912,886151331,CEIP,42.3497276306152,-8.74531078338623,Pública,Non,Si
+36004472,CEIP Plurilingüe do Carballal,"Viñas Blancas, s/n (O Carballal)",Marín,Pontevedra,36915,886151357,CEIP,42.383243560791,-8.6890983581543,Pública,Non,Si
+36004484,CEIP Plurilingüe da Laxe,Rúa REPUBLICA ARXENTINA 40,Marín,Pontevedra,36900,886151345,CEIP,42.3885231018066,-8.69420528411865,Pública,Non,Si
+36004496,CEIP de Sequelo-Marín,Rúa ENRIQUE TURRALL s/n,Marín,Pontevedra,36900,886151325,CEIP,42.384593963623,-8.7008113861084,Pública,Non,Si
+36004514,CPR Plurilingüe La Inmaculada,Rúa A Estrada 8,Marín,Pontevedra,36900,986881076,CPR,42.3917236328125,-8.70019721984863,Privada,Si,Non
+36004526,CPR Plurilingüe San Narciso,Lugar CHAN DO MONTE 27,Marín,Pontevedra,36900,986881408,CPR,42.3893089294434,-8.70812797546387,Privada,Si,Non
+36004551,IES Illa de Tambo,Rúa da Estrada,Marín,Pontevedra,36900,986880158,IES,-8.69913387299999,42.391025543,Pública,Non,Si
+36004681,CEIP de Seixo,Seixo (Nosa Señora Do Carme),Marín,Pontevedra,36913,886151350,CEIP,42.3673439025879,-8.72928142547607,Pública,Non,Si
+36004691,CEIP de Coirón-Dena,Rúa dos Colexios,Meaño,Pontevedra,36967,886151374,CEIP,42.4559173583984,-8.81219387054443,Pública,Non,Si
+36004708,CPI de Mosteiro-Meis,Mosteiro,Meis,Pontevedra,36637,886151379,CPI,42.5188446044922,-8.70535564422607,Pública,Non,Si
+36004711,CEIP Plurilingüe Domaio,Rúa Verdeal 23,Moaña,Pontevedra,36957,886110278,CEIP,42.2940826416016,-8.67889976501465,Pública,Non,Si
+36004733,CEIP Plurilingüe de Reibón,"Xunqueira, 17 (Reibon)",Moaña,Pontevedra,36955,886120348,CEIP,42.2884826660156,-8.72841358184815,Pública,Non,Si
+36004745,IES Plurilingüe A Paralaia,Lugar O Redondo s/n,Moaña,Pontevedra,36950,886120354,IES,42.2940940856934,-8.73534297943115,Pública,Non,Si
+36004927,CPI de Mondariz,Avenida Grupo Escolar 39,Mondariz,Pontevedra,36870,886110291,CPI,42.2358436584473,-8.45404815673828,Pública,Non,Si
+36005087,CEIP Mondariz-Balneario,Rúa da Constitucion 21,Mondariz-Balneario,Pontevedra,36890,886110310,CEIP,42.224006652832,-8.47204399108887,Pública,Non,Si
+36005129,EFOG Divino Maestro,Rúa Calvo Sotelo 4,Mondariz-Balneario,Pontevedra,36890,-,EFOG,42.2253074645996,-8.46968650817871,Pública,Non,Si
+36005142,CPI Plurilingüe Santa Lucía,Rúa Sete 34,Moraña,Pontevedra,36660,886159528,CPI,42.5854454040527,-8.58718872070313,Pública,Non,Si
+36005245,CEIP Mestre Martínez Alonso,Rúa Castro 50,Mos,Pontevedra,36415,886110315,CEIP,42.1997413635254,-8.60581016540527,Pública,Non,Si
+36005427,CPR Plurilingüe Lar,Camiño Eido San Antonio 3,Mos,Pontevedra,36416,986487792,CPR,-8.659827232,42.20646286,Privada,Si,Non
+36005555,CEIP Marquesa do Pazo da Mercé,Ctra Circunvalación 64,As Neves,Pontevedra,36440,886110114,CEIP,42.0852966308594,-8.41354179382324,Pública,Non,Si
+36005622,EEI de Rubiós,O Couto,As Neves,Pontevedra,36449,649390956,EEI,42.110912322998,-8.42236518859863,Pública,Non,Si
+36005658,EEI de Taboexa,As Barreiras,As Neves,Pontevedra,36448,689561152,EEI,42.1357307434082,-8.43649959564209,Pública,Non,Si
+36005671,EFAG A Cancela,Rúa Tortoreos s/n,As Neves,Pontevedra,36449,986648250,EFAG,42.0974617004394,-8.42392253875732,Privada,Si,Non
+36005774,CEIP Plurilingüe Humberto Juanes,"Rúa Curros Enriquez, 2 (Vilamean)",Nigrán,Pontevedra,36350,886110377,CEIP,42.1409187316894,-8.80766582489014,Pública,Non,Si
+36005865,CPI Plurilingüe Arquitecto Palacios,Camiño dos Lagos 1,Nigrán,Pontevedra,36340,986365963,CPI,42.1460609436035,-8.82310962677002,Pública,Non,Si
+36005919,CPR Plurilingüe Ángel de la Guarda,Priegue (San Mamede),Nigrán,Pontevedra,36391,986368073,CPR,42.1657829284668,-8.79677772521973,Privada,Si,Non
+36005956,CEIP Carlos Casares,"Rúa PP Franciscanos, 40 (As Tomadas)",Nigrán,Pontevedra,36379,886110382,CEIP,42.1178245544434,-8.79230213165283,Pública,Non,Si
+36006067,CEIP Mestre Manuel García,Camiño do Fial 23,Oia,Pontevedra,36794,886110488,CEIP,42.0063209533691,-8.87670516967773,Pública,Non,Si
+36006079,CPI Curros Enríquez,Lugar Pazos 25,Pazos de Borbén,Pontevedra,36841,886110501,CPI,42.2931213378906,-8.53290557861328,Pública,Non,Si
+36006109,CEIP de Parada-Campañó,Parada,Pontevedra,Pontevedra,36157,886151601,CEIP,42.4598579406738,-8.6542558670044,Pública,Non,Si
+36006122,CEIP A Xunqueira Nº 1,Rúa Celso Emilio Ferreiro 2,Pontevedra,Pontevedra,36005,886159029,CEIP,42.4378890991211,-8.63931560516357,Pública,Non,Si
+36006134,CEIP Plurilingüe San Benito de Lérez,Lugar O Cruceiro 57,Pontevedra,Pontevedra,36156,886151564,CEIP,42.4523811340332,-8.63142967224121,Pública,Non,Si
+36006195,CEIP A Carballeira,Lugar A Camboa 10,Pontevedra,Pontevedra,36910,886151574,CEIP,42.400089263916,-8.6838903427124,Pública,Non,Si
+36006237,"CPR Plurilingüe Sagrado Corazón de Jesús, Placeres",Rúa da Praia (Os Placeres) 8,Pontevedra,Pontevedra,36910,986881349,CPR,42.407413482666,-8.68435478210449,Privada,Si,Non
+36006316,CEIP Daría González García,Avenida Montecelo 18,Pontevedra,Pontevedra,36161,986804135,CEIP,42.4243049621582,-8.615647315979,Pública,Non,Non
+36006353,CEIP de Vilaverde-Mourente,Rúa Villaverde 9,Pontevedra,Pontevedra,36164,886159034,CEIP,42.4309768676758,-8.6203088760376,Pública,Non,Si
+36006377,CEIP Álvarez Limeses,Rúa Joaquin Costa 13,Pontevedra,Pontevedra,36001,986851780,CEIP,42.4290237426758,-8.64069366455078,Pública,Non,Si
+36006390,CEIP Manuel Vidal Portela,Avenida de Buenos Aires s/n,Pontevedra,Pontevedra,36002,886151937,CEIP,42.43310546875,-8.63803768157959,Pública,Non,Si
+36006407,CEIP Plurilingüe Froebel,Rúa Martitegui 3,Pontevedra,Pontevedra,36002,886159531,CEIP,42.4323921203613,-8.65006542205811,Pública,Non,Si
+36006419,CIFP Montecelo,Avenida Montecelo 16,Pontevedra,Pontevedra,36161,986850261,CIFP,-8.618345261,42.426506042,Pública,Non,Si
+36006420,CEP Campolongo,Rúa Xeneral Rubín 3,Pontevedra,Pontevedra,36001,886151513,CEP,42.4277839660644,-8.64556217193604,Pública,Non,Si
+36006432,CPR Colegio Juan Sebastián Elcano,Rúa Rosalía de Castro 66,Pontevedra,Pontevedra,36001,986863395,CPR,42.4257125854492,-8.65144538879395,Privada,Non,Non
+36006456,CEEPR Juan XXIII,Rúa Eduardo Blanco Amor 66,Pontevedra,Pontevedra,36003,986855018,CEEPR,42.4208755493164,-8.64675045013428,Privada,Si,Non
+36006511,Cen. Pub. Casa Tut. Menores Avelino Montero,Avenida de Vigo 20,Pontevedra,Pontevedra,36005,986844862,Cen. Pub.,42.4257774353027,-8.64016056060791,Pública,Non,Non
+36006641,CPR Plurilingüe Calasancio,Rúa Blanco Porto 15,Pontevedra,Pontevedra,36001,986850941,CPR,42.4283828735351,-8.63932514190674,Privada,Si,Non
+36006675,CPR San José,Rúa Princesa 1,Pontevedra,Pontevedra,36002,986861990,CPR,42.4330787658691,-8.64581966400147,Privada,Si,Non
+36006699,CPR Plurilingüe Sagrado Corazón de Jesús,Rúa A Estrada 24,Pontevedra,Pontevedra,36004,986856350,CPR,42.4271926879883,-8.6296329498291,Privada,Si,Non
+36006705,CPR Plurilingüe Ntra. Sra. de los Dolores,Rúa Alfonso XIII 2-12,Pontevedra,Pontevedra,36002,986856650,CPR,42.4324378967285,-8.65164661407471,Privada,Si,Non
+36006717,IES Sánchez Cantón,Avenida Raíña Vitoria Uxía,Pontevedra,Pontevedra,36001,886159039,IES,42.4288330078125,-8.6485767364502,Pública,Non,Si
+36006729,IES Valle-Inclán,Gran Vía de Montero Ríos s/n,Pontevedra,Pontevedra,36001,986866448,IES,42.4312591552734,-8.64737987518311,Pública,Non,Si
+36006730,IES Frei Martín Sarmiento,Avenida DE VIGO 23,Pontevedra,Pontevedra,36003,986852654,IES,-8.63976573899998,42.425773621,Pública,Non,Si
+36006778,CEIP de Ponte Sampaio,Rúa A Xunqueira 12,Pontevedra,Pontevedra,36690,886151613,CEIP,42.3457527160644,-8.60254287719727,Pública,Non,Si
+36006833,CEIP San Martiño,Lugar Igrexa-Salcedo 18,Pontevedra,Pontevedra,36143,886151541,CEIP,42.41357421875,-8.64889049530029,Pública,Non,Si
+36006973,CPR Plurilingüe Hermanos Quiroga Rodríguez,Rúa Antonio Palacios s/n,O Porriño,Pontevedra,36400,986330689,CPR,42.1609230041504,-8.61446189880371,Privada,Si,Non
+36006997,CPR Plurilingüe Santo Tomás,"A Florida, Torneiros",O Porriño,Pontevedra,36410,986337614,CPR,42.1617431640625,-8.6373462677002,Privada,Si,Non
+36007011,IES Pino Manso,Rúa Antonio Palacios 76,O Porriño,Pontevedra,36400,886110392,IES,42.1597595214844,-8.61379623413086,Pública,Non,Si
+36007023,CEIP Plurilingüe Xosé Fernández López,Rúa Doantes de Sangue 1,O Porriño,Pontevedra,36400,886110433,CEIP,42.1590461730957,-8.61310958862305,Pública,Non,Si
+36007035,CPI Domingo Fontán,Rapeira 9,Portas,Pontevedra,36658,886151632,CPI,42.5797233581543,-8.6557674407959,Pública,Non,Si
+36007060,CEIP Plurilingüe de Chancelas,Rúa Xunqueira s/n,Poio,Pontevedra,36993,886151469,CEIP,42.4242248535156,-8.7124834060669,Pública,Non,Si
+36007199,CEIP Plurilingüe Isidora Riestra,Rúa Camiño da Reiboa 10,Poio,Pontevedra,36995,886151450,CEIP,42.440071105957,-8.689377784729,Pública,Non,Si
+36007242,CEIP de Viñas,Viñas 2,Poio,Pontevedra,36163,886151473,CEIP,42.4330787658691,-8.66464996337891,Pública,Non,Si
+36007370,CEIP Plurilingüe Feliciano Barrera,O Casal,Ponteareas,Pontevedra,36861,886110585,CEIP,42.154369354248,-8.54315662384033,Pública,Non,Si
+36007497,CEIP Plurilingüe Nosa Señora dos Remedios,Rúa Azorin s/n,Ponteareas,Pontevedra,36860,886110532,CEIP,42.1711540222168,-8.50517082214356,Pública,Non,Si
+36007515,CPR Plurilingüe Santiago Apóstol,Avenida Castelao 45,Ponteareas,Pontevedra,36860,986640112,CPR,42.1741256713867,-8.50963973999023,Privada,Si,Non
+36007527,CPR Plurilingüe La Inmaculada,Rúa AMADO GARRA 2,Ponteareas,Pontevedra,36860,986640065,CPR,42.1731834411621,-8.50543975830078,Privada,Si,Non
+36007539,CEIP Fermín Bouza Brey,Avenida Bouza Brey 15,Ponteareas,Pontevedra,36860,886110568,CEIP,42.1695556640625,-8.50618362426758,Pública,Non,Si
+36007552,CIFP A Granxa,"Rúa Areas, s/n (Apdo. 7)",Ponteareas,Pontevedra,36860,886120880,CIFP,42.1810302734375,-8.51991748809815,Pública,Non,Si
+36007591,CEIP Manuel Cordo Boullosa,Rúa Concepcion Areal,Ponte Caldelas,Pontevedra,36820,886151498,CEIP,42.3881607055664,-8.50309276580811,Pública,Non,Si
+36007621,CPI de Pontecesures,Rúa Avelino Pousa Antelo 2,Pontecesures,Pontevedra,36640,886151501,CPI,42.721622467041,-8.64965152740479,Pública,Non,Si
+36007631,CEIP Plurilingüe de Porto Cabeiro,Estrada Porto Cabeiro 5,Redondela,Pontevedra,36815,886110674,CEIP,42.2462921142578,-8.63039875030518,Pública,Non,Si
+36007643,CEIP Plurilingüe Outeiro das Penas,Estrada de Cesantes 22,Redondela,Pontevedra,36693,886120381,CEIP,42.3079566955566,-8.60552597045898,Pública,Non,Si
+36007709,CEIP Plurilingüe de Reboreda,Camiño do Colexio de Reboreda 3,Redondela,Pontevedra,36818,886110662,CEIP,42.2886543273926,-8.59669971466065,Pública,Non,Si
+36007710,CEP Plurilingüe Santa Mariña,Rúa MARISMA 2,Redondela,Pontevedra,36800,886110629,CEP,42.2885475158691,-8.60982513427734,Pública,Non,Si
+36007734,IES Mendiño,Avenida MENDIÑO 40,Redondela,Pontevedra,36693,886110590,IES,42.2912635803223,-8.61148357391357,Pública,Non,Si
+36007813,CPI Julia Becerra Malvar,Rúa Joaquín García Álvarez 4 - 6,Ribadumia,Pontevedra,36636,886151636,CPI,42.5027923583984,-8.77093124389648,Pública,Non,Si
+36008155,CPI Plurilingüe de Rodeiro,Rúa B 14,Rodeiro,Pontevedra,36530,986790028,CPI,42.6485328674316,-7.94556665420532,Pública,Non,Si
+36008489,CEP Altamira,Rúa Rosalía de Castro 11,Salceda de Caselas,Pontevedra,36470,886110687,CEP,42.1020584106445,-8.56204032897949,Pública,Non,Si
+36008751,CEIP Plurilingüe Infante Felipe de Borbón,"Rúa da Escola, s/n",Salvaterra de Miño,Pontevedra,36450,886110717,CEIP,42.0845794677734,-8.50447368621826,Pública,Non,Si
+36008805,CEIP Plurilingüe de Portonovo,"Rúa Areal, 5 (Portonovo)",Sanxenxo,Pontevedra,36970,886151672,CEIP,42.3958396911621,-8.82749271392822,Pública,Non,Si
+36008829,CEIP Magaláns-Dorrón,Dorrón (San Xoán),Sanxenxo,Pontevedra,36966,886151663,CEIP,42.4035339355469,-8.76681137084961,Pública,Non,Si
+36008866,CEIP Plurilingüe A Florida,Ricardo Santos 16,Sanxenxo,Pontevedra,36960,886151645,CEIP,42.4029693603516,-8.80053234100342,Pública,Non,Si
+36008878,CEIP Plurilingüe Cruceiro,Rúa Revel s/n,Sanxenxo,Pontevedra,36990,886151687,CEIP,-8.835733414,42.443916321,Pública,Non,Si
+36009032,CEIP Ramón de Valenzuela,Rúa Devesa 6,Silleda,Pontevedra,36570,886151718,CEIP,42.726131439209,-8.30452060699463,Pública,Non,Si
+36009123,CPR Plurilingüe María Inmaculada,Rúa María  Colmeiro 4,Silleda,Pontevedra,36540,986580013,CPR,42.6966133117676,-8.2455415725708,Privada,Si,Non
+36009135,CEIP Plurilingüe de Silleda,Rúa Estrada da Estación 2,Silleda,Pontevedra,36540,886151696,CEIP,42.7027397155762,-8.24637603759766,Pública,Non,Si
+36009147,CPR Santiago Apostol,A Montesiña,Soutomaior,Pontevedra,36691,986700086,CPR,42.3369178771973,-8.58588027954102,Privada,Si,Non
+36009411,CEIP Pintor Antonio Fernández,Praza Pintor Antonio Fernández s/n,Tomiño,Pontevedra,36750,886110741,CEIP,41.9472351074219,-8.77338218688965,Pública,Non,Si
+36009494,CEIP Plurilingüe de Tebra,A Igrexa,Tomiño,Pontevedra,36746,886110732,CEIP,42.0416946411133,-8.73386192321777,Pública,Non,Si
+36009524,CEP Plurilingüe Pedro Caselles Beltrán,Estrada O Mosteiro,Tomiño,Pontevedra,36740,886110738,CEP,41.9875793457031,-8.74973487854004,Pública,Non,Si
+36009627,CPR Neuropsicopedagógico O Pelouro,Rúa Os Baños 81,Tui,Pontevedra,36460,986629024,CPR,42.055965423584,-8.56716156005859,Privada,Non,Non
+36009755,CEIP de Pazos de Reis,A Porteliña 7,Tui,Pontevedra,36715,886110805,CEIP,42.0567474365234,-8.65205192565918,Pública,Non,Si
+36009846,CEIP Plurilingüe Nº 1,Avenida Coengo Valiño,Tui,Pontevedra,36700,886110813,CEIP,42.0500602722168,-8.63902378082275,Pública,Non,Si
+36009883,CPR Seminario Menor Diocesano San Pelayo,Rúa Calvo Sotelo 4,Tui,Pontevedra,36700,986600051,CPR,42.0482940673828,-8.64334297180176,Privada,Non,Non
+36009895,CEIP Plurilingüe Nº 2,Avenida da Concordia s/n,Tui,Pontevedra,36700,886120057,CEIP,42.0516395568848,-8.64251041412354,Pública,Non,Si
+36009901,IES San Paio,Rúa Casal Aboy 11,Tui,Pontevedra,36700,886110762,IES,42.0513687133789,-8.64881896972656,Pública,Non,Si
+36009913,CEIP Plurilingüe de Baño-Xanza,Lugar Baño,Valga,Pontevedra,36645,886159054,CEIP,42.7047119140625,-8.65529537200928,Pública,Non,Si
+36009925,CPR Plurilingüe Amor de Dios,Avenida de Europa 21,Vigo,Pontevedra,36212,986240669,CPR,-8.75852870900002,42.2161026,Privada,Si,Non
+36009949,CEIP Plurilingüe Javier Sensat,"Rúa Javier Sensat, 8 (O Castañal)",Vigo,Pontevedra,36208,886120243,CEIP,42.2209358215332,-8.76210689544678,Pública,Non,Si
+36009962,CEIP Plurilingüe Otero Pedrayo,"Rúa Ramiro Pascual, 9 (Carneiras)",Vigo,Pontevedra,36213,886120257,CEIP,42.1951942443848,-8.71877193450928,Pública,Non,Si
+36009974,CEIP de Coutada-Beade,"Camiño do Alen, 6 (As Coutadas)",Vigo,Pontevedra,36312,886111196,CEIP,42.1925392150879,-8.70180416107178,Pública,Non,Si
+36009998,CEIP de Mosteiro-Bembrive,"Estrada de Bembrive, 161 (Mosteiro) 161",Vigo,Pontevedra,36214,886120216,CEIP,-8.69103527099998,42.206203461,Pública,Non,Si
+36010009,CEIP Virxe do Rocío,Rúa Rocio 70,Vigo,Pontevedra,36208,886120862,CEIP,42.220043182373,-8.75220584869385,Pública,Non,Si
+36010071,CEIP Plurilingüe Santa Mariña,"Rúa do Xalon, s/n (Becerreira)",Vigo,Pontevedra,36318,886120175,CEIP,42.2207565307617,-8.65460586547852,Pública,Non,Si
+36010083,CEIP Plurilingüe Carballal-Cabral,Rúa Lomba 1,Vigo,Pontevedra,36318,886120124,CEIP,42.2349014282226,-8.64806365966797,Pública,Non,Si
+36010095,CPR Martín Códax,Avenida Aeroporto 734,Vigo,Pontevedra,36318,986288095,CPR,42.2290954589844,-8.63537693023682,Privada,Si,Non
+36010101,CEIP Plurilingüe O Sello,"Rúa Sardomela, 5 (O Sello)",Vigo,Pontevedra,36215,886120268,CEIP,-8.66881561299999,42.221694946,Pública,Non,Si
+36010125,CEIP de Fonte Escura,Primeira Trav. de Barreiro 34,Vigo,Pontevedra,36317,886120130,CEIP,42.2282218933105,-8.67543792724609,Pública,Non,Si
+36010137,CEIP da Igrexa-Candeán,Rúa San Cristovo 131,Vigo,Pontevedra,36317,886120037,CEIP,42.2416648864746,-8.66798114776611,Pública,Non,Si
+36010150,CEIP Mestres Goldar,Rúa A COSTA 4,Vigo,Pontevedra,36213,886120095,CEIP,42.2137680053711,-8.72286415100098,Pública,Non,Si
+36010162,CEIP A Canicouva,Rúa Canicouva 22,Vigo,Pontevedra,36213,886120237,CEIP,42.2095222473145,-8.72989749908447,Pública,Non,Si
+36010204,CEIP Plurilingüe Párroco Don Camilo,Estrada Matama-Pazo 104,Vigo,Pontevedra,36213,886120222,CEIP,42.201057434082,-8.75359725952148,Pública,Non,Si
+36010216,CPR Plurilingüe Divino Salvador,Estrada ó Bao 49,Vigo,Pontevedra,36330,986490320,CPR,42.1942138671875,-8.77884292602539,Privada,Si,Non
+36010228,CEIP A Paz,Estrada FRAGOSELO 42,Vigo,Pontevedra,36330,886120271,CEIP,42.1881904602051,-8.77304077148438,Pública,Non,Si
+36010241,CEIP Illas Cíes,Avenida de Castelao 59,Vigo,Pontevedra,36209,886120111,CEIP,42.2175636291504,-8.74430751800537,Pública,Non,Si
+36010253,CEEPR Fogar e Clin. San Rafael,Rúa San Juan de Dios 1,Vigo,Pontevedra,36208,986232740,CEEPR,42.2229766845703,-8.74658203125,Privada,Si,Non
+36010265,EEI Cristo da Victoria,Rúa Caldas de Reis 11,Vigo,Pontevedra,36209,886120205,EEI,42.2163124084473,-8.750807762146,Pública,Non,Si
+36010356,CPR Plurilingüe Escuelas Nieto,"Avenida Ramon Nieto, 247 - Lavadores",Vigo,Pontevedra,36205,986372481,CPR,42.2296676635742,-8.68655872344971,Privada,Si,Non
+36010423,CEIP Valle-Inclán,Rúa Lavadores 16,Vigo,Pontevedra,36214,886120202,CEIP,42.2233047485351,-8.69966316223145,Pública,Non,Si
+36010435,CPR Plurilingüe El Castro,"Gran Via, 171-173",Vigo,Pontevedra,36210,986481762,CPR,42.2215919494629,-8.72747802734375,Privada,Si,Non
+36010459,CEIP Josefa Alonso de Alonso,Rúa Manuel Cominges 14,Vigo,Pontevedra,36213,886120246,CEIP,42.1996688842773,-8.73780250549316,Pública,Non,Si
+36010460,CEIP Alfonso D. Rodríguez Castelao,Rúa Pedra Seixa 35,Vigo,Pontevedra,36212,886120253,CEIP,42.2092552185059,-8.76084995269775,Pública,Non,Si
+36010472,CEIP Plurilingüe Ría de Vigo,"Avenida Cesareo Vazquez, 139 (Canido)",Vigo,Pontevedra,36390,886120101,CEIP,42.1876106262207,-8.80140495300293,Pública,Non,Si
+36010484,CEIP Eduardo Pondal,"Rúa Rosal Florido, 24 (Sampaio)",Vigo,Pontevedra,36215,886120261,CEIP,42.2345352172851,-8.69056510925293,Pública,Non,Si
+36010538,CEIP Plurilingüe Lope de Vega,Rúa Emilia Pardo Bazán 119,Vigo,Pontevedra,36214,886111165,CEIP,42.2023429870606,-8.70748901367188,Pública,Non,Si
+36010587,CEIP de Sárdoma-Moledo,Estrada do Marco (Moledo) 30,Vigo,Pontevedra,36214,886120168,CEIP,42.207347869873,-8.70773124694824,Pública,Non,Si
+36010629,CEIP Vicente Risco,Rúa Santander 10,Vigo,Pontevedra,36207,886120185,CEIP,42.2461776733398,-8.70083904266357,Pública,Non,Si
+36010666,CEIP Plurilingüe San Salvador,Avenida de Galicia 181,Vigo,Pontevedra,36216,886120210,CEIP,42.2568435668945,-8.68516349792481,Pública,Non,Si
+36010678,CEIP Plurilingüe Paraixal,O Paraixal,Vigo,Pontevedra,36216,886120233,CEIP,42.2485466003418,-8.68552780151367,Pública,Non,Si
+36010691,CEP Plurilingüe Igrexa-Valadares,"Camiño Caseiro, s/n (A Igrexa)",Vigo,Pontevedra,36314,886111135,CEP,42.1740951538086,-8.72476387023926,Pública,Non,Si
+36010708,CEIP Emilia Pardo Bazán,Camiño do Chouzo 7,Vigo,Pontevedra,36208,886120078,CEIP,42.2233467102051,-8.73615264892578,Pública,Non,Si
+36010711,CEP Dr. Fleming,Rúa Ourense 15,Vigo,Pontevedra,36211,886120909,CEP,42.2261505126953,-8.72800922393799,Pública,Non,Si
+36010721,CEIP Plurilingüe Ramón y Cajal,Rúa Marques de Valterra 8,Vigo,Pontevedra,36202,886120065,CEIP,42.2339782714844,-8.73236465454102,Pública,Non,Si
+36010733,CEE Saladino Cortizo,Rúa Carballal 60,Vigo,Pontevedra,36318,986288188,CEE,42.238338470459,-8.63824558258057,Pública,Non,Si
+36010794,CPR Fillas de María Inmaculada,Avenida Vázquez Varela 57,Vigo,Pontevedra,36204,986423988,CPR,42.2292633056641,-8.7156982421875,Privada,Si,Non
+36010800,CPR Plurilingüe Niño Jesús de Praga,Rúa Areal 92,Vigo,Pontevedra,36201,986433800,CPR,42.2386360168457,-8.71339225769043,Privada,Si,Non
+36010824,CPR Plurilingüe Monterrey,"Montecelo Alto, 41-43",Vigo,Pontevedra,36207,986272047,CPR,42.2425727844238,-8.701735496521,Privada,Si,Non
+36010848,CPR Plurilingüe San Fernando,Baixada Salgueira 39,Vigo,Pontevedra,36204,986410174,CPR,42.2256164550781,-8.7162389755249,Privada,Si,Non
+36010897,CPR Santa Cristina,Rúa Portela 87,Vigo,Pontevedra,36214,986251309,CPR,42.2276000976562,-8.6975564956665,Privada,Si,Non
+36010903,CPR Plurilingüe Apostol Santiago,Sanjurjo Badia 79,Vigo,Pontevedra,36207,986371011,CPR,42.2449798583984,-8.70383739471436,Privada,Si,Non
+36010915,CPR Plurilingüe Atlántida,Rúa Rocio 7,Vigo,Pontevedra,36208,986233938,CPR,42.2200317382813,-8.75220584869385,Privada,Si,Non
+36010927,CPR Plurilingüe Alborada,Avenida Aeroporto 392,Vigo,Pontevedra,36317,986272432,CPR,42.2344589233398,-8.67034244537354,Privada,Si,Non
+36010939,CPR Plurilingüe Barreiro,"Estrada de Valadares, 78 - O Seixo",Vigo,Pontevedra,36314,986467800,CPR,42.1849021911621,-8.72236633300781,Privada,Si,Non
+36010976,CPR Plurilingüe Compañía de María,Rúa Ecuador 33-35,Vigo,Pontevedra,36203,986436400,CPR,42.2338371276856,-8.72057723999023,Privada,Si,Non
+36011099,CPR Plurilingüe Labor,Avenida das Camelias 53,Vigo,Pontevedra,36211,986414529,CPR,42.2297821044922,-8.73020744323731,Privada,Si,Non
+36011117,CPR Plurilingüe Losada,Rúa Baixada o Capitan 31,Vigo,Pontevedra,36214,986272229,CPR,42.2278671264648,-8.6918535232544,Privada,Si,Non
+36011142,CPR Plurilingüe María Auxiliadora,Rúa Venezuela 7,Vigo,Pontevedra,36203,986433855,CPR,42.2342109680176,-8.72371768951416,Privada,Si,Non
+36011166,CPR Plurilingüe María Inmaculada,Rúa Pi e Margall 58,Vigo,Pontevedra,36202,986229520,CPR,-8.73094368,42.232803345,Privada,Si,Non
+36011178,CPR Plurilingüe Miralba,Gran Via 164,Vigo,Pontevedra,36211,986213047,CPR,42.2215690612793,-8.7286376953125,Privada,Si,Non
+36011181,CPR Plurilingüe Mariano,Rúa URZAIZ 122,Vigo,Pontevedra,36205,986275168,CPR,42.2313003540039,-8.708664894104,Privada,Si,Non
+36011191,CPR Plurilingüe Montecastelo,Rúa Dr.Paz Pardo 84,Vigo,Pontevedra,36214,986412488,CPR,42.2146186828613,-8.69372844696045,Privada,Si,Non
+36011211,CPR Plurilingüe San Miguel 2,Rúa Tomas A. Alonso 13,Vigo,Pontevedra,36208,986293282,CPR,42.2235603332519,-8.73699855804443,Privada,Si,Non
+36011221,CPR Plurilingüe Padre Míguez,Rúa Montecelo 1,Vigo,Pontevedra,36207,986437723,CPR,42.2423439025879,-8.7062463760376,Privada,Si,Non
+36011257,CPR Plurilingüe El Pilar,Rúa Venezuela 20,Vigo,Pontevedra,36203,986420022,CPR,42.233283996582,-8.72219467163086,Privada,Si,Non
+36011270,CPR Plurilingüe Rosalía de Castro,Estrada de Bembrive 91,Vigo,Pontevedra,36214,986420433,CPR,42.2109107971191,-8.69435882568359,Privada,Si,Non
+36011300,CPR Plurilingüe San Blas - Vista Alegre,Subida ao Cemiterio  de Puxeiros 28,Vigo,Pontevedra,36318,986376288,CPR,42.2206535339355,-8.67025089263916,Privada,Si,Non
+36011312,CPR San Fermín,Travesa Vigo 96,Vigo,Pontevedra,36206,986272195,CPR,42.236946105957,-8.70312309265137,Privada,Si,Non
+36011348,CPR San Miguel,Rúa Tomás A. Alonso 13,Vigo,Pontevedra,36208,986221325,CPR,42.2348175048828,-8.72157859802246,Privada,Si,Non
+36011351,CPR Plurilingüe San José de Cluny,Rúa CARBALLO 46,Vigo,Pontevedra,36204,986493501,CPR,42.2237243652344,-8.71306133270264,Privada,Si,Non
+36011361,CPR Plurilingüe San José de la Guía,Rúa Dr. Corbal 25,Vigo,Pontevedra,36207,986376153,CPR,42.2505989074707,-8.69677829742432,Privada,Si,Non
+36011385,CPR Plurilingüe Ntra. Señora de la Esperanza,Rúa Cambeses 18,Vigo,Pontevedra,36214,986274994,CPR,42.2282638549805,-8.68405914306641,Privada,Si,Non
+36011491,CPR Plurilingüe Possumus,Rúa PURIFICACION SAAVEDRA 62,Vigo,Pontevedra,36207,986371330,CPR,42.2500457763672,-8.69930553436279,Privada,Si,Non
+36011518,CPR Plurilingüe Mercantil,Rúa TOMÁS ALONSO 56/58,Vigo,Pontevedra,36208,986233818,CPR,42.2247581481934,-8.73480701446533,Privada,Si,Non
+36011521,CPR Vivas,"Rúa Príncipe, 17 - Policarpo Sanz 20",Vigo,Pontevedra,36202,986227085,CPR,42.2372589111328,-8.72380924224854,Privada,Si,Non
+36011531,CPR Plurilingüe Alba,Esperanto 8,Vigo,Pontevedra,36204,986411810,CPR,42.2327651977539,-8.71019458770752,Privada,Si,Non
+36011567,IES Castelao,"Rúa Aragón, 22 (O Calvario)",Vigo,Pontevedra,36206,886111111,IES,42.2321739196777,-8.70139122009277,Pública,Non,Si
+36011579,IES A Guía,Avenida Dona Fermina 1,Vigo,Pontevedra,36207,886111003,IES,42.2536392211914,-8.69864940643311,Pública,Non,Si
+36011580,IES San Tomé de Freixeiro,Rúa Gran Vía 191,Vigo,Pontevedra,36210,986231667,IES,42.2204742431641,-8.73026180267334,Pública,Non,Si
+36011592,IES Santa Irene,Praza de América 7,Vigo,Pontevedra,36211,986233799,IES,42.2202301025391,-8.73215007781982,Pública,Non,Si
+36011609,CPR Colegio Hogar Afundación,Rúa FILIPINAS 6,Vigo,Pontevedra,36204,986414311,CPR,42.2271118164063,-8.71425437927246,Privada,Si,Non
+36011622,CPR Aloya,Rúa Couto 2,Vigo,Pontevedra,36203,986420722,CPR,42.2307167053223,-8.72261333465576,Privada,Si,Non
+36011634,IES Politécnico de Vigo,Rúa TORRECEDEIRA 88,Vigo,Pontevedra,36208,986213025,IES,42.2265930175781,-8.73507976531982,Pública,Non,Si
+36011750,CPR Plurilingüe Don Bosco,Rúa Estrada 5,Vigo,Pontevedra,36209,986231149,CPR,42.2204742431641,-8.74175071716309,Privada,Si,Non
+36011798,IES Alexandre Bóveda,Rúa Cuntis s/n,Vigo,Pontevedra,36209,986292812,IES,42.2152938842773,-8.75054454803467,Pública,Non,Si
+36011804,INSTITUTO Marítimo Pesqueiro do Atlántico,Rúa Beiramar 55,Vigo,Pontevedra,36202,886110825,INSTITUTO,42.233226776123,-8.73371124267578,Pública,Non,Non
+36011831,CPR Plurilingüe Las Acacias,Rúa PARROCHA 26,Vigo,Pontevedra,36214,986278016,CPR,42.2146415710449,-8.68748474121094,Privada,Si,Non
+36011853,CPR Daniel Castelao,Rúa Garcia Barbón 50 Baixo,Vigo,Pontevedra,36201,986442121,CPR,42.2368354797363,-8.71419048309326,Privada,Si,Non
+36011865,CPR Quiñones de León,"Travesa de Vigo, 36",Vigo,Pontevedra,36206,986278089,CPR,42.2340316772461,-8.70602703094482,Privada,Si,Non
+36012183,CEIP Plurilingüe Nosa Señora da Piedade,Rúa Xosé Neira Vilas,Vila de Cruces,Pontevedra,36590,886151752,CEIP,42.7921943664551,-8.16612911224365,Pública,Non,Si
+36012377,CEIP Plurilingüe de Cerdeiriñas,Piloño (Santa María),Vila de Cruces,Pontevedra,36586,886151760,CEIP,42.7970733642578,-8.26076602935791,Pública,Non,Si
+36012407,CEIP A Lomba,Rúa A XUNQUEIRA,Vilagarcía de Arousa,Pontevedra,36600,886151805,CEIP,42.5885467529297,-8.76779842376709,Pública,Non,Si
+36012419,CEIP Plurilingüe Arealonga,Rúa A Xunqueira (A Lomba),Vilagarcía de Arousa,Pontevedra,36600,886151840,CEIP,42.5881767272949,-8.76914978027344,Pública,Non,Si
+36012456,CPR Plurilingüe Sagrada Familia,Rúa Vista Alegre 2,Vilagarcía de Arousa,Pontevedra,36600,986500375,CPR,42.5927810668945,-8.76871013641357,Privada,Si,Non
+36012468,CPR Plurilingüe San Francisco,Rúa Edelmiro Trillo 15,Vilagarcía de Arousa,Pontevedra,36600,986501927,CPR,42.5945892333984,-8.7650785446167,Privada,Si,Non
+36012471,IES Castro Alobre,Rúa San Roque 25,Vilagarcía de Arousa,Pontevedra,36600,886151818,IES,42.5944938659668,-8.76112461090088,Pública,Non,Si
+36012584,CEIP Plurilingüe Rosalía de Castro,Rúa do Colexio 16,Vilagarcía de Arousa,Pontevedra,36610,886159060,CEIP,42.6152038574219,-8.76987934112549,Pública,Non,Si
+36012742,CEIP Plurilingüe de Vilaxoán,Rúa Cultura 4,Vilagarcía de Arousa,Pontevedra,36611,886151864,CEIP,42.5827102661133,-8.7850284576416,Pública,Non,Si
+36012869,EEI de Solobeira,Rúa da Escola 20,Vilagarcía de Arousa,Pontevedra,36619,986543410,EEI,42.549236,-8.757107,Pública,Non,Si
+36012985,CEIP Plurilingüe de Sestelo-Baión,Lugar Sestelo,Vilanova de Arousa,Pontevedra,36614,886151898,CEIP,42.5639381408691,-8.71687889099121,Pública,Non,Si
+36013011,CEIP da Torre-Illa,Rúa POMBAL 1,A Illa de Arousa,Pontevedra,36626,886151068,CEIP,42.561695098877,-8.86309146881104,Pública,Non,Si
+36013023,CEIP Plurilingüe de San Roque,Rúa SAN ROQUE DE CORON 112,Vilanova de Arousa,Pontevedra,36629,886151892,CEIP,42.5709381103516,-8.80450057983398,Pública,Non,Si
+36013059,CEIP de Viñagrande-Deiro,Rúa VIÑAGRANDE 65A,Vilanova de Arousa,Pontevedra,36627,886151901,CEIP,42.5415191650391,-8.81880474090576,Pública,Non,Si
+36013096,CEIP Plurilingüe de San Bartolomé,Rúa r/ Gombra 9,Vilanova de Arousa,Pontevedra,36628,886151402,CEIP,42.5379028320312,-8.76353931427002,Pública,Non,Si
+36013126,ESMU Municipal das Neves,Rúa Entrecines 10,As Neves,Pontevedra,36440,986648001,ESMU,42.0894393920898,-8.41937637329102,Pública,Non,Non
+36013311,EEI de Lantaño,Lantaño (San Pedro),Portas,Pontevedra,36658,673619767,EEI,42.571659,-8.680079,Pública,Non,Si
+36013333,EEI de Romai,Romai Vello,Portas,Pontevedra,36658,679054560,EEI,42.54689,-8.68201,Pública,Non,Si
+36013448,CIFP Manuel Antonio,"Avenida de Madrid, s/n - (Apartado 3138)",Vigo,Pontevedra,36214,886120750,CIFP,42.2148361206055,-8.68072414398193,Pública,Non,Si
+36013527,EEI de Lamas,O Souto,Moraña,Pontevedra,36660,986552122,EEI,42.596165,-8.580043,Pública,Non,Si
+36013539,EEI San Lourenzo de Moraña,A Espedregueira,Moraña,Pontevedra,36668,986552123,EEI,42.567902,-8.576578,Pública,Non,Si
+36013540,EEI de Amil,O Outeiro,Moraña,Pontevedra,36669,986538001,EEI,42.541191,-8.585306,Pública,Non,Si
+36013552,CEIP de Seara,"Seara, s/n (Reibon)",Moaña,Pontevedra,36950,886110252,CEIP,42.2885017395019,-8.73038673400879,Pública,Non,Si
+36013564,CEIP Plurilingüe Pena de Francia,A Igrexa,Mos,Pontevedra,36416,886110323,CEIP,42.2088241577148,-8.6447343826294,Pública,Non,Si
+36013576,CPI Manuel Suárez Marquier,A Cumieira de Arriba s/n,O Rosal,Pontevedra,36770,886120385,CPI,41.9305534362793,-8.83768558502197,Pública,Non,Si
+36013588,CPI do Toural,O Toural 34,Vilaboa,Pontevedra,36141,886151766,CPI,42.3598556518555,-8.63381099700928,Pública,Non,Si
+36013618,CEIP de Figueiroa,"Avenida de Santiago, 101 (Figueroa)",A Estrada,Pontevedra,36680,886151019,CEIP,42.6954460144043,-8.49866199493408,Pública,Non,Si
+36013692,IES Val do Tea,Rúa Feliciano Barrera 15,Ponteareas,Pontevedra,36860,886110513,IES,42.1738739013672,-8.49755382537842,Pública,Non,Si
+36013710,EEI do Vao,Camiño Bao de abaixo 21 1º,Poio,Pontevedra,36163,886212830,EEI,-8.64975859700002,42.441642352,Pública,Non,Si
+36013758,IES Laxeiro,Avenida Buenos Aires 71,Lalín,Pontevedra,36500,886151940,IES,42.6571884155273,-8.11208343505859,Pública,Non,Si
+36013761,IES A Xunqueira I,Rúa Alexandre Bóveda s/n,Pontevedra,Pontevedra,36005,886159721,IES,42.4367752075195,-8.63825798034668,Pública,Non,Si
+36013771,CIFP Fontecarmoa,Rúa Fontecarmoa 92,Vilagarcía de Arousa,Pontevedra,36600,886151956,CIFP,42.583625793457,-8.77201461791992,Pública,Non,Si
+36013795,CPR CEBEM,Vía Hispanidade 33,Vigo,Pontevedra,36203,986419899,CPR,42.2318077087402,-8.72865581512451,Privada,Si,Non
+36013801,CPR Sonrisas y Lágrimas,Rúa Entrecortiñas 17,A Illa de Arousa,Pontevedra,36626,986551296,CPR,42.5606231689453,-8.86880970001221,Privada,Si,Non
+36013837,EEI Fina Casalderrey,Rúa Reino Unido 18,Pontevedra,Pontevedra,36162,886151578,EEI,42.4462280273438,-8.62498760223389,Pública,Non,Si
+36013916,EEI de Donramiro,Rúa CAPELA 6,Lalín,Pontevedra,36500,886159566,EEI,42.6555824279785,-8.12052154541016,Pública,Non,Si
+36014209,CPR Plurilingüe Andersen Augalonga,Camiño Escola Andersen 28,Vigo,Pontevedra,36315,986469412,CPR,42.1615753173828,-8.72278022766113,Privada,Si,Non
+36014234,CPR Plurilingüe Atalaya - Cantabria,Rúa Cantabria 18,Vigo,Pontevedra,36205,986276012,CPR,42.2331123352051,-8.69656562805176,Privada,Si,Non
+36014313,CPR Radio ECCA,"Rúa Velazquez Moreno, 9- 1º",Vigo,Pontevedra,36201,986227315,CPR,42.2381286621094,-8.72184562683106,Privada,Non,Non
+36014325,EEI Rúa Aragón,Rúa Aragon 114,Vigo,Pontevedra,36206,986374278,EEI,42.2367553710937,-8.70044994354248,Pública,Non,Si
+36014362,EEI de Agro-Baredo,"Rúa Cancelo, 37 (O Agro)",Baiona,Pontevedra,36309,886110158,EEI,42.1051635742188,-8.87169647216797,Pública,Non,Si
+36014374,EEI O Areal,Rúa Areas 53,Baiona,Pontevedra,36393,886110152,EEI,42.1108169555664,-8.82918834686279,Pública,Non,Si
+36014428,IES Val Miñor,Rúa Paradellas 15,Nigrán,Pontevedra,36350,986366050,IES,42.1361541748047,-8.80078315734863,Pública,Non,Si
+36014489,CIFP A Xunqueira,Rúa Rafael Areses s/n,Pontevedra,Pontevedra,36005,886159860,CIFP,42.4362030029297,-8.63661098480225,Pública,Non,Si
+36014520,IES Plurilingüe Pedra da Auga,Rúa Feliciano Barrera s/n,Ponteareas,Pontevedra,36860,886121205,IES,42.1733512878418,-8.4970703125,Pública,Non,Si
+36014544,IES Indalecio Pérez Tizón,Avenida da Concordia s/n,Tui,Pontevedra,36700,886110749,IES,42.0509071350098,-8.64221000671387,Pública,Non,Si
+36014556,CEP Plurilingüe Santa Tegra-Teis,Rúa Maceiras 48,Vigo,Pontevedra,36207,886120228,CEP,42.2516860961914,-8.70033168792725,Pública,Non,Si
+36014568,CIFP Valentín Paz Andrade,Estrada Vella de Madrid 160,Vigo,Pontevedra,36214,886110857,CIFP,-8.68037319199999,42.218269348,Pública,Non,Si
+36014601,IES Álvaro Cunqueiro,Rúa O Porriño,Vigo,Pontevedra,36209,886111181,IES,42.2160186767578,-8.75289440155029,Pública,Non,Si
+36014611,CEIP A Lama,"Avenida do Concello, (A Pedreira) 24",A Lama,Pontevedra,36830,886159065,CEIP,42.3966178894043,-8.4431324005127,Pública,Non,Si
+36014672,CEIP Serra-Vincios,Lugar A Serra s/n,Gondomar,Pontevedra,36316,886120042,CEIP,42.1415290832519,-8.73512935638428,Pública,Non,Si
+36014684,EEI de Outeiro,Nespereira (San Martiño),Pazos de Borbén,Pontevedra,36817,886120060,EEI,42.254207611084,-8.58169746398926,Pública,Non,Si
+36014726,EEI A Marisma,Rúa A Marisma 3,Redondela,Pontevedra,36800,886110657,EEI,42.2889823913574,-8.61030101776123,Pública,Non,Si
+36014738,CEIP Plurilingüe de Leirado,Lugar Chan,Salvaterra de Miño,Pontevedra,36457,986657537,CEIP,42.1320037841797,-8.46126365661621,Pública,Non,Si
+36014763,EEI de Romariz,Soutomaior (San Salvador),Soutomaior,Pontevedra,36691,986705568,EEI,42.341667175293,-8.56612300872803,Pública,Non,Si
+36014775,CEIP Plurilingüe de Guillarei,A Gandara,Tui,Pontevedra,36720,886110801,CEIP,42.0766525268555,-8.62411022186279,Pública,Non,Si
+36014787,EEI Monte da Guía,Rúa Irmáns Misioneros dos enfermos pobres 37,Vigo,Pontevedra,36207,886120960,EEI,42.253059387207,-8.69866371154785,Pública,Non,Si
+36014799,EEI Vila Laura,Rúa Hispanidad 86,Vigo,Pontevedra,36203,986471410,EEI,42.2260513305664,-8.72691059112549,Pública,Non,Si
+36014817,CEIP Plurilingüe da Igrexa-Chapela,Camiño da Buraca 11,Redondela,Pontevedra,36320,886110668,CEIP,42.2641944885254,-8.66897964477539,Pública,Non,Si
+36014854,CEIP Plurilingüe de Oca,Oca (Santo Estevo),A Estrada,Pontevedra,36685,886151050,CEIP,-8.38478851399998,42.748008728,Pública,Non,Si
+36014866,CEIP Manuel Villar Paramá,Outeiro de Vea 6,A Estrada,Pontevedra,36683,886151055,CEIP,42.735237121582,-8.54198265075684,Pública,Non,Si
+36014878,CEIP Plurilingüe de Conmeniño,Meloxo s/n,O Grove,Pontevedra,36989,886151430,CEIP,42.4873542785644,-8.87442111968994,Pública,Non,Si
+36014881,CEIP Plurilingüe Alexandre Bóveda,Rúa ALEXANDRE BÓVEDA 12,Redondela,Pontevedra,36320,886120405,CEIP,42.270866394043,-8.66488361358643,Pública,Non,Si
+36014921,CEIP de Fontes-Baíña,As Fontes,Baiona,Pontevedra,36308,886151081,CEIP,42.1063003540039,-8.85898399353027,Pública,Non,Si
+36014945,CEIP de Valeixe,As Touzosas,A Cañiza,Pontevedra,36880,886110054,CEIP,42.1679344177246,-8.27915954589844,Pública,Non,Si
+36014970,CEIP Plurilingüe Varela Buxán,Núcleo Cercio,Lalín,Pontevedra,36596,886151263,CEIP,42.7543220520019,-8.1234302520752,Pública,Non,Si
+36014982,EEI O Grupo,Rúa CONCEPCIÓN ARENAL 40,Marín,Pontevedra,36900,986883151,EEI,42.3917388916016,-8.69753646850586,Pública,Non,Si
+36014994,EEI Concepción Crespo Rivas,Paseo de Valle Inclán s/n,Pontevedra,Pontevedra,36001,886151611,EEI,42.4270477294922,-8.6453447341919,Pública,Non,Si
+36015007,CEIP Plurilingüe de Cedeira,Estrada do Cruceiro 75,Redondela,Pontevedra,36812,886110671,CEIP,42.2767219543457,-8.6249532699585,Pública,Non,Si
+36015020,CEIP de Randufe,As Chans do Carrasco s/n,Tui,Pontevedra,36713,886110808,CEIP,42.0553588867188,-8.66784572601318,Pública,Non,Si
+36015032,CEIP de Chans-Bembrive,"Camiño do Lecer, s/n (As Chans)",Vigo,Pontevedra,36313,886111140,CEIP,42.1963920593262,-8.67645740509033,Pública,Non,Si
+36015044,EEI Monte do Alba,Camiño da Igrexa 133,Vigo,Pontevedra,36314,886120213,EEI,42.1754951477051,-8.72392749786377,Pública,Non,Si
+36015068,CEIP Balaídos,Rúa Pablo Iglesias 1,Vigo,Pontevedra,36210,886111084,CEIP,42.2110710144043,-8.74386405944824,Pública,Non,Si
+36015093,CEIP San Tomé,Rúa Olmos 20,Cambados,Pontevedra,36630,886151190,CEIP,42.5097160339355,-8.81266117095947,Pública,Non,Si
+36015101,IES da Cañiza,Oroso s/n,A Cañiza,Pontevedra,36880,886110001,IES,42.2159194946289,-8.26292514801025,Pública,Non,Si
+36015111,CPI Aurelio Marcelino Rey García,Rúa José Mª Lastra 3,Cuntis,Pontevedra,36670,886151222,CPI,42.6336097717285,-8.55991554260254,Pública,Non,Si
+36015135,CEIP A Sangriña,Paseo de Portugal 19,A Guarda,Pontevedra,36789,886110081,CEIP,41.9008979797363,-8.86268329620361,Pública,Non,Si
+36015159,IES Chan do Monte,Rúa Chan do Monte 23,Marín,Pontevedra,36911,886151275,IES,42.3894157409668,-8.70974445343018,Pública,Non,Si
+36015160,EEI As Dunas Panxón,"Rúa Gondomar, 9 (Gaifar)",Nigrán,Pontevedra,36340,986380120,EEI,42.1435089111328,-8.81814289093018,Pública,Non,Si
+36015172,CEIP A Xunqueira Nº 2,Rúa Alexandre Boveda s/n,Pontevedra,Pontevedra,36005,886159073,CEIP,42.4363479614258,-8.63730335235596,Pública,Non,Si
+36015184,IES Escolas Proval,Avenida Portugal 171,Nigrán,Pontevedra,36350,886110369,IES,42.1146011352539,-8.78021049499512,Pública,Non,Si
+36015202,CEIP de Lourido,"Camiño da Fernanda, 36 (Lourido)",Poio,Pontevedra,36163,886151458,CEIP,42.4273643493652,-8.67734718322754,Pública,Non,Si
+36015214,EEI de San Pedro de Cesantes,Cesantes (San Pedro),Redondela,Pontevedra,36693,886121215,EEI,42.3026885986328,-8.61212348937988,Pública,Non,Si
+36015238,CEIP de Sobrada,Rúa Torrón 52,Tomiño,Pontevedra,36790,886110744,CEIP,42.0193710327148,-8.67543506622315,Pública,Non,Si
+36015241,CEP Celso Emilio Ferreiro,Rúa O Porriño s/n,Vigo,Pontevedra,36209,986298058,CEP,42.216495513916,-8.75306129455566,Pública,Non,Si
+36015251,CEIP Plurilingüe Frián-Teis,"Rúa Gonderan, 42 (Frian)",Vigo,Pontevedra,36206,886120161,CEIP,42.241527557373,-8.69508743286133,Pública,Non,Si
+36015263,CEIP Plurilingüe de Rubiáns,Rúa do Ensino 10,Vilagarcía de Arousa,Pontevedra,36619,886151853,CEIP,42.5750885009766,-8.74472045898438,Pública,Non,Si
+36015275,CEEPR San Francisco,Avenida DE EUROPA 94,Vigo,Pontevedra,36212,672150928,CEEPR,42.2116584777832,-8.77191829681397,Privada,Si,Non
+36015287,CEEPR ASPANAEX,Rúa Mestres Goldar 18,Vigo,Pontevedra,36213,986208395,CEEPR,42.210319519043,-8.72609519958496,Privada,Si,Non
+36015354,CEIP Plurilingüe da Carrasqueira,A Carrasqueira,Vigo,Pontevedra,36331,886120191,CEIP,42.197883605957,-8.78058910369873,Pública,Non,Si
+36015366,CEIP Plurilingüe O Pombal,Rúa Pombal s/n,Vigo,Pontevedra,36205,886120087,CEIP,42.2323875427246,-8.69820499420166,Pública,Non,Si
+36015378,CEIP Plurilingüe de Tirán,Lugar O Igrexario s/n,Moaña,Pontevedra,36958,886110271,CEIP,42.2762603759766,-8.75345611572266,Pública,Non,Si
+36015381,EEI de Curro,Fonte do Curro,Barro,Pontevedra,36191,986713443,EEI,42.5063400268555,-8.67296600341797,Pública,Non,Si
+36015500,EEI de Verducido,Verducido (San Martiño),Pontevedra,Pontevedra,36151,886151587,EEI,42.4812355041504,-8.6192045211792,Pública,Non,Si
+36015536,CEIP Plurilingüe A Reigosa,Lugar A Reigosa,Ponte Caldelas,Pontevedra,36827,886151489,CEIP,42.4079551696777,-8.5698938369751,Pública,Non,Si
+36015548,EEI de Ventosela,Camiño do Requeixo 6,Redondela,Pontevedra,36818,886110180,EEI,42.3013381958008,-8.5847692489624,Pública,Non,Si
+36015627,CEIP Plurilingüe García Barbón,Rúa Serafín Avendaño 20,Vigo,Pontevedra,36201,886111087,CEIP,42.2361450195313,-8.71316719055176,Pública,Non,Si
+36015652,CEIP O Piñeiriño,Rúa Adolfo Pedrido Morla 1,Vilagarcía de Arousa,Pontevedra,36600,886159822,CEIP,42.5858612060547,-8.77334499359131,Pública,Non,Si
+36015706,EEI da Gándara,A Gandara,A Guarda,Pontevedra,36780,986611745,EEI,41.9157257080078,-8.84666252136231,Pública,Non,Si
+36015792,CEIP Plurilingüe Xulio Camba,Rúa Gonzalez Besada s/n,Vilanova de Arousa,Pontevedra,36620,886151885,CEIP,42.5609626770019,-8.82629203796387,Pública,Non,Si
+36015810,CEIP Plurilingüe Sobreira-Valadares,"Estrada da Escola da Sobreira, 89 -A Sobreira",Vigo,Pontevedra,36315,986468189,CEIP,42.1646499633789,-8.70876407623291,Pública,Non,Si
+36015822,CPR Marcote,"Avenida da Ponte, 80 - ( O Sello)",Vigo,Pontevedra,36318,986251511,CPR,-8.66945743600002,42.214931488,Privada,Si,Non
+36015834,CEIP Altamar,Rúa Cesareo Gonzalez 4,Vigo,Pontevedra,36210,986213713,CEIP,42.2184371948242,-8.73142147064209,Pública,Non,Si
+36015846,CEIP de Noalla-Telleiro,Carreira A Lanzada s/n,Sanxenxo,Pontevedra,36990,886151654,CEIP,42.4374580383301,-8.8695068359375,Pública,Non,Si
+36015861,CEIP Plurilingüe San Clemente de Cesar,Lugar Baltar 25,Caldas de Reis,Pontevedra,36654,886151141,CEIP,42.6348915100098,-8.63194942474365,Pública,Non,Si
+36015871,CEIP Plurilingüe de Meaño-As Covas,Rúa Herminia Fariña s/n,Meaño,Pontevedra,36968,886151371,CEIP,42.4426651000976,-8.78015804290772,Pública,Non,Si
+36015895,CEIP de Espedregada,"Camiño da Serpe, 3 (Espedregada)",Poio,Pontevedra,36992,886151463,CEIP,42.4101715087891,-8.75242710113525,Pública,Non,Si
+36015949,CPR San José,Edificio BARRIO O TELLEIRO 12 Bajo,Gondomar,Pontevedra,36378,986352995,CPR,42.1076698303223,-8.80117416381836,Privada,Si,Non
+36015950,CEIP Plurilingüe da Espiñeira-Aldán,Rúa Espiñeira 4,Cangas,Pontevedra,36946,886110187,CEIP,42.2854690551758,-8.81320953369141,Pública,Non,Si
+36015962,CPR Campelo Afundación,Praza Capela 3,Poio,Pontevedra,36994,986770138,CPR,42.4312553405762,-8.68224716186523,Privada,Non,Non
+36015998,CEEPR Menela,"Camiño da Veiguiña, 17 - Alcabre",Vigo,Pontevedra,36212,986240703,CEEPR,42.219898223877,-8.75877189636231,Privada,Si,Non
+36016024,CPR Plurilingüe Abrente,"Estrada de Adigna, s/n (Portonovo)",Sanxenxo,Pontevedra,36979,986723494,CPR,-8.83054065699997,42.401428223,Privada,Si,Non
+36016051,CEIP Plurilingüe Seis do Nadal,Rúa Mondariz 2,Vigo,Pontevedra,36209,886120180,CEIP,42.2162170410156,-8.74687004089356,Pública,Non,Si
+36016061,CEIP Plurilingüe A Doblada,Rúa Gaivota 18,Vigo,Pontevedra,36205,886120154,CEIP,42.2252807617188,-8.70763492584229,Pública,Non,Si
+36016085,CMUS Superior de Vigo,Rúa Manuel Olivie 23,Vigo,Pontevedra,36203,986471144,CMUS,42.2292709350586,-8.72336101531982,Pública,Non,Si
+36016097,CPR Plurilingüe Montesol,Rúa Salceda de Caselas (Coia) 8,Vigo,Pontevedra,36209,986208512,CPR,42.2137680053711,-8.75055694580078,Privada,Si,Non
+36016103,CEIP de Corvillón,Rúa A Seca 1,Cambados,Pontevedra,36634,886159078,CEIP,42.5296936035156,-8.81309032440186,Pública,Non,Si
+36016115,CPR Plurilingüe Eduardo Pondal,"Rúa Seixo, Darbo 31",Cangas,Pontevedra,36949,986303032,CPR,42.2664794921875,-8.80458736419678,Privada,Si,Non
+36016127,IES Plurilingüe Aquis Celenis,Mariñoleiras s/n,Caldas de Reis,Pontevedra,36650,886151130,IES,42.6027565002441,-8.63724899291992,Pública,Non,Si
+36016152,CPR Divino Maestro,Rúa Camiño do Cancelo 32,Vigo,Pontevedra,36207,986371686,CPR,42.2524108886719,-8.69960308074951,Privada,Si,Non
+36016565,EEI de Aralde Sobrán,Sobrán (San Martiño De Fóra),Vilagarcía de Arousa,Pontevedra,36611,986561404,EEI,42.5639991760254,-8.80104732513428,Pública,Non,Si
+36016590,CEIP de Abelendo,Rúa Abelendo,Moaña,Pontevedra,36954,886110256,CEIP,42.2837066650391,-8.74368762969971,Pública,Non,Si
+36016607,CEIP de Quintela,"Rúa Quintela, 72 - A",Moaña,Pontevedra,36950,886110275,CEIP,42.2824592590332,-8.73924064636231,Pública,Non,Si
+36016619,CEIP de Atín-Cela,Camiño do Foxo Vello,Mos,Pontevedra,36419,886110350,CEIP,42.1668434143066,-8.64785385131836,Pública,Non,Si
+36016620,CEIP da Cruz,Camos (Santa Baia),Nigrán,Pontevedra,36360,886110386,CEIP,42.1531715393066,-8.78680801391602,Pública,Non,Si
+36016644,CEIP de Laredo,Rúa do Peirao 3,Redondela,Pontevedra,36320,886110682,CEIP,42.2672576904297,-8.67420387268066,Pública,Non,Si
+36016656,IES Pedro Floriani,Rúa Pedro Floriani 2,Redondela,Pontevedra,36800,886120413,IES,42.2902679443359,-8.60939693450928,Pública,Non,Si
+36016668,CEIP Plurilingüe de Caldelas,Lugar O Foxo,Tui,Pontevedra,36721,886110822,CEIP,42.0633316040039,-8.56844329833984,Pública,Non,Si
+36016681,IES Carlos Casares,Avenida Ponte (Apdo.Correos 3009 CP 36205) 102,Vigo,Pontevedra,36215,886120429,IES,42.211669921875,-8.67199802398682,Pública,Non,Si
+36016723,CPR Mendiño,Pi y Margall 139,Vigo,Pontevedra,36202,986293444,CPR,42.2288131713867,-8.73201942443848,Privada,Si,Non
+36016735,CEIP de Refoxos,Refoxos s/n,Oia,Pontevedra,36779,886110492,CEIP,41.9956283569336,-8.81621170043945,Pública,Non,Si
+36016772,CEE de Vilagarcía de Arousa,Xardins Doutor Fleming s/n,Vilagarcía de Arousa,Pontevedra,36600,886159772,CEE,42.5955543518066,-8.76113510131836,Pública,Non,Si
+36016796,EEI de Verducedo,Verducedo 100,Moaña,Pontevedra,36959,986313500,EEI,42.3049201965332,-8.73285293579102,Pública,Non,Si
+36016814,EEI do Con,"Rúa Navas de Tolosa, s/n (O Con)",Moaña,Pontevedra,36954,886110263,EEI,42.276985168457,-8.73707389831543,Pública,Non,Si
+36016929,CEIP da Cruz-Budiño,Cruz-Budiño 8,O Porriño,Pontevedra,36475,886110435,CEIP,42.1165962219238,-8.59673023223877,Pública,Non,Si
+36016942,CEIP Plurilingüe de Santiago de Oliveira,Lugar A FRAGA DO REI,Ponteareas,Pontevedra,36865,886120782,CEIP,-8.447310448,42.177280426,Pública,Non,Si
+36016954,CEIP Plurilingüe Mestre Ramiro Sabell Mosquera,Rúa Barrio Barral s/n,Ponteareas,Pontevedra,36860,886110579,CEIP,42.1741676330566,-8.49344444274902,Pública,Non,Si
+36016966,CEP Carlos Casares,Lugar Grixó -Alxén,Salvaterra de Miño,Pontevedra,36458,886110724,CEP,42.1006813049316,-8.52294063568115,Pública,Non,Si
+36016991,CEP Plurilingüe de Riomaior,Riomaior 17,Vilaboa,Pontevedra,36142,886151771,CEP,42.3208770751953,-8.65537071228027,Pública,Non,Si
+36017004,EEI de Guillán,A Caldiguela,Vilagarcía de Arousa,Pontevedra,36600,986502736,EEI,42.609375,-8.75990200042725,Pública,Non,Si
+36017031,CEEPR Aceesca,"Rúa Torneiros - Ribeira, Pol.III 24 A-B",O Porriño,Pontevedra,36410,986332672,CEEPR,42.1523704528809,-8.62924098968506,Privada,Si,Non
+36017201,CEE Pontevedra,Lugar CIDADE INFANTIL PRINCIPE FELIPE (MONTECELO) 16,Pontevedra,Pontevedra,36161,986804135,CEE,42.4263534545898,-8.61735820770264,Pública,Non,Non
+36017430,IES Ricardo Mella,Estrada Vella de Madrid 177,Vigo,Pontevedra,36214,886121001,IES,42.2179069519043,-8.67959022521973,Pública,Non,Si
+36017570,EEI de Mosende,Mosende (San Xurxo),O Porriño,Pontevedra,36413,661086337,EEI,42.1252021789551,-8.65374565124512,Pública,Non,Si
+36017582,EEI de Aios,Aios,Sanxenxo,Pontevedra,36990,659364428,EEI,-8.85094099999998,42.414394,Pública,Non,Si
+36017648,CEIP Mestre Valverde Mayo,Avenida Sanguiñeda 125,Mos,Pontevedra,36419,886110356,CEIP,42.1714057922363,-8.6258487701416,Pública,Non,Si
+36017661,CEIP Plurilingüe Praza de Barcelos,Praza de Barcelos 26,Pontevedra,Pontevedra,36002,886151567,CEIP,42.4313240051269,-8.64135837554932,Pública,Non,Si
+36017685,CEIP Plurilingüe da Ribeira,Poligono 3 (A Ribeira),O Porriño,Pontevedra,36410,886110414,CEIP,42.1519508361816,-8.63030910491943,Pública,Non,Si
+36017697,CEIP Escultor Acuña,Rúa A Estrada 10,Vigo,Pontevedra,36209,886120115,CEIP,42.2210083007813,-8.74078178405762,Pública,Non,Si
+36017703,CEIP Plurilingüe Souto-Donas,Donas (Santa Baia),Gondomar,Pontevedra,36388,886121240,CEIP,42.1010093688965,-8.78823184967041,Pública,Non,Si
+36017715,CEIP Plurilingüe Antonio Palacios,A RELVA 27,O Porriño,Pontevedra,36410,886110441,CEIP,42.1542015075684,-8.6287260055542,Pública,Non,Si
+36018033,CPR Plurilingüe Vigo,Camiño Coto do Coello 7,Redondela,Pontevedra,36812,986400762,CPR,42.2864189147949,-8.64307975769043,Privada,Si,Non
+36018100,CEIP As Bizocas,Balea s/n,O Grove,Pontevedra,36989,886151972,CEIP,-8.912380219,42.463638306,Pública,Non,Si
+36018161,CEP Plurilingüe Xesús Ferro Couselo,Rúa Beiro s/n,Valga,Pontevedra,36645,886151728,CEP,42.6910781860351,-8.68306159973145,Pública,Non,Si
+36018173,IES de Teis,Avenida de Galicia 101,Vigo,Pontevedra,36216,886120464,IES,42.2514228820801,-8.69008255004883,Pública,Non,Si
+36018185,CEIP Plurilingüe Pintor Laxeiro,Rúa Federico Garcia Lorca 18,Vigo,Pontevedra,36210,886120137,CEIP,42.218635559082,-8.73781967163086,Pública,Non,Si
+36018367,CMUS Profesional Reveriano Soutullo,Rúa Castiñeira 57,Ponteareas,Pontevedra,36860,986641616,CMUS,42.1733131408691,-8.50717353820801,Pública,Non,Non
+36018379,IES A Xunqueira II,Rúa Celso Emilio Ferreiro 6,Pontevedra,Pontevedra,36005,886159090,IES,42.439079284668,-8.63721179962158,Pública,Non,Si
+36018380,IES O Carril,Rúa Marie Curie 1,Vilagarcía de Arousa,Pontevedra,36610,886151791,IES,42.6122283935547,-8.77063941955566,Pública,Non,Si
+36018410,CEIP Plurilingüe Quintela,Camiño DO COLEXIO 7,Redondela,Pontevedra,36817,886110654,CEIP,42.2613639831543,-8.59839820861816,Pública,Non,Si
+36018422,CEIP Plurilingüe de Atios,O Covelo,O Porriño,Pontevedra,36418,886110483,CEIP,42.1501617431641,-8.61632919311523,Pública,Non,Si
+36018434,CEIP Mallón,"Rúa Manuel Lemos, 81 (Mallon)",Nigrán,Pontevedra,36379,986352859,CEIP,42.1257972717285,-8.81068134307861,Pública,Non,Si
+36018446,CEIP da Armenteira,Lugar Vilar 64-A,Meis,Pontevedra,36192,886151394,CEIP,42.468822479248,-8.74187660217285,Pública,Non,Si
+36018461,IES República Oriental do Uruguai,Rúa As Coutadas 54,Vigo,Pontevedra,36207,886120490,IES,42.2433471679688,-8.70295143127441,Pública,Non,Si
+36018471,CEIP de Rebordáns,Curuxeiras,Tui,Pontevedra,36712,886110815,CEIP,42.0736083984375,-8.65174865722656,Pública,Non,Si
+36018501,IES Monte Carrasco,Rúa Monte Carrasco 2,Cangas,Pontevedra,36940,886110160,IES,42.2756690979004,-8.79392623901367,Pública,Non,Si
+36018550,CEMU Profesional Mayeusis,Rúa Areal 118,Vigo,Pontevedra,36201,986226378,CEMU,42.2387962341309,-8.71152496337891,Privada,Non,Non
+36018631,CEP Xosé Neira Vilas,Lugar PEROLEIRA 34,Gondomar,Pontevedra,36389,886110220,CEP,42.0988006591797,-8.73742389678955,Pública,Non,Si
+36018653,CEIP Plurilingüe As Solanas - Nicolás Gutiérrez Campo,Rúa O Rosal s/n,A Guarda,Pontevedra,36780,886110075,CEIP,41.9049911499023,-8.87921333312988,Pública,Non,Si
+36018677,IES Luís Seoane,"Rúa LUXEMBURGO, S/N (MONTE PORREIRO)",Pontevedra,Pontevedra,36162,986857700,IES,42.4478645324707,-8.6215763092041,Pública,Non,Si
+36018689,EOI de Pontevedra,Rúa Celso Emilio Ferreiro - Campus A Xunqueira s/n,Pontevedra,Pontevedra,36005,886159116,EOI,42.4383506774902,-8.63851547241211,Pública,Non,Si
+36018690,CEIP de Cabanas,Lugar Cabanas 72,Pontevedra,Pontevedra,36143,886151583,CEIP,42.4095954895019,-8.64457225799561,Pública,Non,Si
+36018847,CEEPR Juan María,Rúa das Agullas 12,Nigrán,Pontevedra,36379,986386914,CEEPR,42.1241455078125,-8.7874116897583,Privada,Si,Non
+36018859,EEI Modia,Vilariño (Santo Adrián),Cambados,Pontevedra,36633,686147149,EEI,42.5241470336914,-8.80355167388916,Pública,Non,Si
+36018872,EPAPU Río Lérez,Avenida de Buenos Aires 26,Pontevedra,Pontevedra,36002,886159421,EPAPU,42.433292388916,-8.63896560668945,Pública,Non,Si
+36018884,EPAPU Berbés,Rúa MARQUÉS DE VALTERRA 8 1,Vigo,Pontevedra,36202,886110976,EPAPU,42.2337455749512,-8.73214054107666,Pública,Non,Si
+36018896,EEI de Vilar-Bamio,Bamio (San Xens),Vilagarcía de Arousa,Pontevedra,36600,986502697,EEI,42.625301,-8.763582,Pública,Non,Si
+36018941,EOI de Vigo,Avenida Emilio Martinez Garrido 17,Vigo,Pontevedra,36205,986260261,EOI,42.2285194396973,-8.69957542419434,Pública,Non,Si
+36018963,CEIP Plurilingüe de Belesar,Rúa A ESTIVADA 46,Baiona,Pontevedra,36307,886110148,CEIP,42.0822486877441,-8.81728172302246,Pública,Non,Si
+36018975,CEIP A Rúa,A Rúa- Coiro,Cangas,Pontevedra,36940,886110190,CEIP,42.2675018310547,-8.76463794708252,Pública,Non,Si
+36018987,CRA Antía Cal,Lugar Gandara 8,Gondomar,Pontevedra,36389,886110243,CRA,42.0978012084961,-8.73847579956055,Pública,Non,Si
+36018999,IES As Barxas,Rúa Fonte do Unicornio 2,Moaña,Pontevedra,36950,886120503,IES,42.2902755737305,-8.7355899810791,Pública,Non,Si
+36019049,CEIP de Barrantes,O Mosteiro,Tomiño,Pontevedra,36749,986622651,CEIP,42.0122146606445,-8.7582426071167,Pública,Non,Si
+36019050,IES de Beade,Camiño de Outeiro 10,Vigo,Pontevedra,36312,886111030,IES,42.2016677856445,-8.71575164794922,Pública,Non,Si
+36019062,IES Rosais 2,Rúa As Coutadas s/n,Vigo,Pontevedra,36207,886120511,IES,42.243968963623,-8.70202350616455,Pública,Non,Si
+36019104,CEIP Plurilingüe Nantes,Rúa Pedrouzos 2,Sanxenxo,Pontevedra,36969,886151669,CEIP,42.4202079772949,-8.80955505371094,Pública,Non,Si
+36019116,CPR Estudios Marcote,Avenida del Puente 80,Vigo,Pontevedra,36318,986378467,CPR,42.2150497436523,-8.66941452026367,Privada,Non,Non
+36019153,EEI Rúa Hernán Cortés,Rúa Hernan Cortes 15,Vigo,Pontevedra,36203,886120225,EEI,42.2332954406738,-8.71839141845703,Pública,Non,Si
+36019220,IES Auga da Laxe,Campo da Feira,Gondomar,Pontevedra,36380,886110209,IES,42.1138038635254,-8.764235496521,Pública,Non,Si
+36019232,IES Monte da Vila,Rúa Bouzas 22,O Grove,Pontevedra,36980,886151412,IES,42.4907684326172,-8.86113166809082,Pública,Non,Si
+36019244,IES A Sangriña,Paseo de Portugal 21,A Guarda,Pontevedra,36780,886110060,IES,41.8998908996582,-8.8619966506958,Pública,Non,Si
+36019256,IES de Vilalonga,Lugar A Salgueira 40,Sanxenxo,Pontevedra,36990,886159137,IES,42.4474639892578,-8.83542156219482,Pública,Non,Si
+36019268,IES Gonzalo Torrente Ballester,Rúa Herminia Fariña Cobián s/n,Pontevedra,Pontevedra,36003,886159156,IES,42.4218063354492,-8.6412410736084,Pública,Non,Si
+36019281,CPR Sek-Atlántico,"Illa de Arousa, 4 - Boa Vista",Poio,Pontevedra,36005,986872277,CPR,42.4398460388184,-8.65690135955811,Privada,Non,Non
+36019323,IES Chano Piñeiro,Rúa Tras grupo escolar s/n,Forcarei,Pontevedra,36550,886151228,IES,42.5855674743652,-8.35573959350586,Pública,Non,Si
+36019372,CMUS Profesional de Lalín,Rúa da Banda de Música de Lalín 10,Lalín,Pontevedra,36500,986783570,CMUS,42.6644668579101,-8.10460567474365,Pública,Non,Non
+36019396,IES Francisco Asorey,Rúa Os Caeiros 25,Cambados,Pontevedra,36630,886159160,IES,42.507884979248,-8.81147003173828,Pública,Non,Si
+36019402,IES Pazo da Mercé,Rúa Ramal 3,As Neves,Pontevedra,36449,886110110,IES,42.0947456359863,-8.4236478805542,Pública,Non,Si
+36019414,IES A Basella,Rúa A Basella s/n,Vilanova de Arousa,Pontevedra,36620,886151873,IES,42.5644912719726,-8.83014297485352,Pública,Non,Si
+36019426,IES Coruxo,A Carrasqueira 68,Vigo,Pontevedra,36331,886111016,IES,42.1979293823242,-8.77959823608398,Pública,Non,Si
+36019438,CEIP A Guía,Rúa Isamil 222-A,Moaña,Pontevedra,36955,886110266,CEIP,42.2788848876953,-8.71169662475586,Pública,Non,Si
+36019441,CEIP de Petelos,Petelos (San Mamede),Mos,Pontevedra,36416,886110360,CEIP,42.1957092285156,-8.63284683227539,Pública,Non,Si
+36019451,CEIP A Escardia,Rúa Lopez Ballesteros s/n,Vilagarcía de Arousa,Pontevedra,36600,886151860,CEIP,42.5996360778809,-8.76296424865723,Pública,Non,Si
+36019463,IES Johan Carballeira,Rúa Staffan Mörling 4,Bueu,Pontevedra,36930,886159176,IES,42.3188743591309,-8.78697204589844,Pública,Non,Si
+36019475,IES de Rodeira,Avenida Ourense s/n,Cangas,Pontevedra,36940,986303933,IES,42.2628898620606,-8.77133846282959,Pública,Non,Si
+36019517,CEIP Santo André de Xeve,Rúa Sobral 26,Pontevedra,Pontevedra,36150,886151905,CEIP,42.4614105224609,-8.59388446807861,Pública,Non,Si
+36019529,IES Ribeira do Louro,"Rúa Ribeira, s/n (Torneiros)",O Porriño,Pontevedra,36410,986333956,IES,42.1526412963867,-8.63242435455322,Pública,Non,Si
+36019554,CEMU Profesional  Martín Millán,"Rúa Agustin Romero, 13-15 - baixo",Vilagarcía de Arousa,Pontevedra,36600,986511494,CEMU,42.5905799865723,-8.76521492004395,Privada,Non,Non
+36019566,IES de Chapela,Camiño do Penisal 29,Redondela,Pontevedra,36320,886110610,IES,42.2663459777832,-8.66773986816406,Pública,Non,Si
+36019608,CEIP de Marcón,Rúa Pazos 37,Pontevedra,Pontevedra,36158,886151594,CEIP,42.4112968444824,-8.62021827697754,Pública,Non,Si
+36019611,CEP Marcos da Portela,"Rúa de Suecia, 1 (Monte Porreiro)",Pontevedra,Pontevedra,36162,886159191,CEP,42.4449157714844,-8.6262845993042,Pública,Non,Si
+36019621,ES de Conservación e Restauración de Bens Culturais de Galicia,Rúa Xeral Martitegui s/n,Pontevedra,Pontevedra,36002,886159735,ES,-8.649100304,42.432109833,Pública,Non,Si
+36019633,CPR Los Sauces,Estrada de Campañó - a Cabaleiro,Pontevedra,Pontevedra,36157,986870722,CPR,42.4576759338379,-8.65757560729981,Privada,Non,Non
+36019657,IES Primeiro de Marzo,Rúa Virxe da Rocha,Baiona,Pontevedra,36300,886110127,IES,42.118278503418,-8.86073112487793,Pública,Non,Si
+36019669,IES Armando Cotarelo Valledor,"Rúa Armando Cotarelo Valledor, 4-6",Vilagarcía de Arousa,Pontevedra,36611,986512311,IES,42.5897026062012,-8.7840576171875,Pública,Non,Si
+36019670,IES do Castro,Rúa José Gómez Posada Curros 1,Vigo,Pontevedra,36203,986422974,IES,-8.72623920400002,42.227752686,Pública,Non,Si
+36019700,CMUS Profesional Manuel Quiroga,Avenida JUAN CARLOS I 4,Pontevedra,Pontevedra,36004,886151545,CMUS,42.4252815246582,-8.62938022613525,Pública,Non,Si
+36019724,CPR Cemar,Estrada Ponteareas - Mondariz,Mondariz-Balneario,Pontevedra,36890,986662430,CPR,42.2241020202637,-8.47863483428955,Privada,Non,Non
+36019751,IES Antón Alonso Ríos,Solleiro s/n,Tomiño,Pontevedra,36740,886120522,IES,-8.73251152,41.989215851,Pública,Non,Si
+36019773,EEI da Pastora,Travesa Santa MAriña 5,Cambados,Pontevedra,36630,886151177,EEI,42.5105857849121,-8.80844402313232,Pública,Non,Si
+36019803,EDANPR Maite Quiñones,"Rúa Longan, 5 - 1º E",Cangas,Pontevedra,36940,986303565,EDANPR,42.265495300293,-8.77581214904785,Privada,Non,Non
+36019815,CEEPR Amencer,Rúa Pontemuiños s/n - Poboado de Celulosas,Pontevedra,Pontevedra,36001,986864643,CEEPR,42.4259605407715,-8.64531326293945,Privada,Si,Non
+36019839,EMUSPR Coppelia,Rúa Pi y Margall 61,Vigo,Pontevedra,36202,986425193,EMUSPR,42.2334671020508,-8.73020362854004,Privada,Non,Non
+36019840,CEEPR San Jerónimo Emiliani,Rúa GALICIA 23,A Guarda,Pontevedra,36780,986613719,CEEPR,41.9026565551758,-8.87085723876953,Privada,Si,Non
+36019864,CEEPR Bata - Os Mecos,Rúa Almirante Fontán (As Saíñas),Vilagarcía de Arousa,Pontevedra,36611,986325407,CEEPR,42.5621833801269,-8.71274852752686,Privada,Si,Non
+36019876,CPR Santa María,Os Maristas s/n,Tui,Pontevedra,36700,986607025,CPR,42.0544128417969,-8.64702224731445,Privada,Si,Non
+36019888,ESMU Municipal de Caldas de Reis,Rúa Herreria 1,Caldas de Reis,Pontevedra,36650,986540002,ESMU,42.6026344299316,-8.64243698120117,Pública,Non,Non
+36019891,ESMU Municipal  Bernardo del Rio Parada,Rúa Rosalia de Castro 24,Vilagarcía de Arousa,Pontevedra,36600,986510770,ESMU,42.5996551513672,-8.76515293121338,Pública,Non,Non
+36019906,ESMU Municipal  Maestro Landín Pazos,Rúa Rúa de la Cuesta - GRANXA DE BRIZ S/N,Marín,Pontevedra,36900,986890196,ESMU,-8.705378532,42.389396667,Pública,Non,Non
+36019921,CPR Los Sauces,SAN PEDRO DE CELA,Mos,Pontevedra,36419,986468384,CPR,42.1697654724121,-8.67499160766602,Privada,Non,Non
+36019931,CPR POVISA Formación Profesional,Rúa Romil 75-77,Vigo,Pontevedra,36211,986471755,CPR,42.2282562255859,-8.72933769226074,Privada,Non,Non
+36019943,EMUSPR de Beade,Estrada Coutada 42,Vigo,Pontevedra,36312,986243663,EMUSPR,42.1946716308594,-8.69910144805908,Privada,Non,Non
+36019955,ESMU Municipal de Cambados,Rúa San Francisco 3,Cambados,Pontevedra,36630,986543200,ESMU,42.515434,-8.813235,Pública,Non,Non
+36019967,EMUSPR Banda de Lalín,Rúa Polideportivo 10,Lalín,Pontevedra,36500,986783570,EMUSPR,42.6645622253418,-8.10454177856445,Privada,Non,Non
+36019979,ESMU Municipal de Valga,Avenida da Coruña 14,Valga,Pontevedra,36645,986559456,ESMU,42.6988525390625,-8.68555068969727,Pública,Non,Non
+36019980,ESMU Municipal de Vila de Cruces (Art. de Merza),Concello de Vila de Cruces,Vila de Cruces,Pontevedra,36590,986582017,ESMU,42.7919044494629,-8.16909122467041,Pública,Non,Non
+36019992,ESMU Municipal de Redondela,Rúa Reveriano Soutullo s/n,Redondela,Pontevedra,36800,986403876,ESMU,42.2820091247559,-8.60896873474121,Pública,Non,Non
+36020003,ESMU Municipal de Silleda,Rúa Xeral Franco - Casa da Cultura,Silleda,Pontevedra,36540,986592004,ESMU,42.7042655944824,-8.24613380432129,Pública,Non,Non
+36020015,ESMU Municipal de Tui,"Avenida da Concordia, s/n (CEIP nº 2)",Tui,Pontevedra,36700,986607625,ESMU,42.0517349243164,-8.64278793334961,Pública,Non,Non
+36020027,ESMU Municipal Mestre Inocentes Camaño,Avenida de Bueu 14,Cangas,Pontevedra,36940,986305832,ESMU,42.2676658630371,-8.78330135345459,Pública,Non,Non
+36020039,ESMU Municipal da Estrada,"Avenida Benito Vigo, 94 - 3",A Estrada,Pontevedra,36680,986572492,ESMU,42.6881866455078,-8.48543834686279,Pública,Non,Non
+36020040,ESMU Municipal do Porriño,Rúa Fernandez Areal s/n,O Porriño,Pontevedra,36400,986337624,ESMU,42.1590461730957,-8.61932468414307,Pública,Non,Non
+36020064,CIFP Carlos Oroza,Avenida Montecelo 16,Pontevedra,Pontevedra,36161,886159545,CIFP,42.427188873291,-8.6173095703125,Pública,Non,Si
+36020076,EDANPR Esperanza Arrondo,Rúa Romil 78,Vigo,Pontevedra,36211,986470039,EDANPR,42.2328224182129,-8.72390651702881,Privada,Non,Non
+36020088,EDANPR Danza Pasiños,"Rúa Loriga, 8 - baixo",Vigo,Pontevedra,36203,986430607,EDANPR,42.2345161437988,-8.72157001495361,Privada,Non,Non
+36020091,EDANPR Deborah,Rúa Xan Guillermo 25,Pontevedra,Pontevedra,36001,986848283,EDANPR,42.4340133666992,-8.64924240112305,Privada,Non,Non
+36020106,CPR Seforma,"Rúa Areal, 68-70",Vigo,Pontevedra,36201,986222215,CPR,42.2387275695801,-8.71503067016602,Privada,Non,Non
+36020118,ESMU Municipal de Vigo,Camiño do Regueiro 1,Vigo,Pontevedra,36211,986410785,ESMU,42.2260360717773,-8.7271728515625,Pública,Non,Non
+36020131,IES de Mos,Rúa das Pozas 23,Mos,Pontevedra,36416,886120544,IES,42.1968994140625,-8.63277244567871,Pública,Non,Si
+36020143,IES de Poio,Rúa Fontenla s/n,Poio,Pontevedra,36995,886151444,IES,42.4439582824707,-8.6894998550415,Pública,Non,Si
+36020155,CPR Estudio,Rúa das Laxes 31,Nigrán,Pontevedra,36360,986363224,CPR,42.1618270874023,-8.7652177810669,Privada,Si,Non
+36020180,ESMU Municipal de Catoira,Rúa do Concello 14,Catoira,Pontevedra,36612,676336288,ESMU,42.668140411377,-8.72594547271729,Pública,Non,Non
+36020192,CFEA de Lourizán,Rúa A Igrexa 19,Pontevedra,Pontevedra,36153,986805088,CFEA,42.4108695983887,-8.66545581817627,Pública,Non,Non
+36020209,IGAFA Instituto Galego de Formación en Acuicultura,Lugar Niño do Corvo s/n,A Illa de Arousa,Pontevedra,36626,886159304,IGAFA,42.5625877380371,-8.88565444946289,Pública,Non,Non
+36020210,CPR Sanitex,Rúa Ramon y Cajal 16,Vigo,Pontevedra,36203,986410390,CPR,42.2278480529785,-8.72066593170166,Privada,Non,Non
+36020222,EMUSPR Asociación Amigos da Música,Rúa DR. ZUNZUNEGUI 39,Salceda de Caselas,Pontevedra,36470,652851818,EMUSPR,42.1036796569824,-8.55711936950684,Privada,Non,Non
+36020234,IES de Barro,Lugar Outeiro 9 D,Barro,Pontevedra,36194,886159216,IES,42.5226593017578,-8.63417530059815,Pública,Non,Si
+36020246,IES Illa de Ons,Rúa A Pedra 51,Bueu,Pontevedra,36930,886159510,IES,42.318717956543,-8.78640174865723,Pública,Non,Si
+36020258,IES Nº 1,Rúa da Cultura s/n,A Estrada,Pontevedra,36680,886151031,IES,42.6926116943359,-8.50651836395264,Pública,Non,Si
+36020261,IES Plurilingüe Terra de Turonio,Campo da Feira s/n,Gondomar,Pontevedra,36380,886110203,IES,42.1144332885742,-8.76464176177979,Pública,Non,Si
+36020271,IES As Bizocas,Balea s/n,O Grove,Pontevedra,36988,886151420,IES,42.4642791748047,-8.91215419769287,Pública,Non,Si
+36020283,IES da Illa de Arousa,Rúa DE BOUZAS s/n,A Illa de Arousa,Pontevedra,36625,886151059,IES,42.5565490722656,-8.86622428894043,Pública,Non,Si
+36020295,IES Mestre Landín,Lugar A RAÑA - SAN XULIAN,Marín,Pontevedra,36915,886151315,IES,42.3840141296387,-8.69501399993897,Pública,Non,Si
+36020301,IES de Meaño,Rúa dos colexios 14,Meaño,Pontevedra,36967,886151367,IES,42.4562530517578,-8.81369590759277,Pública,Non,Si
+36020313,IES de Ponte Caldelas,Valdarrosa 13,Ponte Caldelas,Pontevedra,36820,886151477,IES,-8.50470161300001,42.386936188,Pública,Non,Si
+36020325,IES Illa de San Simón,Avenida de Mendiño 28,Redondela,Pontevedra,36800,886110635,IES,42.2886390686035,-8.61096286773682,Pública,Non,Si
+36020337,IES de Salvaterra de Miño,Lugar Chan da Ponte 12,Salvaterra de Miño,Pontevedra,36450,886110701,IES,42.0863075256348,-8.50577640533447,Pública,Non,Si
+36020349,IES de Sanxenxo,Rúa Baltar s/n,Sanxenxo,Pontevedra,36970,886159797,IES,42.4021492004395,-8.82178497314453,Pública,Non,Si
+36020350,IES Plurilingüe Pintor Colmeiro,Estrada de Pontevedra - As Ferreiras s/n,Silleda,Pontevedra,36540,986580904,IES,42.6888427734375,-8.2493257522583,Pública,Non,Si
+36020362,IES Plurilingüe de Valga,Baño s/n,Valga,Pontevedra,36645,886151980,IES,42.7069282531738,-8.65611076354981,Pública,Non,Si
+36020374,IES Valadares,Rúa Clara Campoamor s/n,Vigo,Pontevedra,36315,886111060,IES,42.1670570373535,-8.70775699615479,Pública,Non,Si
+36020386,IES Marco do Camballón,Camballón 24,Vila de Cruces,Pontevedra,36590,886151731,IES,42.7926368713379,-8.15953922271729,Pública,Non,Si
+36020398,ESMU Municipal de Agolada,Casa da Cultura,Agolada,Pontevedra,36520,986788063,ESMU,42.7714538574219,-8.02378559112549,Pública,Non,Non
+36024011,CE.ART Aula D,Rúa Baixada ao Forte 2,Vigo,Pontevedra,36202,986213627,CE.ART,42.2373085021973,-8.72798252105713,Privada,Non,Non
+36024021,EMUSPR de Xinzo,Edificio Centro Cultural de Xinzo s/n,Ponteareas,Pontevedra,36891,638245382,EMUSPR,42.1814498901367,-8.55904579162598,Privada,Non,Non
+36024033,EMUSPR A Tempo,Praza da Castaña. 2 - baixo,Pontevedra,Pontevedra,36002,986844104,EMUSPR,42.4329833984375,-8.64056968688965,Privada,Non,Non
+36024045,CRA Mestre Manuel Garcés,Rúa Gondomar 48 1º,Tomiño,Pontevedra,36740,986622775,CRA,41.9906883239746,-8.7443733215332,Pública,Non,Si
+36024057,CPR Plurilingüe Bouza Brey,"Rúa Baixada a San Xoán, 167 00",Vigo,Pontevedra,36206,986377238,CPR,42.2382621765137,-8.69532871246338,Privada,Si,Non
+36024069,CRA A Picaraña,Lugar Ganade 78,Ponteareas,Pontevedra,36861,886110588,CRA,42.1513442993164,-8.50574016571045,Pública,Non,Si
+36024070,CRA A Lagoa,Rúa Rosalia de Castro 108,Salvaterra de Miño,Pontevedra,36450,986659363,CRA,42.0837211608887,-8.50385570526123,Pública,Non,Si
+36024082,CPR ICA,Rúa Portela 12,Vigo,Pontevedra,36205,986377779,CPR,42.23042,-8.700646,Privada,Non,Non
+36024100,ESMU Municipal de Baiona,"Rúa  Alférez Barreiro, 20-21 00",Baiona,Pontevedra,36300,986355250,ESMU,42.1179847717285,-8.84626483917236,Pública,Non,Non
+36024112,CRA Mestra Clara Torres,Estrada Bornetas s/n,Tui,Pontevedra,36713,886120053,CRA,42.0519409179687,-8.64243984222412,Pública,Non,Si
+36024124,EDANPR Susana Castro,"Rúa  Cronista Rodríguez Elías, 2 00",Vigo,Pontevedra,36209,986296968,EDANPR,42.2117233276367,-8.74718761444092,Privada,Non,Non
+36024151,EMUSPR de Campo Lameiro,"Chanciña de Arriba, s/n",Campo Lameiro,Pontevedra,36110,-,EMUSPR,42.54296875,-8.54245281219482,Privada,Non,Non
+36024161,CRA de Valga,"Lugar A Torre, Campaña",Valga,Pontevedra,36647,886151724,CRA,42.7059898376465,-8.66560554504395,Pública,Non,Si
+36024173,CRA María Zambrano,Rúa Escolas Pías s/n Baixo,O Rosal,Pontevedra,36760,986610335,CRA,41.919075012207,-8.83364963531494,Pública,Non,Si
+36024197,IES de Cotobade,O Río Tenorio s/n,Cerdedo-Cotobade,Pontevedra,36120,886159784,IES,42.4624977111816,-8.56371974945068,Pública,Non,Si
+36024203,IES Faro das Lúas,Rúa CUXHAVEN 7,Vilanova de Arousa,Pontevedra,36620,886159230,IES,42.5648727416992,-8.82551860809326,Pública,Non,Si
+36024227,CEMU Profesional Mayeusis,"Rúa  Joaquín Costa, 58-60 00",Pontevedra,Pontevedra,36000,986866013,CEMU,42.4279289245606,-8.63811302185059,Privada,Non,Non
+36024239,CEMU Profesional  Coppelia,"Rúa  Pi y Margall, 61 00",Vigo,Pontevedra,36202,986222930,CEMU,42.2334175109863,-8.73020362854004,Privada,Non,Non
+36024240,CEDA Elemental Coppelia,"Rúa  Pi y Margall, 61 00",Vigo,Pontevedra,36202,986222930,CEDA,42.2334747314453,-8.73019313812256,Privada,Non,Non
+36024252,CMUS Profesional da Estrada,"Avenida BENITO VIGO, 94 - 3",A Estrada,Pontevedra,36680,986572492,CMUS,42.6882057189941,-8.48541450500488,Pública,Non,Non
+36024276,CMUS Profesional de Cangas,"Rúa  Real, 29",Cangas,Pontevedra,36940,986307192,CMUS,42.2676658630371,-8.78325843811035,Pública,Non,Non
+36024288,CMUS Elemental da Guarda,Travesal dos Bechos s/n,A Guarda,Pontevedra,36780,986613002,CMUS,41.9014625549316,-8.86192131042481,Pública,Non,Non
+36024291,CMUS Profesional de Redondela,Avenida Santa Mariña 3,Redondela,Pontevedra,36800,986403876,CMUS,42.2867660522461,-8.60980129241943,Pública,Non,Non
+36024306,CMUS Profesional de Tui,Avenida  da Concordia s/n,Tui,Pontevedra,36700,986603625,CMUS,42.0518913269043,-8.64284896850586,Pública,Non,Non
+36024318,CRA Raíña Aragonta,Rúa Rosalía de Castro 9,Salceda de Caselas,Pontevedra,36470,986349118,CRA,42.1021842956543,-8.56329727172852,Pública,Non,Si
+36024321,EMUSPR Popular de Rubiós,"Chan da Bouza, s/n",As Neves,Pontevedra,36449,986667081,EMUSPR,42.1108512878418,-8.42277336120606,Privada,Non,Non
+36024343,CMUS Profesional de Vilagarcía de Arousa,Avenida DA MARIÑA 27,Vilagarcía de Arousa,Pontevedra,36600,986500916,CMUS,42.5981216430664,-8.76720809936523,Pública,Non,Non
+36024355,CMUS Elemental de Gondomar,Praza Doutor Latino Salgueiro,Gondomar,Pontevedra,36380,986389283,CMUS,42.1077003479004,-8.76075267791748,Pública,Non,Non
+36024379,EMUSPR Unión Musical de Coruxo,Estrada DO BAO 65,Vigo,Pontevedra,36331,672106120,EMUSPR,42.1936645507813,-8.7816276550293,Privada,Non,Non
+36024380,EDANPR Coppelia,Rúa PI Y MARGALL 61 baixo,Vigo,Pontevedra,36202,986425193,EDANPR,42.233455657959,-8.73021221160889,Privada,Non,Non
+36024392,CPR Aula Estudio,Rúa Santa Marta interior s/n,Vigo,Pontevedra,36202,986436212,CPR,42.234561920166,-8.73055267333984,Privada,Non,Non
+36024409,CEDA Profesional Mayeusis,Rúa Joaquín Costa 58-60,Pontevedra,Pontevedra,36201,986221422,CEDA,42.4279708862305,-8.63813972473145,Privada,Non,Non
+36024410,CPR Educatic,Rúa Zamora 106,Vigo,Pontevedra,36211,986211295,CPR,42.222366,-8.727532,Privada,Non,Non
+36024458,CPR San Nicolás,Rúa Numancia,Vigo,Pontevedra,36206,986262570,CPR,42.2340812683105,-8.7045259475708,Privada,Non,Non
+36024461,CIFP Audiovisual de Vigo,Rúa Eduardo Cabello s/n,Vigo,Pontevedra,36208,886111152,CIFP,-8.752076149,42.226371765,Pública,Non,Si
+36024471,CMUS Profesional de Vigo,Rúa Fotógrafo Felipe Prósperi s/n,Vigo,Pontevedra,36209,986213395,CMUS,42.2163696289063,-8.7401704788208,Pública,Non,Si
+36024495,CRA de Vilaboa Consuelo González Martínez,Rúa Toural 13,Vilaboa,Pontevedra,36141,618554594,CRA,42.3598098754883,-8.63650417327881,Pública,Non,Si
+36024501,EMUSPR de Mos,Rúa OUTEIRO s/n,Mos,Pontevedra,36417,986338325,EMUSPR,42.2040519714355,-8.61881637573242,Privada,Non,Non
+36024513,ESMU Municipal Lied em.,"Rúa MIRAFLORES , PAZO EMILIA PARDO BAZAN 26 A",Sanxenxo,Pontevedra,36960,986727936,ESMU,42.4037322998047,-8.7990083694458,Pública,Non,Non
+36024525,CIFP de Coia,Rúa Baiona 28,Vigo,Pontevedra,36209,886110905,CIFP,42.2149124145508,-8.75216007232666,Pública,Non,Non
+36024537,CE.ART Atlántico,Avenida da  Ponte 9,Vigo,Pontevedra,36215,986266058,CE.ART,42.2220191955566,-8.66960716247559,Privada,Non,Non
+36024549,EMUSPR artística de Arcade,Lugar Barroncas,Soutomaior,Pontevedra,36991,,EMUSPR,42.3401031494141,-8.60694313049316,Privada,Non,Non
+36024550,CMUS Elemental de Cambados,Rúa San Francisco 3,Cambados,Pontevedra,36630,-,CMUS,42.5154457092285,-8.81322383880615,Pública,Non,Non
+36024562,ESMU Municipal de Fornelos de Montes,Rúa das Escolas 7,Fornelos de Montes,Pontevedra,36847,986768409,ESMU,42.3413276672363,-8.45250034332275,Pública,Non,Non
+36024574,CEEPR Princesa Letizia,Rúa DUQUE DE TERRANOVA 7,Vilagarcía de Arousa,Pontevedra,36600,986565334,CEEPR,42.590302,-8.772567,Privada,Si,Non
+36024586,ESAD Escola Superior de Arte Dramática de Galicia,Rúa POZA CABALO 1,Vigo,Pontevedra,36212,986246399,ESAD,42.2088203430176,-8.75940704345703,Pública,Non,Si
+36024598,EOI de Vilagarcía,Rúa Entrante 7,Vilagarcía de Arousa,Pontevedra,36600,986566440,EOI,42.5895080566406,-8.76579666137695,Pública,Non,Si
+36024604,CRA de Meis,Lugar Rialdonio 19,Meis,Pontevedra,36637,886151390,CRA,42.5260848999023,-8.69250202178955,Pública,Non,Si
+36024616,CRA de Ribadumia,A Costa,Ribadumia,Pontevedra,36635,666410195,CRA,42.5288581848145,-8.74091053009033,Pública,Non,Si
+36024628,IES Pedras Rubias,Rúa A Revolta s/n,Salceda de Caselas,Pontevedra,36472,886120550,IES,42.0881576538086,-8.58238220214844,Pública,Non,Si
+36024631,CADFS Constantino Castro Ruso,Travesa 3ª travesía Salgueira nº 46,Vigo,Pontevedra,36206,981134238,CADFS,42.2236251831055,-8.71547317504883,Privada,Non,Non
+36024641,ESMU Municipal de Mondariz,Rúa Pé do Muíño,Mondariz,Pontevedra,36870,986656573,ESMU,42.2340469360351,-8.47187519073486,Pública,Non,Non
+36024653,ESMU Municipal de Moaña,Rúa Cruceiro 88,Moaña,Pontevedra,36950,986310558,ESMU,42.2860298156738,-8.74965000152588,Pública,Non,Non
+36024665,EMUSPR Aceimar,Avenida DA PONTE 80,Vigo,Pontevedra,36318,986251511,EMUSPR,42.214958190918,-8.66943550109863,Privada,Non,Non
+36024677,ESMU Municipal de Moraña,Rúa O Buelo 4,Moraña,Pontevedra,36660,,ESMU,42.5882873535156,-8.5918664932251,Pública,Non,Non
+36024689,CPR Arturo,Rúa Pi y Margall 40 baixo,Vigo,Pontevedra,36202,986122035,CPR,42.2337265014648,-8.73037052154541,Privada,Non,Non
+36024707,ESMU VILA DO CORPOS DE PONTEAREAS,Rúa Castiñeira 1,Ponteareas,Pontevedra,36860,,ESMU,42.173095703125,-8.50709056854248,Pública,Non,Non
+36024719,EMUSPR de Vilanova,Rúa O Esteiro,Vilanova de Arousa,Pontevedra,36620,-,EMUSPR,42.5628089904785,-8.82028388977051,Privada,Non,Non
+36024720,EPAPU Nelson Mandela,Monte Racelo s/n,A Lama,Pontevedra,36830,986758034,EPAPU,42.4063453674316,-8.45329856872559,Pública,Non,Si
+36024732,EMUSPR de Salcedo,Rúa Cruceiro s/n,Pontevedra,Pontevedra,36143,678232879,EMUSPR,42.4078788757324,-8.64859008789063,Privada,Non,Non
+36024744,EMUSPR de Valadares,Estrada xeral  de Valadares 233,Vigo,Pontevedra,,,EMUSPR,42.1769218444824,-8.72134208679199,Privada,Non,Non
+36024756,CEE de Panxón,"Camiño dos Lagos, 1 1",Nigrán,Pontevedra,36340,986383119,CEE,42.1464500427246,-8.82286834716797,Pública,Non,Si
+36024771,CE.ART Tex-Moda,"Parque Tecnolóxico Loxístico. Valadares, Área Texvigo r/C, Ed.Dotacional Bajo",Vigo,Pontevedra,36314,986223620,CE.ART,42.1753997802734,-8.71006870269775,Privada,Non,Non
+36024781,IES do Barral,Lugar Barral s/n,Ponteareas,Pontevedra,36860,986644406,IES,42.1750144958496,-8.49120712280273,Pública,Non,Si
+36024793,CPR A CAMELIA,Rúa Bravo 36,Vigo,Pontevedra,36212,986241329,CPR,42.2098770141601,-8.76661777496338,Privada,Non,Non
+36024801,ESMU Municipal de Meaño,Rúa Campo de Feria,Meaño,Pontevedra,36967,,ESMU,42.4439163208008,-8.78220367431641,Pública,Non,Non
+36024811,CAD Cemar,"Estrada Ponteareas Mondariz, km 7",Mondariz-Balneario,Pontevedra,36890,,CAD,-8.478269576,42.223941803,Privada,Non,Non
+36024823,CE.ART Marcote,Avenida da Ponte 80,Vigo,Pontevedra,36318,986266013,CE.ART,42.2150421142578,-8.66940402984619,Privada,Non,Non
+36024835,CPREX O Castro International School,Camiño de San Cosme s/n,Mos,Pontevedra,36415,986200028,CPREX,42.1606025695801,-8.67026138305664,Privada,Non,Non
+36024847,CAD Cenafe,"Rúa As Lagoas, Marcosende",Vigo,Pontevedra,36130,,CAD,42.169199,-8.68409,Privada,Non,Non
+36024859,CAD CIP,Rúa Brasil 48,Vigo,Pontevedra,36204,,CAD,42.232385,-8.713049,Privada,Non,Non
+36024872,CEMU Superior Mayeusis,Rúa Areal 118,Vigo,Pontevedra,36201,,CEMU,42.2388153076172,-8.71101379394531,Privada,Non,Non
+36024884,CAD Montecastelo,Rúa Doctor Paz Pardo 84,Vigo,Pontevedra,36214,,CAD,42.2133102416992,-8.69360065460205,Privada,Non,Non
+36024896,EMUSPR Agrupación Musical de Vincios,Rúa Mestra Doña Lola s/n,Gondomar,Pontevedra,36380,,EMUSPR,42.1423988342285,-8.73161315917969,Privada,Non,Non
+36024902,CEMU Profesional Torroso,Estrada Puxeiros-Mos 183,Mos,Pontevedra,36417,986338325,CEMU,42.2037658691406,-8.61871814727783,Privada,Non,Non
+36024914,CAD ACADEF,Camiño Escola Andersen 28,Vigo,Pontevedra,36315,,CAD,42.1613731384277,-8.72289085388184,Privada,Non,Non
+36024926,CPR Mega Formación,Rúa Santa Marta 5,Vigo,Pontevedra,36202,,CPR,42.2356567382813,-8.73030376434326,Privada,Non,Non
+36024938,CRA de Caldas de Reis,Lugar Sequeiros s/n,Caldas de Reis,Pontevedra,36656,617487384,CRA,42.597354888916,-8.68964195251465,Pública,Non,Si
+36024941,EMUSPR de Chapela,Avenida de Redondela 17 Baixo,Redondela,Pontevedra,36320,986452244,EMUSPR,42.2667274475098,-8.66665554046631,Privada,Non,Non
+36024951,Cen. Pub. Escola Galega do Deporte,Rúa Padre Fernando Olmedo,Pontevedra,Pontevedra,36002,886159670,Cen. Pub.,42.4319839477539,-8.6380786895752,Pública,Non,Non
+36024963,CPREX Eleven School,Rúa Camiño Real (Parada) 10,Vigo,Pontevedra,36213,672077780,CPREX,-8.73801612900002,42.201217651,Privada,Non,Non
+36024975,CAD Jesús Morlán Fariña,Rúa Gavián s/n,Pontevedra,Pontevedra,36151,986842106,CAD,42.4960632324219,-8.6165246963501,Privada,Non,Non
+36024987,IES de Soutomaior,Estrada de Soutomaior 46 C,Soutomaior,Pontevedra,36690,886159801,IES,42.3399276733398,-8.5945520401001,Pública,Non,Si
+36024999,EMUSPR de Vilaboa,Lugar Pazos 1,Vilaboa,Pontevedra,36142,,EMUSPR,42.3246078491211,-8.65636444091797,Privada,Non,Non
+36025001,CPREX Gándara International School,Rúa Moureira 1,Gondomar,Pontevedra,36388,986369778,CPREX,-8.77262973799998,42.108154297,Privada,Non,Non
+36025013,CEIP Manuel Padín Truiteiro,Rúa Arcade de Arriba s/nº,Soutomaior,Pontevedra,36690,986700049,CEIP,-8.599884987,42.338214874,Pública,Non,Si
+36025025,EMUSPR Escola de Música de Vilatuxe,Edificio Auditorio Vilatuxe s/nº,Lalín,Pontevedra,36519,,EMUSPR,42.605281829834,-8.19012832641602,Privada,Non,Non
+36025050,CEMU Superior Galival Music,Lugar Auditorio Municipal (Lugar de Ferreirós) 1 A,Valga,Pontevedra,36647,698904668,CEMU,42.6988334655762,-8.68552207946777,Privada,Non,Non
+36025062,CPR Premir,Rúa Gagos de Mendoza 8,Pontevedra,Pontevedra,36001,986847214,CPR,42.427921295166,-8.64712333679199,Privada,Non,Non
+36025074,EMUSPR de Agolada,"Polígono Industrial de Merlín, Casa Amarela s/n",Agolada,Pontevedra,36520,,EMUSPR,42.7714042663574,-8.02375793457031,Privada,Non,Non
+36025086,EMUSPR de Barro,Lugar  Perdecanai (Santa María),Barro,Pontevedra,36194,647769008,EMUSPR,42.5337448120117,-8.63302040100098,Privada,Non,Non
+36025098,EMUSPR Escola de Música de Ribadumia,Rúa Loureiro s/n,Ribadumia,Pontevedra,36636,686352098,EMUSPR,0.0,0.0,Privada,Non,Non
+36025104,CEEPR Amencer-Aspace,"Camiño Arieiro (polígono 102, parcela 700) 144",Vigo,Pontevedra,36214,986597500,CEEPR,-8.67424869199999,42.211207762,Privada,Si,Non
+36025116,EMUSPR Escola de Música Ateneo Musical de Bembrive,Alameda  do Torreiro s/n - Bembrive s/n,Vigo,Pontevedra,36313,,EMUSPR,0.0,0.0,Privada,Non,Non
+36025128,CEMU Profesional Unión Musical de Valadares,Estrada Xeral de Valadares 233,Vigo,Pontevedra,36315,,CEMU,0.0,0.0,Privada,Non,Non
+36025131,EMUSPR Staccato,Rúa da Paz 10 baixo,Cangas,Pontevedra,36940,,EMUSPR,42.2645100682344,-8.78597250785798,Privada,Non,Non
+36025141,EMUSPR Escola de Música Goián,Avenida Pío Troncoso s/n,Tomiño,Pontevedra,36750,,EMUSPR,-8.77146437200003,41.948507431,Privada,Non,Non
+36025153,EMUSPR Escola de Música Val do Fragoso,Rúa Val Miñor 1-3,Vigo,Pontevedra,36210,986296578,EMUSPR,0.0,0.0,Privada,Non,Non
+36025165,CPR FP Montecastelo,Rúa Doctor Paz Pardo 84,Vigo,Pontevedra,36214,986412488,CPR,-8.692188853,42.214104871,Privada,Si,Non
+36025177,CPR Fundación Laboral de la Construcción,Camiño da Raposeira 24,Vigo,Pontevedra,36214,,CPR,-8.70247616699999,42.214026793,Privada,Non,Non
+36025189,EMUSPR Escola de Música da Banda Unión Musical de Tenorio,Lugar Lugar de Covas 14 B,Cerdedo-Cotobade,Pontevedra,36120,,EMUSPR,-13.488743885,0.0,Privada,Non,Non
+36025190,EMUSPR Escola da Banda de Música Popular de Tui,Lugar Gándara s/n,Tui,Pontevedra,36720,,EMUSPR,-8.62365992999997,42.076248011,Privada,Non,Non
+36025207,EMUSPR Escola de Música Lira de San Miguel de Oia,Camiño de Currás 34,Vigo,Pontevedra,36390,,EMUSPR,-13.488743885,0.0,Privada,Non,Non
+36025219,Cen. Pub. Escola de Canteiros de Poio,Rúa Illa do Santo 2,Poio,Pontevedra,36005,,Cen. Pub.,-8.66368298200001,42.440247168,Pública,Non,Si
+36025220,CAD FDYE-Galicia,Avenida das Camelias 53,Vigo,Pontevedra,36211,680831166,CAD,-8.729750094,42.229722422,Privada,Non,Non
