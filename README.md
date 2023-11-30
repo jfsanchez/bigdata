@@ -2,7 +2,9 @@
 
 Nova estrutura:
 
--datasets
--escenarios
--notebooks
--tarefas
+- datasets
+- escenarios
+- notebooks
+    - bbdd
+    - scraping
+- tarefas
