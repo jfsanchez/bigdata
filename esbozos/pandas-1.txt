@@ -55,3 +55,9 @@ dfAlcaldes
 #         'NOMBRE', 'APELIDO1', 'APELIDO2', 'GRUPO', 
 #         'FECHA-POSESION'],
 #     usecols='A:H')
+
+#Ler follas dun excel
+#!conda install -y openpyxl
+import pandas as pd
+x=pd.ExcelFile('C:/Users/scj/Downloads/alcaldes/Alcaldes_Mandato_1979_1983.xlsx')
+print(x.sheet_names)
