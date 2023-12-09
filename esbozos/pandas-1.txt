@@ -1,0 +1,63 @@
+import pandas as pd
+
+# rutaCovid='X:\jfsanchez\datasets\covid-italia\dpc-covid19-ita-province.json'
+# COVID19json= pd.read_json(rutaCovid)
+#COVID19json[COVID19json.sigla_provincia=='CE'].data
+# mask = (COVID19json['data'] > '2020-02-01') & (COVID19json['data'] <= '2020-02-28')
+# COVID19json[mask]
+# COVID19json.data.between_time
+
+def cargaAlcaldes(archivo, columna, fila, cabecera, nombreHoja):
+    return pd.read_excel(archivo, sheet_name=nombreHoja,
+         names=cabecera, usecols=columna, skiprows=fila)
+
+directorio = 'X:\jfsanchez\datasets\politica\\'
+
+archivos = [
+    [directorio + 'Alcaldes-1979web.xlsx', 'D:H', 8, 
+        ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'LISTA', 'FECHA POSESION'], 'Hoja1'],
+    [directorio + 'Alcaldes-1983web.xlsx', 'D:H', 8, 
+        ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'LISTA', 'FECHA POSESION'], 'Hoja1'],
+    [directorio + 'Alcaldes-1987web.xlsx', 'D:H', 8, 
+        ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'LISTA', 'FECHA POSESION'], 'Hoja1'],
+    [directorio + 'Alcaldes-1991web.xlsx', 'D:H', 8, 
+        ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'LISTA', 'FECHA POSESION'], 'Hoja1'],
+    [directorio + 'Alcaldes-1999web.xlsx', 'D:H', 8, 
+        ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'LISTA', 'FECHA POSESION'], 'Hoja1'],
+    [directorio + 'Alcaldes-2003web.xlsx', 'D:H', 8, 
+        ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'LISTA', 'FECHA POSESION'], 'Hoja1'],
+    [directorio + 'Alcaldes_2007web.xlsx', 'C:G', 8, 
+        ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'LISTA', 'FECHA POSESION'], 'Hoja1'],
+    [directorio + 'datos_legislaturas_2011_2015.xlsx', 'C:G', 8, 
+        ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'LISTA', 'FECHA POSESION'], 'Alcaldes 2011-2015'],
+    [directorio + 'Mandato201520191.xlsx', 'A:H', 1, 
+         ['CCAA', 'PROVINCIA', 'MUNICIPIO', 'NOMBRE', 'APELLIDO1', 'APELLIDO2', 'GRUPO', 'FECHA-POSESION'], 'Hoja1'],
+]
+
+#Inicialización do dataframe vacío
+dfAlcaldes = pd.DataFrame([])
+
+for i in range(0, len(archivos)):
+    dfAlcaldes = pd.concat([dfAlcaldes,
+        cargaAlcaldes(archivos[i][0], archivos[i][1], 
+            archivos[i][2], archivos[i][3], archivos[i][4])]
+    )
+
+dfAlcaldes
+
+#dfAlcaldes = pd.concat
+
+
+#Mandato201520191.xlsx
+
+# pd.read_excel(ruta, sheet_name="Hoja1", 
+#     names=['COMUNIDADE', 'PROVINCIA', 'MUNICIPIO', 
+#         'NOMBRE', 'APELIDO1', 'APELIDO2', 'GRUPO', 
+#         'FECHA-POSESION'],
+#     usecols='A:H')
+
+#Ler follas dun excel
+#!conda install -y openpyxl
+import pandas as pd
+x=pd.ExcelFile('C:/Users/scj/Downloads/alcaldes/Alcaldes_Mandato_1979_1983.xlsx')
+print(x.sheet_names)
