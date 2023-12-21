@@ -1,4 +1,4 @@
-# [SBD](https://github-com/jfsanchez/SBD)
+# [SBD](https://github.com/jfsanchez/SBD)
 
 Nova estrutura:
 
