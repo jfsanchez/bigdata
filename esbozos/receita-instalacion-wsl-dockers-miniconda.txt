@@ -1,0 +1,30 @@
+# Receita completa
+
+Mouchos curuxas, sapos e bruxas...
+
+Na máquina Microsoft Windows, nunha consola PowerShell:
+C:
+wsl --update
+wsl --install -d Debian
+wsl -d Debian
+
+Na máquina Debian, nunha terminal:
+cd
+echo -e "[boot]\nsystemd=true"| sudo tee /etc/wsl.conf
+sudo apt update
+sudo apt -y dist-upgrade
+sudo apt -y install curl wget openssh-server
+ssh-keygen -q -t rsa -N '' <<< $'\ny' >/dev/null 2>&1
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh
+sudo usermod -a -G docker $USER
+sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
+sudo service docker restart
+sudo -u $USER docker run hello-world
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+chmod a+x Miniconda3-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh -b -u
+$HOME/miniconda3/bin/conda init
+$HOME/miniconda3/bin/conda config --set auto_activate_base true
+exit
