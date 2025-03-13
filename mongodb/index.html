@@ -559,11 +559,14 @@ mongosh --host localhost --port 27017 --apiVersion 1 \
                     <section>
                         <h3 style="color: darkviolet;"><span class="tiposeccion" style="background-color: violet;">&nbsp;</span> Crear usuarios con roles</h3>
                         <pre><code class="SQL" data-trim data-noescape>use persoal
-db.createUser({user: "profesor123",
-    pwd: passwordPrompt(),  // ou "o contrasinal en claro"
-    roles: [ { "readWrite",  "dbAdmin" },
-      { role: "readWrite", db: "biblioteca" }
-  ]})
+db.createUser({user: "profesor1234",
+    pwd: passwordPrompt(),
+     roles: [
+	{role: "readWrite", db: "persoal"},
+	{role: "dbAdmin", db: "persoal"},
+      	{role: "readWrite", db: "biblioteca"}
+     ]
+})
 </code></pre>
                         <ul>
                             <li>Da os roles de <strong>readWrite</strong> e <strong>dbAdmin</strong> na base de datos <strong>persoal</strong>.</li>
