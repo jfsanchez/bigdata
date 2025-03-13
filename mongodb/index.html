@@ -393,10 +393,10 @@
 
                     <section>
                         <h3><span class="tiposeccion" style="background-color: darkorange;">&nbsp;</span> Instalación «standalone» con dockers</h3>
-                        <pre><code data-trim data-noescape>docker run --name mongo \ 
+                        <pre><code data-trim data-noescape>docker run -d --name mongo \ 
     -e MONGO_INITDB_ROOT_USERNAME=mongoadmin \
     -e MONGO_INITDB_ROOT_PASSWORD=abc123Secret \
-    -v /root/mongo:/data/db \
+    -v mongov:/data/db \
     -p 27017:27017 \
     mongo</code></pre>
 <h4>Conexión</h4>
@@ -421,7 +421,7 @@ mongosh --host localhost --port 27017 --apiVersion 1 \
                         </ul>
                     </section>
 
-                    <section>
+                    <section id="instalacionpro">
                         <h3><span class="tiposeccion" style="background-color: darkorange;">&nbsp;</span> Instalación «cluster» 1/2</h3>
                         <pre><code class="bash" data-trim data-noescape>docker network create mongoR</code></pre>
                         <pre><code class="bash" style="background-color: darkred;" data-trim data-noescape>docker run -d -p 27017:27017 --name mongoVermello \
