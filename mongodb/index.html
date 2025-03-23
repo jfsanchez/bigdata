@@ -6,7 +6,7 @@
 	  <meta name="author" content="Jose Sánchez">
 	  <meta property="emailuser" content="correo">
 	  <meta property="emaildomain" content="jfsanchez.es">
-	  <meta property="creationdate" content="&copy; Febreiro 2023. Actualizado: Maio 2024">
+	  <meta property="creationdate" content="&copy; Febreiro 2023. Actualizado: Marzo 2025">
 	  <!--meta property="documenturl" content="https://jfsanchez.es/"-->
 
       <meta charset="utf-8">
@@ -1683,6 +1683,21 @@ db.createUser({user: "adnauseam",
                         <h4 style="color: salmon;">Tamén pode ser do teu interese...</h4>
                         <h2 style="color: salmon;">&dArr;</h2>
                         <aside class="notes"></aside>
+                    </section>
+
+                    <section>
+                        <h3 style="color: salmon;"><span class="tiposeccion" style="background-color: salmon;">&nbsp;</span> Importar/Exportar</h3>
+                        <h4 style="color: salmon;">Importar unha base de datos</h4>
+                        <pre><code data-trim data-noescape class="bash">mongoimport --db covid --collection coviditalia \
+    --file dpc-covid19-ita-province.json --jsonArray</code></pre>
+
+                        <h4 style="color: salmon;">Volcado/Dump dunha base de datos</h4>
+                        <pre><code data-trim data-noescape class="bash">mongodump --host localhost:27017 --gzip --db covid \
+    --out $HOME/mongobackup</code></pre>
+
+                        <h4 style="color: salmon;">Restaurar/Restore la base de datos</h4>
+                        <pre><code data-trim data-noescape class="bash">mongorestore --host localhost:27017 --gzip \
+    --db covid $HOME/mongobackup</code></pre>
                     </section>
 
                     <section>
