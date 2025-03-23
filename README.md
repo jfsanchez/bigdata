@@ -1,6 +1,9 @@
-# [SBD](https://github.com/jfsanchez/SBD) e [BDA](https://github.com/jfsanchez/SBD)
+# Repositorio de Big Data con exemplos
 
-Repo conxunto. En proceso de fusión con tódolos exemplos
+En proceso de fusión cos repos:
+
+- [SBD](https://github.com/jfsanchez/SBD) 
+- [BDA](https://github.com/jfsanchez/BDA)
 
 Estrutura:
 
@@ -13,3 +16,6 @@ Estrutura:
     - pandas
     - scraping
 - tarefas
+
+
+Tamén hai outro repositorio con [documentación e apuntes](https://github.com/jfsanchez/docs).
