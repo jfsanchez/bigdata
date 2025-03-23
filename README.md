@@ -8,7 +8,6 @@ En proceso de fusión cos repos:
 Estrutura:
 
 - datasets
-- escenarios
 - notebooks
     - bbdd
     - formatos
