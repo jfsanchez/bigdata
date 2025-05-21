@@ -41,5 +41,6 @@ DESDE hadoop1 (conecta a hadoop1 USANDO SU IP NUEVA desde el hadoop del cesga)
 	clush -l cesgaxuser -bw hadoop[2-4] --copy /home/cesgaxuser/.ssh --dest /home/cesgaxuser/
 5) Para el /etc/hosts no puedes ejecutar un copy de clush porque tendrías que ejecutar como root. Un workaround (rodeo) sería:
 	clush -l cesgaxuser -bw hadoop[2-4] --copy /etc/hosts --dest /tmp/
-	clush -l cesgaxuser -bw hadoop[2-4] sudo cp /tmp/hosts /etc ; sudo chown root:root /etc/hosts
+	clush -l cesgaxuser -bw hadoop[2-4] sudo cp /tmp/hosts /etc 
+	clush -l cesgaxuser -bw hadoop[2-4] sudo chown root:root /etc/hosts
 
