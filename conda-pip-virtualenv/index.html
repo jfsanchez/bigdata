@@ -1,0 +1,499 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Recordatorio: Cambiar estas propiedades -->
+    <title>Intelixencia Artifical e Big Data</title>
+    <meta name="author" content="Jose Sánchez">
+    <meta property="emailuser" content="correo">
+    <meta property="emaildomain" content="jfsanchez.es">
+    <meta property="creationdate" content="&copy; Dec/2022 &mdash; Actualizado: Nov/2024">
+    <meta property="lastmodification" content="&copy; Agosto 2023">
+    <!--meta property="documenturl" content="https://jfsanchez.es"-->
+    <!-- --  -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://jfsanchez.es/cdn/resources/system/revealjs4/dist/reveal.css">
+    <link rel="stylesheet" href="https://jfsanchez.es/cdn/resources/system/revealjs4/dist/theme/simple.css">
+    
+        <style>
+            .reveal h1,
+            .reveal h2,
+            .reveal h3,
+            .reveal h4 {
+                color: gold;
+            }
+
+            .trojo {
+                color: darkred;
+            }
+
+            .tverde {
+                color: darkgreen;
+            }
+
+            .tamarillo {
+                color: darkgoldenrod;
+            }
+
+            .tazul {
+                color: darkblue;
+            }
+
+            .famarillo {
+                background-color: lightgoldenrodyellow;
+            }
+
+            .divdual {
+                display: block;
+                float: left;
+                width: 48%;
+                margin: 0 auto;
+            }
+
+            .tnormal {
+                padding: 0;
+                text-align: justify;
+                font-size: 0.7em !important;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <!--div class="fragment">
+		                <p>Big Data</p>
+		            </div-->
+                
+                <h3 style="color: gold;">ANACONDA e PIP</h3>
+                <h5 style="color: gray;">Curso de Especialización en Intelixencia Artificial e Big Data</h5>
+            </section>
+
+            <section>
+                <h3>Índice</h3>
+                <ul>
+                    <li>Conda vs pip/virtualenv</li>
+                    <li>Comandos útiles
+                        <ul>
+                            <li>Comandos útiles conda</li>
+                            <li>Comandos útiles pip</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+		<section>
+	        <section>
+        	    <h3 style="color: darkorange;">Conda vs pip/virtualenv</h3>
+            </section>
+        	    
+  	        <section>
+  	        	<img src="conda/python-virtualenv-pip.png" alt="Precisamos dúas ferramentas para facer a vida máis sinxela"/>
+                <aside class="notes">
+                    Paradigma "clásico": Móntase unha contorna (opcionalmente) con virtualenv
+                </aside>
+  	        </section>
+      	    <section>
+  	          	<img src="conda/python-conda.png" alt="Nunha ferramenta todo é máis simple"/>
+                <aside class="notes">
+                    Paradigma "novo": 
+                </aside>
+  	        </section>
+        </section>
+
+       <section>
+            <section>
+                <h3 style="color: darkorange;">Comandos útiles</h3>
+                <ul>
+                    <li><strong style="background-color: cornsilk;">Comandos conda &larr; &larr; &larr;</strong></li>
+                    <li>Comandos pip/virtualenv</li>
+                </ul>
+                <br/>
+                <h4><a href="conda/conda-cheatsheet.pdf">🗂️ Descargar cheatsheet / chuleta de uso</a></h4>
+                <h4 style="color: darkgray;">ANACONDA: Unha suite para a ciencia de datos</h4>
+                <a href="https://anaconda.org" target="_blank"><img src="conda/anaconda_org_logo.svg" width="40%" alt="Logo do proxecto Anaconda"/></a>
+            </section>
+
+            <section>
+                <h3 style="color: darkorange;">Comandos conda</h3>
+                <ul>
+                    <li>Manexo básico de contornas: listaxe, creación, activación, actualización, borrado</li>
+                    <li>Exportación/Importación</li>
+                    <li>Demo en ASCIInema</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Versión de conda</h3>
+                <pre><code data-trim data-noescape>
+                    conda --version
+                </code></pre>
+
+                <div class="fragment">
+                    <h3>Contornas dispoñibles</h3>
+                    <pre><code data-trim data-noescape>
+                        conda env list
+                    </code></pre>
+                </div>
+
+                <div class="fragment">
+                    <h3>Crear unha contorna nova</h3>
+                    <pre><code data-trim data-noescape>
+                        conda create -n bigdata python=3.12 numpy
+                    </code></pre>
+
+                </div>
+                <div class="fragment">
+                <h3>Borrar unha contorna</h3>
+                    <pre><code data-trim data-noescape>
+                        conda env remove -n bigdata
+                    </code></pre>
+                </div>
+                <aside class="notes">
+                    <ul>
+                        <li>Versión de conda</li>
+                        <li>Lista de contornas</li>
+                        <li>Creación: Crea unha contorna baseada en Python v3.12 e instala a maiores o paquete numpy.</li>
+                        <li>Borrado</li>
+                    </ul>
+                </aside>
+            </section>
+
+            <section>
+                <h3>Exercicio</h3>
+                <p>Crea as seguintes contornas:</p>
+                <ul>
+                    <li><strong>bigdata</strong> con pandas e Python 3.12</li>
+                    <li><strong>ia</strong> con numpy e Python 3.8</li>
+                </ul>
+
+                <p>Solución:</p>
+                <div class="fragment">
+                    <pre><code data-trim data-noescape>
+                        conda create -n bigdata python=3.12 pandas
+                        conda create -n ia python=3.8 numpy
+                    </code></pre>
+                </div>
+            </section>
+
+            <section>
+                <h3>Seleccionar contorna</h3>
+                <pre><code data-trim data-noescape>
+                    conda activate ENTORNO
+                </code></pre>
+                <pre><code data-trim data-noescape>
+                    conda deactivate
+                </code></pre>
+                <aside class="notes">
+                    As activacións apílanse. Partindo de base, podo activar: bigdata, ia e cada deactivate volve ao paso anterior
+                </aside>
+            </section>
+
+            <section>
+                <h3>Instalación (simple) de paquetes</h3>
+                <pre><code data-trim data-noescape>conda install PAQUETE</code></pre>
+                <p>Exemplo:</p>
+                <pre><code data-trim data-noescape>conda install matplotlib</code></pre>
+                <ul>
+                    <li>Emprega o repositorio principal de anaconda.</li>
+                    <li>Instala na contorna activada actual.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Instalación de paquetes doutras organizacións/repositorios</h3>
+                <p>Sintaxe xeral</p>
+                <pre><code data-trim data-noescape>conda install -c REPOSITORIO_ORGANIZACION PAQUETE</code></pre>
+                <p>Exemplo (Conda-Forge é un repo comunitario):</p>
+                <pre><code data-trim data-noescape>conda install -c conda-forge jupyterlab</code></pre>
+
+            </section>
+            <section>
+                <h3>Buscar paquetes</h3>
+                <ul>
+                    <li>En Internet: <a href="https://anaconda.org/search">https://anaconda.org/search</a></li>
+                    <li>Por comando: <br/><pre><code data-trim data-noescape>conda search PAQUETE</code></pre></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Actualización de paquetes</h3>
+
+                <h4>Dende a contorna actual:</h4>
+                <pre><code data-trim data-noescape>conda update --all</code></pre>
+
+                <h4>Dende outra contorna:</h4>
+                <pre><code data-trim data-noescape>conda update -n ENVIRONMENT --all</code></pre>
+            </section>
+
+            <section>
+                <h3>Exportar / Compartir a contorna</h3>
+                <pre><code data-trim data-noescape>conda env export --file bigdata-bd.yml</code></pre>
+            </section>
+
+            <section>
+                <h3>Importar/Crear contorna cun YAML</h3>
+                <pre><code data-trim data-noescape>conda env create --file bigdata-bd.yml</code></pre>
+            </section>
+
+            <section>
+                <h3>Qué conten un arquivo de entorno</h3>
+                <pre><code data-trim data-noescape><strong>cat bigdata-bd.yml</strong></code></pre>
+                <pre>channels:
+                    - conda-forge
+                    dependencies:
+                    - python=3.6
+                    - pip
+                    - pip:
+	                - pyjokes
+                </pre>
+            </section>
+
+            <section data-background-color="#808080">
+                <script async id="asciicast-sJIvNXYLtQ17sR0DFQJo49koJ" src="https://asciinema.org/a/sJIvNXYLtQ17sR0DFQJo49koJ.js"></script>
+            </section>
+
+        </section>
+
+        <section>
+            <section>
+                <h3 style="color: darkorange;">Comandos útiles</h3>
+                <ul>
+                    <li>Comandos conda</li>
+                    <li><strong style="background-color: cornsilk;">Comandos pip/virtualenv &larr; &larr; &larr;</strong></li>
+                </ul>
+                <h4><a href="conda/pip-cheatsheet.pdf">🗂️ Descargar cheatsheet / chuleta de uso</a></h4>
+                <h4 style="color: darkgray;">Se non está en conda, está en pip</h4>
+                <h3>Package Installer for Python (pip)</h3>
+            </section>
+
+            <section>
+                <h3>Diferenza entre pip e PyPI</h3>
+                <ul>
+                    <li><strong>PyPI</strong> &rarr; The Python Package Index</li>
+                    <li><strong>PIP</strong> &rarr; Package Installer for Python</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Instalación de pipx/virtualenv</h3>
+                <pre><code data-trim data-noescape>
+                sudo apt install python3-pip
+                sudo apt install pipx
+                </code></pre>                
+                <pre><code data-trim data-noescape>
+                pipx install virtualenv
+                </code></pre>
+                <p>Alternativa:</p>
+                <pre><code data-trim data-noescape>
+                sudo apt install python3-pip virtualenv pipx
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Comprobando rutas</h3>
+                <pre><code data-trim data-noescape>
+                type virtualenv
+                type python3
+                type pip3
+                </code></pre>
+                <h3>Locale</h3>
+                <pre><code data-trim data-noescape>
+                export LC_ALL="es_ES.UTF-8"
+                virtualenv --version
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Crear contorna virtualenv</h3>
+                <pre><code data-trim data-noescape>
+                virtualenv -p /opt/python-3.XX.XX/bin/python3 venv3_XX_XX
+                </code></pre>
+                <h3>Activar contorna virtualenv</h3>
+                <pre><code data-trim data-noescape>
+                source venv/bin/activate 
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Desactivar contorna virtualenv</h3>
+                <pre><code data-trim data-noescape>
+                deactivate
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Instala a última versión do paquete</h3>
+                <pre><code data-trim data-noescape>
+                python -m pip install PaqueteAInstalar
+                </code></pre>
+                <h3>Instala a versión específica 1.2.3</h3>
+                <pre><code data-trim data-noescape>
+                    python -m pip install PaqueteAInstalar==1.2.3
+                </code></pre>
+                <h3>Instala mínimo a versión 2.3.4</h3>
+                <pre><code data-trim data-noescape>
+                python -m pip install 'PaqueteAInstalar>=2.3.4'
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Instalación de paquetes locales</h3>
+                <p>Útil cando queremos preservar unha contorna</p>
+                <p>Descarga de paquetes</p>
+                <pre><code data-trim data-noescape>
+                python -m pip download --destination-directory DIR -r contorna-bigdata.txt
+                </code></pre>
+                <p>Instalación de paquetes</p>
+                <pre><code data-trim data-noescape>
+                python -m pip install --no-index --find-links=DIR -r contorna-bigdata.txt
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Desinstalar paquetes</h3>
+                <pre><code data-trim data-noescape>
+                python -m pip uninstall PaqueteADesinstalar
+                </code></pre>
+            </section>
+
+            <section>
+                 <h3>Actualizar PIP</h3>
+                <pre><code data-trim data-noescape>
+                python3 -m pip install --upgrade pip
+                </code></pre>
+
+                <p>Alternativa 0:</p>
+                <pre><code data-trim data-noescape>
+                pip3 install --upgrade setuptools
+                </code></pre>
+
+                <p>Alternativa 1:</p>
+                <pre><code data-trim data-noescape>
+                    python -m ensurepip --upgrade                    
+                </code></pre>
+
+                <p>Alternativa 2:</p>
+                <p>Bajar: <a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></p>
+                <pre><code data-trim data-noescape>
+                python get-pip.py
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Borrar contorna</h3>
+                <p>Simplemente borramos o directorio</p>
+                <pre><code data-trim data-noescape>
+                rm -rf venv
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Listaxe de paquete/versión instalados na contorna:</h3>
+                <pre><code data-trim data-noescape>
+                python -m pip freeze > contorna-bigdata.txt
+                </code></pre>
+                <h3>Restaurar unha contorna cos paquete/versión</h3>
+                <pre><code data-trim data-noescape>
+                python -m pip install -r contorna-bigdata.txt
+                </code></pre>
+            </section>
+
+            <section>
+                <h3>Activar o bash completion</h3>
+                <pre><code data-trim data-noescape>
+                python -m pip completion --bash >> ~/.profile
+                </code></pre>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h3>Conda e pip</h3>
+                <ul>
+                    <li>Poden coexistir</li>
+                    <li>Nunha contorna conda podemos:</li>
+                    <ul>
+                        <li>Ter instalado pip</li>
+                        <li>Instalar para esa contorna os paquetes restantes con pip</li>
+                    </ul>
+                </ul>
+                <pre><code data-trim data-noescape>
+                    conda install pip
+                </code></pre>
+            </section>
+        </section>
+
+		<section>
+    		<h3>Manuais</h3>
+                <ul>
+                    <li><h4><a href="conda/conda-cheatsheet.pdf">🗂️ Cheatsheet / chuleta de ANACONDA</a></h4></li>
+                    <li><h4><a href="conda/pip-cheatsheet.pdf">🗂️ Cheatsheet / chuleta de PIP</a></h4></li>
+			        <li><a href="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment">Traballando con contornas en conda (inglés)</a></li>
+                    <li><a href="https://pip.pypa.io/en/stable/user_guide/">https://pip.pypa.io/en/stable/user_guide/</a></li>
+                    <li><a href="https://www.python.org/">https://www.python.org/</a></li>
+                    <li><a href="https://pypi.org/">https://pypi.org/</a></li>
+                </ul>
+		</section>
+
+        <section>
+            <img alt="QR materiales" id="qrmateriales">
+            <p id="copyrightline" style="color: orange;">Jose Sánchez</p>
+            <p><small><a href="" id="urlmateriales"><span id="textourlmateriales"></span></a></small></p>
+
+            <!--span class="fragment"-->
+            <blockquote><small>&ldquo;<em><strong>Errare humanum est, sed perseverare
+                            diabolicum</strong></em>&rdquo;</small></blockquote>
+            <small id="addemail">Se atopas erros, envíame un correo a: </small>
+            <!--/span-->
+        </section>
+
+    </div>
+    </div>
+
+    <!-- Plugins de revealjs -->
+    <script src="https://jfsanchez.es/cdn/resources/system/revealjs4/dist/reveal.js"></script>
+    <script src="https://jfsanchez.es/cdn/resources/system/revealjs4/plugin/markdown/markdown.js"></script>
+    <script src="https://jfsanchez.es/cdn/resources/system/revealjs4/plugin/highlight/highlight.js"></script>
+    <script src="https://jfsanchez.es/cdn/resources/system/revealjs4/plugin/notes/notes.js"></script>
+    <!-- Generador de códigos QR-->
+    <script src="https://jfsanchez.es/cdn/resources/js/qrious.js"></script>
+    <script>
+
+        //Coger la propiedad para: texto de enlace, enlace y código QR
+        //var documenturl=document.head.querySelector("[property~=documenturl][content]").content;
+        var documenturl = window.location.href;
+
+        Reveal.initialize({
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+            progress: true,
+            controlsBackArrows: 'faded',
+        });
+
+        new QRious({
+            element: document.querySelector("#qrmateriales"),
+            value: documenturl,
+            size: 150,
+            backgroundAlpha: 0, // 0 Transparent
+            foreground: "#00008B",
+            level: "Q", // L(owest),M ,Q ,H(ighest)
+        });
+
+        document.querySelector("#textourlmateriales").innerText = documenturl;
+        document.querySelector("#urlmateriales").setAttribute('href', documenturl);
+        document.querySelector("#copyrightline").innerText =
+        document.head.querySelector("[name~=author][content]").content + " " +
+        document.head.querySelector("[property~=creationdate][content]").content;
+        document.querySelector("#addemail").innerText = document.querySelector("#addemail").innerText +
+        document.head.querySelector("[property~=emailuser][content]").content + "@" +
+        document.head.querySelector("[property~=emaildomain][content]").content;
+
+    </script>
+
+</body>
+
+</html>
