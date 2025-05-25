@@ -145,6 +145,8 @@ Un dos activos máis importantes das empresas son os datos. En Europa e EEUU xog
 
 **Fonte**: Elaboración propia a partir dos datos presentes nas webs das empresas, pode haber erros.
 
+Tamén hai un listaxe de proveedores de nube públicas empregando tecnoloxía OpenStack: <https://www.openstack.org/marketplace/public-clouds/>
+
 ### Elixindo unha compañía de cloud computing
 
 Elixir unha compañía (ou varias) non é tarefa sinxela. Seguramente terás oído comentarios de todo tipo. Por exemplo:

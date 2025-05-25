@@ -26,10 +26,10 @@ Presentacións feitas con [revealjs](https://revealjs.com/). Preme `.` para ver 
 
 Todos os materiais publicanse con copyright. Permítese o seu uso en docencia, pero non para formación de formadores. Non se permite a súa inclusión en materiais elaborados, oficiais ou non por parte de empresas que elaboren/vendan materiais, bootcamps, editoriais e similares ou a institucións públicas ou privadas de calquer tipo. O único uso permitido é a docentes finais para as súas clases.
 
-**Repositorios**
+🔒️ Bloqueos da Liga? **Podes clonar (e facer pull para recibir actualizacións) estes repositorios:**
 
 ![Logotipo git](images/git/logo-git.png#derecha "Logotipo git")
 
-No repositorio: <https://github.com/jfsanchez/SBD> poderás ver código de exemplo.
-
-🔒️ Bloqueos da Liga? Podes clonar este repositorio para ter esta web offline: `git clone https://github.com/jfsanchez/docs`. Se tes GNU/Linux o script `./mkdocs.sh` ten o necesario para levantar un docker e montar a web en: `http://localhost:8080`.
+- git clone <https://github.com/jfsanchez/SBD>{:target="_blank"} &rarr; Código de exemplo.
+- git clone <https://github.com/jfsanchez/docencia>{:target="_blank"} &rarr; Presentacións de arriba.
+- git clone <https://github.com/jfsanchez/docs>{:target="_blank"} &rarr; Esta páxina. Se tes GNU/Linux o script `./mkdocs.sh` do repo `docs` ten o necesario para levantar un docker e montar a web en: `http://localhost:8080`.
