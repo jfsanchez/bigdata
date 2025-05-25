@@ -106,11 +106,11 @@ extra_css:
 #   - _res/prism.css
 # extra_javascript:
 #   - _res/prism.js
-site_name: JFSanchez
+site_name: Big Data
 site_url: https://jfsanchez.es/
 repo_url: https://github.com/jfsanchez/
 site_author: Jose Sánchez
-copyright: 2025 - Jose Sánchez
+copyright: ©️ 2025 &mdash; Jose Sánchez
 #plugins:
 #  - search
 #  - pdf-export:
