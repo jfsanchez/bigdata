@@ -1,8 +1,8 @@
-# 🐧 WSL
+# 🐧 WSL &mdash; Windows Subsystem for Linux
 
 ![Tux](images/linux/tux.svg#derecha Tux)
 
-**W**indows **S**ubsystem for **L**inux (WSL)
+Subsistema de Windows para Linux. Inicialmente foi concebido como unha capa de compatibilidade para executar programas de GNU/Linux (binarios **ELF**: **E**xtensible **L**inkable **F**ormat) en Microsoft Windows. Actualmente permite incluso executar o kernel real.
 
 ## Requisitos previos
 

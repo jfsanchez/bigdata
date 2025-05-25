@@ -182,6 +182,8 @@ clush -l cesgaxuser -bw hadoop[1-4] sudo dnf install -y nano net-tools
 
 En tódolos equipos debemos ter instalada a máquina virtual de Java OpenJDK versión Corrreto de Amazon a través de repositorio. 
 
+Tes as instruccións máis detalladas e con explicacións en: [Java/Amazon Corretto/OpenJDK](amazon-corretto-java-0-instalacion.md)
+
 Engadimos o respositorio:
 
 ``` bash

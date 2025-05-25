@@ -1,4 +1,4 @@
-# 🔵 Docker — Guía básica
+# 🐋 Docker — 🔵 Guía básica
 
 ![Logotipo docker](images/docker/Docker_container_engine_logo.svg#derecha "Logotipo docker")
 

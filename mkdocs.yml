@@ -49,10 +49,11 @@ nav:
   - "👷 Contorno/Configuracións":
       - "🐍 Contorno BigData": "conda-0-config-basica.md"
       - "🐧 WSL": "windows-wsl.md"
-      - "🔵 Docker": "docker-0-base-simple.md"
-      - "🐳 Bases de Datos":
+      - "🐋 Docker": "docker-0-base-simple.md"
+      - "🛢 Bases de Datos":
         - "🧾 MySQL / MariaDB": "docker-1-my-maria.md"
         - "🧾 PostgreSQL": "docker-4-postgresql.md"
+        - "🧾 SQLite": "docker-9-sqlite.md"
         - "🧾 MongoDB": "docker-2-mongodb.md"
         - "🧾 Redis": "docker-3-redis.md"
         - "🧾 Microsoft SQL Server": "docker-5-mssql-server.md"
@@ -75,7 +76,6 @@ nav:
     - "🐜️ Conceptos básicos": "apache-kafka-1-conceptos-basicos.md"
     - "🐍 Kafka e Python" : "apache-kafka-2-python.md"
     - "⚝ Kafka e Spark": "apache-kafka-3-spark.md"
-    - "💧 Kafka e Nifi": "apache-kafka-4-nifi.md"
   - "💧 Apache NIFI":
     - "🐳 Instalación docker": "apache-nifi-0-instalacion.md"
     - "👉️ Instalación manual": "apache-nifi-0-instalacion-manual.md"
@@ -83,6 +83,7 @@ nav:
     - "👣 Primeiros pasos": "apache-nifi-1-primeiros-pasos.md"
     - "👷 Procesadores": "apache-nifi-4-procesadores.md"
     - "🌐 Codificación de caracteres" : "apache-nifi-3-codificacion.md"
+    - "➿ Conexión a Kafka" : "apache-kafka-4-nifi.md"
     - "🎯 Parámetros": "apache-nifi-2-parametros.md"
     - "😼 Control de versións": "apache-nifi-z-control-versions.md"
   - "🇸 Apache Sqoop": "apache-sqoop-0-resumo.md"
