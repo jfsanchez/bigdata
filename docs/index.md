@@ -28,4 +28,4 @@ Todos os materiais publicanse con copyright. Permítese o seu uso en docencia, p
 
 Podes atopar anacos de código de exemplo no repositorio: <https://github.com/jfsanchez/SBD>.
 
-E tamén podes clonar este repositorio para ter esta web offline: `git clone https://github.com/jfsanchez/docs`. Se tes GNU/Linux o script `./mkdocs.sh` ten o necesario para levantar un docker e montar a web en: `http://localhost:8080`.
+Bloqueos da Liga? Podes clonar este repositorio para ter esta web offline: `git clone https://github.com/jfsanchez/docs`. Se tes GNU/Linux o script `./mkdocs.sh` ten o necesario para levantar un docker e montar a web en: `http://localhost:8080`.
