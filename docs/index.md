@@ -24,7 +24,7 @@ Presentacións feitas con [revealjs](https://revealjs.com/). Preme `.` para ver 
 
 </div>
 
-Todos os materiais publicanse con copyright. Permítese o seu uso en docencia, pero non para formación de formadores. Non se permite a súa inclusión en materiales elaborados, oficiais ou non por parte de empresas que elaboren/vendan materiais, bootcamps, editoriais e similares ou a institucións públicas ou privadas de calquer tipo. O único uso permitido é a docentes finais para as súas clases.
+Todos os materiais publicanse con copyright. Permítese o seu uso en docencia, pero non para formación de formadores. Non se permite a súa inclusión en materiais elaborados, oficiais ou non por parte de empresas que elaboren/vendan materiais, bootcamps, editoriais e similares ou a institucións públicas ou privadas de calquer tipo. O único uso permitido é a docentes finais para as súas clases.
 
 **Repositorios**
 
