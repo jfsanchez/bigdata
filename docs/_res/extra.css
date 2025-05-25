@@ -12,6 +12,12 @@ img[src*="#derecha"] {
   padding-left: 0.5em;
 }
 
+img[src*="#izquierda"] {
+  width: 180px;
+  float:left;
+  padding-right: 0.5em;
+}
+
 img[src*="#izquierda-sin-ajuste"] {
   float:left;
   padding-right: 1em;

@@ -1,6 +1,8 @@
 # 📚 Presentacións e repositorios
 
-Podes ver as presentacións (feitas con: [revealjs](https://revealjs.com/)) no navegador. Preme `.` para acceder ás anotacións. Atopaches erros? Mira na última diapositiva da presentación.
+![Logotipo revealjs](images/revealjs/revealjs-logo.svg#derecha "Logotipo revealjs")
+
+Presentacións feitas con [revealjs](https://revealjs.com/). Preme `.` para ver as anotacións. Atopaches erros? Mira na última diapositiva da presentación.
 
 <div class="grid cards" markdown>
 
@@ -26,6 +28,8 @@ Todos os materiais publicanse con copyright. Permítese o seu uso en docencia, p
 
 **Repositorios**
 
-Podes atopar anacos de código de exemplo no repositorio: <https://github.com/jfsanchez/SBD>.
+![Logotipo git](images/git/logo-git.png#derecha "Logotipo git")
 
-Bloqueos da Liga? Podes clonar este repositorio para ter esta web offline: `git clone https://github.com/jfsanchez/docs`. Se tes GNU/Linux o script `./mkdocs.sh` ten o necesario para levantar un docker e montar a web en: `http://localhost:8080`.
+No repositorio: <https://github.com/jfsanchez/SBD> poderás ver código de exemplo.
+
+🔒️ Bloqueos da Liga? Podes clonar este repositorio para ter esta web offline: `git clone https://github.com/jfsanchez/docs`. Se tes GNU/Linux o script `./mkdocs.sh` ten o necesario para levantar un docker e montar a web en: `http://localhost:8080`.
