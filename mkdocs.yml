@@ -112,6 +112,7 @@ repo_name: jfsanchez/bigdata
 repo_url: https://github.com/jfsanchez/
 site_author: Jose Sánchez
 copyright: 2025 ©️ Jose Sánchez
+
 #plugins:
 #  - search
 #  - pdf-export:
