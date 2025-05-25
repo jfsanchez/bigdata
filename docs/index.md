@@ -29,7 +29,7 @@ Todos os materiais publicanse con copyright. Permítese o seu uso en docencia, p
 ![Logotipo git](images/git/logo-git.png#derecha "Logotipo git")
 
 ```
-git clone <https://github.com/jfsanchez/bigdata>{:target="_blank"} 
+git clone https://github.com/jfsanchez/bigdata 
 ```
 
 Se tes GNU/Linux o script `./mkdocs.sh` ten o necesario para levantar un docker e montar esta web en: `http://localhost:8080`.
