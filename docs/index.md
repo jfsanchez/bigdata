@@ -1,8 +1,6 @@
 # 📚 Presentacións e repositorios
 
-![Logotipo revealjs](images/revealjs/revealjs-logo.svg#derecha "Logotipo revealjs")
-
-Presentacións feitas con [revealjs](https://revealjs.com/). Preme `.` para ver as anotacións. Atopaches erros? Mira na última diapositiva da presentación.
+Presentacións feitas con [revealjs](https://revealjs.com/). Preme `s` **dentro da presentación** para ver as anotacións. Atopaches erros? Mira na última diapositiva da presentación.
 
 <div class="grid cards" markdown>
 

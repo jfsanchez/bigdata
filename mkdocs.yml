@@ -109,7 +109,7 @@ extra_css:
 site_name: Big Data
 site_url: https://jfsanchez.es/docs/
 repo_name: jfsanchez/docs
-repo_url: https://github.com/jfsanchez/SBD
+repo_url: https://github.com/jfsanchez/
 site_author: Jose Sánchez
 copyright: 2025 ©️ Jose Sánchez
 #plugins:
