@@ -141,7 +141,7 @@ Un dos activos máis importantes das empresas son os datos. En Europa e EEUU xog
 | [V2 Cloud](https://v2cloud.com/) | Canadá | 2012 |
 
 
-/!\ O ano de comezo pode ser noutras actividades, as empresas máis antigas non se adicaron sempre ao cloud e mesmo as modernas tentan sempre pasar por máis antigas con trucos cosméticos para que se vexa que levan tempo no sector.
+⚠️ O ano de comezo pode ser noutras actividades, as empresas máis antigas non se adicaron sempre ao cloud e mesmo as modernas tentan sempre pasar por máis antigas con trucos cosméticos para que se vexa que levan tempo no sector.
 
 **Fonte**: Elaboración propia a partir dos datos presentes nas webs das empresas, pode haber erros.
 

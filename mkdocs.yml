@@ -87,8 +87,10 @@ nav:
     - "🎯 Parámetros": "apache-nifi-2-parametros.md"
     - "😼 Control de versións": "apache-nifi-z-control-versions.md"
   - "🇸 Apache Sqoop": "apache-sqoop-0-resumo.md"
-  - "🍀 Apache Airflow": "apache-airflow-0-instalacion.md"
-  - "♾️ Apache Superset": "apache-superset.md"
+  - "✔️ TODO":
+    - "🍀 Apache Airflow": "apache-airflow-0-instalacion.md"
+    - "♾️ Apache Superset": "apache-superset.md"
+    - "📊 Click House": "clickhouse.md"
   - "☁️ Nube/Cloud/Openstack":
     - "☁️ Introdución": "nube-0-intro.md"
     - "➕ Crear Instancia": "nube-1-openstack-crear-lanzar-instancia.md"
