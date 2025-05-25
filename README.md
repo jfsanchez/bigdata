@@ -8,6 +8,7 @@ En proceso de fusión cos repos:
 Estrutura:
 
 - datasets
+- docs - MKdocs con apuntamenos
 - notebooks
     - bbdd
     - formatos

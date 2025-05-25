@@ -1,0 +1,1 @@
+# [Esta páxina xuntouse coa instalación completa. Podes premer aquí para ir á páxina nova](apache-nifi-0-instalacion.md)

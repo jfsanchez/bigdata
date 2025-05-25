@@ -1,0 +1,120 @@
+theme:
+  name: material
+  highlightjs: True
+  hljs_style: shades-of-purple
+  locale: es
+  language: gl
+  include_homepage_in_sidebar: True
+  prev_next_buttons_location: both
+  favicon: "images/favicon.png"
+  logo: "images/logo.png"
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.indexes
+    - toc.follow
+#    - toc.integrate
+    - navigation.top
+    - navigation.path
+    - navigation.prune
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Modo oscuro (da calambre)
+  - scheme: slate
+    toggle:
+      icon: material/toggle-switch
+      name: Modo normal
+      primary: green
+      accent: ambe
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+#          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+nav:
+  - "📚 Inicio — Presentacións": "index.md"
+  - "👷 Contorno/Configuracións":
+      - "🐍 Contorno BigData": "conda-0-config-basica.md"
+      - "🐧 WSL": "windows-wsl.md"
+      - "🐋 Docker": "docker-0-base-simple.md"
+      - "🛢 Bases de Datos":
+        - "🧾 MySQL / MariaDB": "docker-1-my-maria.md"
+        - "🧾 PostgreSQL": "docker-4-postgresql.md"
+        - "🧾 SQLite": "docker-9-sqlite.md"
+        - "🧾 MongoDB": "docker-2-mongodb.md"
+        - "🧾 Redis": "docker-3-redis.md"
+        - "🧾 Microsoft SQL Server": "docker-5-mssql-server.md"
+        - "🧾 Oracle Free": "docker-6-oracle.md"
+      - "🦫 DBeaver e túneles SSH": "dbeaver-tunel-ssh.md"
+      - "🔑 SSH e túneles": "ssh-0-chaves-tuneles.md"
+      - "☕ Java/OpenJDK/Corretto": "amazon-corretto-java-0-instalacion.md"
+      - "🪄 Ipython máxico": "python-1-maxias.md"
+      - "🗂️ Arquivos en Python": "python-0-conceptos-previos.md"
+      - "📘 Docker ++": "docker-z-guia-refinitiva.md"
+  - "🐘 Apache Hadoop":
+    - "🧾 Instalación": "apache-hadoop-0-instalacion.md"
+    - "🔲 Comandos": "apache-hadoop-1-comandos.md"
+    - "🧮 Exemplo contapalabras": "apache-hadoop-2-cuentapalabras.md"
+  - "⚝ Apache Spark":
+    - "🧾 Instalación": "apache-spark-0-instalacion.md"
+    - "🔲 Comandos": "apache-spark-1-comandos.md"
+  - "➿ Apache Kafka": 
+    - "🐳 Instalación docker": "apache-kafka-0-instalacion-docker.md"
+    - "🐜️ Conceptos básicos": "apache-kafka-1-conceptos-basicos.md"
+    - "🐍 Kafka e Python" : "apache-kafka-2-python.md"
+    - "⚝ Kafka e Spark": "apache-kafka-3-spark.md"
+  - "💧 Apache NIFI":
+    - "🐳 Instalación docker": "apache-nifi-0-instalacion.md"
+    - "👉️ Instalación manual": "apache-nifi-0-instalacion-manual.md"
+    - "🐜️ Conceptos previos": "apache-nifi-1-conceptos-previos.md"
+    - "👣 Primeiros pasos": "apache-nifi-1-primeiros-pasos.md"
+    - "👷 Procesadores": "apache-nifi-4-procesadores.md"
+    - "🌐 Codificación de caracteres" : "apache-nifi-3-codificacion.md"
+    - "➿ Conexión a Kafka" : "apache-kafka-4-nifi.md"
+    - "🎯 Parámetros": "apache-nifi-2-parametros.md"
+    - "😼 Control de versións": "apache-nifi-z-control-versions.md"
+  - "🇸 Apache Sqoop": "apache-sqoop-0-resumo.md"
+  - "✔️ TODO":
+    - "🍀 Apache Airflow": "apache-airflow-0-instalacion.md"
+    - "♾️ Apache Superset": "apache-superset.md"
+    - "📊 Click House": "clickhouse.md"
+  - "☁️ Nube/Cloud/Openstack":
+    - "☁️ Introdución": "nube-0-intro.md"
+    - "➕ Crear Instancia": "nube-1-openstack-crear-lanzar-instancia.md"
+    - "💿 Volúmenes": "nube-2-openstack-volumes.md"
+    - "🛡️ Grupos de seguridade": "nube-3-openstack-grupos-seguridade.md"
+    - "⛈️ Recuperación": "nube-4-openstack-recovey.md"
+    - "🐢 SWAP": "nube-5-openstack-crear-swap.md"
+    - "⚙️ Automatizando": "nube-6-comandos.md"
+  - "📶 Microsoft PowerBi": "powerbi-0-python.md"
+  - "🗒️ Plantillas docencia": "https://github.com/jfsanchez/docencia/tree/main/libreta"
+extra_css:
+  - _res/extra.css
+#   - _res/prism.css
+# extra_javascript:
+#   - _res/prism.js
+site_name: Big Data
+site_url: https://jfsanchez.es/docs/
+repo_name: jfsanchez/docs
+repo_url: https://github.com/jfsanchez/
+site_author: Jose Sánchez
+copyright: 2025 ©️ Jose Sánchez
+#plugins:
+#  - search
+#  - pdf-export:
+#      verbose: true
+#      media_type: print
+#      enabled_if_env: ENABLE_PDF_EXPORT
