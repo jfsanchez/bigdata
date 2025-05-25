@@ -1,21 +1,19 @@
-# Repositorio de Big Data con exemplos
+# Repositorio de Big Data con exemplos © 2025 Jose Sanchez 
 
-## 2025 © Jose Sanchez - <https://jfsanchez.es/bigdata>
+<https://jfsanchez.es/bigdata>
 
-Estrutura:
-
-- datasets
-- docs - MKdocs con apuntamenos
-- notebooks
+- datasets: Datos de exmplo
+- docs - MKdocs con apuntamentos
+- notebooks - Con exemplos de código
     - bbdd
     - formatos
     - hash
     - pandas
     - scraping
-- presentacions
+- presentacions - Feitas con revealjs de varios temas
 - tarefas
 
-En proceso de fusión cos repos:
+Resultado da fusión cos repos:
 
 - [SBD](https://github.com/jfsanchez/SBD) 
 - [BDA](https://github.com/jfsanchez/BDA)
@@ -27,15 +25,15 @@ Todos os materiais publicanse con copyright. Permítese o seu uso en docencia, p
 
 Presentacións feitas con [revealjs](https://revealjs.com/){:target="_blank"}. Se atopas erros, por favor, ponte en contacto conmigo (preme nunha das presentacións e mira o correo na última diapositiva).
 
-- [🐍 Conda e pip](https://jfsanchez.es/docencia/conda-pip-virtualenv){:target="_blank"}
-- [📦 Docker / Contedores](https://jfsanchez.es/docencia/docker){:target="_blank"}
-- [📕 FP en Galicia. Desactualizado!](https://jfsanchez.es/docencia/funcionamentofp){:target="_blank"}
-- [🏷 Uso básico de git](https://jfsanchez.es/docencia/git){:target="_blank"}
-- [🖥️ Conceptos de informática básica](https://jfsanchez.es/docencia/informatica-basica){:target="_blank"}
-- [🗃️ MongoDB](https://jfsanchez.es/docencia/mongodb){:target="_blank"}
-- [🕸️ Modos de Rede no VirtualBox](https://jfsanchez.es/docencia/virtualbox){:target="_blank"}
-- [🛣️ XPATH para uso con Selenium](https://jfsanchez.es/docencia/xpath){:target="_blank"}
+- [🐍 Conda e pip](https://jfsanchez.es/bigdata/presentacions/conda-pip-virtualenv){:target="_blank"}
+- [📦 Docker / Contedores](https://jfsanchez.es/bigdata/presentacions/docker){:target="_blank"}
+- [📕 FP en Galicia. Desactualizado!](https://jfsanchez.es/bigdata/presentacions/funcionamentofp){:target="_blank"}
+- [🏷 Uso básico de git](https://jfsanchez.es/bigdata/presentacions/git){:target="_blank"}
+- [🖥️ Conceptos de informática básica](https://jfsanchez.es/bigdata/presentacions/informatica-basica){:target="_blank"}
+- [🗃️ MongoDB](https://jfsanchez.es/bigdata/presentacions/mongodb){:target="_blank"}
+- [🕸️ Modos de Rede no VirtualBox](https://jfsanchez.es/bigdata/presentacions/virtualbox){:target="_blank"}
+- [🛣️ XPATH para uso con Selenium](https://jfsanchez.es/bigdata/presentacions/xpath){:target="_blank"}
 
 ## Plantillas
 
-- [🖨️ Libreta docente e plantillas](https://jfsanchez.es/docencia/libreta){:target="_blank"}
+- [🖨️ Libreta docente e plantillas](https://jfsanchez.es/bigdata/presentacions/libreta){:target="_blank"}
