@@ -14,27 +14,23 @@
 - nifi - Plantillas gardadas de exemplo
 - tarefas
 
-Resultado da fusión cos repos:
+Este repositorio é o resultado dunha fusión de repositorios: SBD, BDA e docs.
 
-- [SBD](https://github.com/jfsanchez/SBD) 
-- [BDA](https://github.com/jfsanchez/BDA)
-- [docs](https://github.com/jfsanchez/docs)
-
-Todos os materiais publicanse con copyright. Permítese o seu uso en docencia, pero non para formación de formadores. Non se permite a súa inclusión en materiais elaborados, oficiais ou non por parte de empresas que elaboren/vendan materiais, bootcamps, editoriais e similares ou a institucións públicas ou privadas de calquer tipo. O único uso permitido é a docentes finais para as súas clases.
+Todos os materiais publícanse con copyright. Permítese o seu uso en docencia, pero non para formación de formadores. Non se permite a súa inclusión en materiais elaborados, oficiais ou non por parte de empresas que elaboren/vendan materiais, bootcamps, editoriais e similares ou a institucións públicas ou privadas de calquer tipo. O único uso permitido é a docentes finais para as súas clases.
 
 ## Presentacións
 
-Presentacións feitas con [revealjs](https://revealjs.com/){:target="_blank"}. Se atopas erros, por favor, ponte en contacto conmigo (preme nunha das presentacións e mira o correo na última diapositiva).
+Presentacións feitas con [revealjs](https://revealjs.com/). Se atopas erros, por favor, ponte en contacto conmigo (preme nunha das presentacións e mira o correo na última diapositiva).
 
-- [🐍 Conda e pip](https://jfsanchez.es/bigdata/presentacions/conda-pip-virtualenv){:target="_blank"}
-- [📦 Docker / Contedores](https://jfsanchez.es/bigdata/presentacions/docker){:target="_blank"}
-- [📕 FP en Galicia. Desactualizado!](https://jfsanchez.es/bigdata/presentacions/funcionamentofp){:target="_blank"}
-- [🏷 Uso básico de git](https://jfsanchez.es/bigdata/presentacions/git){:target="_blank"}
-- [🖥️ Conceptos de informática básica](https://jfsanchez.es/bigdata/presentacions/informatica-basica){:target="_blank"}
-- [🗃️ MongoDB](https://jfsanchez.es/bigdata/presentacions/mongodb){:target="_blank"}
-- [🕸️ Modos de Rede no VirtualBox](https://jfsanchez.es/bigdata/presentacions/virtualbox){:target="_blank"}
-- [🛣️ XPATH para uso con Selenium](https://jfsanchez.es/bigdata/presentacions/xpath){:target="_blank"}
+- [🐍 Conda e pip](https://jfsanchez.es/bigdata/presentacions/conda-pip-virtualenv)
+- [📦 Docker / Contedores](https://jfsanchez.es/bigdata/presentacions/docker)
+- [📕 FP en Galicia. Desactualizado!](https://jfsanchez.es/bigdata/presentacions/funcionamentofp)
+- [🏷 Uso básico de git](https://jfsanchez.es/bigdata/presentacions/git)
+- [🖥️ Conceptos de informática básica](https://jfsanchez.es/bigdata/presentacions/informatica-basica)
+- [🗃️ MongoDB](https://jfsanchez.es/bigdata/presentacions/mongodb)
+- [🕸️ Modos de Rede no VirtualBox](https://jfsanchez.es/bigdata/presentacions/virtualbox)
+- [🛣️ XPATH para uso con Selenium](https://jfsanchez.es/bigdata/presentacions/xpath)
 
 ## Plantillas
 
-- [🖨️ Libreta docente e plantillas](https://jfsanchez.es/bigdata/presentacions/libreta){:target="_blank"}
+- [🖨️ Libreta docente e plantillas](https://jfsanchez.es/bigdata/presentacions/libreta)
