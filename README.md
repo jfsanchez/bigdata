@@ -1,18 +1,17 @@
-# Repositorio de Big Data con exemplos © 2025 Jose Sanchez 
-
+# Big Data apuntes e exemplos © 2025 Jose Sanchez 
 <https://jfsanchez.es/bigdata>
 
-- datasets: Datos de exemplo
-- docs - MKdocs con apuntamentos
-    - docs/presentacions - Presentacións feitas con revealjs de varios temas
-- notebooks - Con exemplos de código
-    - bbdd
-    - formatos
-    - hash
-    - pandas
-    - scraping
-- nifi - Plantillas gardadas de exemplo
-- tarefas
+- **datasets**: Datos de exemplo
+- **docs** - MKdocs con apuntamentos
+    - *docs/presentacions* - Presentacións feitas con revealjs de varios temas
+- **notebooks** - Con exemplos de código
+    - *bbdd*
+    - *formatos*
+    - *hash*
+    - *pandas*
+    - *scraping*
+- **nifi** - Plantillas gardadas de exemplo
+- **tarefas**
 
 Este repositorio é o resultado dunha fusión de repositorios: SBD, BDA e docs.
 
