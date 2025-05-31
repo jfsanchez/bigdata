@@ -4,13 +4,13 @@
 
 - datasets: Datos de exemplo
 - docs - MKdocs con apuntamentos
+    - docs/presentacions - Presentacións feitas con revealjs de varios temas
 - notebooks - Con exemplos de código
     - bbdd
     - formatos
     - hash
     - pandas
     - scraping
-- presentacions - Feitas con revealjs de varios temas
 - tarefas
 
 Resultado da fusión cos repos:
