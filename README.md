@@ -2,7 +2,7 @@
 
 <https://jfsanchez.es/bigdata>
 
-- datasets: Datos de exmplo
+- datasets: Datos de exemplo
 - docs - MKdocs con apuntamentos
 - notebooks - Con exemplos de código
     - bbdd
