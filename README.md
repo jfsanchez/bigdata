@@ -11,6 +11,7 @@
     - hash
     - pandas
     - scraping
+- nifi - Plantillas gardadas de exemplo
 - tarefas
 
 Resultado da fusión cos repos:
