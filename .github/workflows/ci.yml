@@ -23,3 +23,4 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
+      - run: cp -r presentacions site/presentacions
