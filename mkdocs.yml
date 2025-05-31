@@ -106,7 +106,7 @@ extra_css:
 #   - _res/prism.css
 # extra_javascript:
 #   - _res/prism.js
-site_name: Big Data
+site_name: Big Data — Macrodatos
 site_url: https://jfsanchez.es/bigdata/
 repo_name: jfsanchez/bigdata
 repo_url: https://github.com/jfsanchez/
