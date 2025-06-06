@@ -1,0 +1,226 @@
+{
+  "totalItems": 47,
+  "current": 1,
+  "totalPages": 3,
+  "perPage": 20,
+  "genres": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "collectionIDs": [
+    200,
+    201,
+    202,
+    203
+  ],
+  "data": [
+    {
+      "videoID": 100,
+      "country": "US",
+      "title1": "Random Forest",
+      "title2": "Miniserie",
+      "startTime": 1740837600000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 1
+    },
+    {
+      "videoID": 101,
+      "country": "US",
+      "title1": "Programa como puedas",
+      "title2": "Temporada 2",
+      "startTime": 1740988800000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 2
+    },
+    {
+      "videoID": 102,
+      "country": "US",
+      "title1": "El imaginario del Dr. Selenium",
+      "title2": "Temporada 1",
+      "startTime": 1741075200000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 3
+    },
+    {
+      "videoID": 103,
+      "country": "US",
+      "title1": "Python",
+      "title2": "Python",
+      "startTime": 1741075200000,
+      "collection": 201,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 1
+    },
+    {
+      "videoID": 104,
+      "country": "US",
+      "title1": "MongoDB",
+      "title2": "Miniserie",
+      "startTime": 1741161600000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 4
+    },
+    {
+      "videoID": 105,
+      "country": "US",
+      "title1": "El SQL, el NO-SQL y el Hadoop",
+      "title2": "Temporada 1",
+      "startTime": 1741161600000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 4
+    },
+    {
+      "videoID": 106,
+      "country": "US",
+      "title1": "Mi nombre es Spark, Apache Spark",
+      "title2": "Miniserie",
+      "startTime": 1741161600000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 5
+    },
+    {
+      "videoID": 107,
+      "country": "US",
+      "title1": "PowerBi en apuros",
+      "title2": "PowerBi en apuros",
+      "startTime": 1741248000000,
+      "collection": 201,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 6
+    },
+    {
+      "videoID": 108,
+      "country": "US",
+      "title1": "Juego de datos",
+      "title2": "Temporada 37",
+      "startTime": 1741334400000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 6
+    },
+    {
+      "videoID": 109,
+      "country": "US",
+      "title1": "Github, Gitlab y otras hierbas del repositorial",
+      "title2": "Miniserie",
+      "startTime": 1741334400000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 5
+    },
+    {
+      "videoID": 110,
+      "country": "US",
+      "title1": "Desayuno con ardillas SQLeras",
+      "title2": "Desayuno con ardillas SQLeras",
+      "startTime": 1741334400000,
+      "collection": 202,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 4
+    },
+    {
+      "videoID": 111,
+      "country": "US",
+      "title1": "Sor Sqoop",
+      "title2": "Sor Sqoop",
+      "startTime": 1741334400000,
+      "collection": 202,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 2
+    },
+    {
+      "videoID": 112,
+      "country": "US",
+      "title1": "Lo que Openstack se llevó",
+      "title2": "Lo que Openstack se llevó",
+      "startTime": 1741334400000,
+      "collection": 202,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 6
+    },
+    {
+      "videoID": 113,
+      "country": "US",
+      "title1": "Nifi in love",
+      "title2": "Nifi in love",
+      "startTime": 1741334400000,
+      "collection": 202,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 1
+    },
+    {
+      "videoID": 114,
+      "country": "US",
+      "title1": "La isla de las contenerizaciones",
+      "title2": "Temporada 2",
+      "startTime": 1741762800000,
+      "collection": "",
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 3
+    },
+    {
+      "videoID": 115,
+      "country": "US",
+      "title1": "Bienvenido Mr. WSL",
+      "title2": "Temporada 1",
+      "startTime": 1741762800000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 4
+    },
+    {
+      "videoID": 116,
+      "country": "US",
+      "title1": "Jhonny Redis",
+      "title2": "Temporada 2",
+      "startTime": 1741829400000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 1
+    },
+    {
+      "videoID": 117,
+      "country": "US",
+      "title1": "Kafka siempre llama dos veces",
+      "title2": "Temporada 2",
+      "startTime": 1741849200000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 3
+    },
+    {
+      "videoID": 118,
+      "country": "US",
+      "title1": "Bigdata como puedas",
+      "title2": "Miniserie",
+      "startTime": 1741849200000,
+      "collection": 200,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 4
+    },
+    {
+      "videoID": 119,
+      "country": "US",
+      "title1": "PANDAS 451",
+      "title2": "PANDAS 451",
+      "startTime": 1741935600000,
+      "collection": 202,
+      "image": "https://jfsanchez.es/docs/images/logo.png",
+      "genre": 7
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+db.estudantes.insertOne( {'nome': 'Juan', 'apelidos': 'Sánchez', 'idade': 19,'titor': 'Jose Sánchez', 
+	modulos: [
+		'Big Data Aplicado',
+		'Sistemas de Big Data',
+		'Modelos de Intelixencia Artificial',
+		'Programación de Intelixencia Artificial',
+		'Sistemas de Aprendizaxe'
+		]
+	}
+)
+
+db.estudantes.insertMany([
+	{
+	'nome': 'Luis',
+	'apelidos': 'Rodríguez',
+	'idade': 20,
+	'titor': 'Juan Torre', 
+	modulos: [
+		'Sistemas de Big Data',
+        'Big Data Aplicado',
+		'Modelos de Intelixencia Artificial',
+		'Programación de Intelixencia Artificial',
+		'Sistemas de Aprendizaxe'
+		]
+	},{
+	'nome': 'Miguel',
+	'apelidos': 'Pérez',
+	'idade': 21,
+	'titor': 'Jose Sánchez', 
+	modulos: [
+		'Big Data Aplicado',
+		'Sistemas de Big Data',
+		'Modelos de Intelixencia Artificial',
+		'Programación de Intelixencia Artificial',
+		'Sistemas de Aprendizaxe'
+		]
+	}, {
+	'nome': 'Daniel',
+	'apelidos': 'Travieso',
+	'idade': 22,
+	'titor': 'Juan Torre', 
+	modulos: [
+		'Big Data Aplicado',
+		'Sistemas de Big Data',
+		'Modelos de Intelixencia Artificial',
+		'Programación de Intelixencia Artificial',
+		'Sistemas de Aprendizaxe'
+		]
+	},{
+	'nome': 'Alejo',
+	'apelidos': 'Cercado',
+	'idade': 23,
+	'titor': 'Juan Torre', 
+	modulos: [
+		'Big Data Aplicado',
+		'Sistemas de Big Data',
+		'Modelos de Intelixencia Artificial',
+		'Programación de Intelixencia Artificial',
+		'Sistemas de Aprendizaxe'
+		]
+	},{
+	'nome': 'Gonzalo',
+	'apelidos': 'González',
+	'idade': 24,
+	'titor': 'Jose Sánchez', 
+	modulos: [
+		'Big Data Aplicado',
+		'Sistemas de Big Data',
+		'Modelos de Intelixencia Artificial',
+		'Programación de Intelixencia Artificial',
+		'Sistemas de Aprendizaxe'
+		]
+	},{
+	'nome': 'Rodrigo',
+	'apelidos': 'Rodríguez',
+	'idade': 25,
+	'titor': 'Juan Torre', 
+	modulos: [
+		'Big Data Aplicado',
+		'Sistemas de Big Data',
+		'Modelos de Intelixencia Artificial',
+		'Programación de Intelixencia Artificial',
+		'Sistemas de Aprendizaxe'
+		]
+	}
+])
+

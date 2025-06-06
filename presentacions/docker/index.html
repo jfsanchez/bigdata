@@ -1,0 +1,706 @@
+<!doctype html>
+<html>
+    <head>
+    	<!-- Recordatorio: Cambiar estas propiedades -->
+      <title>Introdución a docker</title>
+    	<meta name="author" content="Jose Sánchez">
+    	<meta property="emailuser" content="correo">
+    	<meta property="emaildomain" content="jfsanchez.es">
+    	<meta property="creationdate" content="&copy; Xaneiro 2025">
+    	<!--meta property="documenturl" content="https://jfsanchez.es/"-->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="https://jfsanchez.es/cdn/resources/system/revealjs4/dist/reveal.css">
+        <!--link rel="stylesheet" href="https://jfsanchez.es/cdn/resources/system/revealjs4/dist/theme/simple.css"-->
+        <link rel="stylesheet" href="https://jfsanchez.es/cdn/resources/system/revealjs4/plugin/highlight/monokai.css">
+        <link rel="stylesheet" href="https://jfsanchez.es/cdn/resources/system/revealjs4/dist/theme/simple.css">
+        <style>
+            .reveal h1,.reveal h2,.reveal h3,.reveal h4{ 
+                color: orangered;
+            }
+            .trojo{ color: darkred; }
+            .tverde{ color: darkgreen; }
+            .tamarillo{ color: darkgoldenrod; }
+            .tazul{ color: darkblue; }
+            .famarillo { background-color: lightgoldenrodyellow; }
+            .divdual {
+                display:block;
+                float:left;
+                width: 48%;
+                margin: 0 auto;
+            }
+            .tnormal{
+                padding: 0;
+                text-align: justify;
+                font-size: 0.7em !important;
+            }
+            .sec1 h3{
+              color: #666 !important;
+              font-weight: bolder;
+            }
+            .sec2 h3{
+              color: darkred !important;
+              font-weight: bolder;
+            }
+            .sec3 h3{
+              color: navy !important;
+              font-weight: bolder;
+            }
+            .sec4 h3{
+              color: darkgreen !important;
+              font-weight: bolder;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+	        	    <h2>Introdución a Docker</h2>
+                    <h5 style="color: orange;">As catro cousiñas de Docker</h5>
+       	            <h5 style="color: gray;">CURSO DE ESPECIACILIZACIÓN EN IA E BIG DATA</h5>
+                </section>
+
+                <section>
+                  <h3>Instalación</h3>
+                  <ul>
+                    <li>Con WSL ou en GNU/Linux Debian só o <strong><a href="https://docs.docker.com/engine/" target="_blank">engine</a></strong>.</li>
+                    <pre><code data-trim data-noescape class="bash">
+sudo apt update
+sudo apt -y dist-upgrade
+sudo apt -y install curl
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh ./get-docker.sh
+sudo usermod -a -G docker $USER
+sudo su - $USER
+docker run hello-world</code></pre>
+                    <li>Instalando <a href="https://www.docker.com/products/docker-desktop/" target="_blank">Docker Desktop</a> directamente.</li>
+                    <li>Unha alternativa a Docker é <a href="https://podman.io/" target="_blank">Podman</a> e Podman Desktop.</li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Docker &mdash; Son catro cousiñas!</h3>
+                  <img src="imaxes/dockers.png" alt="Catro cousiñas"/>
+                  <aside class="notes">
+                    <p>Qué imos ver?</p>
+                    <ol>
+                      <li>Imaxes</li>
+                      <li>Contedores</li>
+                      <li>Volumes</li>
+                      <li>Redes</li>
+                      <li>GUIS: Docker Desktop, Podman, Plugins de VSCode, Contedores...</li>
+                    </ol>
+                </aside>
+                </section>
+
+                <section>
+                  <h3>Formato dos comandos</h3>
+                  <pre><code data-trim data-noescape class="bash">docker <strong>COUSIÑA</strong> COMANDO</code></pre>
+                  <p>Cousiñas: contedores, images, volumes, network.</p>
+                  <p>Exemplos: </p>
+                  <pre><code data-trim data-noescape class="bash"><strong>docker {image, volume, network} ls</strong></code></pre>
+                  <pre><code data-trim data-noescape class="bash"><strong>docker {image, volume, network} rm ID</strong></code></pre>
+                  <pre><code data-trim data-noescape class="bash"><strong>docker ps -a</strong></code></pre>
+                  <pre><code data-trim data-noescape class="bash"><strong>docker rm ID</strong></code></pre>
+
+                  <aside class="notes">
+                    <p>Os comandos non son tal cual, hai que elexir sobre que queremos actuar: contedor, imaxe, volume ou rede.</p>
+                  </aside>
+                  
+                </section>
+
+                <section class="sec1">
+                  <section 
+                  data-background-image="imaxes/imagenes.png"
+                  data-background-size="contain"
+                  data-transition-speed="slow">
+                    <h1 style="background-color: gainsboro; color: #666; opacity:0.8;"><strong>Imaxes</strong></h1>
+                    <aside class="notes">
+                      <ul>
+                        <li>Son a base de programas sobre as que executamos despois os contedores.</li>
+                        <li>Hai moitas por defecto dispoñibles.</li>
+                        <li>Ollo! No hub se baixamos moitas, habería que pagar subscripción.</li>
+                        <li>Podemos facer as nosas propias imaxes.</li>
+                      </ul>
+                    </aside>
+                  </section>
+                
+                  <section>
+                    <h3>Imaxes</h3>
+                    <ul>
+                      <li>É unha OVA? É unha ISO?</li>
+                      <li>Non, unha imaxe de docker.</li>
+                      <li class="fragment" data-fragment-index="1">Baixánse automáticamente de <a href="https://hub.docker.com/" target="_blank">hub.docker.com</a>.</li>
+                      <li class="fragment" data-fragment-index="1">Soportan tags! (versións para os amigos).</li>
+                      <li class="fragment" data-fragment-index="2">Podes baixalas dun repositorio propio.</li>
+                      <li class="fragment" data-fragment-index="2">Ou podes construilas a man: <code><strong>docker build</strong></code>.</li>
+                      <li class="fragment" data-fragment-index="2">Ou empregar save/load.</li>
+                      <li class="fragment" data-fragment-index="3">Non deben ter datos de usuario.</li>
+                      
+                    </ul>
+                    <aside class="notes">
+                      Según: <a href="https://superuser.com/questions/1521114/list-of-domains-required-to-pull-docker-image">artigo</a> empréganse as seguintes URL para descarga de imaxes ou requisitos de docker hub:
+                      <ul>
+                        <li>https://auth.docker.io</li>
+                        <li>https://registry-1.docker.io</li>
+                        <li>https://index.docker.io/</li>
+                        <li>https://dseasb33srnrn.cloudfront.net/</li>
+                        <li>https://production.cloudflare.docker.com/</li>
+                      </ul>
+                    </aside>
+
+                  </section>
+                  <section>
+                    <h3>Descarga dunha imaxe</h3>
+                    <h4>Formato</h4>
+                    <pre><code data-trim data-noescape class="bash">docker pull usuario/imaxe:tag</code></pre>
+
+                    <h4>Exemplos</h4>
+                    <pre><code data-trim data-noescape class="bash">docker pull bitnami/moodle:latest</code></pre>
+                    <pre><code data-trim data-noescape class="bash">docker pull mongodb</code></pre>
+                    
+                    <p>Alias de: <strong><code>docker image pull</code></strong></p>
+                    <aside class="notes">
+                      <p>Descarga a imaxe en local</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Exercicio. Xa!</h3>
+                    <ul>
+                      <li>Ir a <a href="https://hub.docker.com" target="_blank">hub.docker.com</a></li>
+                      <li>Buscar alpine</li>
+                      <li>Descargar con liña de comandos</li>
+                    </ul>
+                    <h4>Solución</h4>
+                    <pre class="fragment"><code data-trim data-noescape class="bash">docker pull alpine</code></pre>
+                    <aside class="notes">
+                      <a href="https://hub.docker.com/_/alpine">https://hub.docker.com/_/alpine</a>
+                      <p><a href="https://www.alpinelinux.org/">Alpine</a> é unha versión de GNU/Linux feita para ser moi pequena. É ideal para construir novas imaxes de docker.</p>
+                      <a>Emprega a libraría estándar de C <a href="https://wiki.alpinelinux.org/wiki/Musl">MUSL</a> o que as veces pode crear incompatibilidades: <a href="https://wiki.musl-libc.org/functional-differences-from-glibc.html">https://wiki.musl-libc.org/functional-differences-from-glibc.html</a>.</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Operacións con imaxes</h3>
+                    <h4>Ver as imaxes descargadas en local</h4>
+                    <pre><code data-trim data-noescape class="bash">docker image ls</code></pre>
+                    
+                    <h4>Borrar unha imaxe</h4>
+                    <pre><code data-trim data-noescape class="bash">docker image rm a_imaxe</code></pre>
+                    
+                    <h4>Exercicio: Borra a imaxe de alpine e comproba que xa non está</h4>
+                    <pre class="fragment"><code data-trim data-noescape class="bash">docker image rm alpine
+docker image ls
+                    </code></pre>
+                    
+                  </section>
+
+                  <section>
+                    <h3>save / load</h3>
+                    <h4>⚠️ Lembra ter descargada/xerada/construida a imaxe</h4>
+                    <pre><code data-trim data-noescape class="bash">docker pull alpine</code></pre>
+                    <h4>Garda no directorio actual no arquivo alpinito.tar</h4>
+                    <pre><code data-trim data-noescape class="bash">docker save -o alpinito.tar alpine</code></pre>
+                    <h4>Xa podes borrar a imaxe do repo local</h4>
+                    <pre><code data-trim data-noescape class="bash">docker image rm alpine
+docker image ls
+                    </code></pre>
+                    <h4>Recuperamos alpine do arquivo tar</h4>
+                    <pre><code data-trim data-noescape class="bash">docker load -i alpinito.tar</code></pre>
+                    <aside class="notes">
+                    Artigo: <a href="https://dev.to/ariefwara/saving-and-loading-docker-images-4pi0">https://dev.to/ariefwara/saving-and-loading-docker-images-4pi0</a>
+                  </aside>
+                  
+                  </section>
+
+                  <section>
+                    <h3>Creando unha imaxe cun Dockerfile</h3>
+<pre><code data-trim data-noescape class="Dockerfile">
+  FROM debian:latest
+  LABEL maintainer="jfsanchez.es"
+  
+  ARG _DIR="/home/user"
+  ARG _USER="user"
+  
+  # Base, actualizar e instalar prerequisitos
+  RUN apt-get update; apt-get install -y locales ; apt-get dist-upgrade -y ; mkdir /var/run/sshd ; \
+    localedef -i es_ES -c -f UTF-8 -A /usr/share/locale/locale.alias en_ES.UTF-8 ; \
+      apt-get install -y curl wget gpg ca-certificates openssh-server openssh-client; rm -rf /var/lib/apt/lists/* ; dpkg-reconfigure --force openssh-server
+  ENV LANG=es_ES.utf8
+  
+  #RUN update-rc.d ssh defaults ; systemctl enable ssh.service ; service ssh start
+  
+  #Configurar usuario y home
+  RUN mkdir -p ${_DIR}/.ssh ; useradd ${_USER} -m -s /bin/bash ; chmod 0700 ${_DIR}/.ssh ; \
+      chown -R ${_USER}:${_USER} ${_DIR}
+  
+  #WORKDIR /app
+  WORKDIR ${_DIR}
+  
+  USER ${_USER}
+  #Generar llave SSH tipo DSA (mala práctica así)
+  RUN ssh-keygen -t ed25519 -N "" -C "user@docker" -f .ssh/id_ed25519 ; cp .ssh/id_ed25519.pub .ssh/authorized_keys ; chmod 644 .ssh/authorized_keys
+  
+  USER root
+  RUN cp -r ${_DIR}/.ssh /root/ ; chown -R root:root /root/.ssh
+  EXPOSE 22
+  
+  RUN service ssh start
+  CMD ["/usr/sbin/sshd", "-D"]
+  #ENTRYPOINT ["/etc/init.d/ssh", "start"]
+
+</code>Dockerfile</pre>
+                    <pre><code data-trim data-noescape class="bash">docker build -t jfsanchez/base:3 .</code></pre>
+                    <aside class="notes">
+                      <ul>
+                        <li>Isto ofrécese como exemplo.</li>
+                        <li>Salva o contido de arriba nun arquivo chamado <code>Dockerfile</code> Unha vez o executes con <code>docker build</code> mira as imaxes no teu repositorio local:</li>
+                        <li><strong><code>docker image ls</code></strong></li>
+                      </ul>
+                    </aside>
+                  </section>
+                </section>
+
+                <section class="sec2">
+                  <section
+                  data-background-image="imaxes/contedor.png"
+                  data-background-size="contain"
+                  data-transition-speed="slow">
+                    <h1 style="background-color: antiquewhite; color: darkred; opacity:0.8;"><strong>Contedores</strong></h1>
+                    <aside class="notes">
+                      A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+                      <a href="https://www.docker.com/resources/what-container/" target="_blank">Nocións básicas sobre contedores e imaxes</a>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Contedores</h3>
+                    <h4>Lanzar o contedor coa imaxe hello-world (<code><strong>run</strong></code>)</h4>
+                    <pre><code data-trim data-noescape class="bash">docker run hello-world</code></pre>
+                    
+                    <h4>Nomes vs identificadores</h4>
+                    <pre><code data-trim data-noescape class="bash">docker ps -a</code></pre>
+
+                    <h4>Poñendo o nome a un contedor</h4>
+                    <pre><code data-trim data-noescape class="bash">docker run <strong>--name flanders</strong> hello-world</code></pre>
+                    <aside class="notes">
+                      <p>Que está a ocorrer</p>
+                      <ol>
+                        <li>Comproba que non está a imaxe <strong>"hello-world"</strong> en local e descárgase.</li>
+                        <li>Constrúe un docker en base á imaxe e execútao.</li>
+                        <li>O docker finaliza amosando un "Hello World" por pantalla que demostar que docker funciona.</li>
+                        <li>Miramos con <code>docker ps -a</code> o estado dos docker (<strong>finalizados e en execución, de ahí -a</strong>). Identificamos o nome e o ID.</li>
+                      </ol>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Tarefa rápida</h3>
+                    <ol>
+                      <li>Mira con: <strong><code>docker ps -a</code></strong> os contedores finalizados e en execución.</li>
+                      <li>Borra todos os contedores co comando: <strong><code>docker rm IDENTIFICADOR_OU_NOME</code></strong> </li>
+                    </ol>
+                    <aside class="notes">
+                      <p>Cando queiramos referirnos a un contedor, podemos facelo polo nome ou ben o identificador.</p>
+                      <p>No caso que empreguemos o identificador, basta con poñer algúns caracteres. Exemplo: Se temos dous dockers que comezan por 0 e por c, basta con poñer un caracter. Se comezan por: ce e c0, teremos que poñer dous caracteres e así sucesivamente. A idea é poder identificalos de xeito único e non afectar cun comando a varios deles.</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Redirixir un porto</h3>
+                    Sintaxe: <code style="color: red; background-color: antiquewhite;">-p PORTO_ANFITRIÓN:PORTO_CONTEDOR</code>
+                    <pre><code data-trim data-noescape class="docker">docker run --name PORTOFINO \
+  -p 8080:80 \
+  --rm \
+  nginx:latest</code></pre>
+                    <ol>
+                      <li>Nun navegador pon: <code style="background-color: lightblue;">http://localhost:8080</code></li>
+                      <li>Vai á consola de docker e preme Ctrl+C</li>
+                      <li>Agora executa: <pre><code data-trim data-noescape class="docker">docker ps -a</code></pre></li>
+                      <li style="color: darkred;">Onde foi o contedor?</li>
+                    </ol>
+                    <aside class="notes">
+                      <p><strong>nginx</strong> é un servidor web (tamén serve de proxy inverso). O <strong>latest</strong> é o tag e fai referencia á última versión que exista en hub.docker.com.</p>
+                      <p><strong>Solución:</strong> O parámetro <code>--rm</code> borra o contedor tras a súa execución.</p>
+                      <p>Se pos o comando sen novas liñas (enter) non poñas as barras invertidas, que indican que aínda non acabou o comando.</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>run en modo dettached (separado)</h3>
+                    <p>Parámetro: <code>-d</code></p>
+                    <pre><code data-trim data-noescape class="docker">docker run --name websrv \
+  -p 8080:80 --rm \
+  <strong>-d</strong> \
+  nginx</code></pre>
+                      <p>Executa:</p>
+                      <pre><code data-trim data-noescape class="docker">docker ps -a</code></pre>
+                      <pre><code data-trim data-noescape class="docker">docker stop NOME</code></pre>
+                      <pre><code data-trim data-noescape class="docker">docker ps -a</code></pre>
+
+                    <aside class="notes">
+                      <h3>dettached</h3>
+                      <p>⚠️ Lembra poñer o comando docker nunha soa liña e non empregar as barras invertidas!</p>
+                      <p>O servidor nginx anterior quedouse co control do cursor e mostraba o log por pantalla. Se queremos executalo no <i>background</i> podemos engadir <code>-d</code></p>
+                      <p>Anda! Onde foi o contedor despois de executar o <strong>stop</strong>? Lembra, lanzámolo co parámetro --rm</p>                      
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Tarefa rápida</h3>
+                    <ul>
+                      <li>Executa un novo contedor coa última imaxe/tag de <strong>ngnix</strong> (latest).</li>
+                      <li>Ponlle de nome: <strong>enginex</strong></li>
+                      <li>Execútao en modo <strong>dettached</strong><code>(-d)</code></li>
+                      <li>Redirixe o porto <strong>8080</strong> do anfitrión ao <strong>80</strong> do contedor.</li>
+                    </ul>
+                    <pre class="fragment"><code data-trim data-noescape class="docker">docker run --name enginex -d -p 8080:80 nginx:latest</code></pre>
+                  </section>
+
+                  <section>
+                    <h3>start/stop</h3>
+                      <ul>
+                        <li>Para o contedor anterior: <pre><code data-trim data-noescape class="docker">docker stop enginex</code></pre></li>
+                        <li>Naufraga a: <code style="background-color: lightcoral;">⛔ http://localhost:8080</code></li>
+                        <li>Mira os dockers en execución: <pre><code data-trim data-noescape class="docker">docker ps</code></pre></li>
+                        <li class="fragment">Onde foi?</li>
+                        <li class="fragment">Mellor mira se está nos parados: <pre><code data-trim data-noescape class="docker">docker ps <strong>-a</strong></code></pre></li>
+                        <li class="fragment">Iníciao de novo: <pre><code data-trim data-noescape class="docker">docker start enginex</code></pre></li>
+                      </ul>
+                    <aside class="notes">
+                      <p>Os contedores poden pararse (por defecto páranse cando reiniciamos a máquina) e iniciarse</p>
+                      <p>Despois de inicialo manualmente, comproba que sigue a funcionar. Agora xa podes navegar a <a href="http://localhost:8080" target="_blank">✅ http://localhost:8080</a></p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Contedor con autoinicio</h3>
+                    <p>Opcións do parámetro <pre><code data-trim data-noescape class="docker">--restart</code></pre></p>
+                    <ul>
+                      <li><strong>no</strong> &rAarr; Por defecto, non autoinicia.</li>
+                      <li><strong>on-failure[:intentos]</strong> &rAarr; So se falla.</li>
+                      <li><strong>always</strong> &rAarr; Sempre, salvo parada manual (que agarda ata o próximo reinicio).</li>
+                      <li><strong>unless-stopped</strong> &rAarr; Se o paramos, non o volve iniciar aínda que reinicemos docker.</li>
+                    </ul>
+                    <aside class="notes">
+                      <p>Queres que os contedores se inicien co sistema ou alomenos co inicio de docker?</p>
+                      <p>O parámetro restart permítenos varias opcións. <a href="https://docs.docker.com/engine/containers/start-containers-automatically/">Documentación oficial</a></p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Tarefa rápida</h3>
+                    <p>Crea un contedor (docker run) que...</p>
+                    <ol>
+                      <li>Se chame <strong>enginex (--name)</strong>. Lembra <strong>parar (stop)</strong> e <strong>borrar (rm)</strong> o anterior.</li>
+                      <li>Se execute en modo <strong>dettached (-d)</strong>.</li>
+                      <li>Redirixe o porto <strong>8080</strong> do anfitrión ao <strong>80</strong> do contedor.</li>
+                      <li>Que se autoinicie salvo que o paremos (<strong>--restart unless-stopped</strong>).</li>
+                      <li>Que teña a última imaxe/tag de <strong>ngnix</strong> (latest).</li>
+                    </ol>
+                  </section>
+
+                  <section>
+                    <h3>Solución</h3>
+                    <pre><code data-trim data-noescape class="docker">docker run --name enginex \
+  -d \
+  -p 8080:80 \
+  --restart unless-stopped \
+  nginx:latest</code></pre>
+                    <aside class="notes">
+                      <p>⚠️ Lembra <strong>non</strong> poñer as barras invertidas se estás a escribir todo na mesma liña.</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>run en interactivo</h3>
+                    <p>Parámetro: <code>--it</code></p>
+                    <pre><code data-trim data-noescape class="docker">docker run --rm -it alpine sh</code></pre></li>
+                    <p class="fragment">Pregunta rápida: Que facía --rm?</p>
+                    <p class="fragment"><strong>Solución:</strong> Borrar o contedor despois de que remate.</p>
+                    
+                    <aside class="notes">
+                      <h3>interactivo</h3>
+                      <p>Se queremos poder interactuar (escribir) na consola, empregaremos o parámetro <code>-it</code>.</p>
+                      <p>Ese comando crea un contedor con alpine linux e nos executa o shell <strong>sh</strong> dentro del.</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>exec &mdash; Aproveitando o de dentro!</h3>
+                    <h4>Creamos o contedor (servidor MariaDB)</h4>
+                    <pre><code data-trim data-noescape class="docker">docker run --name blondie \
+  --env MARIADB_RANDOM_ROOT_PASSWORD=1 \
+  --restart unless-stopped -d mariadb:latest
+                    </code></pre>
+                    <h4>Recuperamos o contrasinal de root</h4>
+                    <pre><code data-trim data-noescape class="docker">docker logs blondie</code></pre>
+                    <h4>Conectamos empregando o cliente do contedor</h4>
+                    <pre><code data-trim data-noescape class="docker">docker exec -it blondie \
+  mariadb -hlocalhost -uroot -p'CONTRASINAL_ESCAPADA'</code></pre>
+                    <aside class="notes">
+                      <p>Podemos executar un programa dentro dun docker en execución. Por exemplo o cliente de MySQL.</p>
+                      <p>Hai que executar o comando en modo -it (interactivo) se queremos ter entrada de teclado.</p>
+                      <p>Tras o <strong>docker logs</strong>, hai que buscar GENERATED ROOT PASSWORD.</p>
+                      <pre><code data-trim data-noescape class="docker">docker exec -it blondie mariadb \
+  -hlocalhost -Uroot -p'$\/&,"'</code></pre>
+                      <p>⚠️ Olliño coas comillas simples antes e despois do contrasinal, pois escapan caracteres especiais.</p>
+                      <p>Fíxate tamén na opción -e ou <strong>--env</strong> que serve para enviarlle unha variable de contorno que lle indica unha posible configuración. Cada imaxe ten as súas variables, podes consultar na documentación de cada imaxe pública as variables aceptadas.</p>
+                      <p><a href="https://hub.docker.com/_/mariadb" target="_blank">Documentación imaxe MariaDB</a></p>
+                    </aside>
+                  </section>
+
+                </section>
+
+                <section class="sec3">
+                  <section
+                  data-background-image="imaxes/volumen.png"
+                  data-background-size="contain"
+                  data-transition-speed="slow">
+                    <h1 style="background-color: lightskyblue; color:navy; opacity:0.8;"><strong>Volumes</strong></h1>
+                  </section>
+
+                  <section>
+                    <h3>Volumes (-v)</h3>
+                    
+                    <ul>
+                      <li>Onde se almacenan os datos.</li>
+                      <li>Un volume pode montarse simultáneamente en varios contedores.</li>
+                      <li>Non se borran aínda que se borre o contedor.</li>
+                      <li>Pódense borrar tódolos non usados con: <pre><code data-trim data-noescape class="docker">docker volume prune</code></pre></li>
+                    </ul>
+                    <aside class="notes">
+                      
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Creando e asignando un volume</h3>
+
+                    <h4>Crear volume</h4>
+                    <pre><code data-trim data-noescape class="docker">docker volume create mariav</code></pre>
+                    <h4>Listar volumes</h4>
+                    <pre><code data-trim data-noescape class="docker">docker volume ls</code></pre>
+                    <h4>Crear o contedor cun volume</h4>
+                    <pre><code data-trim data-noescape class="docker">docker run -p 9906:3306 --name ginger \
+  --env MARIADB_RANDOM_ROOT_PASSWORD=1 \
+  -v mariav:/var/lib/mysql \
+  --restart unless-stopped \
+  -d mariadb:latest</code></pre>
+                    <aside class="notes">
+                      <p>Cando borremos o contedor, os datos seguirán a salvo</p>
+                      <p>Non esquezas anotar o contrasinal de root, averíguao con: <code>docker logs ginger</code></p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Datos de proba</h3>
+                    <h4>Buscar contrasinal root: GENERATED ROOT PASSWORD</h4>
+                    <pre><code data-trim data-noescape class="docker">docker logs ginger</code></pre>
+                    <h4>Executar o cliente mariadb do docker</h4>
+                    <pre><code data-trim data-noescape class="docker">docker exec -it ginger \
+  mariadb -hlocalhost -uroot -p'CONTRASINAL_LOGS'</code></pre>
+                    <h4>Meter datos de proba</h4>
+                    <pre><code data-trim data-noescape class="sql">
+CREATE DATABASE contedor;
+USE contedor;
+CREATE TABLE volumen(
+  id INT auto_increment PRIMARY KEY, 
+  nome VARCHAR(52));
+INSERT INTO volumen VALUES(1,'mariav');
+QUIT;
+</code></pre>
+                    <aside class="notes">
+                      <p>Ollo! Ollo! Tes que esperar co docker logs un anaco ata que cargue o contedor por primeira vez e se amose o contrasinal aleatorio elexido.</p>
+                      <p>Empregamos o cliente do docker para crear unha BBDD e unha táboa</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>A borrar! (ou non)</h3>
+                    <h4>Parar e borrar o contedor</h4>
+                    <pre><code data-trim data-noescape class="docker">docker volume ls
+docker stop ginger
+docker rm ginger
+docker ps -a
+docker volume ls</code></pre>
+                    <h4>Crear de novo o contedor</h4>
+                    <pre><code data-trim data-noescape class="docker">docker run -p 9906:3306 --name ginger \
+  -v mariav:/var/lib/mysql --restart unless-stopped \
+  -d mariadb:latest</code></pre>
+                    <h4>Hai datos?</h4>
+                    <pre><code data-trim data-noescape class="docker">docker exec -it ginger \
+  mariadb -hlocalhost -uroot -p'CONTRASINAL_LOGS' contedor</code></pre>
+                    <pre><code data-trim data-noescape class="sql">SELECT * FROM volumen;</code></pre>
+
+                    <aside class="notes">
+                      <p>O comando <code>docker volume ls</code> permite listar os volumes.</p>
+                      <p>Como vemos, respétase o contrasinal de root do contedor anterior, xa que está gardado no volume.</p>
+                      <p>E tamén se conservan os datos da base de datos.</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Facendo limpieza</h3>
+                    <pre><code data-trim data-noescape class="docker">docker stop ginger
+docker rm ginger
+docker volume prune
+docker volume ls</code></pre>
+                    <h4>O volume non está a ser usado por ningún contedor.<br/>Por que non se borrou automáticamente con prune?</h4>
+                    <p class="fragment">Porque non é anónimo<br/>(foi creado explícitamente cun nome)</p>
+                    <pre class="fragment"><code data-trim data-noescape class="docker">docker volume rm mariav
+docker volume ls</code></pre>
+
+                    <aside class="notes">
+                      <p>Paramos o contedor.</p>
+                      <p>Borramos o contedor.</p>
+                      <p>Borramos o volume de datos.</p>
+                      <p>Os volumes anónimos son creados de ser requeridos no momento de creación do contedor. Adoitan ter a forma dun id longo.</p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Outros tipos de montaxe</h3>
+                    <h4>Bind dun directorio a outro</h4>
+                    <pre><code data-trim data-noescape class="docker">-v /home/usuario/anfitrion:/ruta/docker</code></pre>
+                    <p>Exemplo</p>
+                    <pre><code data-trim data-noescape class="docker">docker run --name exemplo \
+  -v /home/usuario/BBDD:/BBDD \
+  --env MARIADB_RANDOM_ROOT_PASSWORD=1 \
+  --restart unless-stopped \
+  -d mariadb:latest</code></pre>
+                    <h4>Mete algún arquivo en /home/usuario/BBDD</h4>
+                    <pre><code data-trim data-noescape class="docker">docker exec -it exemplo bash</code></pre>
+                    <pre><code data-trim data-noescape class="bash">ls /BBDD</code></pre>
+
+                    <aside class="notes">
+                      <p>Esto fai dispoñible o directorio do anfitrión /home/usuario/BBDD dentro do docker no directorio /BBDD.</p>
+                      <p>Ollo! Non apuntar a unha ruta do anfitrión en /tmp, fallará.</p>
+                      <p><a href="https://docs.docker.com/engine/storage/volumes/" target="_blank">Ligazón á documentación oficial de volumes</a></p>
+                    </aside>
+                  </section>
+
+                  <section>
+                    <h3>Probando prune</h3>
+                    O exemplo anterior debeu deixar alomenos un volume anónimo creado. Proba a borralo:
+                    <pre><code data-trim data-noescape class="docker">docker volume ls
+docker volume prune
+docker volume ls</code></pre>
+                    <aside class="notes">Agora si que se borrarán porque non teñen un nome explícito, é dicir, son volumes anónimos.</aside>
+                  </section>
+
+                  <section>
+                    <h3>Outras cousas interesantes de volumes</h3>
+                    <p>Ruta por defecto dos volumes: <strong>/var/lib/docker/volumes/</strong></p>
+                    <p>Son moi útiles para actualizar o software:</p>
+                    <ol>
+                      <li>Para o contedor.</li>
+                      <li>Borras o contedor.</li>
+                      <li>Creas outro contedor coa imaxe actualizada que empregue o mesmo volume de datos.</li>
+                    </ol>
+                    <aside class="notes">
+                      <p>Na ruta por defecto dos volumes vas poder acceder aos datos como si fose un cartafol normal.</p>
+                      <p>Os volumes dan moito xogo, poderían estar noutro servidor ou mesmo empregar un driver para acceder a unha cabina de discos.</p>
+                    </aside>
+                  </section>
+
+                </section>
+
+              <section class="sec4">
+                <section
+                data-background-image="imaxes/redes.png"
+                data-background-size="contain"
+                data-transition-speed="slow">
+                  <h1 style="background-color: lightcyan; color:darkgreen; opacity:0.8;"><strong>Redes</strong></h1>
+                </section>
+
+                <!-- Por ampliar... -->
+                <section>
+                  <h3>network</h3>
+                  <h4>Ver as redes</h4>
+                  <pre><code data-trim data-noescape class="docker">docker network ls</code></pre>
+                  <h4>Tipos de redes (drivers)</h4>
+                  <ul>
+                    <li>bridge</li>
+                    <li>host</li>
+                    <li>none</li>
+                    <li>overlay</li>
+                    <li>ipvlan</li>
+                    <li>macvlan	</li>
+                  </ul>
+
+                  <aside class="notes">
+                    <p><a href="https://docs.docker.com/engine/network/" target="_blank">Documentación oficial de redes en docker</a></p>
+                  </aside>
+                </section>
+
+                <section>
+                  <h3>Lanzar un contedor cunha rede</h3>
+                  Parámetro: <code>--network X</code>
+                  <h3>Redirección de portos</h3>
+                  <code>-p PORTO_ANFITRION:PORTO_CONTEDOR</code>
+                  <h3>Ver a IP dun contedor</h3>
+                  <pre><code data-trim data-noescape class="docker">docker inspect ID_OU_NOME</code></pre>
+                </section>
+
+              </section>
+
+                <section>
+        		    <img alt="QR materiales" id="qrmateriales">
+                    <p id="copyrightline" style="color: orange;">Jose Sánchez</p>
+		            <p><small><a href="" id="urlmateriales"><span id="textourlmateriales"></span></a></small></p>
+		            <!--span class="fragment"-->
+	                <blockquote><small>&ldquo;<em><strong>Errare humanum est, sed perseverare diabolicum</strong></em>&rdquo;</small></blockquote>
+        	        <small id="addemail">Erros? / Errores? / Mistakes? &rarr; </small>
+		            <!--/span-->
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Plugins de revealjs -->
+        <script src="https://jfsanchez.es/cdn/resources/system/revealjs4/dist/reveal.js"></script>
+        <script src="https://jfsanchez.es/cdn/resources/system/revealjs4/plugin/markdown/markdown.js"></script>
+        <script src="https://jfsanchez.es/cdn/resources/system/revealjs4/plugin/highlight/highlight.js"></script>
+        <script src="https://jfsanchez.es/cdn/resources/system/revealjs4/plugin/notes/notes.js"></script>
+        <!-- Generador de códigos QR-->
+        <script src="https://jfsanchez.es/cdn/resources/js/qrious.js"></script>
+        <script>
+          //Coger la propiedad para: texto de enlace, enlace y código QR
+          //var documenturl=document.head.querySelector("[property~=documenturl][content]").content;
+          var documenturl=document.location.href;
+
+          Reveal.initialize({
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+            progress: true,
+            controlsBackArrows: 'faded',
+            //Math, Zoom, Marked
+          });
+
+          new QRious({
+            element: document.querySelector("#qrmateriales"),
+            value: documenturl,
+            size: 150,
+            backgroundAlpha: 0, // 0 Transparent
+            foreground: "#00008B",
+            level: "Q", // L(owest),M ,Q ,H(ighest)
+          });
+
+    	  document.querySelector("#textourlmateriales").innerText=documenturl;
+    	  document.querySelector("#urlmateriales").setAttribute('href', documenturl);
+    	  document.querySelector("#copyrightline").innerText=
+    	  document.head.querySelector("[name~=author][content]").content + " " +
+    	  document.head.querySelector("[property~=creationdate][content]").content;
+    	  document.querySelector("#addemail").innerText=document.querySelector("#addemail").innerText+
+    	  document.head.querySelector("[property~=emailuser][content]").content + "@" +
+    	  document.head.querySelector("[property~=emaildomain][content]").content;
+        </script>
+
+    </body>
+
+</html>

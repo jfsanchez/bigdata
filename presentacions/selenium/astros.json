@@ -1,0 +1,38 @@
+{
+    "people": [
+        {
+            "craft": "ISS",
+            "name": "Spaceman 1"
+        },
+        {
+            "craft": "Tiangong",
+            "name": "Spaceman 2"
+        },
+        {
+            "craft": "ISS",
+            "name": "Spaceman 3"
+        },
+        {
+            "craft": "ISS",
+            "name": "Spaceman 4"
+        },
+        {
+            "craft": "ISS",
+            "name": "Spacewoman 1"
+        },
+        {
+            "craft": "Tiangong",
+            "name": "Spacewoman 2"
+        },
+        {
+            "craft": "ISS",
+            "name": "Spacewoman 3"
+        },
+        {
+            "craft": "ISS",
+            "name": "Spacewoman 4"
+        }
+    ],
+    "number": 8,
+    "message": "success"
+}
