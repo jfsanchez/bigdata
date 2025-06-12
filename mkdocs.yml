@@ -100,7 +100,7 @@ nav:
     - "🐢 SWAP": "nube-5-openstack-crear-swap.md"
     - "⚙️ Automatizando": "nube-6-comandos.md"
   - "📶 Microsoft PowerBi": "powerbi-0-python.md"
-  - "🗒️ Plantillas docencia": "https://github.com/jfsanchez/bigdata/tree/main/docs/presentacions/libreta"
+  - "🗒️ Plantillas docencia": "https://jfsanchez.es/docencia/libreta"
 extra_css:
   - _res/extra.css
 #   - _res/prism.css

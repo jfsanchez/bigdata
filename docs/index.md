@@ -18,7 +18,7 @@ Presentacións feitas con [revealjs](https://revealjs.com/). Preme `s` **dentro 
 
 - [🐳 Docker / Contedores](https://jfsanchez.es/bigdata/presentacions/docker){:target="_blank"}
 
-- [📕 FP en Galicia. Desactualizado!](https://jfsanchez.es/bigdata/presentacions/funcionamentofp/){:target="_blank"}
+- [📕 FP en Galicia. Desactualizado!](https://jfsanchez.es/docencia/funcionamentofp/){:target="_blank"}
 
 </div>
 
