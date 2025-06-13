@@ -4,6 +4,7 @@ Base de datos columnar e distribuida OLAP (On-Line Analytical Processing) de có
 
 Permite xerar analíticas en tempo real empregando consultas SQL.
 
+TODO
 
 ## Ligazóns
 
