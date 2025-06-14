@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+    <head>
+	<!-- Recordatorio: Cambiar estas propiedades -->
+        <title>Inteligencia Artifical y Big Data</title>
+	<meta name="author" content="Jose Sánchez">
+	<meta property="emailuser" content="correo">
+	<meta property="emaildomain" content="jfsanchez.es">
+	<meta property="creationdate" content="&copy; Novembro 2022">
+	<meta property="documenturl" content="https://jfsanchez.es">
+	<!-- --  -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="../../_res/revealjs4/dist/reveal.css">
+        <!-link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css"-->
+        <link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css">
+        <style>
+            .reveal h1,.reveal h2,.reveal h3,.reveal h4{ 
+                color: gold;
+            }
+            .trojo{ color: darkred; }
+            .tverde{ color: darkgreen; }
+            .tamarillo{ color: darkgoldenrod; }
+            .tazul{ color: darkblue; }
+            .famarillo { background-color: lightgoldenrodyellow; }
+            .divdual {
+                display:block;
+                float:left;
+                width: 48%;
+                margin: 0 auto;
+            }
+            .tnormal{
+                padding: 0;
+                text-align: justify;
+                font-size: 0.7em !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+		            <!--div class="fragment">
+		                <p>Big Data</p>
+		            </div-->
+                    <h4 style="color: gold;">Coñecementos previos</h4>
+                    
+       	            <h5 style="color: gray;">Unidades de Medida</h5>
+       	            <h5 style="color: gray;">Hardware e Virtualización</h5>
+                </section>
+
+                <section>
+		  <h3>Índice</h3>
+		  <p>Unidades</p>
+		  <p>Hardware</p>
+		  <p>Sistemas</p>
+		  <aside class="notes"></aside>
+                </section>
+
+		<section>
+		<section>
+			<h3>Información e tamaño</h3>
+			<h4>Bit vs Byte e Nibble</h4>
+			<img class="fragment fade-out" src="images/g2247.png" alt="" data-fragment-index="1"/>
+			<img class="fragment fade-in" src="images/g1048.png" alt="" data-fragment-index="3"/>
+			<div class="fragment fade-in" data-fragment-index="2"><p>Razoa e contesta:</p>
+            <ol><li>Cantos bits ten un byte?</li>
+                <li>Cantos bytes ten un bit?</li></ol>
+            </div>
+			
+
+                    
+			<aside class="notes">
+			    <p>Un bit abreviado como b minúscula, pode ser un 0 ou un 1.</p>
+			    <ul>
+                    <li>Un nibble, abreviado nb, son 4 bits.</li>
+                    <li>Un byte abreviado como B MAIÚSCULA, son 8 bits (ou 2 nibbles)</li>
+                </ul>
+                <p>Normalmente o 0 adoita dicirse que é a ausencia de corrente e o 1 a presenza de corrente.</p>
+
+                <p>Máis información:</p>
+                    <ul>
+                        <li><a href="https://es.wikipedia.org/wiki/Bit">https://es.wikipedia.org/wiki/Bit</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/Byte">https://es.wikipedia.org/wiki/Byte</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/Nibble">https://es.wikipedia.org/wiki/Nibble</a></li>
+                    </ul>
+			</aside>
+		</section>
+
+		<section>
+			<h3>Cómo se escribe KB ou Kb?</h3>
+			<ul style="text-align: left;">
+				<li class="fragment">Un KB ou Kilo<strong>B</strong>yte (kilobyte) son 1000 <strong>B</strong> (bytes)</li>
+				<li class="fragment">Un Kb ou Kilo<strong>b</strong>it son 1000 bits (1000 b)</li>
+				<li class="fragment">Un KB son 8*1000 bits (8000 b)</li>
+				<li class="fragment">Un Kb son 1000/8 bytes (125 B)</li>
+			</ul>
+		</section>
+
+		<section>
+			<img src="images/uds-si.png" alt="Unidades do Sistema Internacional"/>		
+		</section>
+		<section>
+			<h3>KB vs KiB</h3>
+			<ul style="text-align: left;">
+				<li class="fragment">Antes empregábanse potencias de 1024 (2 <sup>10</sup>)</li>
+				<li class="fragment">En 1998 norma IEC 60027-2 crea unidades con prefixos binarios</li>
+				<li class="fragment">Grosso modo: Fabricantes empregan uds do SI</li>
+				<li class="fragment">Sistemas Operativos empregan uds "binarias"</li>
+			</ul>
+
+			<aside class="notes">
+			    <p>Las unidades anteriores (<b>bit</b> y <b>byte</b>) son muy pequeñas, por lo que suelen emplearse <b>múltiplos</b> de las mismas ¿pero cuáles?</p>
+                <p>Las <span style="text-decoration: underline;"><b>unidad</b></span><span style="text-decoration: underline;"><b>es</b></span><span style="text-decoration: underline;"> </span><span style="text-decoration: underline;">del </span><span style="text-decoration: underline;"><b>Sistema Internacional</b></span><span style="text-decoration: underline;"> (SI)</span><span style="text-decoration: none;"> </span>son: segundo, metro, kilogramo, amperio, kelvin, mol, candela, radián y estereorradián. Estas unidades son específicas para cada <b>magnitud</b>: tiempo, longitud, masa, corriente eléctrica, temperatura, cantidad de sustancia, intensidad lumínica.</p>
+                <p>Cada unidad tiene <b>prefijos </b><b>estándar</b> para los <b>múltiplos</b> y <b>submúltiplos</b>. Por ejemplo, el prefijo <b>kilo</b> viene del griego χίλιοι (<i>jílioi</i>) que significa 1000. Ejemplos: kg, km. Vemos que es una potencia de diez (10<sup>3</sup>), por tanto <span style="font-family: Arial, sans-serif;"><span style="font-size: medium;">e</span></span>mpleamos el <b>sistema</b> <b>decimal </b><b>(Base 10)</b>.</p>
+                <p><span style="font-family: Arial, sans-serif;"><span style="font-size: medium;">E</span></span>n la informática, originalmente se empleaban potencias en base 2 (2<sup>10 </sup>= 1024) los múltiplos de unidades (Kilo, Mega, Giga) eran considerados de 1024 unidades. Pero entonces ¿un Kilogramo son 1024 gramos? <b>Clar</b><b>o que</b><b> NO</b>.</p>
+                <p>Para evitar esta confusión, en 1998 se publicó un primer borrador definiendo <span style="text-decoration: underline;">las </span><span style="text-decoration: underline;"><b>unidades</b></span><span style="text-decoration: underline;"> </span><span style="text-decoration: underline;"><b>binarias:</b></span> <span style="font-weight: normal;">kibi, mebi, gibi, tebi, pebi y exbi</span> (el <span style="font-weight: normal;">sufijo</span> <b>bi</b> es por binario). En febrero de 1999 , el comité 25 dedicado a cantidades y unidades de la IEC publicó la norma IEC 60027-2.</p>
+                <p>Esta norma tuvo varias actualizaciones. En el año 2005 se introdujeron los prefijos <b>zebi</b> y <b>yobi</b>. En el año 2006 (8ª edición) se estipula que los prefijos del SI deberán ser utilizados estrictamente para potencias de 10, recomendando usar los prefijos binarios en el campo de la informática.</p>
+                <p>Finalmente, en el estándar <span style="text-decoration: underline;"><b>ISO/IEC 80000-13</b></span> se revisan y armonizan varias normas: ISO 31 (partículas físicas y unidades) e IEC 60027, incorporando los <b>prefijos binarios</b>.</p>
+			</aside>
+		</section>
+		
+		<section>
+			<img src="images/uds-comparacion.png" alt="Comparativa de unidades"/>
+		</section>
+		
+		<section>
+			<h3>Taxa de transferencia</h3>
+			<ul style="text-align: left;">
+				<li class="fragment">En redes:
+				<ul>
+					<li>Exprésase en múltiplos de bits/segundo.</li>
+					<li>Non é o mesmo velocidade de subida que de baixada.</li>
+				</ul>
+				</li>
+				<li class="fragment">De disco a disco o habitual é falar de MB/segundo.</li>
+				<li class="fragment">OLLO!<ul>
+				<li>Ao transferir datasets.</li>
+				<li>Ao facer volcados de datos.</li></ul>
+				</li>
+			</ul>
+		</section>
+		
+		<section>
+		    <h3>Problema...</h3>
+		    <p style="text-align: justify;">A axencia do tempo de Groenlandia quere enviar un dataset con datos meteorolóxicos históricos de Narsarsuaq a Nuuk (a capital) para procesalos.</p>
+		    
+		    <ul style="text-align: justify;">
+		    <li>Teñen unha velocidade de <strong>56 Kbps</strong></li>
+		    <li>Queren transmitir <strong>100 MiB</strong></li>
+		    </ul>
+		    
+		    <p class="fragment fade-out">Canto tardan en ir a pé?</p>
+		    <p class="fragment fade-in">Canto tardan en transmitir os datos?</p>
+		</section>
+		
+		<section>
+			<h3>Subida de arquivo por rede</h3>
+			<p>Por turnos! Ponte de acordo cos compañeiros</p>
+			<ol>
+			<li>Colle o arquivo de 100 MB do sitio: <a href="https://www.thinkbroadband.com/download">https://www.thinkbroadband.com/download</a></li>
+			<li>Cronometra co móbil canto tardan en subirse: (Ponte de acordo cos compañeiros)</li>
+			<li>Sube o arquivo con WinSCP ao servidor turing</li>
+			<li>Sube o arquivo con WinSCP ao servidor hadoop.cesga.es</li>
+			<li>Cal tardou máis? Calcula a velocidade media</li>
+			</ol>
+		</section>
+		
+		<section>
+		    <h3>Exercicio</h3> 
+		    <ol>
+		    	<li>Crea un <a href="https://orcid.org/">ORCID</a>
+		    	<li>Crea unha conta gratuita en <a href="https://www.globus.org/">Globus</a></li>
+	    	    </ol>
+		</section>
+		
+		<section>
+			<h3>Transferencia de arquivo por rede Globus</h3>
+			<ul>
+				<li>Transfire o arquivo que che indican dun datacenter a outro</li>
+				<li>Tarda máis ou menos? Por qué?</li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Por qué importan os tamaños e transferencias?</h3>
+			<ul>
+			<li>Pola cuota (quota) que che dan para almacenar os datasets.</li>
+			<li>Polo tempo que levan:<ul>
+				<li>Copias de seguridade</li>
+				<li>Transferencia entre servidores</li>
+			</li>
+			<li>Entender sistemas como HDFS, <a href="https://es.wikipedia.org/wiki/Lustre_(sistema_de_archivos)">Lustre</a>, etc</li>
+			</ul>
+
+		</section>
+		</section> <!-- Fin subtema -->
+		
+		<section>
+		<section>
+			<h3>Xerarquía de memoria</h3>
+			<img src="images/xerarquia-memoria.png" alt="Xerarquía da Memoria nun ordenador"/>
+		</section>
+		
+		<section>
+			<h3>Memoria virtual</h3>
+			<p>Se non temos memoria RAM suficiente, empregamos unha zona de disco.</p>
+			<p>Ralentiza operacións.</p>
+			<p>Ollo se non temos memoria suficiente!</p>
+		</section>
+		</section> <!-- Fin subtema -->
+		
+		<section>
+		<section>
+			<h3>Frecuencia de procesador</h3>
+			<ul>
+			<li>Mídese en múltiplos de hercio: Hz (s<sup>-1</sup>): <span style="color: darkblue;">kilohercio, megahercio, gigahercio</span>.</li>
+			<li>1 Hz = número de ciclos por segundo.</li>
+			<li>Cada instrucción executada por un procesador, pode tardar un número de ciclos diferente.</li>
+		</section>
+		
+		<section>
+			<img src="images/threads-vs-cores-1-cpu.png" alt="Monoprocesador"/>
+		</section>
+		
+		<section>
+			<h3>Os ordenadores actuais...</h3>
+			<ul>
+			<li>Os procesadores modernos levan máis dun core (núcleo)</li>
+			<li>Cada core pode ter varias unidades funcionales</li>
+			<li>A un core lle poden chegar varios fíos de execución</li>
+			<li><strong>Intel</strong>: Hyperthreading. <strong>AMD</strong>: <strong>S</strong>imultaneous <strong>M</strong>ulti<strong>T</strong>hreading (SMT)</li>
+			</ul>
+		</section>
+
+		<section>
+			<img src="images/threads-vs-cores-2-cpu.png" alt="Monoprocesador"/>
+		</section>
+		</section> <!-- Fin subtema-->
+		
+		<section>
+		<section>
+			<h3>Supercomputador</h3>
+			<ul>
+			<li>10 anos por diante da tecnoloxía (antigamente).</li>
+			<li>Ambiente de supercomputación (actualmente):</li>
+			<li>Moitos procesadores (exemplo: <a href="https://www.cesga.es/cesga-actualiza-el-finisterrae-2/">Finisterrae III</a>: &gt;700 procesadores)</li>
+		</section>
+		
+		<section>
+			<h3>Escalado horizontal vs vertical</h3>
+			<p><strong>Vertical</strong>: Carro grande, ande... ("mellorar o servidor").</p>
+			<p><strong>Horizontal</strong>: <a href="https://www.youtube.com/watch?v=TQsv5f6gxfg">Máis madeira</a> ("engadir servidores").</p>
+		</section>
+		
+		<section>
+			<h3>Apache Hadoop</h3>
+			<h4>Tipo de escalado para o que está pensado?</h4>
+		</section>
+		
+	        <section>
+        	    <h3>O tamaño importa?</h3>
+	            A partir de qué tamaño falamos de Big Data?
+	        </section>
+	        
+		</section> <!-- Fin subtema -->
+		
+		<section>
+		<section>
+			<h3>Máquinas Virtuais</h3>
+			<p>En BIOS ter activado</p>
+			<ul>
+			<li>Intel: VT-X</li>
+			<li>AMD: SVM, AMD-V...</li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Software de virtualización</h3>
+			<ul>
+				<li>VirtualBox</li>
+				<li>Microsoft Hyper-V</li>
+				<li>VMWare</li>
+				<li>Xen</li>
+				<li>Qemu</li>
+				<li>...</li>
+			</ul>
+			<h3>Outros "similares"</h3>
+			<ul>
+				<li>"Dockers" (servizos)</li>
+				<li>"OpenStack" (nube)</li>
+			</ul>
+		</section>
+		
+		<section>		
+			<h3>VirtualBox</h3>
+			<p>Anfitrión vs invitado (virtualbox)</p>
+			<p>Tipos de rede</p>
+			<p>Almacenamento. Controladoras: SATA/IDE</p>
+			<p>Extensión Pack e Guest Additions</p>
+		</section>
+
+		<section>		
+			<h3>OpenStack</h3>
+			<p>CESGA (mostrar)</p>
+		</section>
+
+		</section> <!-- Fin subtema -->
+		
+                <section>
+		            <img alt="QR materiales" id="qrmateriales">
+                    <p id="copyrightline" style="color: orange;">Jose Sánchez</p>
+		            <p><small><a href="" id="urlmateriales"><span id="textourlmateriales"></span></a></small></p>
+
+		            <!--span class="fragment"-->
+	                <blockquote><small>&ldquo;<em><strong>Errare humanum est, sed perseverare diabolicum</strong></em>&rdquo;</small></blockquote>
+            	    <small id="addemail">Se atopas erros, envíame un correo a: </small>
+    		        <!--/span-->
+                </section>
+            </div>
+        </div>
+
+<!-- Plugins de revealjs -->
+<script src="../../_res/revealjs4/dist/reveal.js"></script>
+<script src="../../_res/revealjs4/plugin/markdown/markdown.js"></script>
+<script src="../../_res/revealjs4/plugin/highlight/highlight.js"></script>
+<script src="../../_res/revealjs4/plugin/notes/notes.js"></script>
+<!-- Generador de códigos QR-->
+<script src="../../_res/qrious.js"></script>
+<script>
+
+  //Coger la propiedad para: texto de enlace, enlace y código QR
+  //var documenturl=document.head.querySelector("[property~=documenturl][content]").content;
+  var documenturl = window.location.href;
+  
+  Reveal.initialize({
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+    progress: true,
+    controlsBackArrows: 'faded',
+  });
+
+  new QRious({
+    element: document.querySelector("#qrmateriales"),
+    value: documenturl,
+    size: 150,
+    backgroundAlpha: 0, // 0 Transparent
+    foreground: "#00008B",
+    level: "Q", // L(owest),M ,Q ,H(ighest)
+  });
+
+    document.querySelector("#textourlmateriales").innerText=documenturl;
+    document.querySelector("#urlmateriales").setAttribute('href', documenturl);
+    document.querySelector("#copyrightline").innerText=
+	document.head.querySelector("[name~=author][content]").content + " " +
+    document.head.querySelector("[property~=creationdate][content]").content;
+    document.querySelector("#addemail").innerText=document.querySelector("#addemail").innerText+
+	document.head.querySelector("[property~=emailuser][content]").content + "@" +
+	document.head.querySelector("[property~=emaildomain][content]").content;
+
+</script>
+
+</body>
+</html>
+

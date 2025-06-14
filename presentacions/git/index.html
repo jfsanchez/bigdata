@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+    <head>
+	<!-- Recordatorio: Cambiar estas propiedades -->
+        <title>GIT Rápido para estudiantes sin tiempo</title>
+	<meta name="author" content="Jose Sánchez">
+	<meta property="emailuser" content="corrreo">
+	<meta property="emaildomain" content="jfsanchez.es">
+	<meta property="creationdate" content="&copy; Novembro 2022">
+	<!--meta property="documenturl" content="https://jfsanchez.es/"-->
+	<!-- --  -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="../../_res/revealjs4/dist/reveal.css">
+        <!-link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css"-->
+        <link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css">
+        <style>
+            .reveal h1,.reveal h2,.reveal h3,.reveal h4{ 
+                color: gold;
+            }
+            .trojo{ color: darkred; }
+            .tverde{ color: darkgreen; }
+            .tamarillo{ color: darkgoldenrod; }
+            .tazul{ color: darkblue; }
+            .famarillo { background-color: lightgoldenrodyellow; }
+            .divdual {
+                display:block;
+                float:left;
+                width: 48%;
+                margin: 0 auto;
+            }
+            .tnormal{
+                padding: 0;
+                text-align: justify;
+                font-size: 0.7em !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+        		    <p>GIT</p>
+                    <h5 style="color: gold;">Control de versiones</h5>
+       	            <h5 style="color: gray;">Uso rápido básico con GitHub para estudiantes sin tiempo</h5>
+                </section>
+
+                <section>
+			        <h1>Índice</h1>
+			        <ul>
+			            <li>Configuración básica</li>
+			            <li>Añadir archivos al control de versiones</li>
+			            <li>commit vs push</li>
+			            <li>remote</li>
+			            <li>Configuración con GitHub</li>
+			            <li>Otros servicios</li>
+			        </ul>
+                    <aside class="notes">
+                        Qué imos ver?
+                    </aside>
+                </section>
+                
+                <section>
+                    <h3>Configurando repositorio</h3>
+                    <code style="font-size: 0.75em;">
+                    git config --global user.name "Nombre Apellido"<br/>
+                    git config --global user.email "xxx@edu.xunta.gal"
+                    </code>
+                </section>
+                    
+                <section>
+                    <h3>Configuraciones (2)</h3>
+                    <code>
+                        git config --global diff.tool "???"<br/>
+                        git config --global core.editor "nano"<br/>
+                    </code>
+                </section>
+
+                <section>
+                    <h3>Corrección política</h3>
+                    <code style="font-size: 0.7em;">git config --global init.defaultBranch main</code>
+                    <aside class="notes">
+                        Ojo con master o main (explicar tema racismo): git push -u origin master
+                    </aside>
+                </section>
+
+                <section>
+                    <h3>Ver configuración cambiada</h3>
+                    <code>git config --list</code>
+                </section>
+
+                <section>
+                    <h3>Inicialización</h3>
+                    <code>git init</code>
+                </section>
+
+                <section>
+                    <h3>Estado</h3>
+                    <code>git status</code>
+                </section>
+
+                <section>
+                    <h3>Añadir archivo a control de versiones</h3>
+                    <code>git add <span style="color: darkblue;">{ARCHIVO}</span></code>
+                </section>
+                
+                <section>
+                    <h3>Descargar cambios (actualizar)</h3>
+                    <code>git pull</code>
+                </section>
+
+                <section>
+                    <h3>Enviar cambios a local</h3>
+                    <code>git commit</code>
+                </section>
+
+                <section>
+                    <h3>Añadir servidor remoto</h3>
+                    <code>git remote add origin ...</code>
+                </section>
+                
+                <section>
+                    <h3>Ver remotes</h3>
+                    <code>git remote -v</code>
+                </section>
+                
+                <section>
+                    <h3>Borrar servidor remoto</h3>
+                    <code>git remote remove <span style="color: darkblue;">origin</span></code>
+                </section>
+                
+                <section>
+                    <h3>Enviar cambios a remoto</h3>
+                    <code>git push</code>
+                </section>
+
+                <section>
+                    <h3>Branches (listar)</h3>
+                    <code>git branch -a</code>
+                </section>
+
+                <section>
+                    <h3>Branches (descargar y fijar uno: main)</h3>
+                    <code>git branch --track main origin/main</code><br/>
+                    <code>git checkout main</code>
+                </section>
+
+                <section>
+                    <h3>Configuración en GitHub</h3>
+                    <ul>
+                        <li>En Github, vamos a Nuestro perfil &mdash;&gt; Settings:</li>
+                        <div class="fragment">
+                        <li><strong>Opción 1:</strong> SSH and GPG keys &mdash;&gt; añadimos una</li>
+                        <ul><li><code style="font-size: 0.7em;">ssh-keygen -m PEM -t rsa -C nuestro-email</code></li></ul>
+                        </div>
+                        <div class="fragment">
+                        <li><strong>Opción 2:</strong> Developer settings &mdash;&gt; Personal access tokens &mdash;&gt; Classic tokens &mdash;&gt; Añadir uno que actuará como contraseña (debe caducar por seguridad)</li>
+                        </div>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3>GitHub: Repositorio nuevo</h3>
+                    <code>
+                        <div style="font-size: 0.8em; text-align: left;">
+                            echo "# BDA" >> README.md<br/>
+                            git init<br/>
+                            git add README.md<br/>
+                            git commit -m "first commit"<br/>
+                            git branch -M main<br/>
+                            <span style="font-size: 0.9em;">git remote add origin git@github.com:jfsanchez/BDA.git</span><br/>
+                            git push -u origin main<br/>
+                        </div>
+                    </code>
+                </section>
+
+                <section>
+                    <h3>GitHub: Repositorio existente</h3>
+                    <code>
+                        <div style="font-size: 0.8em; text-align: left;">
+                            <span style="font-size: 0.9em;">git remote add origin git@github.com:jfsanchez/BDA.git</span><br/>
+                            git branch -M main<br/>
+                            git push -u origin main
+                        </div>
+                    </code>
+                </section>
+
+                <section>
+                    <h3>Clonar otro repositorio</h3>
+                    <code style="font-size: 0.7em;">git clone git@github.com:nombre-usuario/nombre-repositorio.git .</code>
+                </section>
+
+                <section>
+                    Credential Manager de Microsoft Windows
+                </section>
+
+
+                <section>
+                    <h3>Ramas</h3>
+                    <code>git branch -a</code>
+                    <p>Locales, Remotas</p>
+                </section>
+
+                <section>
+                    <h3>Distributed Version Control System (DVCS)</h3>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>Servicios que ofrecen git</h3>
+                        <p>Actualizado a: Noviembre 2022</p>
+                    </section>
+                    <section>
+                        <a href="https://github.com/pricing">Github</a>: repositorios gratis privados y públicos (limite 500mb tamaño y 2000min tiempo de actions)<br/>
+                    </section>
+                    <section>
+                        <a href="https://www.atlassian.com/software/bitbucket/pricing">Bitbucket</a>: Gratis hasta 5 usuario (limite 1gb tamaño y 50min tiempo de actions)<br/>
+                    </section>
+                    <section>
+                        <a href="https://about.gitlab.com/pricing/">Gitlab</a>: repositorios gratis privados y públicos (limite 400min tiempo de actions)<br/>
+                    </section>
+                    <section>
+                        <a href="https://azure.microsoft.com/es-es/pricing/details/devops/azure-devops-services/">Azure Devops</a>: Gratis hasta 5 usuario (limite 2gb tamaño y 1800min tiempo de actions)
+                    </section>                   
+                </section>
+                    
+
+                
+                <section>
+		            <img alt="QR materiales" id="qrmateriales">
+                    <p id="copyrightline" style="color: orange;">Jose Sánchez</p>
+		            <p><small><a href="" id="urlmateriales"><span id="textourlmateriales"></span></a></small></p>
+
+		            <!--span class="fragment"-->
+	                <blockquote><small>&ldquo;<em><strong>Errare humanum est, sed perseverare diabolicum</strong></em>&rdquo;</small></blockquote>
+        	        <small id="addemail">Si encuentras errores, envíame un correo a: </small>
+		            <!--/span-->
+                </section>
+
+        </div>
+        </div>
+
+<!-- Plugins de revealjs -->
+<script src="../../_res/revealjs4/dist/reveal.js"></script>
+<script src="../../_res/revealjs4/plugin/markdown/markdown.js"></script>
+<script src="../../_res/revealjs4/plugin/highlight/highlight.js"></script>
+<script src="../../_res/revealjs4/plugin/notes/notes.js"></script>
+<!-- Generador de códigos QR-->
+<script src="../../_res/qrious.js"></script>
+<script>
+
+  //Coger la propiedad para: texto de enlace, enlace y código QR
+  //var documenturl=document.head.querySelector("[property~=documenturl][content]").content;
+  var documenturl=document.location.href;
+  
+  Reveal.initialize({
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+    progress: true,
+    controlsBackArrows: 'faded',
+    //Math, Zoom, Marked
+  });
+
+  new QRious({
+    element: document.querySelector("#qrmateriales"),
+    value: documenturl,
+    size: 150,
+    backgroundAlpha: 0, // 0 Transparent
+    foreground: "#00008B",
+    level: "Q", // L(owest),M ,Q ,H(ighest)
+  });
+
+  document.querySelector("#textourlmateriales").innerText=documenturl;
+  document.querySelector("#urlmateriales").setAttribute('href', documenturl);
+  document.querySelector("#copyrightline").innerText=
+	document.head.querySelector("[name~=author][content]").content + " " +
+	document.head.querySelector("[property~=creationdate][content]").content;
+  document.querySelector("#addemail").innerText=document.querySelector("#addemail").innerText+
+	document.head.querySelector("[property~=emailuser][content]").content + "@" +
+	document.head.querySelector("[property~=emaildomain][content]").content;
+
+</script>
+    </body>
+</html>
+
+
+

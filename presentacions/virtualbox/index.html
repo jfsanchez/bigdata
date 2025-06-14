@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+    <head>
+	<!-- Recordatorio: Cambiar estas propiedades -->
+        <title>VirtualBox: Opciones de Red</title>
+	<meta name="author" content="Jose Sánchez">
+	<meta property="emailuser" content="correo">
+	<meta property="emaildomain" content="jfsanchez.es">
+	<meta property="creationdate" content="&copy; Octubre 2022">
+	<!--meta property="documenturl" content="https://jfsanchez.es/"-->
+	<!-- --  -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="../../_res/revealjs4/dist/reveal.css">
+        <!-link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css"-->
+        <link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css">
+        <style>
+            .reveal h1,.reveal h2,.reveal h3,.reveal h4{ 
+                color: gold;
+            }
+            .trojo{ color: darkred; }
+            .tverde{ color: darkgreen; }
+            .tamarillo{ color: darkgoldenrod; }
+            .tazul{ color: darkblue; }
+            .famarillo { background-color: lightgoldenrodyellow; }
+            .divdual {
+                display:block;
+                float:left;
+                width: 48%;
+                margin: 0 auto;
+            }
+            .tnormal{
+                padding: 0;
+                text-align: justify;
+                font-size: 0.7em !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+		            <h1>VirtualBox</h1>
+                    <h2 style="color: gray;">Opciones de Red</h2>
+                </section>
+
+                <section>
+			        <h1>Índice</h1>
+			        <ol>
+			            <li>Sin conexión</li>
+			            <li>NAT</li>
+			            <li>Red NAT / NAT Network</li>
+			            <li>Adaptador Puente / Bridged Adapter</li>
+			            <li>Red Interna / Internal Network</li>
+			            <li>Adaptador Sólo-Anfitrión / Host-Only Network</li>
+			            <div class="fragment">
+			                <li><span style="text-decoration: line-through; color: gray;">Adaptador Genérico / Generic Adapter</span></li>
+			                <li><span style="text-decoration: line-through; color: gray;">Cloud Network</span></li>
+			            </div>
+			        </ol>
+                    <aside class="notes">
+                        <u>Tipos de conexión de VirtualBox</u>
+                        <p>No veremos el <strong>Adaptador Genérico</strong> por ser un tipo bastante avanzado. Permite seleccionar un driver al usuario que se puede incluir con VM VirtualBox o ser distribuido en un "Extension Pack"</p>
+                        <p>En el <strong>Generic Adapter</strong> hay dos submodos: 
+                        <ol>
+                            <li>Túnel UDP (interconecta MV en hosts distintos de forma directa, "fácil" y transparente sobre una red existente.</li>
+                            <li>VDE (Virtual Distributed Ethernet): Permite conectarse a un switch virtual en GNU/Linux o FreeBSD. Habría que recompilar el código fuente de VirtualBox porque no viene incluído por defecto.</li>
+                        </ol>
+                        </p>
+                        <strong>Cloud networking</strong>: Permite conectar una MV a una subred que provea un servicio cloud. De momento es experimental.
+                    </aside>
+                </section>
+                
+                <section>
+                    <h2>Configuración de red en MV</h2>
+                    <img src="images/0-modos-red.png" alt="Modos de red"/>
+                    <aside class="notes">
+                        <p>VirtualBox permite hasta 4 adaptadores de red. Para ir a las opciones de red, en una máquina virtual, click derecho - Configuración... - Red.</p>
+                        <p>Para que un adaptador pueda ser utilizado hay que marcar el check de "Habilitar"</p>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h1>NAT</h1>
+                    <ul>
+                        <li>Por defecto. Router virtual transparente</li> 
+                        <li class="fragment">El anfitrión (host) no ve al invitado (MV)</li>
+                        <li class="fragment">El invitado ve al antitrión</li> 
+                        <li class="fragment">Los invitados no pueden verse entre si</li> 
+                        <li class="fragment"><span style="color: darkgreen;">HAY ACCESO A INTERNET</span></li> 
+                    </ul>
+                    
+                    <aside class="notes">
+                        <p>Network Address Translation modo más simple y seleccionado por defecto, actúa como router virtual</p>
+                        <p>Es un modo "seguro": No se puede acceder desde nuestra red local a las MV, tampoco se pueden ver entre ellas</p>
+                        <p>Las MV pueden conectarse al anfitrión pero no el anfitrión a ellas, pues están detrás de un router virtual</p>
+                        <p>Hay internet dentro de las MV, siempre y cuando el anfitrión tenga internet y esté configurado</p>
+                        <p>Misma IP dentro de cada MV, VirtualBox distingue internamente cada MV</p>
+                        <strong>DIBUJAR ESQUEMA Y VER EJEMPLO (nmtui en Ubuntu)</strong>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h1>Red NAT</h1>
+                    <img src="images/redes-nat.png" alt="Redes NAT"/>
+                    <ul>
+                        <li>Red privada propia entre MV</li>
+                        <li>Router explícito, configurable</li>
+                        <li class="fragment">Anfitrión se conecta: REENVÍO DE PUERTOS</li>
+                        <li class="fragment"><span style="color: darkgreen;">HAY ACCESO A INTERNET</span></li> 
+                    </ul>
+                    <aside class="notes">
+                        <p>Archivo - Preferencias - Red</p>
+                        <strong>DIBUJAR ESQUEMA</strong>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h3>Red NAT: Configuración general</h3>
+                    <img src="images/redes-nat-2.png" alt="Redes NAT"/>
+                    <img src="images/redes-nat-3.png" alt="Redes NAT"/>
+                    <aside class="notes">
+                        <p>La red debe introducirse con <a href="https://es.wikipedia.org/wiki/Classless_Inter-Domain_Routing">notación CIDR</a> para la máscara</p>
+                        <p>En el reenvío de puertos distinguir IP anfitrión del invitado. Hacer ejemplo</p>
+                        <p>En anfitrión nos podemos conectar a la IP 127.0.0.1 (interfaz loopback) o a la IP de red local. Dependiendo donde escuchemos, así daremos acceso</p>
+                        <p>En GNU/Linux ojo a puertos &lt; 1024</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Red NAT: Configuración concreta</h3>
+                    <img src="images/redes-nat-4.png" alt="Configuración dentro de la máquina virtual"/>
+                    <aside class="notes">
+                        <p>Además, una vez configurada la Red NAT (con el nombre que queramos) debemos conectar las máquinas a este router virtual.</p>
+                        <strong>VER EJEMPLO</strong>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h2>Adaptador Puente</h2>
+                    <h2>Bridged adapter</h2>
+                    <ul>
+                        <li>IP adicional en red local</li>
+                        <li class="fragment">MV expuesta a la red</li>
+                        <li class="fragment"><span style="color: darkgreen;">HAY ACCESO A INTERNET</span></li> 
+                    </ul>
+                    
+                    <aside class="notes">
+                        <ul>
+                            <li>Es el modo más permisivo</li>
+                            <li>Es como tener un hub virtual (unmanaged switch)</li>
+                            <li>Permite a la MV conectarse al mismo router que el host (AVISO: Posibles problemas de seguridad)</li>
+                            <li>Es como pedir una "IP adicional" al router real (una tarjeta con una IP alias)</li>
+                            <li>Se expone la máquina al anfitrión y a la red local</li>
+                            <li>No podríamos distinguir entre la máquina física y la virtual (en principio) en la red</li>
+                            <li>Si estamos conectados a redes WiFi, podríamos tener problemas con este modo dependiendo de la configuración del AP y del router</li>
+                        </ul>
+                        
+                    </aside>
+                </section>
+                
+                <section>
+                    <h1>Internal Network</h1>
+                    <ul>
+                        <li>No soporta DHCP</li>
+                        <li>Conexión entre 2 o más MV</li>
+                        <li>No conexión hacia/desde anfitrión</li>
+                        <li class="fragment"><span style="color: darkred;">NO HAY CONEXIÓN A INTERNET</span></li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Se crea un switch virtual al que se pueden conectar una o más MV.</p>
+                        <p>No soporta DHCP, debemos asignar IP estáticas o montar servidor DHCP en una de las máquinas</p>
+                        <p>Hay que usar el <strong>mismo nombre de red interna</strong> para que dos o más máquinas se conecten a la misma red interna</p>
+                        <strong>VER EJEMPLO</strong>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h1>Host-Only Network</h1>
+                    <ul>
+                        <li>Como red interna + anfitrión</li>
+                        <li>MV se ven entre si</li>
+                        <li>Interfaz virtual en anfitrión: <strong>192.168.56.1</strong></li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Es como una red interna, sólo que se exponen las máquinas además de entre sí, también al anfitrión.</p>
+                        <p>El anfitrión necesita una interfaz virtual para que todo funcione, normalmente en la instalación de VirtualBox se crea una con IP por defecto: 192.168.56.1</p>
+                        <p>Archivo - Administrador de red anfitrión</p>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h3>Host-Only Network: Configuración</h3>
+                    <img src="images/red-anfitrion.png" alt="Red anfitrión"/>
+                    <p>Archivo &mdash;&gt; Administrador de red anfitrión</p>
+                    <aside class="notes">
+                        <strong>VER EJEMPLO</strong>
+                    </aside>
+                </section>
+                
+                <section>
+                    <h1>Sin conexión</h1>
+                    <h2>No connection</h2>
+                        <p>Quizás suene raro pero...</p>
+                        <p><span style="color: darkred;">NO HAY CONEXIÓN A INTERNET</span></p>
+                        <p class="fragment"><strong>¿Por qué es útil?</strong></p>
+                    <aside class="notes">
+                        <p>Una vez lanzadas las MV, no podremos activar interfaces de red (ni si está el estado guardado).</p>
+                        <p>Es una forma de reservarnos el interfaz para poder cambiarlo en el futuro.</p>
+                    </aside>
+                </section>
+
+                <section>
+		    <img alt="QR materiales" id="qrmateriales">
+                    <p id="copyrightline" style="color: orange;">Jose Sánchez</p>
+		    <p><small><a href="" id="urlmateriales"><span id="textourlmateriales"></span></a></small></p>
+
+		    <!--span class="fragment"-->
+	                    <blockquote><small>&ldquo;<em><strong>Errare humanum est, sed perseverare diabolicum</strong></em>&rdquo;</small></blockquote>
+        	            <small id="addemail">Si encuentras errores, envíame un correo a: </small>
+
+		    <!--/span-->
+                </section>
+
+        </div>
+        </div>
+
+<!-- Plugins de revealjs -->
+<script src="../../_res/revealjs4/dist/reveal.js"></script>
+<script src="../../_res/revealjs4/plugin/markdown/markdown.js"></script>
+<script src="../../_res/revealjs4/plugin/highlight/highlight.js"></script>
+<script src="../../_res/revealjs4/plugin/notes/notes.js"></script>
+<!-- Generador de códigos QR-->
+<script src="../../_res/qrious.js"></script>
+<script>
+
+  //Coger la propiedad para: texto de enlace, enlace y código QR
+  //var documenturl=document.head.querySelector("[property~=documenturl][content]").content;
+  var documenturl = window.location.href;
+
+  Reveal.initialize({
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+    progress: true,
+    controlsBackArrows: 'faded',
+    //Math, Zoom, Marked
+  });
+
+  new QRious({
+    element: document.querySelector("#qrmateriales"),
+    value: documenturl,
+    size: 150,
+    backgroundAlpha: 0, // 0 Transparent
+    foreground: "#00008B",
+    level: "Q", // L(owest),M ,Q ,H(ighest)
+  });
+
+  document.querySelector("#textourlmateriales").innerText=documenturl;
+  document.querySelector("#urlmateriales").setAttribute('href', documenturl);
+  document.querySelector("#copyrightline").innerText=
+	document.head.querySelector("[name~=author][content]").content + " " +
+	document.head.querySelector("[property~=creationdate][content]").content;
+  document.querySelector("#addemail").innerText=document.querySelector("#addemail").innerText+
+	document.head.querySelector("[property~=emailuser][content]").content + "@" +
+	document.head.querySelector("[property~=emaildomain][content]").content;
+
+</script>
+    </body>
+</html>
+

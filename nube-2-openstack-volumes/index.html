@@ -1,0 +1,1377 @@
+
+<!doctype html>
+<html lang="gl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Jose Sánchez">
+      
+      
+        <link rel="canonical" href="https://jfsanchez.es/bigdata/nube-2-openstack-volumes/">
+      
+      
+        <link rel="prev" href="../nube-1-openstack-crear-lanzar-instancia/">
+      
+      
+        <link rel="next" href="../nube-3-openstack-grupos-seguridade/">
+      
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>💿 Volúmenes - Big Data — Macrodatos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../_res/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#openstack-volumes" class="md-skip">
+          Ir ao contido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeceira">
+    <a href=".." title="Big Data — Macrodatos" class="md-header__button md-logo" aria-label="Big Data — Macrodatos" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Big Data — Macrodatos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              💿 Volúmenes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo oscuro (da calambre)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo oscuro (da calambre)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo normal"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo normal" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Procura" placeholder="Procura" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Procurar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando procura
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jfsanchez/bigdata/" title="Ir ao repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jfsanchez/bigdata
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Big Data — Macrodatos" class="md-nav__button md-logo" aria-label="Big Data — Macrodatos" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    Big Data — Macrodatos
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jfsanchez/bigdata/" title="Ir ao repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jfsanchez/bigdata
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📚 Inicio — Presentacións
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../conda-0-config-basica/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    👷 Contorno/Configuracións
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-hadoop-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    🐘 Apache Hadoop
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-spark-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ⚝ Apache Spark
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-kafka-0-instalacion-docker/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ➿ Apache Kafka
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-nifi-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    💧 Apache NIFI
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-sqoop-0-resumo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🇸 Apache Sqoop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-airflow-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ✔️ TODO
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    ☁️ Nube/Cloud/Openstack
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            ☁️ Nube/Cloud/Openstack
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nube-0-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ☁️ Introdución
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nube-1-openstack-crear-lanzar-instancia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ➕ Crear Instancia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    💿 Volúmenes
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    💿 Volúmenes
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Táboa de contidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Táboa de contidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#como-cambiarlle-o-nome-do-volume-a-unha-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como cambiarlle o nome do volume a unha instancia.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-asociar-un-volume-a-unha-instancia-en-execucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como asociar un volume a unha instancia en execución.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-desasociar-un-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como desasociar un volume
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-extender-un-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como extender un volume.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-clonar-un-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como clonar un volume.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-borrar-unha-instancia-sen-borrar-o-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como borrar unha instancia sen borrar o volume.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-lanzar-unha-instancia-a-partir-dun-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como lanzar unha instancia a partir dun volume.
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nube-3-openstack-grupos-seguridade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🛡️ Grupos de seguridade
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nube-4-openstack-recovey/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ⛈️ Recuperación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nube-5-openstack-crear-swap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🐢 SWAP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nube-6-comandos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ⚙️ Automatizando
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../powerbi-0-python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📶 Microsoft PowerBi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://jfsanchez.es/docencia/libreta" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🗒️ Plantillas docencia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Táboa de contidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Táboa de contidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#como-cambiarlle-o-nome-do-volume-a-unha-instancia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como cambiarlle o nome do volume a unha instancia.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-asociar-un-volume-a-unha-instancia-en-execucion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como asociar un volume a unha instancia en execución.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-desasociar-un-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como desasociar un volume
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-extender-un-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como extender un volume.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-clonar-un-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como clonar un volume.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-borrar-unha-instancia-sen-borrar-o-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como borrar unha instancia sen borrar o volume.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-lanzar-unha-instancia-a-partir-dun-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Como lanzar unha instancia a partir dun volume.
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="openstack-volumes">☁️ OpenStack &mdash; 💿 Volumes</h1>
+<p>Normalmente os servizos de virtualización na nube cobran polo uso de recursos: Procesador, memoria RAM, rede, GPU, espacio en disco...</p>
+<p>Non sempre necesitamos todos os servizos activos, polo que se queremos aforrar custos, debemos reducir recursos.</p>
+<p>Un volume é o disco duro virtual onde se almacenan os datos das instancias en <a href="https://www.openstack.org/">OpenStack</a>.</p>
+<p>Imos ver unhas operacións básicas sobre volumes en <a href="https://www.openstack.org/">OpenStack</a> empregando o interfaz web Horizon de <a href="https://docs.openstack.org/nova/latest/">Nova</a>.</p>
+<ul>
+<li>Como cambiarlle o nome do volume a unha instancia.</li>
+<li>Como asociar/desasociar un volume dunha instancia.</li>
+<li>Como extender un volume.</li>
+<li>Como clonar un volume.</li>
+<li>Como borrar unha instancia.</li>
+<li>Como lanzar unha instancia a partir dun volume.</li>
+</ul>
+<h2 id="como-cambiarlle-o-nome-do-volume-a-unha-instancia">Como cambiarlle o nome do volume a unha instancia.</h2>
+<p>Non é preciso nin desasociar o volume da instancia nin parala para renomear os volumes. Isto é útil para localizalos con posterioridade.</p>
+<ol>
+<li>
+<p>Imos a Computación &rArr; Instancias:</p>
+<p><img alt="OpenStack. Lista de instancias" src="../images/openstack/volumes/openstack-paso1-instancias.png" title="OpenStack. Lista de instancias" /></p>
+</li>
+<li>
+<p>Prememos no nome da instancia e nos sairá información sobre a mesma, imos ao final da páxina e veremos os volumes asociados:</p>
+<p><img alt="OpenStack. Lista de volumes" src="../images/openstack/volumes/openstack-paso2-instancia-volumes.png" title="OpenStack. Lista de volumes" /></p>
+</li>
+<li>
+<p>Tras premer no volume ao que queremos cambiarlle o nome, aparecerá información sobre o mesmo:</p>
+<p><img alt="OpenStack. Información do volume" src="../images/openstack/volumes/openstack-paso3-editar-volume.png" title="OpenStack. Información do volume" /></p>
+</li>
+<li>
+<p>Prememos no botón "Editar volumen" e mudamos o nome ao que queiramos, seguidamente confirmamos os cambios no botón azul.</p>
+<p><img alt="OpenStack. Editando nome do volume" src="../images/openstack/volumes/openstack-paso4-nome-editado.png" title="OpenStack. Editando nome do volume" /></p>
+</li>
+</ol>
+<h2 id="como-asociar-un-volume-a-unha-instancia-en-execucion">Como asociar un volume a unha instancia en execución.</h2>
+<ol>
+<li>
+<p>Imos a Computación &rArr; Instancias:</p>
+<p><img alt="OpenStack. Lista de instancias" src="../images/openstack/volumes/openstack-paso1-instancias.png" title="OpenStack. Lista de instancias" /></p>
+</li>
+<li>
+<p>Prememos na frecha de "Crear instancia" da instancia correspondente para que nos apareza o menú:</p>
+<p><img alt="OpenStack. Menú de instancia" src="../images/openstack/openstack-menu-instancia.png" title="OpenStack. Menú de instancia" /></p>
+</li>
+<li>
+<p>Seleccionamos a opción "Asociar Volume", seleccionamos o volume que queremos asociar e prememos no botón azul para confirmar.</p>
+<p><img alt="OpenStack. Asociar volume" src="../images/openstack/volumes/openstack-asociar-volume-desde-principal.png" title="OpenStack. Asociar volume" /></p>
+</li>
+<li>
+<p>Debemos montar o volume no sistema operativo. Primeiro entramos na instancia (seleccionamos o nome no listado de instancias) e vemos ao final a qué dipositivo virtual se asociou o novo volume, neste caso a <code>/dev/vdb</code></p>
+<p><img alt="OpenStack. Asociar volume" src="../images/openstack/volumes/openstack-lista-volumes.png" title="OpenStack. Asociar volume" /></p>
+</li>
+<li>
+<p>Montámolo co comando mount (ou de ser preciso formateamos). Podemos asegurarnos que exista correctamente dentro da máquina o interfaz virtual que vimos previamente no interfaz web co comando <code>lsblk</code> dende unha consola SSH.</p>
+<p>5.1 Opción 1: Para montar un volume:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>lsblk
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>sudo<span class="w"> </span>mkdir<span class="w"> </span>/mnt/vdb
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>sudo<span class="w"> </span>mount<span class="w"> </span>/dev/vdb<span class="w"> </span>/mnt/vdb
+</span></code></pre></div>
+<p>5.2 Opción 2: Para formatear (borra os datos) dun volume:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>lsblk
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>sudo<span class="w"> </span>mkdir<span class="w"> </span>/mnt/vdb
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>sudo<span class="w"> </span>mkfs.ext3<span class="w"> </span>/dev/vdb
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>sudo<span class="w"> </span>mount<span class="w"> </span>/dev/vdb<span class="w"> </span>/mnt/vdb
+</span></code></pre></div>
+</li>
+<li>
+<p>Asegurámonos que estea correctamente montado executando o comando <code>mount</code> e vendo que aparece na listaxe.</p>
+</li>
+</ol>
+<h2 id="como-desasociar-un-volume">Como desasociar un volume</h2>
+<p><strong>Importante</strong>: Se non queres perder datos, lembra apagar a instancia se lle vas a desasociar un volume. A outra opción é desmontar previamente o dispositivo.</p>
+<p><strong>Nota</strong>: Non se pode desasociar o volume raíz (o que contén o sistema operativo) dunha instancia en execución, para eso deberás apagala ou borrala. Se non tes marcada a opción de borrar o volume cando se borre a instancia, o volume non debería borrarse polo feito de eliminar a instancia.</p>
+<p>Imos desasociar un volume adicional.</p>
+<ol>
+<li>
+<p>Buscamos o volume con calquera dos comandos:</p>
+<ul>
+<li><code>mount</code></li>
+<li><code>lsblk</code></li>
+<li><code>df -h</code></li>
+</ul>
+</li>
+<li>
+<p>Desmontamos o volume:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>umount<span class="w"> </span>/mnt/vdb
+</span></code></pre></div>
+</li>
+<li>
+<p>Imos á interfaz web &rArr; Computación &rArr; Instancias:</p>
+<p><img alt="OpenStack. Lista de instancias" src="../images/openstack/volumes/openstack-paso1-instancias.png" title="OpenStack. Lista de instancias" /></p>
+</li>
+<li>
+<p>Prememos na frecha de "Crear instancia" da instancia correspondente para que nos apareza o menú:</p>
+<p><img alt="OpenStack. Menú de instancia" src="../images/openstack/openstack-menu-instancia.png" title="OpenStack. Menú de instancia" /></p>
+</li>
+<li>
+<p>Seleccionamos a opción "Desasociar Volume", seleccionamos o volume que queremos desasociar e prememos no botón azul para confirmar.</p>
+<p><img alt="OpenStack. Desasociar volume" src="../images/openstack/volumes/openstack-desasociar-volume-desde-principal.png" title="OpenStack. Desasociar volume" /></p>
+</li>
+</ol>
+<h2 id="como-extender-un-volume">Como extender un volume.</h2>
+<p>Se o volume é de sistema, debemos apagar a máquina (realmente pódese facer coa instancia encendida e logo reiniciar pero NON é recomendable).</p>
+<ol>
+<li>
+<p>Imos a Computación &rArr; Instancias:</p>
+<p><img alt="OpenStack. Lista de instancias" src="../images/openstack/volumes/openstack-paso1-instancias.png" title="OpenStack. Lista de instancias" /></p>
+</li>
+<li>
+<p>Prememos no nome da instancia e nos sairá información sobre a mesma, imos ao final da páxina e veremos os volumes asociados:</p>
+<p><img alt="OpenStack. Lista de volumes" src="../images/openstack/volumes/openstack-paso2-instancia-volumes.png" title="OpenStack. Lista de volumes" /></p>
+</li>
+<li>
+<p>Tras premer no volume que queremos extender, aparecerá información sobre o mesmo:</p>
+<p><img alt="OpenStack. Información do volume" src="../images/openstack/volumes/openstack-paso3-editar-volume.png" title="OpenStack. Información do volume" /></p>
+</li>
+<li>
+<p>Prememos na frecha á dereita do botón "<em>Editar volumen</em> &darr;" e seleccionamos "<em>Extender Volumen</em>".</p>
+<p><img alt="OpenStack. Extender volume" src="../images/openstack/volumes/openstack-exender-volumen.png" title="OpenStack. Extender volume" /></p>
+</li>
+<li>
+<p>Poñemos o novo tamaño e confirmamos co botón azul. Finalmente volvemos encender a instancia ou ven a reiniciamos de estar encendida.</p>
+</li>
+</ol>
+<p><strong>Opción</strong>: Se non é un volume de sistema, debemos desmontalo, cambiar o tamaño da partición e volvelo montar. Exemplo:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>lsblk
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>df<span class="w"> </span>-h
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>sudo<span class="w"> </span>umount<span class="w"> </span>/mnt/vdb
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>sudo<span class="w"> </span>e2fsck<span class="w"> </span>-f<span class="w"> </span>/dev/vdb
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>sudo<span class="w"> </span>resize2fs<span class="w"> </span>/dev/vdb
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>sudo<span class="w"> </span>mount<span class="w"> </span>/dev/vdb<span class="w"> </span>/mnt/vdb
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>lsblk
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>df<span class="w"> </span>-h
+</span></code></pre></div>
+<h2 id="como-clonar-un-volume">Como clonar un volume.</h2>
+<p>Debe estar o volume desasociado para que non dea problemas e para que nos deixe seleccionalo.</p>
+<ol>
+<li>
+<p>Imos a "Volúmenes &rArr; Volúmenes" e prememos no botón "Crear"
+    <img alt="OpenStack. Crear volume" src="../images/openstack/volumes/openstack-crear-volume.png" title="OpenStack. Crear volume" /></p>
+</li>
+<li>
+<p>No cadro damos un nome ao novo volume, en "Origen del volumen" seleccionamos "Volumen" e en "Usar un volumen como origen" seleccionamos a volume que queremos clonar. Confirmamos premendo no botón azul.</p>
+<p><img alt="OpenStack. Clonar volume" src="../images/openstack/volumes/openstack-clonar-volume.png" title="OpenStack. Clonar volume" /></p>
+</li>
+<li>
+<p>Tras uns intres xa estará listo o novo volume para asociar a unha instancia ou para crear unha nova instancia baseada nel.</p>
+</li>
+</ol>
+<h2 id="como-borrar-unha-instancia-sen-borrar-o-volume">Como borrar unha instancia sen borrar o volume.</h2>
+<ul>
+<li>
+<p><strong>Opción 1</strong>: Está marcado borrar volume: Desasociamos antes o volume e despois borramos a instancia.</p>
+</li>
+<li>
+<p><strong>Opción 2</strong>: Non está marcado borrar volume ao borrar a instancia. Simplemente borramos a instancia.</p>
+</li>
+</ul>
+<h2 id="como-lanzar-unha-instancia-a-partir-dun-volume">Como lanzar unha instancia a partir dun volume.</h2>
+<p>Se destrues unha instancia, por defecto non se destrúe o volume (salvo que así o teñas marcado). Se non vas a empregar a instancia ata a seguinte clase, é unha boa práctica borrala e volvela crear baseada no volume de datos que tiña orixinalmente, así como moito cambiará a IP. Este método tamén é útil se queremos cambiar o sabor da instancia (CPU/RAM).</p>
+<ol>
+<li>
+<p>Imos a Computación &rArr; Instancias:</p>
+<p><img alt="OpenStack. Lista de instancias" src="../images/openstack/volumes/openstack-paso1-instancias.png" title="OpenStack. Lista de instancias" /></p>
+</li>
+<li>
+<p>Prememos no botón "Lanzar instancia".</p>
+</li>
+<li>
+<p>Damos un nome á nova instancia e decidimos cantas queremos lanzar (por defecto 1):</p>
+<p><img alt="OpenStack. Lanzar nova instancia" src="../images/openstack/instancia/openstack-nova-instancia.png" title="OpenStack. Lanzar nova instancia" /></p>
+</li>
+<li>
+<p>En "Origen" debemos marcar en "Seleccionar Origen de arranque" a opción "Volumen". Logo, abaixo en dispoñible podemos buscar o volume que nos interese (que non estea xa asociado a outra máquina) e premer no botón co frecha arriba &uarr; para seleccionalo.</p>
+<p><img alt="OpenStack. Nova instancia. Orixe" src="../images/openstack/instancia/openstack-nova-instancia-orixe.png" title="OpenStack. Nova instancia. Orixe" /></p>
+</li>
+<li>
+<p>Escollemos un sabor (procesador/RAM) como escolleríamos nunha creación normal dunha instancia:</p>
+<p><img alt="OpenStack. Nova instancia. Sabor" src="../images/openstack/instancia/openstack-nova-instancia-sabor.png" title="OpenStack. Nova instancia. Sabor" /></p>
+</li>
+<li>
+<p>Seleccionamos a rede na que queremos que estea:
+    <img alt="OpenStack. Nova instancia. Redes" src="../images/openstack/instancia/openstack-nova-instancia-redes.png" title="OpenStack. Nova instancia. Redes" /></p>
+</li>
+<li>
+<p>Seleccionamos en caso necesario a configuración en "Puertos de Red".
+    <img alt="OpenStack. Nova instancia. Portos de Rede" src="../images/openstack/instancia/openstack-nova-instancia-portos-rede.png" title="OpenStack. Nova instancia. Portos de Rede" /></p>
+</li>
+<li>
+<p>Marcamos o grupo de seguridade que lle queiramos aplicar:
+    <img alt="OpenStack. Nova instancia. Grupos de Seguridade" src="../images/openstack/instancia/openstack-nova-instancia-grupos-seguridade.png" title="OpenStack. Nova instancia. Grupos de Seguridade" /></p>
+</li>
+<li>
+<p>É importante seleccionar tamén o par de chaves que queiramos meter <strong>a maiores dos que xa teña</strong>. Presta atención a esta parte, se é unha imaxe doutra persoa incluirá as chaves públicas e privadas e meterá as que ti lle indiques <strong>a maiores</strong>.</p>
+<p><img alt="OpenStack. Nova instancia. Par de Chaves" src="../images/openstack/instancia/openstack-nova-instancia-par-chaves.png" title="OpenStack. Nova instancia. Par de Chaves" /></p>
+</li>
+<li>
+<p>Finalmente prememos en "Lanzar instancia" e tras uns intres xa a teremos lanzada co volume seleccionado.</p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver ao principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      2025 ©️ Jose Sánchez
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.annotate", "navigation.indexes", "toc.follow", "navigation.top", "navigation.path", "navigation.prune"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado no cortapapeis", "clipboard.copy": "Copiar no cortapapeis", "search.result.more.one": "1 m\u00e1is nesta p\u00e1xina", "search.result.more.other": "# m\u00e1is nesta p\u00e1xina", "search.result.none": "Sen resultados", "search.result.one": "1 resultado atopado", "search.result.other": "# resultados atopados", "search.result.placeholder": "Insira un termo", "search.result.term.missing": "Falta", "select.version": "Seleccionar version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

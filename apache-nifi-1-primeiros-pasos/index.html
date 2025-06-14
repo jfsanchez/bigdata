@@ -1,0 +1,1508 @@
+
+<!doctype html>
+<html lang="gl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Jose Sánchez">
+      
+      
+        <link rel="canonical" href="https://jfsanchez.es/bigdata/apache-nifi-1-primeiros-pasos/">
+      
+      
+        <link rel="prev" href="../apache-nifi-1-conceptos-previos/">
+      
+      
+        <link rel="next" href="../apache-nifi-4-procesadores/">
+      
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>👣 Primeiros pasos - Big Data — Macrodatos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../_res/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#apache-nifi-primeiros-pasos" class="md-skip">
+          Ir ao contido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeceira">
+    <a href=".." title="Big Data — Macrodatos" class="md-header__button md-logo" aria-label="Big Data — Macrodatos" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Big Data — Macrodatos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              👣 Primeiros pasos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo oscuro (da calambre)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo oscuro (da calambre)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo normal"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo normal" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Procura" placeholder="Procura" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Procurar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando procura
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jfsanchez/bigdata/" title="Ir ao repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jfsanchez/bigdata
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Big Data — Macrodatos" class="md-nav__button md-logo" aria-label="Big Data — Macrodatos" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    Big Data — Macrodatos
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jfsanchez/bigdata/" title="Ir ao repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jfsanchez/bigdata
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📚 Inicio — Presentacións
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../conda-0-config-basica/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    👷 Contorno/Configuracións
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-hadoop-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    🐘 Apache Hadoop
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-spark-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ⚝ Apache Spark
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-kafka-0-instalacion-docker/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ➿ Apache Kafka
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    💧 Apache NIFI
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            💧 Apache NIFI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-nifi-0-instalacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🐳 Instalación docker
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-nifi-0-instalacion-manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    👉️ Instalación manual
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-nifi-1-conceptos-previos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🐜️ Conceptos previos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    👣 Primeiros pasos
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    👣 Primeiros pasos
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Táboa de contidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Táboa de contidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-previos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos previos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creando-contedores-coas-bases-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creando contedores coas bases de datos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creando contedores coas bases de datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lendo-duas-apis-de-exemplo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lendo dúas APIs de exemplo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lendo dúas APIs de exemplo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#thronesapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      ThronesAPI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#netflix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Netflix
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#montar-un-servidor-web-para-meter-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Montar un servidor web para meter arquivos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conexion-coas-diferentes-bases-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conexión coas diferentes bases de datos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conexión coas diferentes bases de datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dbcpconnectionpool-conexion-coa-bbdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      DBCPConnectionPool: Conexión coa BBDD
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mongodbcontrollerservice-conexion-con-atlas" class="md-nav__link">
+    <span class="md-ellipsis">
+      MongoDBControllerService: Conexión con Atlas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ligazons-para-mais-informacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ligazóns para mais información
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-nifi-4-procesadores/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    👷 Procesadores
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-nifi-3-codificacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🌐 Codificación de caracteres
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-kafka-4-nifi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ➿ Conexión a Kafka
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-nifi-2-parametros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🎯 Parámetros
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-nifi-z-control-versions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    😼 Control de versións
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-sqoop-0-resumo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🇸 Apache Sqoop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-airflow-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ✔️ TODO
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../nube-0-intro/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ☁️ Nube/Cloud/Openstack
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../powerbi-0-python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📶 Microsoft PowerBi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://jfsanchez.es/docencia/libreta" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🗒️ Plantillas docencia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Táboa de contidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Táboa de contidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-previos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos previos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creando-contedores-coas-bases-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creando contedores coas bases de datos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Creando contedores coas bases de datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lendo-duas-apis-de-exemplo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lendo dúas APIs de exemplo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lendo dúas APIs de exemplo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#thronesapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      ThronesAPI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#netflix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Netflix
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#montar-un-servidor-web-para-meter-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Montar un servidor web para meter arquivos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conexion-coas-diferentes-bases-de-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conexión coas diferentes bases de datos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conexión coas diferentes bases de datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dbcpconnectionpool-conexion-coa-bbdd" class="md-nav__link">
+    <span class="md-ellipsis">
+      DBCPConnectionPool: Conexión coa BBDD
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mongodbcontrollerservice-conexion-con-atlas" class="md-nav__link">
+    <span class="md-ellipsis">
+      MongoDBControllerService: Conexión con Atlas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ligazons-para-mais-informacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ligazóns para mais información
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="apache-nifi-primeiros-pasos">💧 Apache Nifi &mdash; 👣 Primeiros pasos</h1>
+<p><img alt="Logo Apache Nifi" src="../images/nifi/Apache-nifi-logo.svg#derecha" title="Logo Apache Nifi" /></p>
+<h2 id="requisitos-previos">Requisitos previos</h2>
+<p>Lembra seguir a <a href="../docker-8-apache-nifi/">guía de instalación de Apache Nifi</a> antes de continuar con este documento.</p>
+<p>Imos ver un par de exemplos simples para demostrar o funcionamento de Apache Nifi.</p>
+<h2 id="creando-contedores-coas-bases-de-datos">Creando contedores coas bases de datos</h2>
+<p>Creamos un servidor de MySQL</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>docker<span class="w"> </span>volume<span class="w"> </span>create<span class="w"> </span>mysql4nifi_vol
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>docker<span class="w"> </span>run<span class="w"> </span>-p<span class="w"> </span><span class="m">9906</span>:3306<span class="w"> </span>--name<span class="w"> </span>mysql4nifi<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span>-v<span class="w"> </span>mysql4nifi_vol:/var/lib/mysql<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span>-e<span class="w"> </span><span class="nv">MYSQL_ROOT_PASSWORD</span><span class="o">=</span>Nifi.My456<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span>-e<span class="w"> </span><span class="nv">MYSQL_DATABASE</span><span class="o">=</span>nifi<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span>-e<span class="w"> </span><span class="nv">MYSQL_USER</span><span class="o">=</span>nifi<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span>-e<span class="w"> </span><span class="nv">MYSQL_PASSWORD</span><span class="o">=</span>Nifi.Abc123<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span>--restart<span class="w"> </span>unless-stopped<span class="w"> </span>-d<span class="w"> </span>mysql:8
+</span></code></pre></div>
+<p>Conectamos á base de datos:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>-it<span class="w"> </span>mysql4nifi<span class="w"> </span>mysql<span class="w"> </span>-hlocalhost<span class="w"> </span>-unifi<span class="w"> </span>-pNifi.Abc123<span class="w"> </span>nifi
+</span></code></pre></div>
+<p>E pegamos o script:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">tronoPers</span><span class="p">(</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="n">id</span><span class="w"> </span><span class="nb">INTEGER</span><span class="p">,</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="n">firstName</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">),</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="n">lastName</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">),</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="n">fullName</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">),</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="n">title</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">),</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="n">family</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">),</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="n">image</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">    </span><span class="n">imageUrl</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">)</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="p">);</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">tronoCont</span><span class="p">(</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="n">id</span><span class="w"> </span><span class="nb">INTEGER</span><span class="p">,</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">    </span><span class="n">name</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="p">);</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">estrenosNet</span><span class="p">(</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">    </span><span class="n">videoID</span><span class="w"> </span><span class="nb">INTEGER</span><span class="p">,</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">    </span><span class="n">country</span><span class="w"> </span><span class="nb">CHAR</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">    </span><span class="n">title1</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span>
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="w">    </span><span class="n">title2</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">255</span><span class="p">),</span>
+</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="w">    </span><span class="n">startTime</span><span class="w"> </span><span class="k">TIMESTAMP</span><span class="p">,</span>
+</span><span id="__span-2-23"><a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="w">    </span><span class="n">collection</span><span class="w"> </span><span class="nb">INTEGER</span><span class="p">,</span>
+</span><span id="__span-2-24"><a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">    </span><span class="n">image</span><span class="w"> </span><span class="nb">TEXT</span><span class="p">,</span>
+</span><span id="__span-2-25"><a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a><span class="w">    </span><span class="n">genre</span><span class="w"> </span><span class="nb">INTEGER</span>
+</span><span id="__span-2-26"><a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="p">);</span>
+</span></code></pre></div>
+<p>⚠️ <strong>Non copies e pegues os seguintes comandos sen ler.</strong></p>
+<p>Tan so se tiveses que crear a BBDD e o usuario a man porque xa teñas o servidor MySQL creado, sería así:</p>
+<div class="language-sql highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">DATABASE</span><span class="w"> </span><span class="n">nifi</span><span class="p">;</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">CREATE</span><span class="w"> </span><span class="k">USER</span><span class="w"> </span><span class="s1">&#39;nifi&#39;</span><span class="o">@</span><span class="s1">&#39;%&#39;</span><span class="w"> </span><span class="n">IDENTIFIED</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="s1">&#39;Nifi.Abc123&#39;</span><span class="p">;</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">GRANT</span><span class="w"> </span><span class="k">ALL</span><span class="w"> </span><span class="k">PRIVILEGES</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">nifi</span><span class="p">.</span><span class="o">*</span><span class="w"> </span><span class="k">TO</span><span class="w"> </span><span class="s1">&#39;nifi&#39;</span><span class="o">@</span><span class="s1">&#39;%&#39;</span><span class="p">;</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">FLUSH</span><span class="w"> </span><span class="k">PRIVILEGES</span><span class="p">;</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">use</span><span class="w"> </span><span class="n">nifi</span><span class="p">;</span>
+</span></code></pre></div>
+<h3 id="lendo-duas-apis-de-exemplo">Lendo dúas APIs de exemplo</h3>
+<p>Imos facer dúas probas, unha cunha API chamada <a href="https://thronesapi.com/">ThronesAPI</a> e outra real, a de <a href="https://about.netflix.com/es/new-to-watch">Netflix</a>.</p>
+<h4 id="thronesapi">ThronesAPI</h4>
+<p>A API de <a href="https://thronesapi.com/">ThronesAPI</a> permítenos baixar directamente a información e ten documentación de uso.</p>
+<p>Por exemplo, podemos arrastrar un novo procesador e seleccionar InvokeHTTP e nas propiedades empregar calquera das URL:</p>
+<ul>
+<li><a href="https://thronesapi.com/api/v2/Characters">https://thronesapi.com/api/v2/Characters</a></li>
+<li><a href="https://thronesapi.com/api/v2/Continents">https://thronesapi.com/api/v2/Continents</a></li>
+</ul>
+<p>Dende o canvas de Nifi arrastramos un grupo de procesamento e lle chamamos <em>Trona2</em>. Facemos doble click dentro del para meternos e dentro do seu canvas arrastramos un procesador. No cadro de búsqueda poñemos que sexa de tipo: <strong>InvokeHTTP</strong>.</p>
+<p>Facemos doble click no novo procesador InvokeHTTP e modificamos:</p>
+<ul>
+<li>Na lapela <strong>Settings</strong> cambiamos a súa propiedade <strong>name</strong> a <strong>ThronesAPI</strong>.</li>
+<li>Na lapela <strong>Scheduling</strong> deixamos o evento como Time driven, pero en <strong>Run Schedule</strong> mudamos os 0 segundos por <strong>300 segundos</strong>.</li>
+<li>Na lapela <strong>Properties</strong> mudamos o campo <strong>HTTP URL</strong> por: <strong>https://thronesapi.com/api/v2/Characters</strong>.</li>
+<li>Na lapela <strong>Relationships</strong> marcamos terminate nos casos: Failure, No Retry, e Retry.</li>
+</ul>
+<p>Cando teñamos modificado todo, premeremos en Apply.</p>
+<p>Facemos click dereito no procesador e seleccionamos <strong>Change color</strong> e poñemos unha cor vermella.</p>
+<p>Volvemos a facer doble click no procesador e imos á lapela <strong>Properties</strong>, na parte superior dereita veremos Verification e un check ✔️.</p>
+<p><img alt="Propiedades do procesador" src="../images/nifi/processor-properties-validate.png" title="Propiedades do procesador" /></p>
+<p>Prememos no check para ver se o procesador supera todas as verificacións de debería verse todo en verde. Se tes algo mal, corríxeo antes de continuar. En xeral para case todos os controis, debemos primeiro aplicar e logo volver meternos e validar.</p>
+<p>⚠️ <strong>Lembra gardar os cambios antes de validar.</strong> A maioría dos controis valídanse coa configuración anterior sen gardar a non ser que os gardemos explícitamente.</p>
+<p><img alt="Propiedades do procesador validadas" src="../images/nifi/processor-verification-success.png" title="Propiedades do procesador validadas" /></p>
+<h4 id="netflix">Netflix</h4>
+<p>Imos á páxina de <a href="https://about.netflix.com/es/new-to-watch">Netflix. New to Watch</a> e prememos Ctrl+Shift+i para acceder á consola do desenvolvedor. Unha vez ahí imos a Network e despois filtramos por Fetch/XHR (<a href="https://www.w3schools.com/xml/xml_http.asp">XMLHttpRequest</a>).</p>
+<p><img alt="Consola do desenvolvedor" src="../images/nifi/consola-desenvolvedor.png" title="Consola do desenvolvedor" /></p>
+<p>Despois cambiamos na web de lapela entre Películas e series por exemplo e veremos que aparece unha nova liña cunha petición. Facemos click dereito nela: <em>Copy</em> &rarr; <em>Copy URL</em>.</p>
+<p><img alt="Copiar a URL" src="../images/nifi/desenvolvedor-copy-url.png" title="Copiar a URL" /></p>
+<p>Se pegamos esa URL nunha nova lapela, veremos que nos da un JSON paxinado. Sen embargo, se tratamos de pegar esa URL no Nifi, dará un erro 403 (prohibido) xa que a web non permite que ferramentas automáticas se conecten a ela.</p>
+<p>Podemos baixar o arquivo JSON a man e subilo a un servidor web noso para probar a descargalo dende ahí.</p>
+<p>Ollo! Non tódolos datos que son públicos teñen licencia para ser empregados e voltos a publicar.</p>
+<h2 id="montar-un-servidor-web-para-meter-arquivos">Montar un servidor web para meter arquivos</h2>
+<p>Pode serche útil para non saturar os servidores dos que queiras baixarte información ou se che prohíben o acceso dende Nifi ou curl.</p>
+<p>Con estes dous comandos crearás un directorio "web" dentro do teu home de usuario. Ahí poderás mover os documentos que queiras accesibles (por exemplo arquivos .json previamente descargados).</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>mkdir<span class="w"> </span>-p<span class="w"> </span><span class="nv">$HOME</span>/web
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>docker<span class="w"> </span>run<span class="w"> </span>--name<span class="w"> </span>nginx<span class="w"> </span>-p<span class="w"> </span><span class="m">80</span>:80<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">  </span>-v<span class="w"> </span><span class="nv">$HOME</span>/web:/usr/share/nginx/html:ro<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">  </span>--restart<span class="w"> </span>unless-stopped<span class="w"> </span>-d<span class="w"> </span>nginx
+</span></code></pre></div>
+<h2 id="conexion-coas-diferentes-bases-de-datos">Conexión coas diferentes bases de datos</h2>
+<p>Imos ver un par de exemplos de conexión:</p>
+<ul>
+<li><strong>DBCPConnectionPool</strong>: Para conectar por JDBC a unha base de datos relacional.</li>
+<li><strong>MongoDBControllerService</strong>: Para conectar a MongoDB, unha BBDD NO-SQL.</li>
+</ul>
+<h3 id="dbcpconnectionpool-conexion-coa-bbdd">DBCPConnectionPool: Conexión coa BBDD</h3>
+<p>Os controles mínimos que precisamos para transformar de modo sinxelo os datos descargados dun servizo web en JSON e pasalos á nosa base de datos relacional son:</p>
+<p><img alt="Conexión a RDBMS" src="../images/nifi/JSON-to-RDBMS.png" title="Conexión a RDBMS" /></p>
+<ul>
+<li>Procesador <strong>InvokeHTTP</strong> / <strong>GetFile</strong> / <strong>GetFileResource</strong> / <strong>...</strong> /: Precisamos un procesador que nos devolva un JSON en formato <strong>FlowFile</strong>. As propiedades do exemplo son para o <strong>InvokeHTTP</strong>:<ul>
+<li>Lapela <strong>Properties</strong> &rarr; <strong>HTTP URL</strong>: https://thronesapi.com/api/v2/Characters</li>
+<li>En <strong>Relationships</strong> en todo o que non sexa Response marca <strong>Terminate</strong>.</li>
+</ul>
+</li>
+<li>Procesador <strong>ConvertRecord</strong>: Para pasar de JSON a CSV.<ul>
+<li>Lapela <strong>Properties</strong>:<ul>
+<li>Record Reader: Tres puntos &rarr; <strong>Create New Service</strong> &rarr; <strong>JsonTreeReader</strong>.</li>
+<li>Record Writer: Tres puntos &rarr; <strong>Create New Service</strong> &rarr; <strong>CSVRecordSetWriter</strong>.</li>
+</ul>
+</li>
+<li>En <strong>Relationships</strong>, en <strong>Failure</strong> marca <strong>Terminate</strong>.</li>
+</ul>
+</li>
+<li>Procesador <strong>PutDatabaseRecord</strong>: Para meter o Recordset na base de datos.<ul>
+<li>Lapela <strong>Properties</strong>:<ul>
+<li>Record Reader: Tres puntos &rarr; <strong>Create New Service</strong> &rarr; <strong>CSVReader</strong>.</li>
+<li>Database Type: <strong>MySQL</strong>.</li>
+<li>Statement Type: <strong>INSERT</strong>.</li>
+<li>Database Connection Pooling Service: <strong>DBCPConnectionPool</strong>.</li>
+<li>Table Name: <strong>nifi</strong>.</li>
+</ul>
+</li>
+<li>En <strong>Relationships</strong>, en <strong>Failure</strong> e <strong>Retry</strong> marca <strong>Terminate</strong>.</li>
+</ul>
+</li>
+</ul>
+<p>Precisamos saber a IP do servidor de base de datos:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>docker<span class="w"> </span>inspect<span class="w"> </span>mysql4nifi
+</span></code></pre></div>
+<p>Neste exemplo imaxinamos que é: <strong>172.17.0.4</strong>.</p>
+<p>Para averiguar <strong>Driver Class Name</strong>, <a href="../dbeaver-tunel-ssh/">se temos instalado DBeaver</a> podemos facer unha nova conexión de base de datos e premer en "Editar conexión", logo premeremos no botón "Driver settings" e miramos despois o nome de clase.</p>
+<p>Agora teremos que facer click dereito no canvas (dentro do grupo de procesamento) e ir a <strong>Controller Services</strong> en <strong>DBCPConnectionPool</strong> configuraremos o seguinte:</p>
+<ul>
+<li><strong>Database Connection URL</strong>: jdbc:mysql://172.17.0.4:3306/nifi</li>
+<li><strong>Database Driver Class Name</strong>: com.mysql.cj.jdbc.Driver</li>
+<li><strong>Database Driver Location(s)</strong>:<ul>
+<li>Para versión 8: /opt/nifi/compartido/jdbc/mysql-connector-j-8.4.0.jar</li>
+<li>Para versión 9: /opt/nifi/compartido/jdbc/mysql-connector-j-9.2.0.jar</li>
+</ul>
+</li>
+<li><strong>Database User</strong>: nifi</li>
+<li><strong>Password</strong>: Nifi.Abc123</li>
+</ul>
+<p>Despois de aplicar os cambios, debemos meternos en cada un dos Controller Services facendo click nos tres puntos e logo en <strong>Edit</strong> e premer no check ao lado de <strong>Verification</strong>. Se todo funciona correctamente, prememos no botón <strong>Close</strong>, volvemos aos tres puntos e seleccionamos <strong>Enable</strong> e logo confirmamos con botón <strong>Enable</strong> de novo.</p>
+<p>Para volver á pantalla anterior, prememos en <strong>Back to Proccess Group</strong>.</p>
+<p><img alt="Controller Services" src="../images/nifi/nifi-controller-services.png" title="Controller Services" /></p>
+<h3 id="mongodbcontrollerservice-conexion-con-atlas">MongoDBControllerService: Conexión con Atlas</h3>
+<p>Para poder conectar ao noso servicio de Mongo na nube (Atlas) teremos que configurar unha conexión.</p>
+<p>Neste exemplo veremos un procesador <strong>PutMongoRecord</strong> conectado a través dun <strong>MongoDBControllerService</strong> a atlas a unha BBDD chamada nifi.</p>
+<p><img alt="Conexión a MongoDB" src="../images/nifi/JSON-To-MongoDB.png" title="Conexión a MongoDB" /></p>
+<ol>
+<li>Conectamos a <a href="https://www.mongodb.com/products/platform/cloud">atlas</a> &rarr; Sign In.</li>
+<li>Se non temos un cluster gratuito, creámolo e engadimos o dataset de exemplo.</li>
+<li>Imos a <strong>Security</strong> &rarr; <strong>Network Access</strong> e engadimos a IP externa saínte ou rango de IPs saintes <strong>do servidor Apache Nifi</strong>. Se non sabes qué IP de saída estás a empregar podes empregar calquera destes servizos:
+    <div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>curl<span class="w"> </span>ifconfig.me
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>curl<span class="w"> </span>icanhazip.com
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>curl<span class="w"> </span>api.ipify.org
+</span></code></pre></div></li>
+<li>En <strong>Security</strong> &rarr; <strong>Database Access</strong> &rarr; Prememos no botón <strong>Add new database user</strong> e seleccionamos:<ol>
+<li><strong>Authentication Method</strong>: Password.</li>
+<li><strong>Password authentication</strong> &rarr; Escollemos un usuario e un contrasinal.</li>
+<li><strong>Builtin role</strong> &rarr; <strong>Atlas Admin</strong>. Esto farémolo como proba, máis deberíase seleccionar só a base de datos a que necesitemos ter acceso e os permisos necesarios (lectura, escritura, ambos...).</li>
+<li>Marcamos <strong>temporary user</strong> e lle damos <strong>6 horas</strong> de duración ao usuario.</li>
+<li>⚠️ Cando teñas todo configurado e funcionando, deberás volver aquí e crear un usuario definitivo con acceso ás bases de datos que precises.</li>
+</ol>
+</li>
+<li>En <strong>Cluster</strong> &rarr; Botón <strong>Connect</strong> &rarr; Prememos na opción <strong>Drivers</strong> &rarr; E copiamos o servizo sen usuario e contrasinal que será de tipo: 
+    <div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>mongodb+srv://NomeElexidoPorTi.SubdominioAleatorio.mongodb.net
+</span></code></pre></div></li>
+<li>Imos a <strong>Cluster</strong> &rarr; <strong>Browse collections</strong>. Logo prememos no botón <strong>+ Create Database</strong>. Poñemos en <strong>Database Name</strong> <em>nifi</em> e en <strong>Collection</strong> <em>proba</em>.</li>
+<li>En Apache Nifi arrastramos un novo procesador de tipo: <strong>PutMongoRecord</strong>.<ol>
+<li>En <strong>Client Service</strong> &rarr; Nos tres puntos &rarr; <strong>+ Create New Service</strong>... &rarr; <em>MongoDBControllerService</em>.</li>
+<li><strong>Mongo Database Name</strong>: <em>nifi</em>.</li>
+<li><strong>Mongo Collection Name</strong>: <em>nomeDaColeccion</em>.</li>
+<li><strong>Record Reader</strong>: <em>JsonTreeReader</em>.</li>
+</ol>
+</li>
+</ol>
+<h2 id="ligazons-para-mais-informacion">Ligazóns para mais información</h2>
+<ul>
+<li>Titorial de Tutorial's Point: <a href="https://www.tutorialspoint.com/apache_nifi/index.htm">https://www.tutorialspoint.com/apache_nifi/index.htm</a></li>
+<li>Documentación oficial. Inicio rápido: <a href="https://nifi.apache.org/docs/nifi-docs/html/getting-started.html">https://nifi.apache.org/docs/nifi-docs/html/getting-started.html</a></li>
+<li>Documentación oficial. Manual do usuario: <a href="https://nifi.apache.org/docs/nifi-docs/html/user-guide.html">https://nifi.apache.org/docs/nifi-docs/html/user-guide.html</a></li>
+<li>Documentación oficial. Nifi en profundidade: <a href="https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html">https://nifi.apache.org/docs/nifi-docs/html/nifi-in-depth.html</a></li>
+<li>Titoriais en Youtube de InsightByte <a href="https://www.youtube.com/playlist?list=PLkp40uss1kSI66DA_aDCfx02gXipoRQHc">https://www.youtube.com/playlist?list=PLkp40uss1kSI66DA_aDCfx02gXipoRQHc</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver ao principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      2025 ©️ Jose Sánchez
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.annotate", "navigation.indexes", "toc.follow", "navigation.top", "navigation.path", "navigation.prune"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado no cortapapeis", "clipboard.copy": "Copiar no cortapapeis", "search.result.more.one": "1 m\u00e1is nesta p\u00e1xina", "search.result.more.other": "# m\u00e1is nesta p\u00e1xina", "search.result.none": "Sen resultados", "search.result.one": "1 resultado atopado", "search.result.other": "# resultados atopados", "search.result.placeholder": "Insira un termo", "search.result.term.missing": "Falta", "select.version": "Seleccionar version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

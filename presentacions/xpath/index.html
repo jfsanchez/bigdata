@@ -1,0 +1,522 @@
+<!doctype html>
+<html>
+    <head>
+	    <!-- Recordatorio: Cambiar estas propiedades -->
+      <title>O camiño de XPATH &mdash; Para uso con selenium</title>
+	    <meta name="author" content="Jose Sánchez">
+	    <meta property="emailuser" content="correo">
+	    <meta property="emaildomain" content="jfsanchez.es">
+	    <meta property="creationdate" content="&copy; Decembro 2023">
+	    <!--meta property="documenturl" content="https://jfsanchez.es/"-->
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+      <link rel="stylesheet" href="../../_res/revealjs4/dist/reveal.css">
+      <link rel="stylesheet" href="../../_res/revealjs4/plugin/highlight/monokai.css">
+      <!--link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css"-->
+      <link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css">
+      <style>
+            .reveal h1,.reveal h2,.reveal h3,.reveal h4{ 
+                --color: gold;
+                color: darkorange;
+            }
+            .trojo{ color: darkred; }
+            .tverde{ color: darkgreen; }
+            .tamarillo{ color: darkgoldenrod; }
+            .tazul{ color: darkblue; }
+            .famarillo { background-color: lightgoldenrodyellow; }
+            .divdual {
+                display:block;
+                float:left;
+                width: 48%;
+                margin: 0 auto;
+            }
+            .tnormal{
+                padding: 0;
+                text-align: justify;
+                font-size: 0.7em !important;
+            }
+      </style>
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h3>O camiño de XPATH</h3>
+                    <h4 style="color: black;">Para uso con selenium (e outras herbas)</h4>
+                    <h5 style="color: gray;">Curso de Especialización en Intelixencia Artificial e Big Data</h5>
+                    <h6 style="color: gray;">Aviso: Pendente de rematar</h6>
+                </section>
+
+                <section>
+                	<h2>Índice</h2>
+                    <p>Que é?</p>
+                    <p>Conceptos elementais</p>
+            		<p>Selectores</p>
+                    <aside class="notes">
+                        Que imos ver?
+                    </aside>
+                </section>
+
+                <section>
+                    <h3>Que é XPATH?</h3>
+                    <ul>
+                        <li>"Linguaxe" empregado para localizar nodos nun documento XML</li>
+                        <li class="fragment">HTML "é un subtipo de" XML</li>
+                        <li class="fragment">Podes facer probas en <a href="http://xpather.com/" target="_blank">http://xpather.com/</a></li>
+                    </ul>
+                    
+                    <aside class="notes">
+                        <p>O camiño de XPATH non se le, próbase. Sen entender os exemplos, un simple vistazo ao documento, serve de pouco.</p>
+                    </aside>
+                </section>
+
+                <section>
+                    <h3>Conceptos elementais</h3>
+                    <p>En XPath temos 7 clases de nodos:</p>
+                    <ul>
+                        <li>Elemento</li>
+                        <li>Atributo</li>
+                        <li>Texto</li>
+                        <li>Espazo de nomes (namespace)</li>
+                        <li>Instrucción de procesamento</li>
+                        <li>Comentario</li>
+                        <li>Nodos raíz (root)</li>
+                    </ul> 
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <pre><code data-trim data-line-numbers="|1|2,5|6|6,8-9,12-13" data-fragment-index="1"><script type="text/template">
+                        <html>
+                          <head>
+                            <title>Título</title>
+                          </head>
+                          <body>
+                            <table id="resultados2023">
+                              <thead><tr>
+                                <th>Cabecera 1</th>
+                                <th>Cabecera 2</th>
+                              </tr></thead>
+                              <tbody><tr>
+                                <td>Valor 1</td>
+                                <td>Valor 2</td>
+                              </tr></tbody>
+                            </table>
+                          </body>
+                        </html>
+                    </script></code></pre>
+
+                    <ul class="r-strech">
+                        <li class="fragment" data-fragment-index="1"><strong>Nodo raíz (root)</strong> &rarr; &lt;html&gt;</li>
+                        <li class="fragment" data-fragment-index="2"><strong>Nodos</strong> &rarr; &lt;head&gt;, &lt;body&gt;</li>
+                        <li class="fragment" data-fragment-index="3"><strong>Atributo</strong> &rarr; id="resultados2023"</li>
+                        <li class="fragment" data-fragment-index="4"><strong>Valores atómicos</strong> &rarr; resultados2023, Cabecera 1, Cabecera 2, Valor 1, Valor 2</li>
+                    </ul>
+
+                    <aside class="notes">Definicións previas: Hai que saber identificar e distinguir un nodo raíz dun nodo, dun atributo e dos valores que pode ter.</aside>
+                </section>
+
+                <section>
+                    <h3>Relacións entre nodos</h3>
+                    <ul>
+                        <li>Pais</li>
+                        <li>Fillos</li>
+                        <li>Irmáns</li>
+                        <li>Ascendentes/Ancestros</li>
+                        <li>Descendentes/Estirpe</li>
+                    </ul>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <pre><code data-trim data-line-numbers="|2|3,9|5-6|11-12" data-fragment-index="1"><script type="text/template">
+                        (...)
+                        <table id="resultados2023">
+                          <thead>
+                            <tr>
+                              <th>Cabecera 1</th>
+                              <th>Cabecera 2</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Valor 1</td>
+                              <td>Valor 2</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        (...)</script>
+                    </code></pre>
+                        
+                    <ul class="r-strech">
+                        <li class="fragment fade-in highlight-current-red" data-fragment-index="1"><strong>&lt;table&gt;</strong> &rarr; Pai: de &lt;thead&gt;, &lt;tbody&gt;</li>
+                        <li class="fragment fade-in highlight-current-red" data-fragment-index="2"><strong>&lt;thead&gt;, &lt;tbody&gt;</strong> &rarr; Fillos de: &lt;table&gt;</li>
+                        <li class="fragment fade-in highlight-current-red" data-fragment-index="3"><strong>&lt;th&gt; e &lt;th&gt;</strong> &rarr; Irmáns (colgan do mesmo &lt;tr&gt;)</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <pre><code data-trim data-line-numbers="5|2-4" data-fragment-index="1"><script type="text/template">
+                        (...)
+                        <table id="resultados2023">
+                          <thead>
+                            <tr>
+                              <th>Cabecera 1</th>
+                              <th>Cabecera 2</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Valor 1</td>
+                              <td>Valor 2</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        (...)</script>
+                    </code></pre>
+                        
+                    <ul class="r-strech">
+                        <li data-fragment-index="0">Cales son os <b>ancentros</b> de &lt;th&gt; ?</li>
+                        <li class="fragment fade-in" data-fragment-index="1">&lt;tr&gt;, &lt;thead&gt;, &lt;table&gt; ... e de ser HTML estándar como mínimo tamén: &lt;body&gt; e &lt;html&gt;.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <pre><code data-trim data-line-numbers="2|3-14" data-fragment-index="1"><script type="text/template">
+                        (...)
+                        <table id="resultados2023">
+                          <thead>
+                            <tr>
+                              <th>Cabecera 1</th>
+                              <th>Cabecera 2</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Valor 1</td>
+                              <td>Valor 2</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        (...)</script>
+                    </code></pre>
+                        
+                    <ul class="r-strech">
+                        <li data-fragment-index="0">Cales son os <b>descendentes</b> de &lt;table&gt;?</li>
+                        <li class="fragment fade-in" data-fragment-index="1">Todos os tags que colgan de table (que están dentro).</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Selector barra / Ruta completa</h3>
+                        <ul>
+                            <li>Como se fose unha ruta absoluta a un arquivo.</li>
+                            <li><strong>/html</strong> &rarr; Selecciona todo dentro de: &lt;html&gt;&lt;/html&gt;.</li>
+                            <li><strong>/html/body</strong> &rarr; Dentro do tag: &lt;html&gt;, o que está dentro de: &lt;body&gt;.</li>
+                            </li><strong>/html/body/table</strong> &rarr; Selecciona todas as táboas dentro de: &lt;body&gt;.</li>
+                            <li><strong>/html/body/table[1]</strong> &rarr; Selecciona a primeira táboa dentro de: &lt;body&gt;.</li>
+                        </ul>
+                    <aside class="notes">
+                        <p>A sintaxe básica é similar a unha ruta dun arquivo, se o camiño (path) comeza por /, representa unha ruta absoluta ao elemento.</p>
+                        <p>Ruta absoluta = Ruta completa</p>
+                        <p>Sitio para probas: <a href="http://xpather.com/yhbNc5j4">http://xpather.com/yhbNc5j4</a></p>
+                    </aside>
+                </section>
+
+                <section>
+                    <pre><code data-trim data-line-numbers="|9" data-fragment-index="1"><script type="text/template">
+                        <html>
+                          <head>
+                            <title>Título</title>
+                          </head>
+                          <body>
+                            <table id="resultados2023">
+                              <thead>
+                                <tr>
+                                  <th>Col1</th>
+                                  <th>Col2</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Val1.1</td>
+                                  <td>Val1.2</td>
+                                </tr>
+                                <tr>
+                                  <td>Val2.1</td>
+                                  <td>Val2.2</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </body>
+                        </html>
+                        </script></code></pre>
+                        <ul class="r-strech">
+                            <li data-fragment-index="0">Cómo seleccionarías Col1?</li>
+                            <li class="fragment fade-in" data-fragment-index="1">/html/body/table/thead/tr/th[1]</li>
+                        </ul>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3>Selector dobre barra // Ruta relativa</h3>
+                    <ul>
+                        <li>Elimina a necesidade de especificar toda a ruta</li>
+                        <li>Selecciona todo aquelo que cumpre un patrón</li>
+                    </ul>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3>Selecciona table...</h3>
+                    <pre><code data-trim data-line-numbers="|6-18" data-fragment-index="1"><script type="text/template">
+                        <html>
+                          <head>
+                            <title>Título</title>
+                          </head>
+                          <body>
+                            <table id="resultados2023">
+                              <thead>
+                                <tr>
+                                  <th>Col1</th>
+                                  <th>Col2</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Val1.1</td>
+                                  <td>Val1.2</td>
+                                </tr>
+                                <tr>
+                                  <td>Val2.1</td>
+                                  <td>Val2.2</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </body>
+                        </html>
+                        </script></code></pre>
+                        <p class="fragment" data-fragment-index="2">//table</p>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3>Selecciona la primera fila de datos (valores)</h3>
+                    <pre><code data-trim data-line-numbers="|6-18" data-fragment-index="1"><script type="text/template">
+                        <html>
+                          <head>
+                            <title>Título</title>
+                          </head>
+                          <body>
+                            <table id="resultados2023">
+                              <thead>
+                                <tr>
+                                  <th>Col1</th>
+                                  <th>Col2</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Val1.1</td>
+                                  <td>Val1.2</td>
+                                </tr>
+                                <tr>
+                                  <td>Val2.1</td>
+                                  <td>Val2.2</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </body>
+                        </html>
+                        </script></code></pre>
+                        <p class="fragment" data-fragment-index="2">//tr[2]/td<br/>//table/tr[2]/td</p>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3>Operador Asterisco * Todos os elementos</h3>
+                    <ul>
+                        <li>Pódese empregar antes, no medio ou despois.</li>
+                        <li>Compatible co uso de resto de operadores.</li>
+                        <li>//*/*/table</li>
+                        <li>table/*/td</li>
+                    </ul>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3>Qué se selecciona con...</h3>
+                     <pre>*/*/*/*/*/td</pre>
+                    <pre><code data-trim data-line-numbers="|15-16,19-20" data-fragment-index="1"><script type="text/template">
+                        <html>
+                          <head>
+                            <title>Título</title>
+                          </head>
+                          <body>
+                            <table id="resultados2023">
+                              <thead>
+                                <tr>
+                                  <th>Col1</th>
+                                  <th>Col2</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Val1.1</td>
+                                  <td>Val1.2</td>
+                                </tr>
+                                <tr>
+                                  <td>Val2.1</td>
+                                  <td>Val2.2</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </body>
+                        </html>
+                        </script></code></pre>
+                    <aside class="notes"></aside>
+                </section>
+                
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+                
+                <section>
+                    <h3></h3>
+                </section>
+                
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <aside class="notes"></aside>
+                </section>
+                
+                <section>
+                    <h3></h3>
+                </section>
+                
+                <section>
+                    <h3>Bibliografía</h3>
+                    <p>https://www.w3schools.com/xml/xpath_intro.asp</p>
+                    <p>https://www.w3.org/TR/xpath/</p>
+                    <p>http://www.zvon.org/comp/r/tut-XPath_1.html></p>
+                    <aside class="notes"></aside>
+                </section>               
+ 
+                <section>
+        		    <img alt="QR materiales" id="qrmateriales">
+                    <p id="copyrightline" style="color: orange;">Jose Sánchez</p>
+		            <p><small><a href="" id="urlmateriales"><span id="textourlmateriales"></span></a></small></p>
+		            <!--span class="fragment"-->
+	                <blockquote><small>&ldquo;<em><strong>Errare humanum est, sed perseverare diabolicum</strong></em>&rdquo;</small></blockquote>
+        	        <small id="addemail">Erros? / Errores? / Mistakes? &rarr; </small>
+		            <!--/span-->
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Plugins de revealjs -->
+        <script src="../../_res/revealjs4/dist/reveal.js"></script>
+        <script src="../../_res/revealjs4/plugin/markdown/markdown.js"></script>
+        <script src="../../_res/revealjs4/plugin/highlight/highlight.js"></script>
+        <script src="../../_res/revealjs4/plugin/notes/notes.js"></script>
+        <!-- Generador de códigos QR-->
+        <script src="../../_res/qrious.js"></script>
+        <script>
+          //Coger la propiedad para: texto de enlace, enlace y código QR
+          //var documenturl=document.head.querySelector("[property~=documenturl][content]").content;
+          var documenturl=document.location.href;
+  
+          Reveal.initialize({
+            plugins: [ RevealHighlight, RevealNotes, RevealMarkdown ],
+            progress: true,
+            controlsBackArrows: 'faded',
+            //Math, Zoom, Marked
+          });
+
+          new QRious({
+            element: document.querySelector("#qrmateriales"),
+            value: documenturl,
+            size: 150,
+            backgroundAlpha: 0, // 0 Transparent
+            foreground: "#00008B",
+            level: "Q", // L(owest),M ,Q ,H(ighest)
+          });
+
+          document.querySelector("#textourlmateriales").innerText=documenturl;
+          document.querySelector("#urlmateriales").setAttribute('href', documenturl);
+          document.querySelector("#copyrightline").innerText=
+          document.head.querySelector("[name~=author][content]").content + " " +
+          document.head.querySelector("[property~=creationdate][content]").content;
+          document.querySelector("#addemail").innerText=document.querySelector("#addemail").innerText+
+          document.head.querySelector("[property~=emailuser][content]").content + "@" +
+          document.head.querySelector("[property~=emaildomain][content]").content;
+
+        </script>
+    </body>
+</html>
+

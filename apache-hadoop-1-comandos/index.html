@@ -1,0 +1,1328 @@
+
+<!doctype html>
+<html lang="gl" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Jose Sánchez">
+      
+      
+        <link rel="canonical" href="https://jfsanchez.es/bigdata/apache-hadoop-1-comandos/">
+      
+      
+        <link rel="prev" href="../apache-hadoop-0-instalacion/">
+      
+      
+        <link rel="next" href="../apache-hadoop-2-cuentapalabras/">
+      
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>🔲 Comandos - Big Data — Macrodatos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../_res/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#apache-hadoop-comandos" class="md-skip">
+          Ir ao contido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeceira">
+    <a href=".." title="Big Data — Macrodatos" class="md-header__button md-logo" aria-label="Big Data — Macrodatos" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Big Data — Macrodatos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              🔲 Comandos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo oscuro (da calambre)"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo oscuro (da calambre)" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Modo normal"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo normal" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Procura" placeholder="Procura" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Procurar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando procura
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jfsanchez/bigdata/" title="Ir ao repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jfsanchez/bigdata
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Big Data — Macrodatos" class="md-nav__button md-logo" aria-label="Big Data — Macrodatos" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    Big Data — Macrodatos
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jfsanchez/bigdata/" title="Ir ao repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jfsanchez/bigdata
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📚 Inicio — Presentacións
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../conda-0-config-basica/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    👷 Contorno/Configuracións
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    🐘 Apache Hadoop
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            🐘 Apache Hadoop
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-hadoop-0-instalacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🧾 Instalación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    🔲 Comandos
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    🔲 Comandos
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Táboa de contidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Táboa de contidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#onde-estan-os-meus-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Onde están os meus datos?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interactuando-co-sistema-de-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interactuando co sistema de arquivos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interactuando co sistema de arquivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ver-arquivos-e-directorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ver arquivos e directorios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferindo-datos-entre-o-hdfs-e-o-almacenamento-local" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transferindo datos entre o HDFS e o almacenamento local
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mudando-de-usuario-grupo-e-permisos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mudando de usuario, grupo e permisos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-cuestion-de-espazo" class="md-nav__link">
+    <span class="md-ellipsis">
+      É cuestión de espazo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outros-comandos-utiles-probar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outros comandos útiles (probar):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arquivos-de-configuracion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arquivos de configuración
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arquivos de configuración">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hdfs-sitexml-tamano-de-bloque" class="md-nav__link">
+    <span class="md-ellipsis">
+      hdfs-site.xml. Tamaño de bloque
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hdfs-sitexml-factor-de-replicacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      hdfs-site.xml. Factor de replicación
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mais-informacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Máis información
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-hadoop-2-cuentapalabras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🧮 Exemplo contapalabras
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-spark-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ⚝ Apache Spark
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-kafka-0-instalacion-docker/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ➿ Apache Kafka
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-nifi-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    💧 Apache NIFI
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apache-sqoop-0-resumo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🇸 Apache Sqoop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../apache-airflow-0-instalacion/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ✔️ TODO
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../nube-0-intro/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    ☁️ Nube/Cloud/Openstack
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../powerbi-0-python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    📶 Microsoft PowerBi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://jfsanchez.es/docencia/libreta" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🗒️ Plantillas docencia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Táboa de contidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Táboa de contidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#onde-estan-os-meus-datos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Onde están os meus datos?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interactuando-co-sistema-de-arquivos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interactuando co sistema de arquivos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interactuando co sistema de arquivos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ver-arquivos-e-directorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ver arquivos e directorios
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transferindo-datos-entre-o-hdfs-e-o-almacenamento-local" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transferindo datos entre o HDFS e o almacenamento local
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mudando-de-usuario-grupo-e-permisos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mudando de usuario, grupo e permisos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-cuestion-de-espazo" class="md-nav__link">
+    <span class="md-ellipsis">
+      É cuestión de espazo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outros-comandos-utiles-probar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outros comandos útiles (probar):
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arquivos-de-configuracion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arquivos de configuración
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Arquivos de configuración">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hdfs-sitexml-tamano-de-bloque" class="md-nav__link">
+    <span class="md-ellipsis">
+      hdfs-site.xml. Tamaño de bloque
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hdfs-sitexml-factor-de-replicacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      hdfs-site.xml. Factor de replicación
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mais-informacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Máis información
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="apache-hadoop-comandos">🐘 Apache Hadoop &mdash; 🔲 Comandos</h1>
+<p><img alt="Logo Apache Hadoop" src="../images/hadoop/Hadoop_logo_new.svg#derecha" title="Logo Apache Hadoop" /></p>
+<p><a href="https://hadoop.apache.org">Apache Hadoop</a>, é un <a href="https://es.wikipedia.org/wiki/Framework">framework</a> que permite o procesamento distribuido de grande volume de datos sobre <a href="https://es.wikipedia.org/wiki/Cl%C3%BAster_de_computadoras">clústeres de computadoras</a> empregando modelos sinxelos de programación.</p>
+<p>O <strong>HDFS</strong> ou <strong>H</strong>adoop <strong>D</strong>istributed <strong>F</strong>ile <strong>S</strong>ystem é un sistema de arquivos distribuído empregado por Apache Hadoop que espalla os datos polos distintos discos dos servidores que forman o clúster de Hadoop.</p>
+<ul>
+<li>
+<p>Os arquivos grandes divídense en bloques (<strong>blocks</strong>) por defecto de 128 MiB.</p>
+</li>
+<li>
+<p>De cada bloque hai varias copias, o número exacto establéceo o factor de replicación (<strong>replication factor</strong>) por defecto 3.</p>
+</li>
+</ul>
+<h2 id="onde-estan-os-meus-datos">Onde están os meus datos?</h2>
+<p>A primeira pregunta que debemos facernos é: Onde están os meus datos?</p>
+<ul>
+<li>No <strong>$HOME</strong> do teu usuario -&gt; <em>/home/subdirs-opcionais/usuario</em>.</li>
+<li>No <strong>HOME</strong> do servidor de HADOOP -&gt; <em>/user/usuario</em>.</li>
+</ul>
+<p>A variable $HOME normalmente fai referencia ao teu cartafol persoal. Este adoita estar en <strong>/home/usuario</strong> ou en <strong>/home/algo/mais/usuario</strong>. Estes son os arquivos aos que accedes normalmente.</p>
+<p>O HOME de Hadoop normalmente estará en: <strong>/user/usuario</strong> e para acceder a él debes empregar o comando hdfs ou ben API ou programas que se relacionen con Hadoop. A URL de acceso ao arquivo ten o formato: <em>hdfs://nameservice1/user/usuario/arquivo</em>.</p>
+<h2 id="interactuando-co-sistema-de-arquivos">Interactuando co sistema de arquivos</h2>
+<p>O programa <strong>hdfs</strong> danos unha interfaz e operacións útiles para acceder ao HDFS de Hadoop. Os comandos seguen unha sintaxe de tipo:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-COMANDO<span class="w"> </span><span class="c1"># (1)!</span>
+</span></code></pre></div>
+<ol>
+<li>dfs: Indica que a operación é de arquivos sobre o sistema de arquivos.</li>
+</ol>
+<p>Os comandos habituais son:</p>
+<h3 id="ver-arquivos-e-directorios">Ver arquivos e directorios</h3>
+<p>Ver arquivos no noso HOME de HDFS. Imos ver ademáis as distintas rutas: relativas, absolutas e completas.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-ls
+</span></code></pre></div>
+<p>Ver arquivos que hai en "directorio" que é un directorio que está no noso HOME de HDFS:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-ls<span class="w"> </span>directorio
+</span></code></pre></div>
+<p>O mesmo que o anterior pero empregando unha ruta absoluta:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-ls<span class="w"> </span>/user/usuario/directorio
+</span></code></pre></div>
+<p>O mesmo que o anterior pero empregando a ruta absoluta e completa do HDFS:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-ls<span class="w"> </span>hdfs://nameservice1/user/usuario/directorio
+</span></code></pre></div>
+<h3 id="transferindo-datos-entre-o-hdfs-e-o-almacenamento-local">Transferindo datos entre o HDFS e o almacenamento local</h3>
+<p>🔼 <strong>Subir</strong>/Enviar o ARQUIVO_LOCAL que está no noso $HOME ("o noso disco duro") a un directorio de HDFS chamado "DIRECTORIO_HDFS":</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-put<span class="w"> </span>ARQUIVO_LOCAL<span class="w"> </span>DIRECTORIO_HDFS
+</span></code></pre></div>
+<p>🔽 <strong>Baixar</strong>/Descargar/Recibir do HDFS ("clúster de Hadoop") o arquivo ao noso almacenamento local ("disco duro"):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-get<span class="w"> </span>arquivo-do-hdfs.txt
+</span></code></pre></div>
+<p><strong>Amosar</strong> un <strong>arquivo</strong> do HDFS por consola <strong>en modo texto</strong>. Ademáis admite o formato <strong>ZIP</strong> e <strong>TextRecordInputStream</strong>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-text<span class="w"> </span>arquivo.zip
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-text<span class="w"> </span>arquivo.txt
+</span></code></pre></div>
+<p><strong>Amosar un arquivo do HDFS</strong> por consola, danos igual o formato no que estea:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-cat<span class="w"> </span>arquivo-calquera.xyz
+</span></code></pre></div>
+<p><strong>Ver o inicio do arquivo</strong> (cabeceira) empregando pipes:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-cat<span class="w"> </span>arquivo-moi-grande.csv<span class="p">|</span>head
+</span></code></pre></div>
+<p>Amosar a cola (o final) do arquivo. Útil para comprobar se está ben recibido e o formato.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-tail<span class="w"> </span>arquivo-longo.csv
+</span></code></pre></div>
+<p><strong>Copiar</strong> un arquivo dentro do HDFS (de HDFS a HDFS)</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-cp<span class="w"> </span>ARQUIVO_ORIXE<span class="w"> </span>ARQUIVO_DESTINO
+</span></code></pre></div>
+<p><strong>Mover</strong> un arquivo dentro do HDFS (de HDFS a HDFS)</p>
+<p><div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-mv<span class="w"> </span>ARQUIVO_ORIXE<span class="w"> </span>ARQUIVO_DESTINO
+</span></code></pre></div>
+<strong>Borrar</strong> un arquivo do HDFS</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-rm<span class="w"> </span>arquivo.txt
+</span></code></pre></div>
+<p>Resultado:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>25/02/08 16:39:19 INFO fs.TrashPolicyDefault: Moved: &#39;hdfs://nameservice1/user/usuario/arquivo.txt&#39; to trash at: hdfs://nameservice1/user/usuario/.Trash/Current/user/usuario/arquivo.txt
+</span></code></pre></div>
+<p><strong>Borrar</strong> un arquivo do HDFS <strong>evitando a papeleira</strong> (skipTrash):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-rm<span class="w"> </span>-skipTrash<span class="w"> </span>arquivo.txt
+</span></code></pre></div>
+<p>Resultado:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>Deleted arquivo.txt
+</span></code></pre></div></p>
+<h3 id="mudando-de-usuario-grupo-e-permisos">Mudando de usuario, grupo e permisos</h3>
+<p>Seguindo a <a href="https://es.wikipedia.org/wiki/Umask">máscara de permisos UGO</a> podemos mudar os permisos dun arquivo ou dun directorio de forma recursiva (-R):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-chmod<span class="w"> </span><span class="m">765</span><span class="w"> </span>ficheiro
+</span></code></pre></div>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-chmod<span class="w"> </span>-R<span class="w"> </span><span class="m">755</span><span class="w"> </span>meudir
+</span></code></pre></div>
+<p>Tamén podemos mudar o propietario e o grupo do ficheiro (tamén admite -R para directorios):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-chown<span class="w"> </span>hadoop:hadoop<span class="w"> </span>ficheiro123.txt
+</span></code></pre></div>
+<p>Ou mudar solo o grupo:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-chgrp<span class="w"> </span>hadoop<span class="w"> </span>ficheiro321.txt
+</span></code></pre></div>
+<h3 id="e-cuestion-de-espazo">É cuestión de espazo</h3>
+<p>Medir o espazo consumido non sempre é directo. Se preguntamos canto oucpa un arquivo:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>dfs<span class="w"> </span>dfs<span class="w"> </span>-du<span class="w"> </span>-h<span class="w"> </span>-s<span class="w"> </span>100MB.zip
+</span></code></pre></div>
+<p>Veremos dous tamaños: Tamaño do arquivo e o espazo en disco consumido.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>100 M  300 M  100MB.zip
+</span></code></pre></div>
+<p>O tamaño en disco consumido pódese calcular como o resultado de multiplicar o tamaño do arquivo polo factor de replicación. Pode haber diferencias debidas ao tamaño de bloque, sobre todo con tamaños de bloque grandes.</p>
+<p>Consultar o espazo libre dispoñible:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-df<span class="w"> </span>-h
+</span></code></pre></div>
+<h3 id="outros-comandos-utiles-probar">Outros comandos útiles (probar):</h3>
+<p>Engadir (concatenar) o contido de <code>ventas-diarias-hoxe-LOCAL.txt</code> que está no <strong>almacenamento local</strong> (disco duro local ou $HOME) ao arquivo do <strong>HDFS</strong> <code>ventas-HDFS.txt</code></p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-appendToFile<span class="w"> </span>ventas-diarias-hoxe-LOCAL.txt<span class="w"> </span>ventas-HDFS.txt
+</span></code></pre></div>
+<p>Descargar a local ao arquivo <code>ventas-local.txt</code> o resultado da concatenación dos arquivos do HDFS: <code>ventas-HDFS-part1.txt</code> e <code>ventas-HDFS-part2.txt</code>.</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-getmerge<span class="w"> </span>-nl<span class="w"> </span>ventas-HDFS-part1.txt<span class="w"> </span>ventas-HDFS-part2.txt<span class="w"> </span>ventas-local.txt
+</span></code></pre></div>
+<p>Xerar un checksum dos datos para comprobar se están ben (emprégase MD5, non está pensado para modificacións maliciosas dos datos, senón para cambios accidentais)</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-checksum<span class="w"> </span>ventas-HDFS.txt
+</span></code></pre></div>
+<p>Mudar o factor de replicación dun arquivo ou dun directorio:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>hadoop<span class="w"> </span>fs<span class="w"> </span>-setrep<span class="w"> </span>-w<span class="w"> </span><span class="m">3</span><span class="w"> </span>100MB.zip
+</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>hadoop<span class="w"> </span>fs<span class="w"> </span>-setrep<span class="w"> </span>-w<span class="w"> </span><span class="m">3</span><span class="w"> </span>-R<span class="w"> </span>/user/usuario/directorio
+</span></code></pre></div>
+<p>Cómo se comproba que mudou. Dúas maneiras:</p>
+<p>Con ls, o número antes de <strong>usuario</strong> é o factor de replicación:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>-rw-r--r--   **4** usuario grupo  104857600 2025-01-29 22:00 100MB.zip
+</span></code></pre></div>
+<p>Con du mirando que sube o espacio ocupado en disco:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>hdfs<span class="w"> </span>dfs<span class="w"> </span>-du<span class="w"> </span>-h<span class="w"> </span>-s<span class="w"> </span>100MB.zip
+</span></code></pre></div>
+<p>Vemos que:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>100 M  400 M  100MB.zip
+</span></code></pre></div>
+<h2 id="arquivos-de-configuracion">Arquivos de configuración</h2>
+<h3 id="hdfs-sitexml-tamano-de-bloque">hdfs-site.xml. Tamaño de bloque</h3>
+<p>Cada arquivo divídese en bloques (mínimo 1 bloque por arquivo) de por defecto 128 MiB.</p>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="nt">&lt;property&gt;</span>
+</span><span id="__span-31-2"><a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a><span class="nt">&lt;name&gt;</span>dfs.block.size<span class="nt">&lt;/name&gt;</span>
+</span><span id="__span-31-3"><a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a><span class="nt">&lt;value&gt;</span>134217728<span class="nt">&lt;/value&gt;</span>
+</span><span id="__span-31-4"><a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a><span class="nt">&lt;property&gt;</span>
+</span></code></pre></div>
+<h3 id="hdfs-sitexml-factor-de-replicacion">hdfs-site.xml. Factor de replicación</h3>
+<p>O número de copias de cada bloque, por defecto 3.</p>
+<div class="language-xml highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="nt">&lt;property&gt;</span>
+</span><span id="__span-32-2"><a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a><span class="nt">&lt;name&gt;</span>dfs.replication<span class="nt">&lt;/name&gt;</span>
+</span><span id="__span-32-3"><a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a><span class="nt">&lt;value&gt;</span>3<span class="nt">&lt;/value&gt;</span>
+</span><span id="__span-32-4"><a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a><span class="nt">&lt;/property&gt;</span>
+</span></code></pre></div>
+<h2 id="mais-informacion">Máis información</h2>
+<ul>
+<li><a href="https://bigdata.cesga.es/tutorials/hdfs.html">https://bigdata.cesga.es/tutorials/hdfs.html</a></li>
+</ul>
+<p>Se empregas os recursos do <a href="https://www.cesga.es/">CESGA</a>, lembra que dende a casa debes conectarte á VPN antes de conectarte por SSH ao servidor hadoop.cesga.es.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver ao principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      2025 ©️ Jose Sánchez
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "content.code.annotate", "navigation.indexes", "toc.follow", "navigation.top", "navigation.path", "navigation.prune"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado no cortapapeis", "clipboard.copy": "Copiar no cortapapeis", "search.result.more.one": "1 m\u00e1is nesta p\u00e1xina", "search.result.more.other": "# m\u00e1is nesta p\u00e1xina", "search.result.none": "Sen resultados", "search.result.one": "1 resultado atopado", "search.result.other": "# resultados atopados", "search.result.placeholder": "Insira un termo", "search.result.term.missing": "Falta", "select.version": "Seleccionar version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
