@@ -10,7 +10,7 @@ Presentacións feitas con [revealjs](https://revealjs.com/). Preme `s` **dentro 
 
 - [🐱 Uso básico de git](presentacions/git/){:target="_blank"}
 
-- [🐍 Conda e pip](presentacions/conda-pip-virtualenv/){:target="_blank"}
+- [🐍 (Ana)conda, pip e poetry](presentacions/conda-pip-virtualenv/){:target="_blank"}
 
 - [❎ XPATH para uso con Selenium](presentacions/xpath/){:target="_blank"}
 
