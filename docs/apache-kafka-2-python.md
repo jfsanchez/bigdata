@@ -12,7 +12,7 @@
     conda install -c conda-forge kafka-python python-confluent-kafka
     ```
 
-2. [Sigue o notebook do repositorio](https://github.com/jfsanchez/SBD/blob/main/notebooks/bbdd/apache-kafka.ipynb).
+2. [Sigue o notebook do repositorio](https://github.com/jfsanchez/bigdata/blob/main/notebooks/bbdd/apache-kafka.ipynb).
 
 ## Máis información
 

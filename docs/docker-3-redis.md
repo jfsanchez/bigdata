@@ -109,7 +109,7 @@ if (empregamos_docker):
 
 **Podes descargar o notebook de**:
 
-- <https://github.com/jfsanchez/SBD/blob/main/notebooks/bbdd/redis.ipynb>
+- <https://github.com/jfsanchez/bigdata/blob/main/notebooks/bbdd/redis.ipynb>
 
 ## Máis información
 

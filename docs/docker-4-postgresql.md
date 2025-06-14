@@ -83,7 +83,7 @@ docker exec -it de-postre-sql \
 
 ## Conexión dende Python
 
- - <https://github.com/jfsanchez/SBD/blob/main/notebooks/bbdd/postgresql-psycopg2-sqlalchemy.ipynb>
+ - <https://github.com/jfsanchez/bigdata/blob/main/notebooks/bbdd/postgresql-psycopg2-sqlalchemy.ipynb>
 
 ## Máis información
 

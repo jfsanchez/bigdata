@@ -32,4 +32,4 @@ export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
 
 #### Cómo conectar dende Python
 
-- <https://github.com/jfsanchez/SBD/blob/main/notebooks/bbdd/mssql-pyodbc.ipynb>
+- <https://github.com/jfsanchez/bigdata/blob/main/notebooks/bbdd/mssql-pyodbc.ipynb>

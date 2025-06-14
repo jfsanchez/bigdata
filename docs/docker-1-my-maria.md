@@ -254,7 +254,7 @@ SHOW DATABASES;
 
 ## Conectar a MySQL dende Python
 
-- <https://github.com/jfsanchez/SBD/blob/main/notebooks/bbdd/mysql.ipynb>
+- <https://github.com/jfsanchez/bigdata/blob/main/notebooks/bbdd/mysql.ipynb>
 
 
 ⚠️ **AVISO**: Esta configuración NON pretende ser segura, o seu obxectivo é montar de xeito rápido un contorno para a aprendizaxe. Entre outras cousas deberíamos deshabilitar o usuario root para conexións remotas, borrar as BBDD de proba e impedir o acceso directo ao servidor de base de datos.

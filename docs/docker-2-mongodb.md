@@ -137,7 +137,7 @@ Lembra premer no botón de "Save and connect" para gardar a conexión co usuario
 ## Lecturas complementarias
 
 - [Apuntes de MongoDB en formato presentación](https://jfsanchez.es/docencia/mongodb/)
-- [Conectar a MongoDB dende Python (notebook)](https://github.com/jfsanchez/SBD/blob/main/notebooks/bbdd/mongodb.ipynb)
+- [Conectar a MongoDB dende Python (notebook)](https://github.com/jfsanchez/bigdata/blob/main/notebooks/bbdd/mongodb.ipynb)
 - [Como securizar un servidor mongo accesible en internet (inglés, páxina oficial)](https://www.mongodb.com/docs/manual/administration/security-checklist/#std-label-security-checklist)
 
 ## Creando un cluster/replica set de mongo en docker

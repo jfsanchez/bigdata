@@ -39,4 +39,4 @@ Emprégase moito sobre todo en contornos móbiles.
 ## Máis información
 
 - [Páxina oficial de SQLite](https://sqlite.org/)
-- Exemplo de uso en Python: <https://github.com/jfsanchez/SBD/blob/main/notebooks/bbdd/sqlite3.ipynb>
+- Exemplo de uso en Python: <https://github.com/jfsanchez/bigdata/blob/main/notebooks/bbdd/sqlite3.ipynb>
