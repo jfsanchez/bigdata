@@ -7,8 +7,8 @@
     <meta name="author" content="Jose Sánchez">
     <meta property="emailuser" content="correo">
     <meta property="emaildomain" content="jfsanchez.es">
-    <meta property="creationdate" content="&copy; Dec/2022 &mdash; Actualizado: Nov/2024">
-    <meta property="lastmodification" content="&copy; Agosto 2023">
+    <meta property="creationdate" content="&copy; Dec/2022">
+    <meta property="lastmodification" content="Xuñ/2025">
     <!--meta property="documenturl" content="https://jfsanchez.es"-->
     <!-- --  -->
 
@@ -17,13 +17,14 @@
 
     <link rel="stylesheet" href="../../_res/revealjs4/dist/reveal.css">
     <link rel="stylesheet" href="../../_res/revealjs4/dist/theme/simple.css">
+    <link rel="stylesheet" href="../../_res/revealjs4/plugin/highlight/monokai.css">
     
         <style>
             .reveal h1,
             .reveal h2,
             .reveal h3,
             .reveal h4 {
-                color: gold;
+                color: orange;
             }
 
             .trojo {
@@ -45,7 +46,11 @@
             .famarillo {
                 background-color: lightgoldenrodyellow;
             }
-
+            .tiposeccion{
+                display: inline-block;
+                min-width: 1em;
+                border: 1px #fff solid;
+            }
             .divdual {
                 display: block;
                 float: left;
@@ -65,36 +70,60 @@
     <div class="reveal">
         <div class="slides">
             <section>
-                <!--div class="fragment">
-		                <p>Big Data</p>
-		            </div-->
-                
-                <h3 style="color: gold;">ANACONDA e PIP</h3>
-                <h5 style="color: gray;">Curso de Especialización en Intelixencia Artificial e Big Data</h5>
-            </section>
-
-            <section>
-                <h3>Índice</h3>
-                <ul>
-                    <li>Conda vs pip/virtualenv</li>
-                    <li>Comandos útiles
-                        <ul>
-                            <li>Comandos útiles conda</li>
-                            <li>Comandos útiles pip</li>
-                        </ul>
-                    </li>
+                <h3>Anaconda, pip e poetry</h3>
+                <h5 style="color: gray;">Empaqueta, distribue, xestiona, emprega e activa</h5>
+                <ul style="list-style-type: none;">
+                    <li><a href="#conda-vs-pip"><span class="tiposeccion" style="background-color: royalblue;">&nbsp;</span> (Ana)conda vs pip/virtualenv</a></li>
+                    <li><a href="#comandos-conda"><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> <strong>conda</strong>: Comandos útiles</a></li>
+                    <li><a href="#comandos-pip"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span> <strong>pip/venv</strong>: Comandos útiles</a></li>
+                    <li><a href="#conda-pip"><span class="tiposeccion" style="background-color: indigo;">&nbsp;</span> Conda e pip. Conviven!</a></li>
+                    <li><a href="#conda-vs-poetry"><span class="tiposeccion" style="background-color: royalblue; color:#fff">&nbsp;</span> (Ana)conda vs Poetry</a></li>
+                    <li><a href="#poetry"><span class="tiposeccion" style="background-color: darkgreen; color:#fff">&nbsp;</span> Poetry</a></li>
+                    <li><a href="#conda-poetry"><span class="tiposeccion" style="background-color: indigo;">&nbsp;</span> Conda e poetry. Conviven!</a></li>
+                    <li><a href="#manuais"><span class="tiposeccion" style="background-color: black;">&nbsp;</span> Manuais</a></li>
                 </ul>
             </section>
-
+<!-- data-background-gradient="radial-gradient(white, LemonChiffon)" -->
 		<section>
-	        <section>
-        	    <h3 style="color: darkorange;">Conda vs pip/virtualenv</h3>
+	        <section id="conda-vs-pip" data-background-gradient="radial-gradient(white, white, royalblue)">
+        	    <h3 style="color: royalblue;"><span class="tiposeccion" style="background-color: royalblue;">&nbsp;</span> Conda vs pip/virtualenv</h3>
+                <table style="font-size: 0.8em;">
+                    <thead style="font-weight: bolder;"><tr><td>Característica</td><td>(Ana)conda</td><td>pip/virtualenv</td></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td style="color:royalblue;">Ferramentas</td>
+                            <td><span style="color: darkgreen;">1</span></td>
+                            <td><span style="color: darkred;">varias</span></td>
+                        </tr>
+                        <tr>
+                            <td style="color:royalblue;">Resol. depend.</td>
+                            <td><span style="color: darkgreen;">automática</span></td>
+                            <td><span style="color: darkred;">manual</span></td>
+                        </tr>
+                        <tr>
+                            <td style="color:royalblue;">Repositorio</td>
+                            <td>conda-forge</td>
+                            <td>PyPi</td>
+                        </tr>
+                        <tr>
+                            <td style="color:royalblue;">Orientación</td>
+                            <td>data science</td>
+                            <td>xeral</td>
+                        </tr>
+                        <tr>
+                            <td style="color:royalblue;">Dependencias</td>
+                            <td>python, C, exes...</td>
+                            <td>python</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 style="color: royalblue;">&dArr;</h2>
             </section>
         	    
   	        <section>
   	        	<img src="conda/python-virtualenv-pip.png" alt="Precisamos dúas ferramentas para facer a vida máis sinxela"/>
                 <aside class="notes">
-                    Paradigma "clásico": Móntase unha contorna (opcionalmente) con virtualenv
+                    Paradigma "clásico": Móntase un contorno (opcionalmente) con virtualenv
                 </aside>
   	        </section>
       	    <section>
@@ -106,74 +135,98 @@
         </section>
 
        <section>
-            <section>
-                <h3 style="color: darkorange;">Comandos útiles</h3>
-                <ul>
-                    <li><strong style="background-color: cornsilk;">Comandos conda &larr; &larr; &larr;</strong></li>
-                    <li>Comandos pip/virtualenv</li>
+            <section id="comandos-conda" data-background-gradient="radial-gradient(white, white, LemonChiffon)">
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> <strong>conda</strong>: Comandos útiles</h3>
+                <h4 style="color: darkgray;"><strong>Anaconda</strong>: Unha suite para a ciencia de datos</h4>
+                <!-- <a href="https://anaconda.org" target="_blank"><img src="conda/anaconda_org_logo.svg" width="40%" alt="Logo do proxecto Anaconda"/></a> -->
+                <h4 style="color:orange;">⚠️ Ollo! Existen varias versións de conda!</h4>
+                <ul style="font-size: 0.8em;">
+                    <li><strong>anaconda</strong>: Ocupa varios Xigas, xa trae moitos paquetes.</li>
+                    <li><strong>miniconda</strong>: Ocupa pouco, debes instalar o que queiras.</li>
                 </ul>
-                <br/>
-                <h4><a href="conda/conda-cheatsheet.pdf">🗂️ Descargar cheatsheet / chuleta de uso</a></h4>
-                <h4 style="color: darkgray;">ANACONDA: Unha suite para a ciencia de datos</h4>
-                <a href="https://anaconda.org" target="_blank"><img src="conda/anaconda_org_logo.svg" width="40%" alt="Logo do proxecto Anaconda"/></a>
+                <h4 style="margin-top: 0.6em;"><a href="conda/conda-cheatsheet.pdf">🗂️ Baixar cheatsheet / chuleta de uso para <strong>conda</strong></a></h4>
+                <h2 style="color: orange;">&dArr;</h2>
             </section>
 
-            <section>
-                <h3 style="color: darkorange;">Comandos conda</h3>
-                <ul>
-                    <li>Manexo básico de contornas: listaxe, creación, activación, actualización, borrado</li>
-                    <li>Exportación/Importación</li>
+            <!-- <section>
+                <h3 style="color: darkorange;"><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Comandos conda. Índice</h3>
+                <ul style="font-size: 0.8em;">
+                    <li>Comandos básicos para manexo de contornos</li>
+                    <li>Exercicio</li>
+                    <li>Selección de contorno</li>
+                    <li>Instalación de paquetes</li>
+                    <li>Instalación de paquetes de fontes externas</li>
+                    <li>Buscar</li>
+                    <li>Actualizar</li>
+                    <li>Automatizando os contornos: Exportación/Importación</li>
+                    <li>Contido dun YAML de contorno</li>
                     <li>Demo en ASCIInema</li>
                 </ul>
+            </section> -->
+
+            <section>
+                <h3 style="color: darkorange;"><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Instalación</h3>
+                <h4>🪟 Microsoft Windows</h4>
+                <ul style="font-size: 0.8em;">
+                <li>Vai a: <a href="https://repo.anaconda.com/miniconda/">https://repo.anaconda.com/miniconda/</a></li>
+                <li>Baixa e executa <strong>Miniconda3-latest-Windows-x86_64.exe</strong></li>
+                </ul>
+                <h4 style="margin-top: 0.6em;">🐧 GNU/Linux</h4>
+                <pre><code data-trim data-noescape class="bash" style="font-size: 0.8em;">
+                wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+                chmod a+rx Miniconda3-latest-Linux-x86_64.sh
+                ./Miniconda3-latest-Linux-x86_64.sh
+                </code></pre>
             </section>
 
             <section>
-                <h3>Versión de conda</h3>
-                <pre><code data-trim data-noescape>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Comandos básicos</h3>
+                <h4>Versión de conda</h4>
+                <pre><code data-trim data-noescape class="bash">
                     conda --version
                 </code></pre>
 
-                <div class="fragment">
-                    <h3>Contornas dispoñibles</h3>
-                    <pre><code data-trim data-noescape>
+                <!-- <div class="fragment"> -->
+                    <h4> Contornos dispoñibles</h4>
+                    <pre><code data-trim data-noescape class="bash">
                         conda env list
                     </code></pre>
-                </div>
+                <!-- </div> -->
 
-                <div class="fragment">
-                    <h3>Crear unha contorna nova</h3>
-                    <pre><code data-trim data-noescape>
+                <!-- <div class="fragment"> -->
+                    <h4>Crear un contorno novo</h4>
+                    <pre><code data-trim data-noescape class="bash">
                         conda create -n bigdata python=3.12 numpy
                     </code></pre>
+                <!-- </div> -->
 
-                </div>
-                <div class="fragment">
-                <h3>Borrar unha contorna</h3>
-                    <pre><code data-trim data-noescape>
+                <!-- <div class="fragment"> -->
+                <h4>Borrar un contorno</h4>
+                    <pre><code data-trim data-noescape class="bash">
                         conda env remove -n bigdata
                     </code></pre>
-                </div>
+                <!-- </div> -->
                 <aside class="notes">
                     <ul>
                         <li>Versión de conda</li>
-                        <li>Lista de contornas</li>
-                        <li>Creación: Crea unha contorna baseada en Python v3.12 e instala a maiores o paquete numpy.</li>
+                        <li>Lista de contornos</li>
+                        <li>Creación: Crea un contorno baseada en Python v3.12 e instala a maiores o paquete numpy.</li>
                         <li>Borrado</li>
                     </ul>
                 </aside>
             </section>
 
             <section>
-                <h3>Exercicio</h3>
-                <p>Crea as seguintes contornas:</p>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Exercicio</h3>
+                <h4>Crea os seguintes contornos:</h4>
                 <ul>
                     <li><strong>bigdata</strong> con pandas e Python 3.12</li>
                     <li><strong>ia</strong> con numpy e Python 3.8</li>
                 </ul>
 
-                <p>Solución:</p>
+                <h4>Solución</h4>
                 <div class="fragment">
-                    <pre><code data-trim data-noescape>
+                    <pre><code data-trim data-noescape class="bash">
                         conda create -n bigdata python=3.12 pandas
                         conda create -n ia python=3.8 numpy
                     </code></pre>
@@ -181,11 +234,13 @@
             </section>
 
             <section>
-                <h3>Seleccionar contorna</h3>
-                <pre><code data-trim data-noescape>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span>  Seleccionar contorno</h3>
+                <h4>Activar</h4>
+                <pre><code data-trim data-noescape class="bash">
                     conda activate ENTORNO
                 </code></pre>
-                <pre><code data-trim data-noescape>
+                <h4>Desactivar</h4>
+                <pre><code data-trim data-noescape class="bash">
                     conda deactivate
                 </code></pre>
                 <aside class="notes">
@@ -194,55 +249,54 @@
             </section>
 
             <section>
-                <h3>Instalación (simple) de paquetes</h3>
-                <pre><code data-trim data-noescape>conda install PAQUETE</code></pre>
-                <p>Exemplo:</p>
-                <pre><code data-trim data-noescape>conda install matplotlib</code></pre>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Instalación (simple) de paquetes</h3>
+                <h4>Sintaxe</h4>
+                <pre><code data-trim data-noescape class="bash">conda install PAQUETE</code></pre>
+                <h4>Exemplo</h4>
+                <pre><code data-trim data-noescape class="bash">conda install matplotlib</code></pre>
                 <ul>
                     <li>Emprega o repositorio principal de anaconda.</li>
-                    <li>Instala na contorna activada actual.</li>
+                    <li>Instala no contorno activado actual.</li>
                 </ul>
             </section>
 
             <section>
-                <h3>Instalación de paquetes doutras organizacións/repositorios</h3>
-                <p>Sintaxe xeral</p>
-                <pre><code data-trim data-noescape>conda install -c REPOSITORIO_ORGANIZACION PAQUETE</code></pre>
-                <p>Exemplo (Conda-Forge é un repo comunitario):</p>
-                <pre><code data-trim data-noescape>conda install -c conda-forge jupyterlab</code></pre>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Instalación de paquetes doutras organizacións/repositorios</h3>
+                <h4>Sintaxe xeral</h4>
+                <pre><code data-trim data-noescape class="bash">conda install -c REPOSITORIO_ORGANIZACION PAQUETE</code></pre>
+                <h4>Exemplo (conda-forge é un repo comunitario)</h4>
+                <pre><code data-trim data-noescape class="bash">conda install -c conda-forge jupyterlab</code></pre>
 
             </section>
             <section>
-                <h3>Buscar paquetes</h3>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Buscar paquetes</h3>
                 <ul>
                     <li>En Internet: <a href="https://anaconda.org/search">https://anaconda.org/search</a></li>
-                    <li>Por comando: <br/><pre><code data-trim data-noescape>conda search PAQUETE</code></pre></li>
+                    <li>Por comando: <br/><pre><code data-trim data-noescape class="bash">conda search PAQUETE</code></pre></li>
                 </ul>
             </section>
 
             <section>
-                <h3>Actualización de paquetes</h3>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Actualización de paquetes</h3>
 
-                <h4>Dende a contorna actual:</h4>
-                <pre><code data-trim data-noescape>conda update --all</code></pre>
+                <h4>Dende o contorno actual</h4>
+                <pre><code data-trim data-noescape class="bash">conda update --all</code></pre>
 
-                <h4>Dende outra contorna:</h4>
-                <pre><code data-trim data-noescape>conda update -n ENVIRONMENT --all</code></pre>
+                <h4>Dende outro contorno</h4>
+                <pre><code data-trim data-noescape class="bash">conda update -n ENVIRONMENT --all</code></pre>
             </section>
 
             <section>
-                <h3>Exportar / Compartir a contorna</h3>
-                <pre><code data-trim data-noescape>conda env export --file bigdata-bd.yml</code></pre>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Automatizando os contornos</h3>
+                <h4>Exportar / Compartir o contorno</h>
+                <pre><code data-trim data-noescape class="bash">conda env export --file bigdata.yml</code></pre>
+                <h4>Importar/Crear contorno cun YAML</h4>
+                <pre><code data-trim data-noescape class="bash">conda env create --file bigdata.yml</code></pre>
             </section>
 
             <section>
-                <h3>Importar/Crear contorna cun YAML</h3>
-                <pre><code data-trim data-noescape>conda env create --file bigdata-bd.yml</code></pre>
-            </section>
-
-            <section>
-                <h3>Qué conten un arquivo de entorno</h3>
-                <pre><code data-trim data-noescape><strong>cat bigdata-bd.yml</strong></code></pre>
+                <h3><span class="tiposeccion" style="background-color: orange;">&nbsp;</span> Qué conten un arquivo de contorno?</h3>
+                <pre><code data-trim data-noescape class="bash"><strong>cat bigdata.yml</strong></code></pre>
                 <pre>channels:
                     - conda-forge
                     dependencies:
@@ -259,184 +313,350 @@
 
         </section>
 
-        <section>
-            <section>
-                <h3 style="color: darkorange;">Comandos útiles</h3>
+        <section id="comandos-pip">
+            <section data-background-gradient="radial-gradient(white, white, palegreen)">
+                <h3 style="color:yellowgreen;"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span> <strong>pip/venv</strong>: Comandos útiles</h3>
+                <h4 style="color: darkgray;">Se non está en conda, está en <strong>pip</strong></h4>
+                <!-- <a href="https://anaconda.org" target="_blank"><img src="conda/anaconda_org_logo.svg" width="40%" alt="Logo do proxecto Anaconda"/></a> -->
+                <h4 style="color:yellowgreen;">⚠️ Ollo! Non é o mesmo pip que PyPI!</h4>
                 <ul>
-                    <li>Comandos conda</li>
-                    <li><strong style="background-color: cornsilk;">Comandos pip/virtualenv &larr; &larr; &larr;</strong></li>
+                    <li><strong>PyPI</strong> &rarr; The <strong>Py</strong>thon <strong>P</strong>ackage <strong>I</strong>ndex</li>
+                    <li><strong>PIP</strong> &rarr; <strong>P</strong>ackage <strong>I</strong>nstaller for <strong>P</strong>ython</li>
                 </ul>
-                <h4><a href="conda/pip-cheatsheet.pdf">🗂️ Descargar cheatsheet / chuleta de uso</a></h4>
-                <h4 style="color: darkgray;">Se non está en conda, está en pip</h4>
-                <h3>Package Installer for Python (pip)</h3>
+                <h4 style="margin-top: 0.6em;"><a href="conda/pip-cheatsheet.pdf">🗂️ Baixar cheatsheet / chuleta de uso para <strong>pip/venv</strong></a></h4>
+                <h2 style="color: yellowgreen;">&dArr;</h2>
             </section>
 
-            <section>
-                <h3>Diferenza entre pip e PyPI</h3>
-                <ul>
-                    <li><strong>PyPI</strong> &rarr; The Python Package Index</li>
-                    <li><strong>PIP</strong> &rarr; Package Installer for Python</li>
-                </ul>
-            </section>
 
             <section>
-                <h3>Instalación de pipx/virtualenv</h3>
-                <pre><code data-trim data-noescape>
-                sudo apt install python3-pip
-                sudo apt install pipx
-                </code></pre>                
-                <pre><code data-trim data-noescape>
+                <h3 style="color:yellowgreen;"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span>  Instalación de pipx/virtualenv en GNU/Linux</h3>
+                <pre><code data-trim data-noescape class="bash">
+                sudo apt install python3-pip pipx
                 pipx install virtualenv
-                </code></pre>
-                <p>Alternativa:</p>
-                <pre><code data-trim data-noescape>
-                sudo apt install python3-pip virtualenv pipx
-                </code></pre>
-            </section>
+                </code></pre>                
 
-            <section>
-                <h3>Comprobando rutas</h3>
-                <pre><code data-trim data-noescape>
+                <h4 style="color:yellowgreen;">Comproba que as rutas funcionen!</h3>
+                <pre><code data-trim data-noescape class="bash">
                 type virtualenv
                 type python3
                 type pip3
                 </code></pre>
-                <h3>Locale</h3>
-                <pre><code data-trim data-noescape>
+                <h4 style="color:yellowgreen;">Lembra establecer o locale! (gardao en .bash_profile)</h4>
+                <pre><code data-trim data-noescape class="bash">
                 export LC_ALL="es_ES.UTF-8"
                 virtualenv --version
                 </code></pre>
             </section>
 
             <section>
-                <h3>Crear contorna virtualenv</h3>
-                <pre><code data-trim data-noescape>
+                <h3 style="color:yellowgreen;"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span> Contorno</h3>
+                <h4 style="color:yellowgreen;">Crear contorno</h4>
+                <pre><code data-trim data-noescape class="bash">
                 virtualenv -p /opt/python-3.XX.XX/bin/python3 venv3_XX_XX
                 </code></pre>
-                <h3>Activar contorna virtualenv</h3>
-                <pre><code data-trim data-noescape>
+                <h4 style="color:yellowgreen;"> Activar contorno</h4>
+                <pre><code data-trim data-noescape class="bash">
                 source venv/bin/activate 
                 </code></pre>
-            </section>
-
-            <section>
-                <h3>Desactivar contorna virtualenv</h3>
-                <pre><code data-trim data-noescape>
+                <h4 style="color:yellowgreen;">Desactivar contorno</h4>
+                <pre><code data-trim data-noescape class="bash">
                 deactivate
                 </code></pre>
-            </section>
-
-            <section>
-                <h3>Instala a última versión do paquete</h3>
-                <pre><code data-trim data-noescape>
-                python -m pip install PaqueteAInstalar
-                </code></pre>
-                <h3>Instala a versión específica 1.2.3</h3>
-                <pre><code data-trim data-noescape>
-                    python -m pip install PaqueteAInstalar==1.2.3
-                </code></pre>
-                <h3>Instala mínimo a versión 2.3.4</h3>
-                <pre><code data-trim data-noescape>
-                python -m pip install 'PaqueteAInstalar>=2.3.4'
-                </code></pre>
-            </section>
-
-            <section>
-                <h3>Instalación de paquetes locales</h3>
-                <p>Útil cando queremos preservar unha contorna</p>
-                <p>Descarga de paquetes</p>
-                <pre><code data-trim data-noescape>
-                python -m pip download --destination-directory DIR -r contorna-bigdata.txt
-                </code></pre>
-                <p>Instalación de paquetes</p>
-                <pre><code data-trim data-noescape>
-                python -m pip install --no-index --find-links=DIR -r contorna-bigdata.txt
-                </code></pre>
-            </section>
-
-            <section>
-                <h3>Desinstalar paquetes</h3>
-                <pre><code data-trim data-noescape>
-                python -m pip uninstall PaqueteADesinstalar
-                </code></pre>
-            </section>
-
-            <section>
-                 <h3>Actualizar PIP</h3>
-                <pre><code data-trim data-noescape>
-                python3 -m pip install --upgrade pip
-                </code></pre>
-
-                <p>Alternativa 0:</p>
-                <pre><code data-trim data-noescape>
-                pip3 install --upgrade setuptools
-                </code></pre>
-
-                <p>Alternativa 1:</p>
-                <pre><code data-trim data-noescape>
-                    python -m ensurepip --upgrade                    
-                </code></pre>
-
-                <p>Alternativa 2:</p>
-                <p>Bajar: <a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></p>
-                <pre><code data-trim data-noescape>
-                python get-pip.py
-                </code></pre>
-            </section>
-
-            <section>
-                <h3>Borrar contorna</h3>
-                <p>Simplemente borramos o directorio</p>
-                <pre><code data-trim data-noescape>
+                <h4 style="color:yellowgreen;">Borrar contorno</h4>
+                <pre><code data-trim data-noescape class="bash">
                 rm -rf venv
                 </code></pre>
             </section>
 
             <section>
-                <h3>Listaxe de paquete/versión instalados na contorna:</h3>
-                <pre><code data-trim data-noescape>
-                python -m pip freeze > contorna-bigdata.txt
+                <h3 style="color:yellowgreen;"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span> Convencións</h3>
+                <h4 style="color:yellowgreen;">Normalmente poderemos substituir</h4>
+                <pre><code data-trim data-noescape class="bash">
+                python -m pip install ...
                 </code></pre>
-                <h3>Restaurar unha contorna cos paquete/versión</h3>
-                <pre><code data-trim data-noescape>
-                python -m pip install -r contorna-bigdata.txt
+                <h4 style="color:yellowgreen;">directamente por:</h4>
+                <pre><code data-trim data-noescape class="bash">
+                pip install ...
+                </code></pre>
+            </section>
+            
+            <section>
+                <h3 style="color:yellowgreen;"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span> Instalación</h3>
+                <h4 style="color:yellowgreen;">A última versión do paquete</h4>
+                <pre><code data-trim data-noescape class="bash">
+                python -m pip install PaqueteAInstalar
+                </code></pre>
+                <h4 style="color:yellowgreen;">A versión específica: 1.2.3</h4>
+                <pre><code data-trim data-noescape class="bash">
+                    python -m pip install PaqueteAInstalar==1.2.3
+                </code></pre>
+                <h4 style="color:yellowgreen;">Como mínimo a versión: 2.3.4</h4>
+                <pre><code data-trim data-noescape class="bash">
+                python -m pip install 'PaqueteAInstalar>=2.3.4'
+                </code></pre>
+                <h4 style="color:yellowgreen;">Desinstalar paquetes</h4>
+                <pre><code data-trim data-noescape class="bash">
+                python -m pip uninstall PaqueteADesinstalar
                 </code></pre>
             </section>
 
             <section>
-                <h3>Activar o bash completion</h3>
-                <pre><code data-trim data-noescape>
+                <h3 style="color:yellowgreen;"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span> Manexo de contornos</h3>
+                <h4 style="color:yellowgreen;">Listaxe de paquete/versión instalados no contorno:</h4>
+                <pre><code data-trim data-noescape class="bash">
+                python -m pip freeze > contorno-bigdata.txt
+                </code></pre>
+                <h4 style="color:yellowgreen;">Restaurar un contorno cos paquetes/versións</h4>
+                <pre><code data-trim data-noescape class="bash">
+                python -m pip install -r contorno-bigdata.txt
+                </code></pre>
+                <h4 style="color:yellowgreen;">Descarga de paquetes dunha listaxe (local)</h4>
+                <pre><code data-trim data-noescape class="bash">
+                python -m pip download \
+                    --destination-directory DIR -r contorno-bigdata.txt
+                </code></pre>
+                <h4 style="color:yellowgreen;">Instalación de paquetes dunha listaxe (local)</h4>
+                <pre><code data-trim data-noescape class="bash">
+                python -m pip install --no-index \
+                    --find-links=DIR -r contorno-bigdata.txt
+                </code></pre>
+            </section>
+
+            <section>
+                <h3 style="color:yellowgreen;"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span> Activar o bash completion</h3>
+                <pre><code data-trim data-noescape class="bash">
                 python -m pip completion --bash >> ~/.profile
+                </code></pre>
+            </section>
+
+            <section>
+                 <h3 style="color:yellowgreen;"><span class="tiposeccion" style="background-color: yellowgreen;">&nbsp;</span> Actualizar PIP</h3>
+                <pre><code data-trim data-noescape class="bash">
+                python3 -m pip install --upgrade pip
+                </code></pre>
+
+                <h4 style="color:yellowgreen;">Opción 1:</h4>
+                <pre><code data-trim data-noescape class="bash">
+                pip3 install --upgrade setuptools
+                </code></pre>
+
+                <h4 style="color:yellowgreen;">Opción 2:</h4>
+                <pre><code data-trim data-noescape class="bash">
+                    python -m ensurepip --upgrade                    
+                </code></pre>
+
+                <h4 style="color:yellowgreen;">Opción 3, baixa: <a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></h4>
+                <pre><code data-trim data-noescape class="bash">
+                python get-pip.py
                 </code></pre>
             </section>
         </section>
 
         <section>
-            <section>
-                <h3>Conda e pip</h3>
+            <section id="conda-pip">
+                <h3 style="color: indigo"><span class="tiposeccion" style="background-color: indigo;">&nbsp;</span> Conda e pip. Conviven!</h3>
                 <ul>
                     <li>Poden coexistir</li>
-                    <li>Nunha contorna conda podemos:</li>
+                    <li>Nun contorno conda podemos:</li>
                     <ul>
                         <li>Ter instalado pip</li>
-                        <li>Instalar para esa contorna os paquetes restantes con pip</li>
+                        <li>Instalar para ese contorno os paquetes restantes con pip</li>
                     </ul>
                 </ul>
-                <pre><code data-trim data-noescape>
+                <pre><code data-trim data-noescape class="bash">
                     conda install pip
                 </code></pre>
             </section>
         </section>
 
-		<section>
-    		<h3>Manuais</h3>
-                <ul>
-                    <li><h4><a href="conda/conda-cheatsheet.pdf">🗂️ Cheatsheet / chuleta de ANACONDA</a></h4></li>
-                    <li><h4><a href="conda/pip-cheatsheet.pdf">🗂️ Cheatsheet / chuleta de PIP</a></h4></li>
-			        <li><a href="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment">Traballando con contornas en conda (inglés)</a></li>
-                    <li><a href="https://pip.pypa.io/en/stable/user_guide/">https://pip.pypa.io/en/stable/user_guide/</a></li>
-                    <li><a href="https://www.python.org/">https://www.python.org/</a></li>
-                    <li><a href="https://pypi.org/">https://pypi.org/</a></li>
+        <section id="conda-vs-poetry">
+            <h3 style="color:royalblue;"><span class="tiposeccion" style="background-color: royalblue; color:#fff">&nbsp;</span> (Ana)conda vs Poetry</h3>
+            <table style="font-size: 0.8em;">
+                    <thead style="font-weight: bolder;"><tr><td>Característica</td><td>(Ana)conda</td><td>Poetry</td></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td style="color:royalblue;">Ferramentas</td>
+                            <td><span style="color: darkgreen;">1</span></td>
+                            <td><span style="color: darkred;">&quot;1&quot;</span></td>
+                        </tr>
+                        <tr>
+                            <td style="color:royalblue;">Resolución dependencias</td>
+                            <td><span style="color: darkgreen;">automática multilinguaxe</span></td>
+                            <td><span style="color: darkred;">automática python</span></td>
+                        </tr>
+                        <tr>
+                            <td style="color:royalblue;">Repositorio</td>
+                            <td>conda-forge, etc</td>
+                            <td>Python/PyPI</td>
+                        </tr>
+                        <tr>
+                            <td style="color:royalblue;">Dependencias</td>
+                            <td>exes, dependencias multilinguaxe: C, R...</td>
+                            <td>específicas python</td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="color:royalblue;">Orientación</td>
+                            <td>data science</td>
+                            <td>xeral</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+        <section>
+            <section id="poetry" data-background-gradient="radial-gradient(white, white, darkseagreen)">
+                <h3 style="color:darkgreen;"><span class="tiposeccion" style="background-color: darkgreen; color:#fff">&nbsp;</span> Poetry</h3>
+                <ul style="font-size: 0.8em;">
+                    <li>Outro xestor de paquetes python que xurde en 2018</li>
+                    <li>Permite crear e manexar contornos virtuais (con venv)</li>
+                    <li>Instala os paquetes en paralelo</li>
+                    <li>Está a ser adoptado pola comunidade</li>
+                    <li>Emprégase para simplificar procesos de CD/CI con git actions</li>
+                    <li>Resolve dependencias de xeito determinístico</li>
+                    <li>Bloqueo de paquetes con <strong>poetry.lock</strong> sen pip-tools</li>
+                    <li>Ten opcións como build e publish nativos para publicar en PyPi</li>
+                </ul>
+                <h2 style="color: darkgreen;">&dArr;</h2>
+            </section>
+            
+            <section>
+                <h3 style="color:darkgreen;"><span class="tiposeccion" style="background-color: darkgreen; color:#fff">&nbsp;</span> Instalación</h3>
+                <pre><code data-trim data-noescape class="bash">
+                pipx install poetry
+                </code></pre>
+            </section>
+
+            <section>
+                <h3 style="color:darkgreen;"><span class="tiposeccion" style="background-color: darkgreen; color:#fff">&nbsp;</span> Comandos básicos (1/2)</h3>
+                <h4 style="color:darkgreen;">Instalar un paquete</h4>
+                <pre><code data-trim data-noescape class="bash">
+                poetry add ipykernel pandas matplotlib
+                </code></pre>
+
+                <h4 style="color:darkgreen;"Instalar un paquete coma dependencia de desenvolvemento</h4>
+                <pre><code data-trim data-noescape class="bash">
+                poetry add --dev ipykernel
+                </code></pre>
+
+                <h4 style="color:darkgreen;">Instalar tódolos paquetes definidos no <strong>pyproject.toml</strong></h4>
+                <pre><code data-trim data-noescape class="bash">
+                poetry install
+                </code></pre>
+
+                <h4 style="color:darkgreen;">Borrar un paquete</h4>
+                <pre><code data-trim data-noescape class="bash">
+                poetry remove pandas matplotlib
+                </code></pre>
+            </section>
+
+            <section>
+                <h3 style="color:darkgreen;"><span class="tiposeccion" style="background-color: darkgreen; color:#fff">&nbsp;</span> Comandos básicos (2/2)</h3>
+
+                <h4 style="color:darkgreen;">Listar contornos</h4>
+                <pre><code data-trim data-noescape class="bash">
+                poetry env list
+                </code></pre>
+
+                <h4 style="color:darkgreen;">Listar contornos coa ruta onde están</h4>
+                <pre><code data-trim data-noescape class="bash">
+                poetry env info --path
+                </code></pre>
+
+                <h4 style="color:darkgreen;">Crea o arquivo <strong>pyproject.toml</strong></h4>
+                <pre><code data-trim data-noescape class="bash">
+                poetry init
+                </code></pre>
+
+            </section>
+
+            <section>
+                <h3>GitHub, codespaces e poetry (1/3)</h3>
+                <ul style="font-size: 0.8em;">
+                    <li>Fai un fork a <strong>jfsanchez/bigdata</strong></li>
+                    <li>Crea un novo codespace asociado a ese repositorio:<br/> ➕ &rarr; Codespace</li>
+                    <li>Na consola de comandos de vscode do codespace executa:
+                         <pre><code data-trim data-noescape class="bash">
+                            pip install -U poetry
+                            poetry add jupyter-book ipykernel ghp-import \
+                                pandas matplotlib
+                         </code></pre>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>GitHub, codespaces e poetry (2/3)</h3>
+                <ul style="font-size: 0.8em;">
+                    <li>Crea unha plantilla/proxecto e copia os cadernos Jupyter
+                    <pre><code data-trim data-noescape class="bash">
+                        poetry run jupyter-book create cadernillos/
+                        cp notebooks/formatos/AVRO.ipynb cadernillos/
+                    </code></pre>
+                    </li>
+                    <li>Muda o arquivo <strong>_toc.yml</strong> para enlazar os cadernos:
+                    <pre><code data-trim data-noescape class="YAML">
+                    format: jb-book
+                        root: intro
+                        chapters:
+                            - file: AVRO.ipynb
+                    </code></pre>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>GitHub, codespaces e poetry (3/3)</h3>
+                <ul style="font-size: 0.8em;">
+                <li>Procesa o notebook:
+                    <pre><code data-trim data-noescape class="bash">
+                    poetry run jupyter-book build cadernillos
+                    </code></pre>
+                </li>
+                <li>Actualiza o repositorio
+                    <pre><code data-trim data-noescape class="bash">
+                    git add -A
+                    git commit -m "publish"
+                    git push
+                    </code></pre>
+                </li>
+                <li>Move ao tag de publicación automáticamente:
+                    <pre><code data-trim data-noescape class="bash">
+                    poetry run ghp-import -n -p \
+                        -f cadernillos/_build/html
+                    </code></pre>
+                </li>
+                </ul>
+            </section>
+        </section>
+
+        <section id="conda-poetry">
+            <h3 style="color: indigo;"><span class="tiposeccion" style="background-color: indigo;">&nbsp;</span> Conda e poetry. Conviven!</s</h3>
+            <pre><code style="font-size: 0.8em;" data-trim data-noescape class="bash">
+            conda update -n base -c defaults conda
+            conda create -n aberrante python=3.12
+            conda activate aberrante
+            conda install pip
+            pipx install poetry
+            poetry config virtualenvs.path $CONDA_ENV_PATH
+            poetry config virtualenvs.create false
+            </code></pre>
+
+            <p style="font-size: 0.6em;">⚠️ Emprega poetry a partires deste punto para instalar paquetes novos e actualizalos, sobre todo os definidos no <strong>pyproject.toml</strong>.</p>
+
+        </section>
+
+		<section id="manuais">
+    		<h3 style="color:black;"><span class="tiposeccion" style="background-color: black;">&nbsp;</span> Manuais</h3>
+                <ul style="font-size: 0.8em;">
+                    <li><a href="conda/conda-cheatsheet.pdf" target="_blank">🗂️ Cheatsheet / chuleta de ANACONDA</a></li>
+                    <li><a href="conda/pip-cheatsheet.pdf" target="_blank">🗂️ Cheatsheet / chuleta de PIP</a></li>
+			        <li><a href="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment" target="_blank">Traballando con contornos en conda (inglés)</a></li>
+                    <li><a href="https://pip.pypa.io/en/stable/user_guide/" target="_blank">https://pip.pypa.io/en/stable/user_guide/</a></li>
+                    <li><a href="https://www.python.org/" target="_blank">https://www.python.org/</a></li>
+                    <li><a href="https://pypi.org/" target="_blank">https://pypi.org/</a></li>
+                    <li><a href="https://python-poetry.org/docs/repositories/" target="_blank">https://python-poetry.org/docs/repositories/</a></li>
+                    <li><a href="https://michhar.github.io/2023-07-poetry-with-conda/" target="_blank">https://michhar.github.io/2023-07-poetry-with-conda/</a></li>
+                    <li><a href="https://github.com/python-poetry/poetry/issues/105#issuecomment-470829436" target="_blank">https://github.com/python-poetry/poetry/issues/105#issuecomment-470829436</a></li>
                 </ul>
 		</section>
 
@@ -486,8 +706,9 @@
         document.querySelector("#textourlmateriales").innerText = documenturl;
         document.querySelector("#urlmateriales").setAttribute('href', documenturl);
         document.querySelector("#copyrightline").innerText =
-        document.head.querySelector("[name~=author][content]").content + " " +
-        document.head.querySelector("[property~=creationdate][content]").content;
+            document.head.querySelector("[name~=author][content]").content + " " +
+            document.head.querySelector("[property~=creationdate][content]").content + " — " +
+            document.head.querySelector("[property~=lastmodification][content]").content;
         document.querySelector("#addemail").innerText = document.querySelector("#addemail").innerText +
         document.head.querySelector("[property~=emailuser][content]").content + "@" +
         document.head.querySelector("[property~=emaildomain][content]").content;
