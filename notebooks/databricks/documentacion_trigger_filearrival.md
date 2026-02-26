@@ -41,37 +41,44 @@ lines.write.mode("append").saveAsTable("test_schema")
 
 ## Creación del job
 Creamos el job como tipo Notebook, y añadimos el path del notebook que acabamos de crear.
-![Creación del job]("imágenes_databricks\documentacion_trigger_filearrival-1.png")
+
+![Creación del job](imágenes_databricks/documentacion_trigger_filearrival-1.png)
 
 
 ## Creación del trigger
 En el menú de la derecha, vamos a la opción de Schedules and Triggers, y clicamos en Add Trigger.
-![Creación del trigger]("imágenes_databricks\documentacion_trigger_filearrival-2.png")
+
+![Creación del trigger](imágenes_databricks/documentacion_trigger_filearrival-2.png)
 
 
 
 
 En Trigger type elegimos File arrival.
-![Trigger type]("imágenes_databricks\documentacion_trigger_filearrival-3.png")
+
+![Trigger type](imágenes_databricks/documentacion_trigger_filearrival-3.png)
 
 
 
 
 Y en Storage location añadimos la ruta al volumen.
-![Storage location]("imágenes_databricks\documentacion_trigger_filearrival-4.png")
 
-Comprobación del funcionamiento
+![Storage location](imágenes_databricks/documentacion_trigger_filearrival-4.png)
+
+## Comprobación del funcionamiento
 Subimos un archivo de prueba al volumen.
-![Subimos archivo]("imágenes_databricks\documentacion_trigger_filearrival-5.png")
+
+![Subimos archivo](imágenes_databricks/documentacion_trigger_filearrival-5.png)
 
 
 
 
 Y esperamos a que se ejecute el trigger del job.
-![Ejecución]("imágenes_databricks\documentacion_trigger_filearrival-6.png")
+
+![Ejecución](imágenes_databricks/documentacion_trigger_filearrival-6.png)
 
 
 
 
 Finalmente comprobamos que se ha creado una tabla nueva con la información del notebook.
-![Creación de la tabla]("imágenes_databricks\documentacion_trigger_filearrival-7.png")
+
+![Creación de la tabla](imágenes_databricks/documentacion_trigger_filearrival-7.png)
