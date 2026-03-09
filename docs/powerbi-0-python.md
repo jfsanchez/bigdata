@@ -43,11 +43,11 @@ datos_estudantes = ({
 df = pd.DataFrame(datos_estudantes)
 ```
 
-## Se falla con ADO.net Python Script error
+## Se falla con ADO.net: Python Script Error
 
-Por erros de configuración pode dar unha mesaxe tipo: "ADO.NET: ÞУŧћøñ ŝ¢ѓĭρť έřґσŕ. <pi></pi>".
+Por erros de codificación pode dar unha mesaxe tipo: "ADO.NET: ÞУŧћøñ ŝ¢ѓĭρť έřґσŕ. <pi></pi>". É dicir: ADO.NET: Python Script Error.
 
-Non está a detectar conda, polo que abriremos unha consola de "Anaconda Powershell" e activamos o contorno de PowerBI:
+Non está a detectar o contorno conda, polo que abriremos unha consola de "Anaconda Powershell" e activamos o contorno de PowerBI:
 
 ```
 conda activate powerbi
@@ -85,4 +85,5 @@ Tamén pode resultarche interesante:
 
   - **Expresións DAX**: <https://learn.microsoft.com/es-es/dax/>
   - **WebHDFS**: <https://hadoop.apache.org/docs/r1.0.4/webhdfs.html>
+
 
