@@ -43,6 +43,22 @@ datos_estudantes = ({
 df = pd.DataFrame(datos_estudantes)
 ```
 
+## Se falla con ADO.net Python Script error
+
+Por erros de configuración pode dar unha mesaxe tipo: "ADO.NET: ÞУŧћøñ ŝ¢ѓĭρť έřґσŕ. <pi></pi>".
+
+Non está a detectar conda, polo que abriremos unha consola de "Anaconda Powershell" e activamos o contorno de PowerBI:
+
+```
+conda activate powerbi
+```
+
+Por último arrancamos PowerBI dende esa consola:
+
+```
+& 'C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe'
+```
+
 ## Acceso dende PowerBi a Hadoop
 
 Podes acceder aos arquivos que estean no HDFS dende PowerBI 
@@ -69,3 +85,4 @@ Tamén pode resultarche interesante:
 
   - **Expresións DAX**: <https://learn.microsoft.com/es-es/dax/>
   - **WebHDFS**: <https://hadoop.apache.org/docs/r1.0.4/webhdfs.html>
+
