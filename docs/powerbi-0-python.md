@@ -59,6 +59,12 @@ Por último arrancamos PowerBI dende esa consola:
 & 'C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe'
 ```
 
+## Exemplos para importar
+
+Proba a importar a seguinte táboa con PowerBI. Ten en conta que debes transformar as datas antes de aceptar os datos. Despois trata de xogar cos formatos de números para poñer 2 decimais sempre nas columnas de peso e cuota e indica que a columna cuota está en euros.
+
+[Exemplo de táboa de datos para importar](/bigdata/presentacions/selenium/lista-personas.html)
+
 ## Acceso dende PowerBi a Hadoop
 
 Podes acceder aos arquivos que estean no HDFS dende PowerBI 
@@ -85,5 +91,6 @@ Tamén pode resultarche interesante:
 
   - **Expresións DAX**: <https://learn.microsoft.com/es-es/dax/>
   - **WebHDFS**: <https://hadoop.apache.org/docs/r1.0.4/webhdfs.html>
+
 
 
