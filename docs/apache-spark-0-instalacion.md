@@ -26,7 +26,7 @@ Se estás nun contorno Cloud no que debes destruir as instancias por tema de cus
     rm ~/.ssh/known_hosts
     ```
 
-3. Rexenerar o `/etc/hosts`:
+3. Rexenerar o `$HOME/.ssh/known_hosts` en base ao `/etc/hosts`:
 
     ``` bash
     for servidor in $(cat /etc/hosts|grep hadoop); do \
@@ -45,6 +45,9 @@ Se estás nun contorno Cloud no que debes destruir as instancias por tema de cus
 
     ``` bash
     clush -l cesgaxuser -bw hadoop[2-4] --copy /etc/hosts --dest /tmp
+    ```
+
+    ``` bash
     clush -l cesgaxuser -bw hadoop[2-4] sudo cp /tmp/hosts /etc/hosts
     ```
 
