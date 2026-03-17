@@ -196,7 +196,7 @@ Instalamos o paquete:
 
 ``` bash
 clush -l cesgaxuser -bw hadoop[1-4] \
-  sudo dnf install -y java-11-amazon-corretto-devel`
+  sudo dnf install -y java-11-amazon-corretto-devel
 ```
 
 
