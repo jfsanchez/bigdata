@@ -65,6 +65,16 @@ Proba a importar a seguinte táboa con PowerBI. Ten en conta que debes transform
 
 [Exemplo de táboa de datos para importar](/bigdata/presentacions/selenium/lista-personas.html)
 
+## Obxecto visual de Python
+
+Lembra que se queres empregar os sinónimos "cuasi" estándar das librerías, debes importalas. Por exemplo:
+
+```
+import matplotlib.pyplot as plt
+dataset.hist(bins=50, figsize=(20,15))
+plt.show()
+```
+
 ## Acceso dende PowerBi a Hadoop
 
 Podes acceder aos arquivos que estean no HDFS dende PowerBI 
