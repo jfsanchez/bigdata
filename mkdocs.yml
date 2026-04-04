@@ -7,7 +7,7 @@ theme:
   include_homepage_in_sidebar: True
   prev_next_buttons_location: both
   favicon: "images/favicon.ico"
-  logo: "images/logo.png"
+  logo: "images/android-chrome-192x192.png"
   features:
     - content.code.copy
     - content.code.annotate
