@@ -6,7 +6,7 @@ theme:
   language: gl
   include_homepage_in_sidebar: True
   prev_next_buttons_location: both
-  favicon: "images/favicon.png"
+  favicon: "images/favicon.ico"
   logo: "images/logo.png"
   features:
     - content.code.copy
