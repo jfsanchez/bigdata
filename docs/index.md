@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# 📚 Presentacións e documentación
+# 📚 Presentacións e apuntes
 
 Presentacións feitas con [revealjs](https://revealjs.com/). Preme `s` **dentro da presentación** para ver as anotacións. Atopaches erros? Mira na última diapositiva da presentación.
 
