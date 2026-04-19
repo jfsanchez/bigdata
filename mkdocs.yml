@@ -109,7 +109,9 @@ nav:
     - "🥫 Beautiful Soup": "scraping-bs.md"
     - "✅ Selenium": "scraping-selenium.md"
     - "🕷️ Scrapy": "scraping-scrapy.md"
-  - "🗒️ Plantillas docencia": "https://jfsanchez.es/docencia/libreta"
+  - "🗒️ Docencia":
+    - "📚 Libreta de docencia": "docencia.md"
+    - "📘 Lista asistencia": "https://jfsanchez.es/docencia/libreta/listaxe.html"
 extra_css:
   - _res/extra.css
 #   - _res/prism.css
