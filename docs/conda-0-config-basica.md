@@ -40,20 +40,16 @@ Pasos:
 
 6. Crea o novo contorno bigdata e actívao:
     ``` bash
-    conda create -n bigdata python=3.11
+    conda create -n bigdata python=3.14
     conda activate bigdata
     ```
 
 7. Instala os paquetes mínimos que imos precisar
     ``` bash
-    conda install -c conda-forge jupyterlab ipykernel ipython \
+    conda install jupyterlab ipykernel ipython \
        nbconvert pandas numpy pyarrow fastparquet wordcloud nltk \
        pymysql ipython-sql sqlalchemy selenium requests beautifulsoup4 \
        psycopg2 pip
-    ```
-
-    ``` bash
-    conda install pip
     ```
 
 ## Engadir miniconda ao PATH
