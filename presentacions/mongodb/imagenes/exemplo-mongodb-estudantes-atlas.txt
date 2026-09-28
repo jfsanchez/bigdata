@@ -1,0 +1,88 @@
+[
+  {
+    "nome": "Juan",
+    "apelidos": "Sánchez", 
+	"idade": {"$numberInt":"19"},
+    "titor": "Jose Sánchez", 
+	"modulos": [
+		"Big Data Aplicado",
+		"Sistemas de Big Data",
+		"Modelos de Intelixencia Artificial",
+		"Programación de Intelixencia Artificial",
+		"Sistemas de Aprendizaxe"
+		]
+	},{
+	"nome": "Luis",
+	"apelidos": "Rodríguez",
+	"idade": {"$numberInt":"20"},
+	"titor": "Juan Torre", 
+	"modulos": [
+		"Sistemas de Big Data",
+        "Big Data Aplicado",
+		"Modelos de Intelixencia Artificial",
+		"Programación de Intelixencia Artificial",
+		"Sistemas de Aprendizaxe"
+		]
+	},{
+	"nome": "Miguel",
+	"apelidos": "Pérez",
+	"idade": {"$numberInt":"21"},
+	"titor": "Jose Sánchez", 
+	"modulos": [
+		"Big Data Aplicado",
+		"Sistemas de Big Data",
+		"Modelos de Intelixencia Artificial",
+		"Programación de Intelixencia Artificial",
+		"Sistemas de Aprendizaxe"
+		]
+	}, {
+	"nome": "Daniel",
+	"apelidos": "Travieso",
+	"idade": {"$numberInt":"22"},
+	"titor": "Juan Torre", 
+	"modulos": [
+		"Big Data Aplicado",
+		"Sistemas de Big Data",
+		"Modelos de Intelixencia Artificial",
+		"Programación de Intelixencia Artificial",
+		"Sistemas de Aprendizaxe"
+		]
+	},{
+	"nome": "Alejo",
+	"apelidos": "Cercado",
+	"idade": {"$numberInt":"23"},
+	"titor": "Juan Torre", 
+	"modulos": [
+		"Big Data Aplicado",
+		"Sistemas de Big Data",
+		"Modelos de Intelixencia Artificial",
+		"Programación de Intelixencia Artificial",
+		"Sistemas de Aprendizaxe"
+		]
+	},{
+	"nome": "Gonzalo",
+	"apelidos": "González",
+	"idade": {"$numberInt":"24"},
+	"titor": "Jose Sánchez", 
+	"modulos": [
+		"Big Data Aplicado",
+		"Sistemas de Big Data",
+		"Modelos de Intelixencia Artificial",
+		"Programación de Intelixencia Artificial",
+		"Sistemas de Aprendizaxe"
+		]
+	},{
+	"nome": "Rodrigo",
+	"apelidos": "Rodríguez",
+	"idade": {"$numberInt":"25"},
+	"titor": "Juan Torre", 
+	"modulos": [
+		"Big Data Aplicado",
+		"Sistemas de Big Data",
+		"Modelos de Intelixencia Artificial",
+		"Programación de Intelixencia Artificial",
+		"Sistemas de Aprendizaxe"
+		]
+	}
+]
+
