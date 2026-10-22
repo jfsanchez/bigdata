@@ -17,7 +17,7 @@ Dentro do noso HOME (cartafol de usuario). Habitualmente en GNU/Linux: `/home/US
     - 📄 **authorized_keys**: Fingerprints das chaves públicas autorizadas a entrar no servidor.
     - 📄 **config**: Para non ter que empregar opcións ao conectar. Pódese empregar unha chave, usuario e redirección de portos diferente por cada host.
     - 🔑 **id_rsa** / **id_dsa** / **ed_25519**: Chave privada (non publicar e protexer por frase de paso) permite descifrar/asinar o que se cifrou coa chave pública.
-    - 🔐 **id_rsa.pub** / **id_dsa.pub** / **ed_25519.pub**: Chave pública, pódese publicar e subir aos servidores. Débese engadir ao final do arquivo known_hosts para autorizar a nosa chave.
+    - 🔐 **id_rsa.pub** / **id_dsa.pub** / **ed_25519.pub**: Chave pública, pódese publicar e subir aos servidores. Débese engadir ao final do arquivo `.ssh/authorized_keys` para autorizar a nosa chave.
 
 Se non existe, podemos facer unha das seguintes cousas para crealo:
 
