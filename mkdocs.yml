@@ -114,6 +114,7 @@ nav:
     - "📘 Lista asistencia": "https://jfsanchez.es/docencia/libreta/listaxe.html"
 extra_css:
   - _res/extra.css
+  - _res/claro.css
 #   - _res/prism.css
 # extra_javascript:
 #   - _res/prism.js
