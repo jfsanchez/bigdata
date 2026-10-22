@@ -1,0 +1,49 @@
+.md-grid {
+max-width: initial;
+}
+
+pre[class*="language-"] {
+       max-height: 32em !important; 
+}
+
+img[src*="#derecha"] {
+  width: 180px;
+  float:right;
+  padding-left: 0.5em;
+}
+
+img[src*="#izquierda"] {
+  width: 180px;
+  float:left;
+  padding-right: 0.5em;
+}
+
+img[src*="#izquierda-sin-ajuste"] {
+  float:left;
+  padding-right: 1em;
+}
+
+/* .md-clipboard {
+  display: none !important;
+}
+
+.md-typeset pre>code {
+   overflow: unset !important;
+   padding: unset !important;
+} */
+/* From: <https://readthedocs.vinczejanos.info/Blog/2021/10/01/How_to_use_MKdocs/> */
+
+[data-md-toggle="search"]:not(:checked) ~ .md-header .md-search__form::after {
+  position: absolute;
+  top: .3rem;
+  right: .3rem;
+  display: block;
+  padding: .1rem .4rem;
+  color: var(--md-default-bg-color);
+  font-weight: bold;
+  font-size: .8rem;
+  border: .05rem solid var(--md-default-bg-color--lighter);
+  border-radius: .1rem;
+  content: "/";
+} /*From: https://github.com/squidfunk/mkdocs-material/issues/2574 */
+
