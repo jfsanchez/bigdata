@@ -1,0 +1,58 @@
+/* ============================================================
+   Estilo claro "tinta indigo" para jfsanchez.es/bigdata
+   ------------------------------------------------------------
+   Fondo #f5f6fc (gris con un punto del color de marca), codigo en
+   linea en granate y las tarjetas de presentaciones como botones.
+   Todo acotado al esquema claro: el modo oscuro (slate) no cambia.
+   ============================================================ */
+
+body[data-md-color-scheme="default"] {
+	--md-default-bg-color: #f5f6fc;
+	--md-default-bg-color--light: #f5f6fc80;
+	--md-default-fg-color: #1a1c2b;
+	--md-code-bg-color: #ffffff;
+	--md-code-fg-color: #1a1c2b;
+}
+
+	body[data-md-color-scheme="default"] .md-typeset pre > code {
+		border: 1px solid #dcdff0;
+		border-radius: 0.3rem;
+	}
+
+	body[data-md-color-scheme="default"] .md-typeset table:not([class]) th {
+		background-color: #eceef8;
+	}
+
+	body[data-md-color-scheme="default"] .md-typeset hr {
+		background-color: #dcdef0;
+	}
+
+	/* Los comandos de una linea (codigo en linea) van en granate: sobre un
+	   fondo blanco un gris pasa desapercibido y parece un error de maquetacion. */
+	body[data-md-color-scheme="default"] .md-typeset :not(pre) > code {
+		color: #8b1a3a;
+	}
+
+	body[data-md-color-scheme="default"] .md-typeset a code {
+		color: var(--md-typeset-a-color);
+	}
+
+	/* Las tarjetas de presentaciones parecen botones: fondo con un punto del
+	   color de acento (indigo translucido), borde y sombra suave al pasar
+	   el raton. Material las deja solo con un borde gris de 0.8 px. */
+	body[data-md-color-scheme="default"] .md-typeset .grid.cards > ul > li,
+	body[data-md-color-scheme="default"] .md-typeset .grid.cards > ol > li {
+		background-color: rgba(82, 108, 254, .08);
+		border: 1px solid rgba(82, 108, 254, .20);
+		border-radius: .4rem;
+		box-shadow: 0 1px 2px rgba(13, 17, 23, .05);
+		transition: background-color .25s, border-color .25s, box-shadow .25s, transform .25s;
+	}
+
+	body[data-md-color-scheme="default"] .md-typeset .grid.cards > ul > li:hover,
+	body[data-md-color-scheme="default"] .md-typeset .grid.cards > ol > li:hover {
+		background-color: rgba(82, 108, 254, .15);
+		border-color: rgba(82, 108, 254, .34);
+		box-shadow: 0 2px 8px rgba(13, 17, 23, .10);
+		transform: translateY(-1px);
+	}
