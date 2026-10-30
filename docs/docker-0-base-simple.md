@@ -58,6 +58,34 @@ Despois de cambialas, dockerd debería iniciarse correctamente (Fonte: [GitHub](
 sudo service docker restart
 ```
 
+## Instalación de Docker en Amazon EC2
+
+### Conectar á máquina
+
+Lembra engadir o porto 22 á túa IP no grupo de seguridade.
+
+ssh ec2-user@IP-de-instancia-amazon -i C:\...\chave.pem
+
+### Actualizar
+``` bash
+sudo dnf update
+```
+
+### Instalar Docker, engadir o usuario ao grupo e reiniciar
+
+``` bash
+sudo dnf install docker
+sudo usermod -a -G docker $USER
+sudo reboot
+```
+
+### Volver a entrar cando acabe de reiniciar
+
+``` bash
+ssh ec2-user@IP-de-instancia-amazon -i C:\...\chave.pem
+docker run hello-world
+```
+
 ## Conceptos básicos de dockers
 
 Podes ver a presentación de: [📦 Docker / Contedores](https://jfsanchez.es/docencia/docker)
