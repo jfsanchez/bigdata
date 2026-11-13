@@ -91,3 +91,9 @@ ssh-keygen -p -f .ssh/id_rsa
 ``` bash
 ssh-keygen -y -f .ssh/id_rsa > .ssh/id_rsa.pub
 ```
+
+#### Averiguar o Hash MD5 dunha chave pública
+
+``` powershell
+ssh-keygen -E md5 -lf "C:\Users\USUARIO\.ssh\id_ed25519.pub"
+```
