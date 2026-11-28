@@ -1,4 +1,4 @@
-# Big Data apuntes e exemplos © 2025 Jose Sanchez 
+# Big Data apuntes e exemplos © 2026 Jose Sanchez 
 <https://jfsanchez.es/bigdata>
 
 - **datasets** - Datos de exemplo
@@ -8,6 +8,7 @@
     - *bbdd*
     - *formatos*
     - *hash*
+    - *hive*
     - *pandas*
     - *scraping*
 - **nifi** - Plantillas gardadas de exemplo
