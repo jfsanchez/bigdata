@@ -31,4 +31,4 @@ Presentacións feitas con [revealjs](https://revealjs.com/). Se atopas erros, po
 
 ## Plantillas
 
-- [🖨️ Libreta docente e plantillas](https://jfsanchez.es/bigdata/presentacions/libreta)
+- [🖨️ Libreta docente e plantillas](https://jfsanchez.es/bigdata/docencia/)
